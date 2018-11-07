@@ -14,8 +14,8 @@
 {{ Theme::add('theme/bc/bootstrap/dist/js/bootstrap.min.js',2) }}
 {{ Theme::add('theme/bc/jquery-slimscroll/jquery.slimscroll.min.js',3) }}
 {{ Theme::add('theme/bc/fastclick/lib/fastclick.js',4) }}
-{{ Theme::add('theme/bc/AdminLTE/dist/js/adminlte.min.js',5) }}
-{{ Theme::add('theme/bc/AdminLTE/dist/js/demo.js',6) }}
+{{ Theme::add('theme/bc/admin-lte/dist/js/adminlte.min.js',5) }}
+{{ Theme::add('theme/bc/admin-lte/dist/js/demo.js',6) }}
 {{ Theme::add("theme/js/xot.js") }}
 {!! Theme::showScripts(false) !!}
 <script>
