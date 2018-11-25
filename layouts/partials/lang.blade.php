@@ -1,5 +1,5 @@
 {{-- lang --}}
-{{ Theme::add('theme/bc/bootstrap-language/languages.min.css') }}
+{{ Theme::add('theme/bc/bootstrap-languages/languages.min.css') }}
 <li class="dropdown">
 	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 	<i class="lang-sm lang-lbl-full" lang="{{ App::getLocale() }}"></i> <i class="fa fa-caret-down"></i>
