@@ -14,12 +14,14 @@
 		<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
 			<span class="sr-only">{{ trans('adm_theme::message.togglenav') }}</span>
 		</a>
-		
+		{{--  
+		<div class="navbar-custom-menu">
 		<ul class="nav navbar-nav">
 			<li><a href="{{ url('/admin') }}">Backend</a></li>
 			<li><a href="{{ url('/') }}">Frontend</a></li>
 		</ul>
-		
+		</div>
+		--}}
 		<!-- Navbar Right Menu --> 
 		<div class="navbar-custom-menu">
 
@@ -30,6 +32,8 @@
 				@include('adm_theme::layouts.partials.dropdowns.notifications')
 				@include('adm_theme::layouts.partials.dropdowns.tasks')
 				--}}
+				<li><a href="{{ url('/admin') }}">Backend</a></li>
+				<li><a href="{{ url('/') }}">Frontend</a></li>
 				@if (Auth::guest())
 					<li><a href="{{ url('/register') }}">{{ trans('adm_theme::message.register') }}</a></li>
 					<li><a href="{{ url('/login') }}">{{ trans('adm_theme::message.login') }}</a></li>
