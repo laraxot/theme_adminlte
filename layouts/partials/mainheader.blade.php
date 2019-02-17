@@ -35,8 +35,8 @@
 				<li><a href="{{ url('/admin') }}">Backend</a></li>
 				<li><a href="{{ url('/') }}">Frontend</a></li>
 				@if (Auth::guest())
-					<li><a href="{{ url('/register') }}">{{ trans('adm_theme::message.register') }}</a></li>
-					<li><a href="{{ url('/login') }}">{{ trans('adm_theme::message.login') }}</a></li>
+					<li><a href="{{ route('register') }}">{{ trans('adm_theme::message.register') }}</a></li>
+					<li><a href="{{ route('login') }}">{{ trans('adm_theme::message.login') }}</a></li>
 				@else
 					<!-- User Account Menu -->
 					<li class="dropdown user user-menu" id="user_menu" style="max-width: 280px;white-space: nowrap;">
@@ -78,13 +78,13 @@
 									<a href="{{ url('/admin/profile/'.Auth::user()->auth_user_id) }}" class="btn btn-default btn-flat">{{ trans('adm_theme::message.profile') }}</a>
 								</div>
 								<div class="pull-right">
-									<a href="{{ url('/logout') }}" class="btn btn-default btn-flat" id="logout"
+									<a href="{{ route('logout') }}" class="btn btn-default btn-flat" id="logout"
 									   onclick="event.preventDefault();
 												 document.getElementById('logout-form').submit();">
 										{{ trans('adm_theme::message.signout') }}
 									</a>
 
-									<form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+									<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
 										{{ csrf_field() }}
 										<input type="submit" value="logout" style="display: none;">
 									</form>
