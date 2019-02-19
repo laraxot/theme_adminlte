@@ -60,7 +60,7 @@ Log in
 					</div>
 				</form>
 				@include('adm_theme::auth.partials.social_login')
-				<a href="{{ url('/password/reset') }}">{{ trans('adm_theme::message.forgotpassword') }}</a><br>
+				<a href="{{ route('password.request') }}">{{ trans('adm_theme::message.forgotpassword') }}</a><br>
 				<a href="{{ url('/register') }}" class="text-center">{{ trans('adm_theme::message.registermember') }}</a>
 			</div>
 		</div>

@@ -33,7 +33,7 @@
 
             <div class="login-box-body">
                 <p class="login-box-msg">{{ trans('adm_theme::message.passwordreset') }}</p>
-                <form action="{{ url('/password/reset') }}" method="post">
+                <form action="{{ route('password.request') }}" method="post">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <input type="hidden" name="token" value="{{ $token }}">
                     <div class="form-group has-feedback">
