@@ -13,8 +13,8 @@
 	{{ Theme::add("theme/bc/bootstrap/dist/css/bootstrap.min.css") }}
 	{{ Theme::add("theme/bc/font-awesome/css/font-awesome.min.css") }}
 	{{ Theme::add("theme/bc/Ionicons/css/ionicons.min.css") }}
-	{{ Theme::add("theme/bc/admin-lte/dist/css/AdminLTE.min.css") }}
-	{{ Theme::add("theme/bc/admin-lte/dist/css/skins/_all-skins.min.css") }}
+	{{ Theme::add("theme/bc/AdminLTE/dist/css/AdminLTE.min.css") }}
+	{{ Theme::add("theme/bc/AdminLTE/dist/css/skins/_all-skins.min.css") }}
 	{{ Theme::add("theme/css/xot.css") }}
 	{!! Theme::showStyles(false)  !!}
 
