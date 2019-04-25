@@ -35,7 +35,7 @@
     "chart.js": "1.0.*",
     "ckeditor": "^4.7.0",
     "bootstrap-colorpicker": "^2.5.1",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "3.3.7",
     "jquery": "^3.2.1",
     "datatables.net": "^1.10.15",
     "datatables.net-bs": "^2.1.1",
@@ -60,5 +60,12 @@
     "jquery-ui": "1.11.4",
     "AdminLTE": "almasaeed2010/AdminLTE#^2.3.11",
     "popper.js": "^1.12.5"
+  },
+  "resolutions": {
+    "jvectormap": "^2.0.4",
+    "jquery": ">= 1.7",
+    "jquery-ui": ">=1.8",
+    "font-awesome": "^4.7.0",
+    "bootstrap": ">=3.0.0"
   }
 }
