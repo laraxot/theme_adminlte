@@ -2,10 +2,7 @@
   "name": "admin-lte",
   "version": "2.4.0",
   "main": "dist/js/adminlte.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/almasaeed2010/AdminLTE.git"
-  },
+  "repository": "git://github.com/almasaeed2010/AdminLTE.git",
   "license": "MIT",
   "devDependencies": {
     "R2": "^1.4.3",
@@ -57,5 +54,6 @@
     "raphael": "^2.2.7",
     "select2": "^4.0.3",
     "slimscroll": "^0.9.1"
-  }
+  },
+  "author": "marco xot <marco.sottana@gmail.com>"
 }

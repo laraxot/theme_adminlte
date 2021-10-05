@@ -1,14 +1,8 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
-<html lang="en">
-
+<html lang="{{ \App::getLocale() }}">
 @section('htmlheader')
-    @include('adm_theme::layouts.partials.htmlheader')
+	@include('adm_theme::layouts.partials.htmlheader')
 @show
-
 {{--
 BODY TAG OPTIONS:
 =================
@@ -30,13 +24,15 @@ desired effect
 |---------------------------------------------------------|
 --}}
 <body class="skin-blue sidebar-mini">
-@yield('body')
-<script>
-    base_url="{{ url('/')  }}";
-</script>
+{{--
+<div id="app" v-cloak>
+--}}	
+	@yield('body')
+{{--
+</div>
+--}}
 @section('scripts')
-    @include('adm_theme::layouts.partials.scripts')
+	@include('adm_theme::layouts.partials.scripts')
 @show
-
 </body>
 </html>
