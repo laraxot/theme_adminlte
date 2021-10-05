@@ -1,3 +1,6 @@
+l'originale
+https://github.com/ColorlibHQ/AdminLTE
+
 gia' spezzato in pezzi, ma non i nostri
 https://github.com/jeroennoten/Laravel-AdminLTE
 
@@ -5,5 +8,11 @@ altro a pezzi
 https://github.com/acacha/adminlte-laravel
 
 
-l'originale
-https://github.com/ColorlibHQ/AdminLTE
+composer require infyomlabs/laravel-ui-adminlte
+php artisan ui adminlte
+php artisan ui adminlte --auth
+
+
+https://bitfumes.github.io/laravel-multiauth/installation.html
+
+
