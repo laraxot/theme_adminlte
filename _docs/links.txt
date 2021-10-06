@@ -16,3 +16,7 @@ php artisan ui adminlte --auth
 https://bitfumes.github.io/laravel-multiauth/installation.html
 
 
+
+https://github.com/Atnic/laravel-admin-lte/blob/develop/webpack.mix.js
+
+
