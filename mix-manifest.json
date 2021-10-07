@@ -1,1 +1,7 @@
-{}
+{
+    "/Resources/views/dist/js/admin-lte.js": "/Resources/views/dist/js/admin-lte.js",
+    "/Resources/views/dist/js/manifest.js": "/Resources/views/dist/js/manifest.js",
+    "/Resources/views/dist.css": "/Resources/views/dist.css",
+    "/Resources/views/dist.js": "/Resources/views/dist.js",
+    "/Resources/views/dist/css/admin-lte.css": "/Resources/views/dist/css/admin-lte.css"
+}

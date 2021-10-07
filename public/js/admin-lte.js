@@ -2660,19 +2660,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./Resources/sass/auth.scss":
-/*!**********************************!*\
-  !*** ./Resources/sass/auth.scss ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -2870,7 +2857,7 @@ process.umask = function() { return 0; };
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ __webpack_require__.O(0, ["js/vendor","public/css/admin-lte","public/css/auth"], () => (__webpack_exec__("./Resources/js/admin-lte.js"), __webpack_exec__("./resources/sass/admin-lte.scss"), __webpack_exec__("./Resources/sass/auth.scss")));
+/******/ __webpack_require__.O(0, ["js/vendor","css/admin-lte"], () => (__webpack_exec__("./Resources/js/admin-lte.js"), __webpack_exec__("./resources/sass/admin-lte.scss")));
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);

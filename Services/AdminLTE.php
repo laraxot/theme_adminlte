@@ -109,7 +109,10 @@ class AdminLTE {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
-        $this->events->dispatch(new BuildingMenu($builder));
+        //$this->events->dispatch(new BuildingMenu($builder));
+        $menu = config('adm_theme::adminlte.menu');
+        $builder->add(...$menu);
+        //dddx($builder->menu);
 
         // Return the set of menu items.
 

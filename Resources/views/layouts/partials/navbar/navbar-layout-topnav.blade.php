@@ -23,7 +23,7 @@
             {{-- Navbar left links --}}
             <ul class="nav navbar-nav">
                 {{-- Configured left links --}}
-                @each('adminlte::partials.navbar.menu-item', $_theme->menu('navbar-left'), 'item')
+                @each('adm_theme::layouts.partials.navbar.menu-item', $_theme->menu('navbar-left'), 'item')
 
                 {{-- Custom left links --}}
                 @yield('content_top_nav_left')
@@ -36,7 +36,7 @@
             @yield('content_top_nav_right')
 
             {{-- Configured right links --}}
-            @each('adminlte::partials.navbar.menu-item', $_theme->menu('navbar-right'), 'item')
+            @each('adm_theme::layouts.partials.navbar.menu-item', $_theme->menu('navbar-right'), 'item')
 
             {{-- User menu link --}}
             @if (Auth::user())
