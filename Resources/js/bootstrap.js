@@ -9,10 +9,22 @@ window._ = require('lodash');
  */
 
 try {
-    window.Popper = require('popper.js').default;
     global.$ = global.jQuery = window.$ = window.jQuery = require('jquery');
+    //window.Popper = require('popper.js').default;
+    window.Popper = require('@popperjs/core/dist/umd/popper').default;
 
-    require('bootstrap');
+    require('bootstrap/dist/js/bootstrap.bundle.js');
+    /*
+ /js/admin-lte.js │ 2.53 MiB  │
+ /js/manifest.js │ 7.59 KiB  │
+/js/vendor.js │ 13.2 MiB
+    */
+    //require('bootstrap');
+    /*
+     /js/admin-lte.js │ 2.75 MiB  │
+│   /js/manifest.js │ 7.59 KiB  │
+│    /js/vendor.js │ 13 MiB
+*/
 
     //require('bootstrap-sass');
 

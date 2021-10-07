@@ -13,6 +13,9 @@ let mix = require('laravel-mix');
 //https://dev.to/snehalk/how-to-create-custom-command-in-laravel-8-f64
 
 
+//https://www.freshconsulting.com/insights/blog/compiling-css-and-javascript-made-easy-with-laravel-mix/
+
+
 
 
 /*
@@ -27,7 +30,12 @@ let mix = require('laravel-mix');
  */
 
 mix.autoload({
-    jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
+    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
+    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
+    tether: ['Tether', 'windows.Tether'],
+    //Popper: ['popper', 'Popper', 'popper.js'],
+    //popper: ['Popper', 'popper.js'],
+    //'popper.js/dist/umd/popper.js': ['Popper']
 });
 
 mix.setPublicPath('Resources/views/dist');
