@@ -1,0 +1,20 @@
+// Bootstrap
+//Can't resolve '../../node_modules/bootstrap-sass/assets/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot' 
+//$bootstrap-sass-asset-helper: true;
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome";
+// Ionicons
+//Can't resolve '~ionicons/dist/css/ionicons.css' in 'F:\var\www\base_ptvx\laravel\Themes\AdminLTE\resources\sass'
+//@import "~ionicons/dist/css/ionicons.css";
+// iCheck
+@import "~icheck/skins/square/blue.css";
+// Bootstrap Datepicker
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+// AdminLTE
+//SassError: TypeError: Instance of 'SassColor0': type 'SassColor0' is not a subtype of type 'SassString0'
+//@import "~admin-lte/dist/css/AdminLTE";
+@import "~admin-lte/dist/css/adminlte.css";
+//@import "~admin-lte/dist/css/skins/_all-skins";

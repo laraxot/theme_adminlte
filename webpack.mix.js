@@ -20,24 +20,24 @@ let mix = require('laravel-mix');
  */
 
 mix.autoload({
-  jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
+    jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
 });
 
-mix.js('resources/assets/js/admin-lte.js', 'public/js')
-  .sass('resources/assets/sass/admin-lte.scss', 'public/css');
+mix.js('Resources/js/admin-lte.js', 'public/js')
+    .sass('resources/sass/admin-lte.scss', 'public/css');
 
-mix.js('resources/assets/js/auth.js', 'public/js')
-  .sass('resources/assets/sass/auth.scss', 'public/css');
+mix.js('Resources/js/auth.js', 'public/js')
+    .sass('Resources/sass/auth.scss', 'public/css');
 
 mix.extract([
-  'admin-lte',
-  'axios',
-  'bootstrap-sass',
-  'fastclick',
-  'jquery',
-  'jquery-slimscroll',
-  'lodash',
-  'vue',
+    'admin-lte',
+    'axios',
+    'bootstrap-sass',
+    'fastclick',
+    'jquery',
+    'jquery-slimscroll',
+    'lodash',
+    'vue',
 ], 'public/js/vendor.js');
 
 mix.version();
