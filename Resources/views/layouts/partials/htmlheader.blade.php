@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
 <head>
 
     {{-- Base Meta Tags --}}
@@ -21,38 +18,17 @@
 
     {{-- Custom stylesheets (pre AdminLTE) --}}
     @yield('adminlte_css_pre')
-    {{--
-     Base Stylesheets
-    @if(!config('adm_theme::adminlte.enabled_laravel_mix'))
-        <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('vendor/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
 
-         Configured Stylesheets
-        @include('adm_theme::layouts.partials.plugins', ['type' => 'css'])
+    {{ Theme::add('adm_theme::dist/css/admin-lte.css') }}
+    {!! Theme::showStyles() !!}
 
-        <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    @else
-        <link rel="stylesheet" href="{{ mix(config('adm_theme::adminlte.laravel_mix_css_path', 'css/app.css')) }}">
-    @endif
-    --}}
-
-    <link rel="stylesheet" href="{{ Theme::asset('adm_theme::dist/css/admin-lte.css') }}">
-
-    {{-- Livewire Styles --}}
-    @if(config('adm_theme::adminlte.livewire'))
-        @if(app()->version() >= 7)
-            @livewireStyles
-        @else
-            <livewire:styles />
-        @endif
-    @endif
+    <livewire:styles />
 
     {{-- Custom Stylesheets (post AdminLTE) --}}
     @yield('adminlte_css')
 
     {{-- Favicon --}}
-    @if(config('adm_theme::adminlte.use_ico_only'))
+    @if (config('adm_theme::adminlte.use_ico_only'))
         <link rel="shortcut icon" href="{{ asset('favicons/favicon.ico') }}" />
     @elseif(config('adm_theme::adminlte.use_full_favicon'))
         <link rel="shortcut icon" href="{{ asset('favicons/favicon.ico') }}" />
@@ -68,49 +44,10 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicons/favicon-16x16.png') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicons/favicon-32x32.png') }}">
         <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicons/favicon-96x96.png') }}">
-        <link rel="icon" type="image/png" sizes="192x192"  href="{{ asset('favicons/android-icon-192x192.png') }}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicons/android-icon-192x192.png') }}">
         <link rel="manifest" href="{{ asset('favicons/manifest.json') }}">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="{{ asset('favicon/ms-icon-144x144.png') }}">
     @endif
 
 </head>
-
-<body class="@yield('classes_body')" @yield('body_data')>
-
-    {{-- Body Content --}}
-    @yield('body')
-
-    {{--
-     Base Scripts
-    @if(!config('adm_theme::adminlte.enabled_laravel_mix'))
-        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
-
-         Configured Scripts
-        @include('adm_theme::layouts.partials.plugins', ['type' => 'js'])
-
-        <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
-    @else
-        <script src="{{ mix(config('adm_theme::adminlte.laravel_mix_js_path', 'js/app.js')) }}"></script>
-    @endif
-    --}}
-    <script src="{{ Theme::asset('adm_theme::dist/js/admin-lte.js') }}"></script>
-
-
-    {{-- Livewire Script --}}
-    @if(config('adm_theme::adminlte.livewire'))
-        @if(app()->version() >= 7)
-            @livewireScripts
-        @else
-            <livewire:scripts />
-        @endif
-    @endif
-
-    {{-- Custom Scripts --}}
-    @yield('adminlte_js')
-
-</body>
-
-</html>

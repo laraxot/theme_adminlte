@@ -35,7 +35,7 @@ mix.setPublicPath('Resources/views/dist');
 mix.js('Resources/js/admin-lte.js', 'Resources/views/dist/js')
     .sass('resources/sass/admin-lte.scss', 'Resources/views/dist/css');
 
-/*    
+/*
 mix.js('Resources/js/auth.js', 'Resources/views/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/views/dist/css');
 */
@@ -43,7 +43,8 @@ mix.js('Resources/js/auth.js', 'Resources/views/dist/js')
 mix.extract([
     'admin-lte',
     'axios',
-    'bootstrap-sass',
+    //'bootstrap-sass',
+    'bootstrap',
     'fastclick',
     'jquery',
     'jquery-slimscroll',
@@ -56,7 +57,7 @@ mix.extract([
 mix.sourceMaps();
 
 
-/* 
+/*
 
 require('laravel-mix-polyfill');
 
@@ -76,4 +77,6 @@ console.log('to :' + $to);
 //UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, open 'F:\var\www\base_xxx\laravel\Themes\AdminLTE\Resources\views\dist\public_html\themes\AdminLTE\dist\admin-lte.css'
 //Error: ENOENT: no such file or directory, open 'F:\Resources\views\dist\css\admin-lte.css'
 
-//$res = mix.copyDirectory($from, $to);
+mix.copyDirectory($from, $to);
+
+mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');

@@ -1,7 +1,7 @@
 <nav
     class="main-header navbar
-    {{ config('adminlte.classes_topnav_nav', 'navbar-expand') }}
-    {{ config('adminlte.classes_topnav', 'navbar-white navbar-light') }}">
+    {{ config('adm_theme::adminlte.classes_topnav_nav', 'navbar-expand') }}
+    {{ config('adm_theme::adminlte.classes_topnav', 'navbar-white navbar-light') }}">
 
     {{-- Navbar left links --}}
     <ul class="navbar-nav">
@@ -25,7 +25,7 @@
 
         {{-- User menu link --}}
         @if (Auth::user())
-            @if (config('adminlte.usermenu_enabled'))
+            @if (config('adm_theme::adminlte.usermenu_enabled'))
                 @include('adm_theme::layouts.partials.navbar.menu-item-dropdown-user-menu')
             @else
                 @include('adm_theme::layouts.partials.navbar.menu-item-logout-link')
@@ -33,7 +33,7 @@
         @endif
 
         {{-- Right sidebar toggler link --}}
-        @if (config('adminlte.right_sidebar'))
+        @if (config('adm_theme::adminlte.right_sidebar'))
             @include('adm_theme::layouts.partials.navbar.menu-item-right-sidebar-toggler')
         @endif
     </ul>

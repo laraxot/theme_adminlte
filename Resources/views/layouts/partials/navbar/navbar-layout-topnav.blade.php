@@ -1,12 +1,12 @@
 <nav
     class="main-header navbar
-    {{ config('adminlte.classes_topnav_nav', 'navbar-expand-md') }}
-    {{ config('adminlte.classes_topnav', 'navbar-white navbar-light') }}">
+    {{ config('adm_theme::adminlte.classes_topnav_nav', 'navbar-expand-md') }}
+    {{ config('adm_theme::adminlte.classes_topnav', 'navbar-white navbar-light') }}">
 
-    <div class="{{ config('adminlte.classes_topnav_container', 'container') }}">
+    <div class="{{ config('adm_theme::adminlte.classes_topnav_container', 'container') }}">
 
         {{-- Navbar brand logo --}}
-        @if (config('adminlte.logo_img_xl'))
+        @if (config('adm_theme::adminlte.logo_img_xl'))
             @include('adm_theme::layouts.partials.common.brand-logo-xl')
         @else
             @include('adm_theme::layouts.partials.common.brand-logo-xs')
@@ -40,7 +40,7 @@
 
             {{-- User menu link --}}
             @if (Auth::user())
-                @if (config('adminlte.usermenu_enabled'))
+                @if (config('adm_theme::adminlte.usermenu_enabled'))
                     @include('adm_theme::layouts.partials.navbar.menu-item-dropdown-user-menu')
                 @else
                     @include('adm_theme::layouts.partials.navbar.menu-item-logout-link')
@@ -48,7 +48,7 @@
             @endif
 
             {{-- Right sidebar toggler link --}}
-            @if (config('adminlte.right_sidebar'))
+            @if (config('adm_theme::adminlte.right_sidebar'))
                 @include('adm_theme::layouts.partials.navbar.menu-item-right-sidebar-toggler')
             @endif
         </ul>

@@ -1,6 +1,7 @@
 @extends('adm_theme::layouts.plane')
 
 @inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
+
 @section('adminlte_css')
     @stack('css')
     @yield('css')
@@ -11,7 +12,19 @@
 
 @section('body')
     <div class="wrapper">
-        @include('adm_theme::layouts.partials.navbar.navbar-layout-topnav')
+
+          <!-- Preloader -->
+        <div class="preloader">
+            <div class="row">
+                <div class="col-md-12 justify-content-center">
+                <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())
             @include('adm_theme::layouts.partials.navbar.navbar-layout-topnav')
@@ -31,13 +44,15 @@
             @include('adm_theme::layouts.partials.cwrapper.cwrapper-iframe')
         @endempty
 
+
+
         {{-- Footer --}}
         @hasSection('footer')
             @include('adm_theme::layouts.partials.footer.footer')
         @endif
 
         {{-- Right Control Sidebar --}}
-        @if (config('adminlte.right_sidebar'))
+        @if (config('adm_theme::adminlte.right_sidebar'))
             @include('adm_theme::layouts.partials.sidebar.right-sidebar')
         @endif
     </div>

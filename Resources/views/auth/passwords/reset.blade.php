@@ -1,8 +1,8 @@
 @extends('adminlte::auth.auth-page', ['auth_type' => 'login'])
 
-@php( $password_reset_url = View::getSection('password_reset_url') ?? config('adminlte.password_reset_url', 'password/reset') )
+@php( $password_reset_url = View::getSection('password_reset_url') ?? config('adm_theme::adminlte.password_reset_url', 'password/reset') )
 
-@if (config('adminlte.use_route_url', false))
+@if (config('adm_theme::adminlte.use_route_url', false))
     @php( $password_reset_url = $password_reset_url ? route($password_reset_url) : '' )
 @else
     @php( $password_reset_url = $password_reset_url ? url($password_reset_url) : '' )
@@ -23,7 +23,7 @@
                    value="{{ old('email') }}" placeholder="{{ __('adminlte::adminlte.email') }}" autofocus>
             <div class="input-group-append">
                 <div class="input-group-text">
-                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                    <span class="fas fa-envelope {{ config('adm_theme::adminlte.classes_auth_icon', '') }}"></span>
                 </div>
             </div>
             @if($errors->has('email'))
@@ -40,7 +40,7 @@
                    placeholder="{{ __('adminlte::adminlte.password') }}">
             <div class="input-group-append">
                 <div class="input-group-text">
-                    <span class="fas fa-lock {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                    <span class="fas fa-lock {{ config('adm_theme::adminlte.classes_auth_icon', '') }}"></span>
                 </div>
             </div>
             @if($errors->has('password'))
@@ -57,7 +57,7 @@
                    placeholder="{{ trans('adminlte::adminlte.retype_password') }}">
             <div class="input-group-append">
                 <div class="input-group-text">
-                    <span class="fas fa-lock {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                    <span class="fas fa-lock {{ config('adm_theme::adminlte.classes_auth_icon', '') }}"></span>
                 </div>
             </div>
             @if($errors->has('password_confirmation'))
@@ -68,7 +68,7 @@
         </div>
 
         {{-- Confirm password reset button --}}
-        <button type="submit" class="btn btn-block {{ config('adminlte.classes_auth_btn', 'btn-flat btn-primary') }}">
+        <button type="submit" class="btn btn-block {{ config('adm_theme::adminlte.classes_auth_btn', 'btn-flat btn-primary') }}">
             <span class="fas fa-sync-alt"></span>
             {{ __('adminlte::adminlte.reset_password') }}
         </button>

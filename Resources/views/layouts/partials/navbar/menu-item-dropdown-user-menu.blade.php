@@ -1,11 +1,11 @@
-@php( $logout_url = View::getSection('logout_url') ?? config('adminlte.logout_url', 'logout') )
-@php( $profile_url = View::getSection('profile_url') ?? config('adminlte.profile_url', 'logout') )
+@php( $logout_url = View::getSection('logout_url') ?? config('adm_theme::adminlte.logout_url', 'logout') )
+@php( $profile_url = View::getSection('profile_url') ?? config('adm_theme::adminlte.profile_url', 'logout') )
 
-@if (config('adminlte.usermenu_profile_url', false))
+@if (config('adm_theme::adminlte.usermenu_profile_url', false))
     @php( $profile_url = Auth::user()->adminlte_profile_url() )
 @endif
 
-@if (config('adminlte.use_route_url', false))
+@if (config('adm_theme::adminlte.use_route_url', false))
     @php( $profile_url = $profile_url ? route($profile_url) : '' )
     @php( $logout_url = $logout_url ? route($logout_url) : '' )
 @else
@@ -13,17 +13,23 @@
     @php( $logout_url = $logout_url ? url($logout_url) : '' )
 @endif
 
+<li class="nav-item">
+    <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+      <i class="fas fa-expand-arrows-alt"></i>
+    </a>
+  </li>
+
 <li class="nav-item dropdown user-menu">
 
     {{-- User menu toggler --}}
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-        @if(config('adminlte.usermenu_image'))
+        @if(config('adm_theme::adminlte.usermenu_image'))
             <img src="{{ Auth::user()->adminlte_image() }}"
                  class="user-image img-circle elevation-2"
-                 alt="{{ Auth::user()->name }}">
+                 alt="{{ Auth::user()->handle }}">
         @endif
-        <span @if(config('adminlte.usermenu_image')) class="d-none d-md-inline" @endif>
-            {{ Auth::user()->name }}
+        <span @if(config('adm_theme::adminlte.usermenu_image')) class="d-none d-md-inline" @endif>
+            {{ Auth::user()->handle }}
         </span>
     </a>
 
@@ -31,17 +37,17 @@
     <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
 
         {{-- User menu header --}}
-        @if(!View::hasSection('usermenu_header') && config('adminlte.usermenu_header'))
-            <li class="user-header {{ config('adminlte.usermenu_header_class', 'bg-primary') }}
-                @if(!config('adminlte.usermenu_image')) h-auto @endif">
-                @if(config('adminlte.usermenu_image'))
+        @if(!View::hasSection('usermenu_header') && config('adm_theme::adminlte.usermenu_header'))
+            <li class="user-header {{ config('adm_theme::adminlte.usermenu_header_class', 'bg-primary') }}
+                @if(!config('adm_theme::adminlte.usermenu_image')) h-auto @endif">
+                @if(config('adm_theme::adminlte.usermenu_image'))
                     <img src="{{ Auth::user()->adminlte_image() }}"
                          class="img-circle elevation-2"
-                         alt="{{ Auth::user()->name }}">
+                         alt="{{ Auth::user()->handle }}">
                 @endif
-                <p class="@if(!config('adminlte.usermenu_image')) mt-0 @endif">
+                <p class="@if(!config('adm_theme::adminlte.usermenu_image')) mt-0 @endif">
                     {{ Auth::user()->name }}
-                    @if(config('adminlte.usermenu_desc'))
+                    @if(config('adm_theme::adminlte.usermenu_desc'))
                         <small>{{ Auth::user()->adminlte_desc() }}</small>
                     @endif
                 </p>
@@ -74,8 +80,8 @@
                 {{ __('adminlte::adminlte.log_out') }}
             </a>
             <form id="logout-form" action="{{ $logout_url }}" method="POST" style="display: none;">
-                @if(config('adminlte.logout_method'))
-                    {{ method_field(config('adminlte.logout_method')) }}
+                @if(config('adm_theme::adminlte.logout_method'))
+                    {{ method_field(config('adm_theme::adminlte.logout_method')) }}
                 @endif
                 {{ csrf_field() }}
             </form>
