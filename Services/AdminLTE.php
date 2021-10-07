@@ -111,7 +111,30 @@ class AdminLTE {
 
         //$this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu');
-        $builder->add(...$menu);
+
+        //$builder->add(...$menu);
+
+        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
+            $out = get_object_vars($item);
+            $out['text'] = $item->title;
+
+            return $out;
+        })
+        ->values()
+        ->all();
+
+        $model_menu = [
+            [
+                'text' => 'MODELS',
+                'icon' => 'fas fa-fw fa-share',
+                'submenu' => $model_menu,
+            ],
+        ];
+
+        //Cannot unpack array with string keys
+        //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
+
+        $builder->add(...$model_menu);
         //dddx($builder->menu);
 
         // Return the set of menu items.
