@@ -6,6 +6,7 @@ namespace Themes\AdminLTE\Services;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
+use Modules\Xot\Services\PanelService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
@@ -114,14 +115,44 @@ class AdminLTE {
 
         //$builder->add(...$menu);
 
-        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
-            $out = get_object_vars($item);
-            $out['text'] = $item->title;
+        $parameters = optional(\Route::current())->parameters();
 
-            return $out;
-        })
-        ->values()
-        ->all();
+        if (isset($parameters['module'])) {
+            $model_menu = getModuleModelsMenu($parameters['module'])->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->title;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+        //dddx($model_menu);
+        } else {
+            $panel = PanelService::get(\Auth::user());
+            $model_menu = $panel->areas()->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->area_define_name;
+                $out['url'] = $item->url;
+                $out['active'] = $item->active;
+                $out['title'] = $item->area_define_name;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+            //dddx($model_menu);
+        }
+
+        /*
+        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->title;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+        */
 
         $model_menu = [
             [
