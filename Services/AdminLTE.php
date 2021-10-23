@@ -111,10 +111,24 @@ class AdminLTE {
         // the menu.
 
         //$this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu');
+        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
 
         //$builder->add(...$menu);
 
+        $model_menu = $this->setMenu();
+
+        //Cannot unpack array with string keys
+        //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
+
+        $builder->add(...$model_menu);
+        //dddx($builder->menu);
+
+        // Return the set of menu items.
+
+        return $builder->menu;
+    }
+
+    protected function setMenu(): array {
         $parameters = optional(\Route::current())->parameters();
 
         if (isset($parameters['module'])) {
@@ -126,7 +140,14 @@ class AdminLTE {
             })
             ->values()
             ->all();
-        //dddx($model_menu);
+
+            $model_menu = [
+                [
+                    'text' => 'MODELS',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
+                ],
+            ];
         } else {
             $panel = PanelService::get(\Auth::user());
             $model_menu = $panel->areas()->map(function ($item) {
@@ -140,7 +161,14 @@ class AdminLTE {
             })
             ->values()
             ->all();
-            //dddx($model_menu);
+
+            $model_menu = [
+                [
+                    'text' => 'AREAS',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
+                ],
+            ];
         }
 
         /*
@@ -154,23 +182,7 @@ class AdminLTE {
             ->all();
         */
 
-        $model_menu = [
-            [
-                'text' => 'MODELS',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
-            ],
-        ];
-
-        //Cannot unpack array with string keys
-        //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
-
-        $builder->add(...$model_menu);
-        //dddx($builder->menu);
-
-        // Return the set of menu items.
-
-        return $builder->menu;
+        return $model_menu;
     }
 
     /**
