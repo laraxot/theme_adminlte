@@ -6,6 +6,7 @@ namespace Themes\AdminLTE\Services;
 
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
+use Modules\Xot\Services\PanelService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
@@ -110,26 +111,11 @@ class AdminLTE {
         // the menu.
 
         //$this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu');
+        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
 
         //$builder->add(...$menu);
 
-        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
-            $out = get_object_vars($item);
-            $out['text'] = $item->title;
-
-            return $out;
-        })
-        ->values()
-        ->all();
-
-        $model_menu = [
-            [
-                'text' => 'MODELS',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
-            ],
-        ];
+        $model_menu = $this->setMenu();
 
         //Cannot unpack array with string keys
         //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
@@ -140,6 +126,63 @@ class AdminLTE {
         // Return the set of menu items.
 
         return $builder->menu;
+    }
+
+    protected function setMenu(): array {
+        $parameters = optional(\Route::current())->parameters();
+
+        if (isset($parameters['module'])) {
+            $model_menu = getModuleModelsMenu($parameters['module'])->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->title;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+
+            $model_menu = [
+                [
+                    'text' => 'MODELS',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
+                ],
+            ];
+        } else {
+            $panel = PanelService::get(\Auth::user());
+            $model_menu = $panel->areas()->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->area_define_name;
+                $out['url'] = $item->url;
+                $out['active'] = $item->active;
+                $out['title'] = $item->area_define_name;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+
+            $model_menu = [
+                [
+                    'text' => 'AREAS',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
+                ],
+            ];
+        }
+
+        /*
+        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
+                $out = get_object_vars($item);
+                $out['text'] = $item->title;
+
+                return $out;
+            })
+            ->values()
+            ->all();
+        */
+
+        return $model_menu;
     }
 
     /**
