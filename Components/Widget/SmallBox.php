@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class SmallBox extends Component
-{
+class SmallBox extends Component {
     /**
      * The title/header for the box.
      *
@@ -81,8 +82,7 @@ class SmallBox extends Component
      *
      * @return string
      */
-    public function makeBoxClass()
-    {
+    public function makeBoxClass() {
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -97,8 +97,7 @@ class SmallBox extends Component
      *
      * @return string
      */
-    public function makeOverlayClass()
-    {
+    public function makeOverlayClass() {
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -113,8 +112,7 @@ class SmallBox extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.small-box');
     }
 }

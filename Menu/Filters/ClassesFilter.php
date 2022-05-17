@@ -1,20 +1,21 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
-class ClassesFilter implements FilterInterface
-{
+class ClassesFilter implements FilterInterface {
     /**
      * Transforms a menu item. Add particular classes when suitable.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return array The transformed menu item
      */
-    public function transform($item)
-    {
+    public function transform($item) {
         $item['class'] = implode(' ', $this->makeClasses($item));
 
         if (MenuItemHelper::isSubmenu($item)) {
@@ -27,11 +28,11 @@ class ClassesFilter implements FilterInterface
     /**
      * Make classes related to the components of a menu item.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return array The array of classes
      */
-    protected function makeClasses($item)
-    {
+    protected function makeClasses($item) {
         $classes = [];
 
         // Add custom classes (from menu item configuration).
@@ -52,11 +53,11 @@ class ClassesFilter implements FilterInterface
     /**
      * Make classes related to the components of a submenu item.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return array The array of classes
      */
-    protected function makeSubmenuClasses($item)
-    {
+    protected function makeSubmenuClasses($item) {
         $classes = [];
 
         // Add the menu-open class when a sidebar submenu is active. Note we

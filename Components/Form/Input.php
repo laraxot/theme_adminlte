@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class Input extends InputGroupComponent
-{
+class Input extends InputGroupComponent {
     /**
      * Create a new component instance.
      *
@@ -25,8 +26,7 @@ class Input extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input');
     }
 }

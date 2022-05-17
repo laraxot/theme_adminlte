@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class PluginsResource extends PackageResource
-{
+class PluginsResource extends PackageResource {
     /**
      * The available plugins data. A plugin can contain next data keys:
      * - name: The name of the plugin.
@@ -201,8 +202,7 @@ class PluginsResource extends PackageResource
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the basic resource data.
 
         $this->description = 'The set of AdminLTE additional plugins';
@@ -219,20 +219,20 @@ class PluginsResource extends PackageResource
         // Fill the set of installation messages templates.
 
         $this->messages = [
-            'install'   => 'Install the AdminLTE :plugin plugin?',
+            'install' => 'Install the AdminLTE :plugin plugin?',
             'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
-            'remove'    => 'Do you really want to remove the :plugin plugin?',
+            'remove' => 'Do you really want to remove the :plugin plugin?',
         ];
     }
 
     /**
      * Gets the plugins source data.
      *
-     * @param  string  $pluginKey  A plugin string key
+     * @param string $pluginKey A plugin string key
+     *
      * @return array
      */
-    public function getSourceData($pluginKey = null)
-    {
+    public function getSourceData($pluginKey = null) {
         // Check if we need to get data of a specific AdminLTE plugin.
 
         if (isset($pluginKey)) {
@@ -247,11 +247,11 @@ class PluginsResource extends PackageResource
     /**
      * Install/Export a plugin.
      *
-     * @param  string  $pluginKey  A plugin string key
+     * @param string $pluginKey A plugin string key
+     *
      * @return void
      */
-    public function install($pluginKey = null)
-    {
+    public function install($pluginKey = null) {
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->installPlugin($plugin);
@@ -261,11 +261,11 @@ class PluginsResource extends PackageResource
     /**
      * Uninstall/Remove a plugin.
      *
-     * @param  string  $pluginKey  A plugin string key
+     * @param string $pluginKey A plugin string key
+     *
      * @return void
      */
-    public function uninstall($pluginKey = null)
-    {
+    public function uninstall($pluginKey = null) {
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->uninstallPlugin($plugin);
@@ -275,11 +275,11 @@ class PluginsResource extends PackageResource
     /**
      * Check if a plugin already exists on the target destination.
      *
-     * @param  string  $pluginKey  A plugin string key
+     * @param string $pluginKey A plugin string key
+     *
      * @return bool
      */
-    public function exists($pluginKey = null)
-    {
+    public function exists($pluginKey = null) {
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -292,11 +292,11 @@ class PluginsResource extends PackageResource
     /**
      * Check if a plugin is correctly installed.
      *
-     * @param  string  $pluginKey  A plugin string key
+     * @param string $pluginKey A plugin string key
+     *
      * @return bool
      */
-    public function installed($pluginKey = null)
-    {
+    public function installed($pluginKey = null) {
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -309,11 +309,11 @@ class PluginsResource extends PackageResource
     /**
      * Prepare a plugin with some sort of normalizations.
      *
-     * @param  array  $plugin  An array with the plugin data
+     * @param array $plugin An array with the plugin data
+     *
      * @return array An array with normalized plugin data
      */
-    protected function preparePlugin($plugin)
-    {
+    protected function preparePlugin($plugin) {
         // Add source and target when not defined.
 
         $plugin['source'] = $plugin['source'] ?? '';
@@ -348,11 +348,11 @@ class PluginsResource extends PackageResource
     /**
      * Install the specified AdminLTE plugin.
      *
-     * @param  array  $plugin  An array with the plugin data
+     * @param array $plugin An array with the plugin data
+     *
      * @return void
      */
-    protected function installPlugin($plugin)
-    {
+    protected function installPlugin($plugin) {
         // Check if we need to export the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -371,11 +371,11 @@ class PluginsResource extends PackageResource
     /**
      * Exports the specified resource (usually a folder).
      *
-     * @param  array  $res  An array with the resource data
+     * @param array $res An array with the resource data
+     *
      * @return void
      */
-    protected function exportResource($res)
-    {
+    protected function exportResource($res) {
         // Check the resource source type.
 
         if (is_dir($res['source'])) {
@@ -392,11 +392,11 @@ class PluginsResource extends PackageResource
     /**
      * Check if the specified plugin already exists on the target destination.
      *
-     * @param  array  $plugin  An array with the plugin data
+     * @param array $plugin An array with the plugin data
+     *
      * @return bool
      */
-    protected function pluginExists($plugin)
-    {
+    protected function pluginExists($plugin) {
         // When the plugin is not a resources list, check if target exists.
 
         if (! isset($plugin['resources'])) {
@@ -417,11 +417,11 @@ class PluginsResource extends PackageResource
     /**
      * Check if the specified plugin is correctly installed.
      *
-     * @param  array  $plugin  An array with the plugin data
+     * @param array $plugin An array with the plugin data
+     *
      * @return bool
      */
-    protected function pluginInstalled($plugin)
-    {
+    protected function pluginInstalled($plugin) {
         // When the plugin is not a resources list, check if installed.
 
         if (! isset($plugin['resources'])) {
@@ -442,11 +442,11 @@ class PluginsResource extends PackageResource
     /**
      * Check if the specified resource is correctly installed.
      *
-     * @param  array  $res  An array with the resource data
+     * @param array $res An array with the resource data
+     *
      * @return bool
      */
-    protected function resourceInstalled($res)
-    {
+    protected function resourceInstalled($res) {
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -464,11 +464,11 @@ class PluginsResource extends PackageResource
     /**
      * Uninstall or remove the specified plugin.
      *
-     * @param  array  $plugin  An array with the plugin data
+     * @param array $plugin An array with the plugin data
+     *
      * @return void
      */
-    protected function uninstallPlugin($plugin)
-    {
+    protected function uninstallPlugin($plugin) {
         // Check if we need to remove the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -487,11 +487,11 @@ class PluginsResource extends PackageResource
     /**
      * Removes the specified resource (usually a folder).
      *
-     * @param  array  $res  An array with the resource data
+     * @param array $res An array with the resource data
+     *
      * @return void
      */
-    protected function uninstallResource($res)
-    {
+    protected function uninstallResource($res) {
         $target = $res['target'];
 
         if (is_dir($target)) {

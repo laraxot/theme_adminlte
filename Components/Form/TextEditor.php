@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class TextEditor extends InputGroupComponent
-{
+class TextEditor extends InputGroupComponent {
     /**
      * The Summernote plugin configuration parameters. Array with key => value
      * pairs, where the key should be an existing configuration property of
@@ -43,8 +44,7 @@ class TextEditor extends InputGroupComponent
      *
      * @return string
      */
-    public function makeInputGroupClass()
-    {
+    public function makeInputGroupClass() {
         $classes = ['input-group'];
 
         if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
@@ -67,8 +67,7 @@ class TextEditor extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.text-editor');
     }
 }

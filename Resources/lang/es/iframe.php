@@ -1,7 +1,8 @@
 <?php
 
-return [
+declare(strict_types=1);
 
+return [
     /*
     |--------------------------------------------------------------------------
     | IFrame Mode Language Lines
@@ -20,5 +21,4 @@ return [
     'tab_empty' => 'Ninguna pestaña seleccionada!',
     'tab_home' => 'Inicio',
     'tab_loading' => 'Cargando pestaña',
-
 ];

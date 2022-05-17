@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
-class Modal extends Component
-{
+class Modal extends Component {
     /**
      * The available modal sizes.
      *
@@ -105,8 +106,7 @@ class Modal extends Component
      *
      * @return string
      */
-    public function makeModalClass()
-    {
+    public function makeModalClass() {
         $classes = ['modal'];
 
         if (! isset($this->disableAnimations)) {
@@ -121,8 +121,7 @@ class Modal extends Component
      *
      * @return string
      */
-    public function makeModalDialogClass()
-    {
+    public function makeModalDialogClass() {
         $classes = ['modal-dialog'];
 
         if (isset($this->vCentered)) {
@@ -145,8 +144,7 @@ class Modal extends Component
      *
      * @return string
      */
-    public function makeModalHeaderClass()
-    {
+    public function makeModalHeaderClass() {
         $classes = ['modal-header'];
 
         if (isset($this->theme)) {
@@ -161,8 +159,7 @@ class Modal extends Component
      *
      * @return string
      */
-    public function makeCloseButtonClass()
-    {
+    public function makeCloseButtonClass() {
         $classes = ['bg-secondary'];
 
         if (isset($this->theme)) {
@@ -177,8 +174,7 @@ class Modal extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.tool.modal');
     }
 }

@@ -1,18 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class ConfigResource extends PackageResource
-{
+class ConfigResource extends PackageResource {
     /**
      * Create a new resource instance.
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The default package configuration file';
@@ -23,9 +23,9 @@ class ConfigResource extends PackageResource
         // Fill the set of installation messages.
 
         $this->messages = [
-            'install'   => 'Install the package config file?',
+            'install' => 'Install the package config file?',
             'overwrite' => 'The config file already exists. Want to replace it?',
-            'success'   => 'Configuration file installed successfully.',
+            'success' => 'Configuration file installed successfully.',
         ];
     }
 
@@ -34,8 +34,7 @@ class ConfigResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // Install the configuration file.
 
         CommandHelper::ensureDirectoryExists(dirname($this->target));
@@ -47,8 +46,7 @@ class ConfigResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         // Uninstall the configuration file.
 
         if (is_file($this->target)) {
@@ -61,8 +59,7 @@ class ConfigResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         return is_file($this->target);
     }
 
@@ -71,8 +68,7 @@ class ConfigResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         return CommandHelper::compareFiles($this->source, $this->target);
     }
 }

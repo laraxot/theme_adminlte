@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class ProfileColItem extends Component
-{
+class ProfileColItem extends Component {
     /**
      * The title/header for the item.
      *
@@ -74,8 +75,7 @@ class ProfileColItem extends Component
      *
      * @return string
      */
-    public function makeTextWrapperClass()
-    {
+    public function makeTextWrapperClass() {
         $classes = [];
 
         if (isset($this->badge)) {
@@ -90,8 +90,7 @@ class ProfileColItem extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.profile-col-item');
     }
 }

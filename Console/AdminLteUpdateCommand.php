@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
 
-class AdminLteUpdateCommand extends Command
-{
+class AdminLteUpdateCommand extends Command {
     /**
      * The name and signature of the console command.
      *
@@ -25,8 +26,7 @@ class AdminLteUpdateCommand extends Command
      *
      * @return void
      */
-    public function handle()
-    {
+    public function handle() {
         $options = ['--force' => true, '--only' => ['assets']];
 
         $this->call('adminlte:install', $options);

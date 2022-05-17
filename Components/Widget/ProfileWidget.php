@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class ProfileWidget extends Component
-{
+class ProfileWidget extends Component {
     /**
      * The user name of the profile widget.
      *
@@ -96,13 +97,12 @@ class ProfileWidget extends Component
      *
      * @return string
      */
-    public function makeCardClass()
-    {
+    public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
-        if ($this->layoutType === 'modern') {
+        if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
-        } elseif ($this->layoutType === 'classic') {
+        } elseif ('classic' === $this->layoutType) {
             $classes[] = 'widget-user-2';
         }
 
@@ -114,8 +114,7 @@ class ProfileWidget extends Component
      *
      * @return string
      */
-    public function makeHeaderClass()
-    {
+    public function makeHeaderClass() {
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -134,8 +133,7 @@ class ProfileWidget extends Component
      *
      * @return string
      */
-    public function makeHeaderStyle()
-    {
+    public function makeHeaderStyle() {
         $style = [];
 
         if (! empty($this->cover)) {
@@ -150,8 +148,7 @@ class ProfileWidget extends Component
      *
      * @return string
      */
-    public function makeFooterClass()
-    {
+    public function makeFooterClass() {
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -166,8 +163,7 @@ class ProfileWidget extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.profile-widget');
     }
 }

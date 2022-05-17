@@ -58,7 +58,7 @@ class AdminLTE {
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
-    public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -88,8 +88,8 @@ class AdminLTE {
 
         // Check for filter token.
 
-        //backtrace(true);
-        //dddx($this->menu);
+        // backtrace(true);
+        // dddx($this->menu);
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -116,18 +116,18 @@ class AdminLTE {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
-        //$this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
+        // $this->events->dispatch(new BuildingMenu($builder));
+        $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
-        //$builder->add(...$menu);
+        // $builder->add(...$menu);
 
         $model_menu = $this->setMenu();
 
-        //Cannot unpack array with string keys
-        //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
+        // Cannot unpack array with string keys
+        // dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
 
         $builder->add(...$model_menu);
-        //dddx($builder->menu);
+        // dddx($builder->menu);
 
         // Return the set of menu items.
 

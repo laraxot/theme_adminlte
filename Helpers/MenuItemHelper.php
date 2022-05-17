@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Helpers;
 
 /**
@@ -7,27 +9,26 @@ namespace Themes\AdminLTE\Helpers;
  * the type property to easy distinguish the item type and avoid guessing it by
  * they properties.
  */
-class MenuItemHelper
-{
+class MenuItemHelper {
     /**
      * Check if a menu item is a header.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isHeader($item)
-    {
+    public static function isHeader($item) {
         return is_string($item) || isset($item['header']);
     }
 
     /**
      * Check if a menu item is a link.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isLink($item)
-    {
+    public static function isLink($item) {
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -35,11 +36,11 @@ class MenuItemHelper
     /**
      * Check if a menu item is a submenu.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isSubmenu($item)
-    {
+    public static function isSubmenu($item) {
         return isset($item['text'], $item['submenu']) &&
                is_array($item['submenu']);
     }
@@ -47,11 +48,11 @@ class MenuItemHelper
     /**
      * Check if a menu item is a legacy search bar.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isLegacySearch($item)
-    {
+    public static function isLegacySearch($item) {
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -59,11 +60,11 @@ class MenuItemHelper
     /**
      * Check if a menu item is allowed to be shown (not restricted).
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isAllowed($item)
-    {
+    public static function isAllowed($item) {
         return $item && empty($item['restricted']);
     }
 }

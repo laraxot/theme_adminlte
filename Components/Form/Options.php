@@ -1,12 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 
-class Options extends Component
-{
+class Options extends Component {
     /**
      * The list of options as key value pairs.
      *
@@ -72,22 +73,22 @@ class Options extends Component
     /**
      * Determines if an option's key is on selected state.
      *
-     * @param  string  $key  The option's key.
+     * @param string $key the option's key
+     *
      * @return bool
      */
-    public function isSelected($key)
-    {
+    public function isSelected($key) {
         return in_array($key, $this->selected, $this->strict);
     }
 
     /**
      * Determines if an option's key is on disabled state.
      *
-     * @param  string  $key  The option's key.
+     * @param string $key the option's key
+     *
      * @return bool
      */
-    public function isDisabled($key)
-    {
+    public function isDisabled($key) {
         return in_array($key, $this->disabled, $this->strict);
     }
 
@@ -96,8 +97,7 @@ class Options extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.options');
     }
 }

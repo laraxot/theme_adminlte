@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class InputSwitch extends InputGroupComponent
-{
+class InputSwitch extends InputGroupComponent {
     /**
      * The Bootstrap Switch plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -38,8 +39,7 @@ class InputSwitch extends InputGroupComponent
      *
      * @return string
      */
-    public function makeInputGroupClass()
-    {
+    public function makeInputGroupClass() {
         $classes = ['input-group'];
 
         if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
@@ -62,8 +62,7 @@ class InputSwitch extends InputGroupComponent
      *
      * @return string
      */
-    public function makeItemClass()
-    {
+    public function makeItemClass() {
         $classes = [];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -78,8 +77,7 @@ class InputSwitch extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input-switch');
     }
 }

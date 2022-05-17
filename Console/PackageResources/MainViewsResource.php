@@ -1,18 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class MainViewsResource extends PackageResource
-{
+class MainViewsResource extends PackageResource {
     /**
      * Create a new resource instance.
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The default package main views';
@@ -23,9 +23,9 @@ class MainViewsResource extends PackageResource
         // Fill the set of installation messages.
 
         $this->messages = [
-            'install'   => 'Install the AdminLTE main views?',
+            'install' => 'Install the AdminLTE main views?',
             'overwrite' => 'The main views already exists. Want to replace the views?',
-            'success'   => 'Main views installed successfully.',
+            'success' => 'Main views installed successfully.',
         ];
     }
 
@@ -34,8 +34,7 @@ class MainViewsResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // Install the main views.
 
         CommandHelper::copyDirectory($this->source, $this->target, true, true);
@@ -46,8 +45,7 @@ class MainViewsResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         // Uninstall the package main views.
 
         if (is_dir($this->target)) {
@@ -60,8 +58,7 @@ class MainViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         return is_dir($this->target);
     }
 
@@ -70,8 +67,7 @@ class MainViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         return (bool) CommandHelper::compareDirectories(
             $this->source,
             $this->target,

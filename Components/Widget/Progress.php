@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class Progress extends Component
-{
+class Progress extends Component {
     /**
      * The available progress bar sizes.
      *
@@ -91,8 +92,7 @@ class Progress extends Component
      *
      * @return string
      */
-    public function makeProgressClass()
-    {
+    public function makeProgressClass() {
         $classes = ['progress'];
 
         if (isset($this->size) && in_array($this->size, $this->pSizes)) {
@@ -111,8 +111,7 @@ class Progress extends Component
      *
      * @return string
      */
-    public function makeProgressBarClass()
-    {
+    public function makeProgressBarClass() {
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -135,8 +134,7 @@ class Progress extends Component
      *
      * @return string
      */
-    public function makeProgressBarStyle()
-    {
+    public function makeProgressBarStyle() {
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -153,8 +151,7 @@ class Progress extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.progress');
     }
 }

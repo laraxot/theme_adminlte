@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class InputFile extends InputGroupComponent
-{
+class InputFile extends InputGroupComponent {
     /**
      * The placeholder for the input file box.
      *
@@ -43,8 +44,7 @@ class InputFile extends InputGroupComponent
      *
      * @return string
      */
-    public function makeItemClass()
-    {
+    public function makeItemClass() {
         $classes = ['custom-file-input'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -59,8 +59,7 @@ class InputFile extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input-file');
     }
 }

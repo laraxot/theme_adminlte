@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class BasicViewsResource extends PackageResource
-{
+class BasicViewsResource extends PackageResource {
     /**
      * Array with the replacement content of the basic views.
      *
@@ -20,8 +21,7 @@ class BasicViewsResource extends PackageResource
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The default package basic views';
@@ -32,9 +32,9 @@ class BasicViewsResource extends PackageResource
         // Fill the set of installation messages.
 
         $this->messages = [
-            'install'   => 'Install the AdminLTE basic views?',
+            'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success'   => 'Basic views installed successfully.',
+            'success' => 'Basic views installed successfully.',
         ];
     }
 
@@ -43,8 +43,7 @@ class BasicViewsResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // Install the basic views. We going to replace the content of any
         // existing basic view.
 
@@ -60,8 +59,7 @@ class BasicViewsResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
@@ -78,8 +76,7 @@ class BasicViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
@@ -98,8 +95,7 @@ class BasicViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         foreach ($this->source as $file => $stub) {
             $target = $this->target.DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
@@ -115,12 +111,12 @@ class BasicViewsResource extends PackageResource
     /**
      * Check if a basic view is correctly installed.
      *
-     * @param  string  $path  Absolute path of the view
-     * @param  string  $content  The expected content of the view
+     * @param string $path    Absolute path of the view
+     * @param string $content The expected content of the view
+     *
      * @return bool
      */
-    protected function basicViewInstalled($path, $content)
-    {
+    protected function basicViewInstalled($path, $content) {
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }

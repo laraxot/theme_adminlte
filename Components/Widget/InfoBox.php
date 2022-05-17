@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class InfoBox extends Component
-{
+class InfoBox extends Component {
     /**
      * The title/header for the box.
      *
@@ -91,8 +92,7 @@ class InfoBox extends Component
      *
      * @return string
      */
-    public function makeBoxClass()
-    {
+    public function makeBoxClass() {
         $classes = ['info-box'];
 
         if (isset($this->theme)) {
@@ -107,8 +107,7 @@ class InfoBox extends Component
      *
      * @return string
      */
-    public function makeIconClass()
-    {
+    public function makeIconClass() {
         $classes = ['info-box-icon'];
 
         if (isset($this->iconTheme)) {
@@ -123,8 +122,7 @@ class InfoBox extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.info-box');
     }
 }

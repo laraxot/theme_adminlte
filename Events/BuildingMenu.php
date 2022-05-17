@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Menu\Builder;
 
-class BuildingMenu
-{
+class BuildingMenu {
     /**
      * The menu builder.
      *
@@ -15,11 +16,8 @@ class BuildingMenu
 
     /**
      * Create a new event instance.
-     *
-     * @param  Builder  $menu
      */
-    public function __construct(Builder $menu)
-    {
+    public function __construct(Builder $menu) {
         $this->menu = $menu;
     }
 }

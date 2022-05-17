@@ -1,66 +1,67 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Helpers;
 
-class NavbarItemHelper extends MenuItemHelper
-{
+class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar custom search bar.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isCustomSearch($item)
-    {
+    public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
-               $item['type'] === 'navbar-search';
+               'navbar-search' === $item['type'];
     }
 
     /**
      * Check if a menu item is a navbar fullscreen toggle widget.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isFullscreen($item)
-    {
+    public static function isFullscreen($item) {
         return isset($item['type']) &&
-               $item['type'] === 'fullscreen-widget';
+               'fullscreen-widget' === $item['type'];
     }
 
     /**
      * Check if a menu item is a navbar dark mode toggle widget.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isDarkmode($item)
-    {
+    public static function isDarkmode($item) {
         return isset($item['type']) &&
-               $item['type'] === 'darkmode-widget';
+               'darkmode-widget' === $item['type'];
     }
 
     /**
      * Check if a menu item is a navbar notification.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isNotification($item)
-    {
+    public static function isNotification($item) {
         return isset($item['id'], $item['icon'], $item['type']) &&
                (isset($item['url']) || isset($item['route'])) &&
-               $item['type'] === 'navbar-notification';
+               'navbar-notification' === $item['type'];
     }
 
     /**
      * Check if a menu item is a navbar search item (legacy or new).
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isSearch($item)
-    {
+    public static function isSearch($item) {
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item);
     }
@@ -68,11 +69,11 @@ class NavbarItemHelper extends MenuItemHelper
     /**
      * Check if a menu item is accepted for the navbar section.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isAcceptedItem($item)
-    {
+    public static function isAcceptedItem($item) {
         return self::isNotification($item) ||
                self::isFullscreen($item) ||
                self::isDarkmode($item) ||
@@ -84,11 +85,11 @@ class NavbarItemHelper extends MenuItemHelper
     /**
      * Check if a menu item is valid for the left section of the navbar.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isValidLeftItem($item)
-    {
+    public static function isValidLeftItem($item) {
         return self::isAcceptedItem($item) &&
                isset($item['topnav']) &&
                $item['topnav'];
@@ -97,11 +98,11 @@ class NavbarItemHelper extends MenuItemHelper
     /**
      * Check if a menu item belongs to the right section of the navbar.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isValidRightItem($item)
-    {
+    public static function isValidRightItem($item) {
         return self::isAcceptedItem($item) &&
                isset($item['topnav_right']) &&
                $item['topnav_right'];
@@ -110,11 +111,11 @@ class NavbarItemHelper extends MenuItemHelper
     /**
      * Check if a menu item belongs to the user menu section of the navbar.
      *
-     * @param  mixed  $item
+     * @param mixed $item
+     *
      * @return bool
      */
-    public static function isValidUserMenuItem($item)
-    {
+    public static function isValidUserMenuItem($item) {
         return self::isAcceptedItem($item) &&
                isset($item['topnav_user']) &&
                $item['topnav_user'];

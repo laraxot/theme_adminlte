@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
 
-class InputGroupComponent extends Component
-{
+class InputGroupComponent extends Component {
     /**
      * The id attribute for the underlying input group item. The input group
      * item may be an "input", a "select", a "textarea", etc.
@@ -106,8 +107,7 @@ class InputGroupComponent extends Component
      *
      * @return string
      */
-    public function makeFormGroupClass()
-    {
+    public function makeFormGroupClass() {
         $classes = ['form-group'];
 
         if (isset($this->fgroupClass)) {
@@ -122,8 +122,7 @@ class InputGroupComponent extends Component
      *
      * @return string
      */
-    public function makeInputGroupClass()
-    {
+    public function makeInputGroupClass() {
         $classes = ['input-group'];
 
         if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
@@ -146,8 +145,7 @@ class InputGroupComponent extends Component
      *
      * @return string
      */
-    public function makeItemClass()
-    {
+    public function makeItemClass() {
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -163,8 +161,7 @@ class InputGroupComponent extends Component
      *
      * @return bool
      */
-    public function isInvalid()
-    {
+    public function isInvalid() {
         // Get the errors bag from session. The errors bag will be an instance
         // of the Illuminate\Support\MessageBag class.
 
@@ -184,8 +181,7 @@ class InputGroupComponent extends Component
      *
      * @return string
      */
-    protected function makeErrorKey()
-    {
+    protected function makeErrorKey() {
         $errKey = preg_replace('@\[\]$@', '', $this->name);
 
         return preg_replace('@\[([^]]+)\]@', '.$1', $errKey);
@@ -196,8 +192,7 @@ class InputGroupComponent extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input-group-component');
     }
 }

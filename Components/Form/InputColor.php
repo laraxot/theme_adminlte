@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class InputColor extends InputGroupComponent
-{
+class InputColor extends InputGroupComponent {
     /**
      * The Bootstrap Colorpicker plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -37,8 +38,7 @@ class InputColor extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input-color');
     }
 }

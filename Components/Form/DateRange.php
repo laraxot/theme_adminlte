@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class DateRange extends InputGroupComponent
-{
+class DateRange extends InputGroupComponent {
     /**
      * The DateRangePicker plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -47,8 +48,7 @@ class DateRange extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.date-range');
     }
 }

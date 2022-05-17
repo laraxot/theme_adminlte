@@ -1,13 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Menu;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
-class ActiveChecker
-{
+class ActiveChecker {
     /**
      * The request instance.
      *
@@ -31,11 +32,8 @@ class ActiveChecker
 
     /**
      * Constructor.
-     *
-     * @param  UrlGenerator  $url
      */
-    public function __construct(UrlGenerator $url)
-    {
+    public function __construct(UrlGenerator $url) {
         $this->request = $url->getRequest();
         $this->url = $url;
 
@@ -44,9 +42,9 @@ class ActiveChecker
 
         $this->tests = [
             'submenu' => [$this, 'containsActive'],
-            'active'  => [$this, 'isExplicitActive'],
-            'href'    => [$this, 'checkPattern'],
-            'url'     => [$this, 'checkPattern'],
+            'active' => [$this, 'isExplicitActive'],
+            'href' => [$this, 'checkPattern'],
+            'url' => [$this, 'checkPattern'],
         ];
     }
 
@@ -54,11 +52,11 @@ class ActiveChecker
      * Checks if a menu item is currently active. Active items will be
      * highlighted.
      *
-     * @param  mixed  $item  The menu item to check
+     * @param mixed $item The menu item to check
+     *
      * @return bool
      */
-    public function isActive($item)
-    {
+    public function isActive($item) {
         // Return true if any of the verification tests is met.
 
         foreach ($this->tests as $prop => $testFunc) {
@@ -75,11 +73,11 @@ class ActiveChecker
     /**
      * Checks if an array of items contains an active item.
      *
-     * @param  array  $items  The items to check
+     * @param array $items The items to check
+     *
      * @return bool
      */
-    protected function containsActive($items)
-    {
+    protected function containsActive($items) {
         foreach ($items as $item) {
             if ($this->isActive($item)) {
                 return true;
@@ -92,11 +90,11 @@ class ActiveChecker
     /**
      * Checks if an item is active by explicit definition of 'active' state.
      *
-     * @param  bool|array  $activeDef
+     * @param bool|array $activeDef
+     *
      * @return bool
      */
-    protected function isExplicitActive($activeDef)
-    {
+    protected function isExplicitActive($activeDef) {
         // If the active definition is a bool, return it.
 
         if (is_bool($activeDef)) {
@@ -118,11 +116,11 @@ class ActiveChecker
     /**
      * Checks if an url pattern matches the requested url.
      *
-     * @param  string  $pattern
+     * @param string $pattern
+     *
      * @return bool
      */
-    protected function checkPattern($pattern)
-    {
+    protected function checkPattern($pattern) {
         // First, check if the pattern is a regular expression.
 
         if (Str::startsWith($pattern, 'regex:')) {

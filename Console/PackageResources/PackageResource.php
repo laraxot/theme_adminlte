@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
-abstract class PackageResource
-{
+abstract class PackageResource {
     /**
      * The package resource description. A litle summary of what this
      * resource contains.
@@ -74,11 +75,11 @@ abstract class PackageResource
     /**
      * Get an installation message.
      *
-     * @param  string  $key  The message keyword
+     * @param string $key The message keyword
+     *
      * @return string
      */
-    public function getInstallMessage($key)
-    {
+    public function getInstallMessage($key) {
         if (! isset($this->messages[$key])) {
             return '';
         }

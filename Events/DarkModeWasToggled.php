@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
-class DarkModeWasToggled
-{
+class DarkModeWasToggled {
     /**
      * An instance of the dark mode controller.
      *
@@ -15,11 +16,8 @@ class DarkModeWasToggled
 
     /**
      * Create a new event instance.
-     *
-     * @param  DarkModeController  $ctrl
      */
-    public function __construct(DarkModeController $ctrl)
-    {
+    public function __construct(DarkModeController $ctrl) {
         $this->darkMode = $ctrl;
     }
 }

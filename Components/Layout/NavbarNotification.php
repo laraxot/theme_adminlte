@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 
-class NavbarNotification extends Component
-{
+class NavbarNotification extends Component {
     /**
      * Constants to define the available url configuration types.
      */
@@ -95,8 +96,7 @@ class NavbarNotification extends Component
      *
      * @return string
      */
-    public function makeListItemClass()
-    {
+    public function makeListItemClass() {
         $classes = ['nav-item'];
 
         if ($this->enableDropdownMode) {
@@ -111,8 +111,7 @@ class NavbarNotification extends Component
      *
      * @return string
      */
-    public function makeAnchorDefaultAttrs()
-    {
+    public function makeAnchorDefaultAttrs() {
         $attrs = ['class' => 'nav-link'];
 
         if ($this->enableDropdownMode) {
@@ -127,8 +126,7 @@ class NavbarNotification extends Component
      *
      * @return string
      */
-    public function makeIconClass()
-    {
+    public function makeIconClass() {
         $classes = [$this->icon];
 
         if (! empty($this->iconColor)) {
@@ -143,8 +141,7 @@ class NavbarNotification extends Component
      *
      * @return string
      */
-    public function makeBadgeClass()
-    {
+    public function makeBadgeClass() {
         $classes = ['badge navbar-badge text-bold text-xs badge-pill'];
 
         if (! empty($this->badgeColor)) {
@@ -159,8 +156,7 @@ class NavbarNotification extends Component
      *
      * @return int
      */
-    public function makeUpdatePeriod()
-    {
+    public function makeUpdatePeriod() {
         if (! isset($this->updateCfg['period'])) {
             return 0;
         }
@@ -173,8 +169,7 @@ class NavbarNotification extends Component
      *
      * @return string|null
      */
-    public function makeUpdateUrl()
-    {
+    public function makeUpdateUrl() {
         // Check if the url property is available.
 
         if (! empty($this->updateCfg['url'])) {
@@ -198,12 +193,12 @@ class NavbarNotification extends Component
     /**
      * Create the url from specific configuration type.
      *
-     * @param  string|array  $cfg  The configuration for the url.
-     * @param  mixed  $type  The configuration type (url or route).
+     * @param string|array $cfg  the configuration for the url
+     * @param mixed        $type the configuration type (url or route)
+     *
      * @return string|null
      */
-    protected function makeUrlFromCfg($cfg, $type = self::CFG_URL)
-    {
+    protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
@@ -215,7 +210,7 @@ class NavbarNotification extends Component
             $path = $cfg[0];
             $params = is_array($cfg[1] ?? null) ? $cfg[1] : [];
 
-            return ($type === self::CFG_ROUTE) ?
+            return (self::CFG_ROUTE === $type) ?
                 route($path, $params) :
                 url($path, $params);
         }
@@ -230,8 +225,7 @@ class NavbarNotification extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.layout.navbar-notification');
     }
 }

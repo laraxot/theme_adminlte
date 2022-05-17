@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class Callout extends Component
-{
+class Callout extends Component {
     /**
      * The callout icon (a Font Awesome icon).
      *
@@ -54,8 +55,7 @@ class Callout extends Component
      *
      * @return string
      */
-    public function makeCalloutClass()
-    {
+    public function makeCalloutClass() {
         $classes = ['callout'];
 
         if (! empty($this->theme)) {
@@ -70,8 +70,7 @@ class Callout extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.callout');
     }
 }

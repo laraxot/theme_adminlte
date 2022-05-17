@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
 
-class Button extends Component
-{
+class Button extends Component {
     /**
      * The visible label (text) for the button.
      *
@@ -55,8 +56,7 @@ class Button extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.button');
     }
 }

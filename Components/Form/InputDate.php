@@ -1,24 +1,25 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class InputDate extends InputGroupComponent
-{
+class InputDate extends InputGroupComponent {
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
      * @var array
      */
     protected $icons = [
-        'time'     => 'fas fa-clock',
-        'date'     => 'fas fa-calendar-alt',
-        'up'       => 'fas fa-arrow-up',
-        'down'     => 'fas fa-arrow-down',
+        'time' => 'fas fa-clock',
+        'date' => 'fas fa-calendar-alt',
+        'up' => 'fas fa-arrow-up',
+        'down' => 'fas fa-arrow-down',
         'previous' => 'fas fa-chevron-left',
-        'next'     => 'fas fa-chevron-right',
-        'today'    => 'fas fa-calendar-check-o',
-        'clear'    => 'fas fa-trash',
-        'close'    => 'fas fa-times',
+        'next' => 'fas fa-chevron-right',
+        'today' => 'fas fa-calendar-check-o',
+        'clear' => 'fas fa-trash',
+        'close' => 'fas fa-times',
     ];
 
     /**
@@ -71,8 +72,7 @@ class InputDate extends InputGroupComponent
      *
      * @return string
      */
-    public function makeItemClass()
-    {
+    public function makeItemClass() {
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -87,8 +87,7 @@ class InputDate extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.input-date');
     }
 }

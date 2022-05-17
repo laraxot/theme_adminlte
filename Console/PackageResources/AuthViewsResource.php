@@ -1,23 +1,24 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class AuthViewsResource extends PackageResource
-{
+class AuthViewsResource extends PackageResource {
     /**
      * Array with the replacement content of the authentication views.
      *
      * @var array
      */
     protected $authViewsContent = [
-        'login.blade.php'             => '@extends(\'adminlte::auth.login\')',
-        'register.blade.php'          => '@extends(\'adminlte::auth.register\')',
-        'verify.blade.php'            => '@extends(\'adminlte::auth.verify\')',
+        'login.blade.php' => '@extends(\'adminlte::auth.login\')',
+        'register.blade.php' => '@extends(\'adminlte::auth.register\')',
+        'verify.blade.php' => '@extends(\'adminlte::auth.verify\')',
         'passwords/confirm.blade.php' => '@extends(\'adminlte::auth.passwords.confirm\')',
-        'passwords/email.blade.php'   => '@extends(\'adminlte::auth.passwords.email\')',
-        'passwords/reset.blade.php'   => '@extends(\'adminlte::auth.passwords.reset\')',
+        'passwords/email.blade.php' => '@extends(\'adminlte::auth.passwords.email\')',
+        'passwords/reset.blade.php' => '@extends(\'adminlte::auth.passwords.reset\')',
     ];
 
     /**
@@ -25,8 +26,7 @@ class AuthViewsResource extends PackageResource
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The default package authentication views';
@@ -37,9 +37,9 @@ class AuthViewsResource extends PackageResource
         // Fill the set of installation messages.
 
         $this->messages = [
-            'install'   => 'Install the AdminLTE authentication views?',
+            'install' => 'Install the AdminLTE authentication views?',
             'overwrite' => 'The authentication views already exists. Want to replace the views?',
-            'success'   => 'Authentication views installed successfully.',
+            'success' => 'Authentication views installed successfully.',
         ];
     }
 
@@ -48,8 +48,7 @@ class AuthViewsResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // Install the authentication views. We going to replace the content
         // of any existing authentication view.
 
@@ -65,8 +64,7 @@ class AuthViewsResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         // Remove the package authentication views.
 
         foreach ($this->source as $file => $content) {
@@ -83,8 +81,7 @@ class AuthViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         // Check if any of the authentication views already exists.
 
         foreach ($this->source as $file => $content) {
@@ -103,8 +100,7 @@ class AuthViewsResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         foreach ($this->source as $file => $content) {
             $target = $this->target.DIRECTORY_SEPARATOR.$file;
 
@@ -119,12 +115,12 @@ class AuthViewsResource extends PackageResource
     /**
      * Check if an authentication view is correctly installed.
      *
-     * @param  string  $path  Absolute path of the authentication view
-     * @param  string  $content  The expected content of the view
+     * @param string $path    Absolute path of the authentication view
+     * @param string $content The expected content of the view
+     *
      * @return bool
      */
-    protected function authViewInstalled($path, $content)
-    {
+    protected function authViewInstalled($path, $content) {
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }

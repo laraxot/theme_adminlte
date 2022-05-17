@@ -20,7 +20,7 @@ class BaseLayout extends Component {
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
-    public function render():\Illuminate\Contracts\Support\Renderable {
+    public function render(): \Illuminate\Contracts\Support\Renderable {
         return view('layouts.base');
     }
 }

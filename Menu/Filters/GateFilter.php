@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 
-class GateFilter implements FilterInterface
-{
+class GateFilter implements FilterInterface {
     /**
      * The Laravel gate instance, used to check for permissions.
      *
@@ -15,11 +16,8 @@ class GateFilter implements FilterInterface
 
     /**
      * Constructor.
-     *
-     * @param  Gate  $gate
      */
-    public function __construct(Gate $gate)
-    {
+    public function __construct(Gate $gate) {
         $this->gate = $gate;
     }
 
@@ -27,11 +25,11 @@ class GateFilter implements FilterInterface
      * Transforms a menu item. Add the restricted property to a menu item
      * when situable.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return array The transformed menu item
      */
-    public function transform($item)
-    {
+    public function transform($item) {
         // Set a special attribute when item is not allowed. Items with this
         // attribute will be filtered out of the menu.
 
@@ -45,11 +43,11 @@ class GateFilter implements FilterInterface
     /**
      * Check if a menu item is allowed for the current user.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return bool
      */
-    protected function isAllowed($item)
-    {
+    protected function isAllowed($item) {
         // Check if there are any permission defined for the item.
 
         if (empty($item['can'])) {

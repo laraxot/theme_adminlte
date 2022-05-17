@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -11,8 +13,7 @@ use Themes\AdminLTE\Console\PackageResources\ConfigResource;
 use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
 use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
-class AdminLteStatusCommand extends Command
-{
+class AdminLteStatusCommand extends Command {
     /**
      * The name and signature of the console command.
      *
@@ -62,19 +63,18 @@ class AdminLteStatusCommand extends Command
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         parent::__construct();
 
         // Fill the array with the package resources.
 
         $this->pkgResources = [
-            'assets'       => new AssetsResource(),
-            'config'       => new ConfigResource(),
+            'assets' => new AssetsResource(),
+            'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
-            'main_views'   => new MainViewsResource(),
-            'auth_views'   => new AuthViewsResource(),
-            'basic_views'  => new BasicViewsResource(),
+            'main_views' => new MainViewsResource(),
+            'auth_views' => new AuthViewsResource(),
+            'basic_views' => new BasicViewsResource(),
             'basic_routes' => new BasicRoutesResource(),
         ];
     }
@@ -84,8 +84,7 @@ class AdminLteStatusCommand extends Command
      *
      * @return void
      */
-    public function handle()
-    {
+    public function handle() {
         // Display the resources installation status.
 
         $this->showResourcesStatus();
@@ -101,8 +100,7 @@ class AdminLteStatusCommand extends Command
      *
      * @return void
      */
-    protected function showResourcesStatus()
-    {
+    protected function showResourcesStatus() {
         // Define the table headers.
 
         $tblHeader = [
@@ -127,8 +125,7 @@ class AdminLteStatusCommand extends Command
      *
      * @return array
      */
-    protected function getResourcesStatusRows()
-    {
+    protected function getResourcesStatusRows() {
         // Define the array that will hold the table rows.
 
         $tblContent = [];
@@ -144,7 +141,6 @@ class AdminLteStatusCommand extends Command
         $bar->start();
 
         foreach ($this->pkgResources as $name => $resource) {
-
             // Fill the status row of the current resource.
 
             $tblContent[] = [
@@ -173,11 +169,11 @@ class AdminLteStatusCommand extends Command
     /**
      * Get the installation status of a package resource.
      *
-     * @param  PackageResource  $resource  The package resource to check
+     * @param PackageResource $resource The package resource to check
+     *
      * @return string The resource status
      */
-    protected function getResourceStatus($resource)
-    {
+    protected function getResourceStatus($resource) {
         $status = $this->status['uninstalled'];
 
         if ($resource->installed()) {
@@ -194,8 +190,7 @@ class AdminLteStatusCommand extends Command
      *
      * @return void
      */
-    protected function showStatusLegends()
-    {
+    protected function showStatusLegends() {
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -224,12 +219,12 @@ class AdminLteStatusCommand extends Command
     /**
      * Give output style to some text.
      *
-     * @param  string  $text  The text to be styled
-     * @param  string  $color  The output color for the text
+     * @param string $text  The text to be styled
+     * @param string $color The output color for the text
+     *
      * @return string The styled text
      */
-    protected function styleOutput($text, $color)
-    {
+    protected function styleOutput($text, $color) {
         return "<fg={$color}>{$text}</>";
     }
 }

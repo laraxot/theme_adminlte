@@ -1,11 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
-class Datatable extends Component
-{
+class Datatable extends Component {
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -152,8 +153,7 @@ class Datatable extends Component
      *
      * @return string
      */
-    public function makeTableClass()
-    {
+    public function makeTableClass() {
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -184,8 +184,7 @@ class Datatable extends Component
      *
      * @return string
      */
-    protected function makeDomCfg()
-    {
+    protected function makeDomCfg() {
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -207,8 +206,7 @@ class Datatable extends Component
      *
      * @return array
      */
-    protected function makeButtonsCfg()
-    {
+    protected function makeButtonsCfg() {
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -274,8 +272,7 @@ class Datatable extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.tool.datatable');
     }
 }

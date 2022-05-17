@@ -1,25 +1,26 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-class Alert extends Component
-{
+class Alert extends Component {
     /**
      * The default icon for each alert theme.
      *
      * @var array
      */
     protected $icons = [
-        'dark'      => 'fas fa-bolt',
-        'light'     => 'far fa-lightbulb',
-        'primary'   => 'fas fa-bell',
+        'dark' => 'fas fa-bolt',
+        'light' => 'far fa-lightbulb',
+        'primary' => 'fas fa-bell',
         'secondary' => 'fas fa-tag',
-        'info'      => 'fas fa-info-circle',
-        'success'   => 'fas fa-check-circle',
-        'warning'   => 'fas fa-exclamation-triangle',
-        'danger'    => 'fas fa-ban',
+        'info' => 'fas fa-info-circle',
+        'success' => 'fas fa-check-circle',
+        'warning' => 'fas fa-exclamation-triangle',
+        'danger' => 'fas fa-ban',
     ];
 
     /**
@@ -77,8 +78,7 @@ class Alert extends Component
      *
      * @return string
      */
-    public function makeAlertClass()
-    {
+    public function makeAlertClass() {
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -99,8 +99,7 @@ class Alert extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.widget.alert');
     }
 }

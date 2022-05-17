@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -11,8 +13,7 @@ use Themes\AdminLTE\Console\PackageResources\ConfigResource;
 use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
 use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
-class AdminLteInstallCommand extends Command
-{
+class AdminLteInstallCommand extends Command {
     /**
      * The name and signature of the console command.
      *
@@ -72,19 +73,18 @@ class AdminLteInstallCommand extends Command
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         parent::__construct();
 
         // Fill the array with the package resources.
 
         $this->pkgResources = [
-            'assets'       => new AssetsResource(),
-            'config'       => new ConfigResource(),
+            'assets' => new AssetsResource(),
+            'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
-            'main_views'   => new MainViewsResource(),
-            'auth_views'   => new AuthViewsResource(),
-            'basic_views'  => new BasicViewsResource(),
+            'main_views' => new MainViewsResource(),
+            'auth_views' => new AuthViewsResource(),
+            'basic_views' => new BasicViewsResource(),
             'basic_routes' => new BasicRoutesResource(),
         ];
 
@@ -95,29 +95,29 @@ class AdminLteInstallCommand extends Command
         $full = array_merge($enhanced, ['basic_views', 'basic_routes']);
 
         $this->optTypeResources = [
-            'basic'    => $basic,
+            'basic' => $basic,
             'enhanced' => $enhanced,
-            'full'     => $full,
+            'full' => $full,
         ];
 
         // Add the resources related to each available --only option.
 
         $this->optOnlyResources = [
-            'assets'       => ['assets'],
-            'config'       => ['config'],
+            'assets' => ['assets'],
+            'config' => ['config'],
             'translations' => ['translations'],
-            'main_views'   => ['main_views'],
-            'auth_views'   => ['auth_views'],
-            'basic_views'  => ['basic_views'],
+            'main_views' => ['main_views'],
+            'auth_views' => ['auth_views'],
+            'basic_views' => ['basic_views'],
             'basic_routes' => ['basic_routes'],
         ];
 
         // Add the resources related to each available --with option.
 
         $this->optWithResources = [
-            'main_views'   => ['main_views'],
-            'auth_views'   => ['auth_views'],
-            'basic_views'  => ['basic_views'],
+            'main_views' => ['main_views'],
+            'auth_views' => ['auth_views'],
+            'basic_views' => ['basic_views'],
             'basic_routes' => ['basic_routes'],
         ];
     }
@@ -127,8 +127,7 @@ class AdminLteInstallCommand extends Command
      *
      * @return void
      */
-    public function handle()
-    {
+    public function handle() {
         // Reset the variable that keep track of the installed packages.
 
         $this->installedResources = [];
@@ -161,13 +160,13 @@ class AdminLteInstallCommand extends Command
     /**
      * Handle multiple option values.
      *
-     * @param  array  $values  An array with the option values
-     * @param  array  $resources  An array with the resources of each option
-     * @param  string  $opt  Descriptive name of the handled option
+     * @param array  $values    An array with the option values
+     * @param array  $resources An array with the resources of each option
+     * @param string $opt       Descriptive name of the handled option
+     *
      * @return void
      */
-    protected function handleOptions($values, $resources, $opt)
-    {
+    protected function handleOptions($values, $resources, $opt) {
         foreach ($values as $value) {
             $this->handleOption($value, $resources, $opt);
         }
@@ -176,13 +175,13 @@ class AdminLteInstallCommand extends Command
     /**
      * Handle an option value.
      *
-     * @param  string  $value  A string with the option value
-     * @param  array  $resources  An array with the resources of each option
-     * @param  string  $opt  Descriptive name of the handled option
+     * @param string $value     A string with the option value
+     * @param array  $resources An array with the resources of each option
+     * @param string $opt       Descriptive name of the handled option
+     *
      * @return void
      */
-    protected function handleOption($value, $resources, $opt)
-    {
+    protected function handleOption($value, $resources, $opt) {
         if (! isset($resources[$value])) {
             $this->comment("The option --{$opt}={$value} is invalid!");
 
@@ -197,13 +196,12 @@ class AdminLteInstallCommand extends Command
     /**
      * Install multiple packages resources.
      *
-     * @param  string  $resources  The resources to install
+     * @param string $resources The resources to install
+     *
      * @return void
      */
-    protected function exportPackageResources(...$resources)
-    {
+    protected function exportPackageResources(...$resources) {
         foreach ($resources as $resource) {
-
             // Check if resource was already installed on the current command
             // execution. This can happen, for example, when using:
             // php artisan --type=full --with=auth_views
@@ -220,11 +218,11 @@ class AdminLteInstallCommand extends Command
     /**
      * Install a package resource.
      *
-     * @param  string  $resource  The keyword of the resource to install
+     * @param string $resource The keyword of the resource to install
+     *
      * @return void
      */
-    protected function exportPackageResource($resource)
-    {
+    protected function exportPackageResource($resource) {
         $resource = $this->pkgResources[$resource];
         $installMsg = $resource->getInstallMessage('install');
         $overwriteMsg = $resource->getInstallMessage('overwrite');

@@ -1,12 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 
-class HrefFilter implements FilterInterface
-{
+class HrefFilter implements FilterInterface {
     /**
      * The url generator instance.
      *
@@ -16,22 +17,19 @@ class HrefFilter implements FilterInterface
 
     /**
      * Constructor.
-     *
-     * @param  UrlGenerator  $urlGenerator
      */
-    public function __construct(UrlGenerator $urlGenerator)
-    {
+    public function __construct(UrlGenerator $urlGenerator) {
         $this->urlGenerator = $urlGenerator;
     }
 
     /**
      * Transforms a menu item. Make the href attribute when situable.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return array The transformed menu item
      */
-    public function transform($item)
-    {
+    public function transform($item) {
         if (! MenuItemHelper::isHeader($item)) {
             $item['href'] = $this->makeHref($item);
         }
@@ -42,11 +40,11 @@ class HrefFilter implements FilterInterface
     /**
      * Make the href attribute for a menu item.
      *
-     * @param  array  $item  A menu item
+     * @param array $item A menu item
+     *
      * @return string The href attribute
      */
-    protected function makeHref($item)
-    {
+    protected function makeHref($item) {
         // If url attribute is available, use it to make the href.
 
         if (isset($item['url'])) {

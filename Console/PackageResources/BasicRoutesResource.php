@@ -1,18 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class BasicRoutesResource extends PackageResource
-{
+class BasicRoutesResource extends PackageResource {
     /**
      * Create a new resource instance.
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The package routes';
@@ -23,9 +23,9 @@ class BasicRoutesResource extends PackageResource
         // Fill the installation messages.
 
         $this->messages = [
-            'install'   => 'Install the basic package routes?',
+            'install' => 'Install the basic package routes?',
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
-            'success'   => 'Basic routes installed successfully.',
+            'success' => 'Basic routes installed successfully.',
         ];
     }
 
@@ -34,8 +34,7 @@ class BasicRoutesResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // If routes already exists, there is no need to install again.
 
         if ($this->exists()) {
@@ -57,8 +56,7 @@ class BasicRoutesResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         $routes = file_get_contents($this->source);
 
         // If the target routes file exists, remove the package routes.
@@ -75,8 +73,7 @@ class BasicRoutesResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         $routes = file_get_contents($this->source);
 
         // First, check if the target routes file exists.
@@ -89,7 +86,7 @@ class BasicRoutesResource extends PackageResource
 
         $targetContent = file_get_contents($this->target);
 
-        return strpos($targetContent, $routes) !== false;
+        return false !== strpos($targetContent, $routes);
     }
 
     /**
@@ -97,8 +94,7 @@ class BasicRoutesResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         return $this->exists();
     }
 }

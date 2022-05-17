@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Form;
 
-class SelectBs extends InputGroupComponent
-{
+class SelectBs extends InputGroupComponent {
     /**
      * The bootstrap-select plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -37,8 +38,7 @@ class SelectBs extends InputGroupComponent
      *
      * @return string
      */
-    public function makeItemClass()
-    {
+    public function makeItemClass() {
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -61,8 +61,7 @@ class SelectBs extends InputGroupComponent
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.form.select-bs');
     }
 }

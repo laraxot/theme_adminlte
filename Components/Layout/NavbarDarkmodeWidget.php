@@ -1,12 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
-class NavbarDarkmodeWidget extends Component
-{
+class NavbarDarkmodeWidget extends Component {
     /**
      * The Font Awesome icon to use when dark mode is disabled.
      *
@@ -67,8 +68,7 @@ class NavbarDarkmodeWidget extends Component
      *
      * @return string
      */
-    public function makeIconClass()
-    {
+    public function makeIconClass() {
         // Use the controller to check if dark mode is enabled.
 
         if ((new DarkModeController())->isEnabled()) {
@@ -87,8 +87,7 @@ class NavbarDarkmodeWidget extends Component
      *
      * @return array
      */
-    public function makeIconDisabledClass()
-    {
+    public function makeIconDisabledClass() {
         $classes = explode(' ', $this->iconDisabled);
 
         if (! empty($this->colorDisabled)) {
@@ -105,8 +104,7 @@ class NavbarDarkmodeWidget extends Component
      *
      * @return array
      */
-    public function makeIconEnabledClass()
-    {
+    public function makeIconEnabledClass() {
         $classes = explode(' ', $this->iconEnabled);
 
         if (! empty($this->colorEnabled)) {
@@ -123,8 +121,7 @@ class NavbarDarkmodeWidget extends Component
      *
      * @return \Illuminate\View\View|string
      */
-    public function render()
-    {
+    public function render() {
         return view('adminlte::components.layout.navbar-darkmode-widget');
     }
 }

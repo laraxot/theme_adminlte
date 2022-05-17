@@ -1,18 +1,18 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-class TranslationsResource extends PackageResource
-{
+class TranslationsResource extends PackageResource {
     /**
      * Create a new resource instance.
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         // Fill the resource data.
 
         $this->description = 'The default package translations files';
@@ -23,9 +23,9 @@ class TranslationsResource extends PackageResource
         // Fill the set of installation messages.
 
         $this->messages = [
-            'install'   => 'Install the package translations files?',
+            'install' => 'Install the package translations files?',
             'overwrite' => 'The translation files already exists. Want to replace the files?',
-            'success'   => 'Translation files installed successfully.',
+            'success' => 'Translation files installed successfully.',
         ];
     }
 
@@ -34,8 +34,7 @@ class TranslationsResource extends PackageResource
      *
      * @return void
      */
-    public function install()
-    {
+    public function install() {
         // Install the translations files.
 
         CommandHelper::copyDirectory($this->source, $this->target, true, true);
@@ -46,8 +45,7 @@ class TranslationsResource extends PackageResource
      *
      * @return void
      */
-    public function uninstall()
-    {
+    public function uninstall() {
         // Uninstall the translation files.
 
         if (is_dir($this->target)) {
@@ -60,8 +58,7 @@ class TranslationsResource extends PackageResource
      *
      * @return bool
      */
-    public function exists()
-    {
+    public function exists() {
         return is_dir($this->target);
     }
 
@@ -70,8 +67,7 @@ class TranslationsResource extends PackageResource
      *
      * @return bool
      */
-    public function installed()
-    {
+    public function installed() {
         return (bool) CommandHelper::compareDirectories(
             $this->source,
             $this->target,
