@@ -1,0 +1,5 @@
+
+https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Other-Configuration
+
+
+https://gist.github.com/karlhillx/89368bfa6a447307cbffc59f4e10b621
