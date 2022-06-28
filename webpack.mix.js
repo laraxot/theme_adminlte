@@ -48,7 +48,8 @@ mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
 */
-
+mix.extract();
+/*
 mix.extract([
     'admin-lte',
     'axios',
@@ -66,8 +67,9 @@ mix.extract([
     //'jasny-bootstrap',
     'moment',
     'nouislider',
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-
+] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
+);
+*/
 //mix.version();
 
 mix.sourceMaps();
