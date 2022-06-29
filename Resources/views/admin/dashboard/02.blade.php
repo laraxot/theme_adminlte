@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+=======
+<<<<<<< HEAD
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+=======
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+>>>>>>> fac8ac6 (.)
+@endsection --}}
+
+
+
+>>>>>>> 49899e0 (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -19,3 +41,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> fac8ac6 (.)
