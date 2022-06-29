@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 3cc23ea (.)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -39,4 +42,7 @@
     DASHBOARD
 @endsection
 >>>>>>> 7306100 (.)
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
+=======
+>>>>>>> 3cc23ea (.)
