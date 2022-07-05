@@ -1,11 +1,12 @@
 @extends('adm_theme::layouts.app')
 @section('content')
+
     @php
     //dddx($profile->getProfile()->customers);
     /*
-        $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
-        $profile->getProfile()->customers()->sync($customer_rnd);
-        */
+                                $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
+                                $profile->getProfile()->customers()->sync($customer_rnd);
+                                */
     //dddx($customer_rnd);
     $customer = $profile->getProfile()->customers->first();
 
@@ -22,7 +23,7 @@
         @foreach ($survey_pdf_first->questionCharts as $question_chart)
             <p>{{ $question_chart->question_txt }}</p>
             <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
-                </x-lime.chart-img>
+            </x-lime.chart-img.v2>
         @endforeach
     @endif
 @endsection
