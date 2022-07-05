@@ -1,6 +1,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
+
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers->first();
     $survey_pdf_first = null;
