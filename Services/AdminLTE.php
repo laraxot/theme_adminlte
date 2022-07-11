@@ -4,19 +4,20 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Modules\Xot\Services\PanelService;
+use Themes\AdminLTE\Menu\Builder;
+use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module;
+use Modules\Xot\Services\PanelService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Themes\AdminLTE\Menu\Builder;
+use Modules\Xot\View\Composers\XotBaseComposer;
 
-class AdminLTE {
+class AdminLTE extends XotBaseComposer { 
     /**
      * The array of menu items.
      *
