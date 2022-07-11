@@ -16,7 +16,8 @@
 
     <div class="wrapper">
 
-          <!-- Preloader -->
+        <!-- Preloader -->
+        {{--
         <div class="preloader">
             <div class="row">
                 <div class="col-md-12 justify-content-center">
@@ -26,6 +27,7 @@
             </div>
             </div>
         </div>
+        --}}
 
 
         {{-- Top Navbar --}}
