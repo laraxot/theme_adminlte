@@ -4,11 +4,12 @@
     @php
     //dddx($profile->getProfile()->customers);
     /*
-                                $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
-                                $profile->getProfile()->customers()->sync($customer_rnd);
-                                */
+                                            $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
+                                            $profile->getProfile()->customers()->sync($customer_rnd);
+                                            */
     //dddx($customer_rnd);
-    $customer = $profile->getProfile()->customers->first();
+    //dddx($profile->getProfile()->customers);
+    $customer = $profile->getProfile()->customers;
 
     $survey_pdf_first = null;
     $question_charts = null;
