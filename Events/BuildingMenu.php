@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Events;
+namespace Themes\KlekooAdm\Events;
 
-use Themes\AdminLTE\Menu\Builder;
+use Themes\KlekooAdm\Menu\Builder;
 
 class BuildingMenu {
     /**

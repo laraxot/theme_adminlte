@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Components\Layout;
+namespace Themes\KlekooAdm\Components\Layout;
 
 use Illuminate\View\Component;
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 class NavbarDarkmodeWidget extends Component {
     /**
