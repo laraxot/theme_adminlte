@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Console;
+namespace Themes\KlekooAdm\Console;
 
 use Illuminate\Console\Command;
-use Themes\AdminLTE\Console\PackageResources\AssetsResource;
-use Themes\AdminLTE\Console\PackageResources\AuthViewsResource;
-use Themes\AdminLTE\Console\PackageResources\BasicRoutesResource;
-use Themes\AdminLTE\Console\PackageResources\BasicViewsResource;
-use Themes\AdminLTE\Console\PackageResources\ConfigResource;
-use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
-use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
+use Themes\KlekooAdm\Console\PackageResources\AssetsResource;
+use Themes\KlekooAdm\Console\PackageResources\AuthViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\BasicRoutesResource;
+use Themes\KlekooAdm\Console\PackageResources\BasicViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\ConfigResource;
+use Themes\KlekooAdm\Console\PackageResources\MainViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\TranslationsResource;
 
 class AdminLteInstallCommand extends Command {
     /**

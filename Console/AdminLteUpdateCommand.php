@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Console;
+namespace Themes\KlekooAdm\Console;
 
 use Illuminate\Console\Command;
 

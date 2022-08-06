@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Console;
+namespace Themes\KlekooAdm\Console;
 
 use Illuminate\Console\Command;
-use Themes\AdminLTE\Console\PackageResources\PluginsResource;
+use Themes\KlekooAdm\Console\PackageResources\PluginsResource;
 
 class AdminLtePluginCommand extends Command {
     /**

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Console\PackageResources;
+namespace Themes\KlekooAdm\Console\PackageResources;
 
-use Themes\AdminLTE\Helpers\CommandHelper;
+use Themes\KlekooAdm\Helpers\CommandHelper;
 
 class PluginsResource extends PackageResource {
     /**

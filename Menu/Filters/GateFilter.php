@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Menu\Filters;
+namespace Themes\KlekooAdm\Menu\Filters;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 

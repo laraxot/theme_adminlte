@@ -13,7 +13,7 @@
         "@fortawesome/fontawesome-free": "^5.15.4",
         "@popperjs/core": "^2.10.2",
         "@tinymce/tinymce-vue": "^4.0.7",
-        "admin-lte": "^3.2.0-rc",
+        "admin-lte": "^3.2.0",
         "axios": "^0.22.0",
         "babel-loader": "^8.2.4",
         "bootstrap": "4.6",

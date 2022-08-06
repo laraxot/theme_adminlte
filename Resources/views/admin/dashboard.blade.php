@@ -2,6 +2,9 @@
 @section('content')
     DASHBOARD
 @endsection --}}
+
+
+
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -13,7 +16,6 @@
 
     <livewire:chart-tile chartClass="{{ Modules\Chart\Charts\ExampleBarChart::class }}" position="a3:a4" />
     {{-- <livewire:dashboard.tile.question-chart position="a3:a4" qid="15" /> --}}
-
 
 
     @livewire('chart-tile', [

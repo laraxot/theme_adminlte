@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Helpers;
+namespace Themes\KlekooAdm\Helpers;
 
 /**
  * TODO: On the future, all menu items should have a type property. We can use
