@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Menu;
+namespace Themes\AdminLTE\Menu;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Http\Request;

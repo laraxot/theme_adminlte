@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Components\Layout;
+namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 

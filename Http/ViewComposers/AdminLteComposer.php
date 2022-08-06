@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Http\ViewComposers;
+namespace Themes\AdminLTE\Http\ViewComposers;
 
 use Illuminate\View\View;
-use Themes\KlekooAdm\AdminLte;
+use Themes\AdminLTE\AdminLte;
 
 class AdminLteComposer {
     /**

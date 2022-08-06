@@ -1,4 +1,4 @@
-@inject('sidebarItemHelper', 'Themes\KlekooAdm\Helpers\SidebarItemHelper')
+@inject('sidebarItemHelper', 'Themes\AdminLTE\Helpers\SidebarItemHelper')
 
 @if ($sidebarItemHelper->isHeader($item))
 

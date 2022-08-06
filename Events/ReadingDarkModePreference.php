@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Events;
+namespace Themes\AdminLTE\Events;
 
-use Themes\KlekooAdm\Http\Controllers\DarkModeController;
+use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
 class ReadingDarkModePreference {
     /**

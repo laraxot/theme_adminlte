@@ -1,4 +1,4 @@
-@inject('navbarItemHelper', 'Themes\KlekooAdm\Helpers\NavbarItemHelper')
+@inject('navbarItemHelper', 'Themes\AdminLTE\Helpers\NavbarItemHelper')
 
 @if ($navbarItemHelper->isSubmenu($item))
 
