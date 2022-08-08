@@ -1,5 +1,6 @@
 @extends('adm_theme::layouts.app')
 @section('content')
+<<<<<<< Updated upstream
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
@@ -7,3 +8,7 @@
         @endforeach
     </div>
 @endsection
+=======
+
+@endsection
+>>>>>>> Stashed changes
