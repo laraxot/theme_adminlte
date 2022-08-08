@@ -1,6 +1,6 @@
 @extends('adm_theme::layouts.plane')
 
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @section('adminlte_css')
     @stack('css')
@@ -17,8 +17,7 @@
     <div class="wrapper">
 
         <!-- Preloader -->
-        {{--
-        <div class="preloader">
+        {{-- <div class="preloader">
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
@@ -26,8 +25,7 @@
                 </div>
             </div>
             </div>
-        </div>
-        --}}
+        </div> --}}
 
 
         {{-- Top Navbar --}}

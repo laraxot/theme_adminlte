@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Menu\Filters;
+namespace Themes\AdminLTE\Menu\Filters;
 
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
+use Themes\AdminLTE\Helpers\NavbarItemHelper;
+use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
 class SearchFilter implements FilterInterface {
     /**

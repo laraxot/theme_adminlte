@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Menu\Filters;
+namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
 

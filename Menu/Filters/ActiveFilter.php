@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Menu\Filters;
+namespace Themes\AdminLTE\Menu\Filters;
 
-use Themes\KlekooAdm\Helpers\MenuItemHelper;
-use Themes\KlekooAdm\Menu\ActiveChecker;
+use Themes\AdminLTE\Helpers\MenuItemHelper;
+use Themes\AdminLTE\Menu\ActiveChecker;
 
 class ActiveFilter implements FilterInterface {
     /**

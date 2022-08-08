@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Http\Controllers;
+namespace Themes\AdminLTE\Http\Controllers;
 
-use Themes\KlekooAdm\Events\DarkModeWasToggled;
+use Themes\AdminLTE\Events\DarkModeWasToggled;
 
 class DarkModeController extends Controller {
     /**

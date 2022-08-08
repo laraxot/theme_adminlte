@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\View\Composers;
+namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
 use Modules\Theme\View\Composers\XotBaseComposer;
-use Themes\KlekooAdm\Services\AdminLTE;
+use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
     /**

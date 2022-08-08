@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Console\PackageResources;
+namespace Themes\AdminLTE\Console\PackageResources;
 
-use Themes\KlekooAdm\Helpers\CommandHelper;
+use Themes\AdminLTE\Helpers\CommandHelper;
 
 class BasicRoutesResource extends PackageResource {
     /**
