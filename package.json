@@ -40,7 +40,7 @@
         "sass-loader": "^12.1.0",
         "select2": "^4.1.0-rc.0",
         "select2-theme-bootstrap4": "^1.0.0",
-        "sweetalert2": "^11.3.3",
+        "sweetalert2": "^11.4.29",
         "tether": "^2.0.0",
         "tinymce": "^6.0.1",
         "url-loader": "^4.1.1",

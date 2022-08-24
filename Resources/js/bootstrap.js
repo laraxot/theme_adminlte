@@ -37,7 +37,7 @@ try {
 
     require('admin-lte');
 
-    window.Swal = Swal = require('sweetalert2');
+    window.Swal = global.Swal = require('sweetalert2');
 
     window.noUiSlider = require('nouislider');
 
