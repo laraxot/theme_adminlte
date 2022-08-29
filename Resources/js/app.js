@@ -6,7 +6,7 @@
 
 require('./bootstrap');
 
-require('./myvue3');
+//require('./myvue3');
 
 //import videojs from 'video.js'
 /*

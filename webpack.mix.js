@@ -29,6 +29,8 @@ let mix = require('laravel-mix');
  |
  */
 
+ require('laravel-mix-purgecss');
+
 mix.autoload({
     //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
     jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
@@ -43,6 +45,10 @@ mix.setPublicPath('Resources/dist');
 mix.js('Resources/js/app.js', 'Resources/dist/js').vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
+
+mix.purgeCss({
+    enabled: false,
+});
 
 /*
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
