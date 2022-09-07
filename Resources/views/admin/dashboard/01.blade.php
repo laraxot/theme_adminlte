@@ -1,5 +1,8 @@
 @extends('adm_theme::layouts.app')
 @section('content')
+    @php
+        //dddx($profile);
+    @endphp
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
