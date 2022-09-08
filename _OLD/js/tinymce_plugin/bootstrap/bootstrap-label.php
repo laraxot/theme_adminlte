@@ -1,8 +1,7 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
-function siteURL()
-{
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+function siteURL() {
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;
@@ -11,21 +10,21 @@ define('SITE_URL', siteURL());
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['edit'])) {
     $newLabel = false;
-    $labelStyle  = '';
-    $labelText  = '';
-    $labelCode  = '';
+    $labelStyle = '';
+    $labelText = '';
+    $labelCode = '';
 } else {
     $newLabel = true;
-    $labelStyle  = 'label-primary';
-    $labelText  = NEW_CONST;
-    $labelCode  = '<span class="label label-primary">' . NEW_CONST . '</span>';
+    $labelStyle = 'label-primary';
+    $labelText = NEW_CONST;
+    $labelCode = '<span class="label label-primary">'.NEW_CONST.'</span>';
 }
 ?>
 <!DOCTYPE html>
@@ -82,7 +81,7 @@ if (isset($_GET['edit'])) {
                 <span class="label-primary"><?php echo PREVIEW; ?></span>
             </div>
             <div class="col-sm-12 margin-bottom-md text-center" id="test-wrapper">
-                <?php echo $labelCode ?>
+                <?php echo $labelCode; ?>
             </div>
         </div>
         <div class="row">

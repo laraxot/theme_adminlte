@@ -59,8 +59,12 @@ class Options extends Component {
      * Create a new component instance.
      */
     public function __construct(
-        $options, $selected = null, $disabled = null,
-        $strict = null, $emptyOption = null, $placeholder = null
+        $options,
+        $selected = null,
+        $disabled = null,
+        $strict = null,
+        $emptyOption = null,
+        $placeholder = null
     ) {
         $this->options = Arr::wrap($options);
         $this->selected = Arr::wrap($selected);

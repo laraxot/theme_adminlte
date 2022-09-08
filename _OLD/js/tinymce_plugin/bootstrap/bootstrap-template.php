@@ -1,10 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }

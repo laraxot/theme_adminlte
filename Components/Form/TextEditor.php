@@ -22,13 +22,27 @@ class TextEditor extends InputGroupComponent {
      * @return void
      */
     public function __construct(
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
-        $errorKey = null, $config = []
+        $name,
+        $id = null,
+        $label = null,
+        $igroupSize = null,
+        $labelClass = null,
+        $fgroupClass = null,
+        $igroupClass = null,
+        $disableFeedback = null,
+        $errorKey = null,
+        $config = []
     ) {
         parent::__construct(
-            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
-            $igroupClass, $disableFeedback, $errorKey
+            $name,
+            $id,
+            $label,
+            $igroupSize,
+            $labelClass,
+            $fgroupClass,
+            $igroupClass,
+            $disableFeedback,
+            $errorKey
         );
 
         $this->config = is_array($config) ? $config : [];

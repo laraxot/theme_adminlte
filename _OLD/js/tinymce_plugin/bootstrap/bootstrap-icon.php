@@ -1,23 +1,23 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['glyphicon'])) {
     $glyphicon = urldecode($_GET['glyphicon']);
-    $iconSize  = urldecode($_GET['iconSize']);
+    $iconSize = urldecode($_GET['iconSize']);
     $iconColor = urldecode($_GET['iconColor']);
-    $iconCode  = '<span class="glyphicon ' . $glyphicon . '" id="icon-test" style="font-size:' . $iconSize . ';color:' . $iconColor . '"></span>';
+    $iconCode = '<span class="glyphicon '.$glyphicon.'" id="icon-test" style="font-size:'.$iconSize.';color:'.$iconColor.'"></span>';
 } else {
     $glyphicon = 'glyphicon-home';
-    $iconSize  = false;
+    $iconSize = false;
     $iconColor = false;
-    $iconCode  = '<span class="glyphicon glyphicon-home" id="icon-test"></span>';
+    $iconCode = '<span class="glyphicon glyphicon-home" id="icon-test"></span>';
 }
 ?>
 <!DOCTYPE html>
@@ -105,7 +105,7 @@ if (isset($_GET['glyphicon'])) {
             <div class="col-sm-12 text-center" id="code-wrapper">
                 <pre><?php
                     echo htmlspecialchars($iconCode);
-                    ?></pre>
+?></pre>
             </div>
         </div>
     </div>

@@ -1,8 +1,7 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
-function siteURL()
-{
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+function siteURL() {
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;
@@ -11,17 +10,17 @@ define('SITE_URL', siteURL());
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['edit'])) {
     $newBreadcrumb = false;
-    $breadcrumbCode  = '';
+    $breadcrumbCode = '';
 } else {
     $newBreadcrumb = true;
-    $breadcrumbCode  = '<ol class="breadcrumb"><li><a href="' . SITE_URL . '"><span class="glyphicon glyphicon-home"></span></a></li><li><a href="' . SITE_URL . '/content.php">content</a></li><li class="active">page</li></ol>';
+    $breadcrumbCode = '<ol class="breadcrumb"><li><a href="'.SITE_URL.'"><span class="glyphicon glyphicon-home"></span></a></li><li><a href="'.SITE_URL.'/content.php">content</a></li><li class="active">page</li></ol>';
 }
 ?>
 <!DOCTYPE html>
@@ -99,7 +98,7 @@ if (isset($_GET['edit'])) {
                 <span class="btn-primary"><?php echo PREVIEW; ?></span>
             </div>
             <div class="col-sm-12 margin-bottom-md" id="test-wrapper">
-                <?php echo $breadcrumbCode ?>
+                <?php echo $breadcrumbCode; ?>
             </div>
         </div>
         <div class="row">

@@ -83,9 +83,15 @@ class Card extends Component {
      * @return void
      */
     public function __construct(
-        $title = null, $icon = null, $theme = null, $themeMode = null,
-        $bodyClass = null, $disabled = null, $collapsible = null,
-        $removable = null, $maximizable = null
+        $title = null,
+        $icon = null,
+        $theme = null,
+        $themeMode = null,
+        $bodyClass = null,
+        $disabled = null,
+        $collapsible = null,
+        $removable = null,
+        $maximizable = null
     ) {
         $this->title = $title;
         $this->icon = $icon;

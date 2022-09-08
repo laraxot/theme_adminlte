@@ -26,13 +26,28 @@ class InputFile extends InputGroupComponent {
      * @return void
      */
     public function __construct(
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
-        $errorKey = null, $placeholder = '', $legend = null
+        $name,
+        $id = null,
+        $label = null,
+        $igroupSize = null,
+        $labelClass = null,
+        $fgroupClass = null,
+        $igroupClass = null,
+        $disableFeedback = null,
+        $errorKey = null,
+        $placeholder = '',
+        $legend = null
     ) {
         parent::__construct(
-            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
-            $igroupClass, $disableFeedback, $errorKey
+            $name,
+            $id,
+            $label,
+            $igroupSize,
+            $labelClass,
+            $fgroupClass,
+            $igroupClass,
+            $disableFeedback,
+            $errorKey
         );
 
         $this->legend = $legend;

@@ -1,8 +1,7 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
-function siteURL()
-{
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+function siteURL() {
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;
@@ -11,17 +10,17 @@ define('SITE_URL', siteURL());
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['edit'])) {
     $newPagination = false;
-    $paginationCode  = '';
+    $paginationCode = '';
 } else {
     $newPagination = true;
-    $paginationCode  = '<ul class="pagination"><li><a href="' . SITE_URL . '">&laquo;</a></li><li class="active"><a href="' . SITE_URL . '/page-1.html">1</a></li><li><a href="' . SITE_URL . '/page-2.html">2</a></li><li><a href="' . SITE_URL . '/page-3.html">3</a></li><li><a href="' . SITE_URL . '/page-4.html">4</a></li><li><a href="' . SITE_URL . '/page-5.html">5</a></li><li><a href="' . SITE_URL . '/page-5.html">&raquo;</a></li></ul>';
+    $paginationCode = '<ul class="pagination"><li><a href="'.SITE_URL.'">&laquo;</a></li><li class="active"><a href="'.SITE_URL.'/page-1.html">1</a></li><li><a href="'.SITE_URL.'/page-2.html">2</a></li><li><a href="'.SITE_URL.'/page-3.html">3</a></li><li><a href="'.SITE_URL.'/page-4.html">4</a></li><li><a href="'.SITE_URL.'/page-5.html">5</a></li><li><a href="'.SITE_URL.'/page-5.html">&raquo;</a></li></ul>';
 }
 ?>
 <!DOCTYPE html>
@@ -253,7 +252,7 @@ if (isset($_GET['edit'])) {
                 <span class="btn-primary"><?php echo PREVIEW; ?></span>
             </div>
             <div class="col-sm-12 margin-bottom-md" id="test-wrapper">
-                <?php echo $paginationCode ?>
+                <?php echo $paginationCode; ?>
             </div>
         </div>
         <div class="row">

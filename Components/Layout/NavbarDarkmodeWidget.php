@@ -42,8 +42,10 @@ class NavbarDarkmodeWidget extends Component {
      * @return void
      */
     public function __construct(
-        $iconDisabled = null, $iconEnabled = null,
-        $colorDisabled = null, $colorEnabled = null
+        $iconDisabled = null,
+        $iconEnabled = null,
+        $colorDisabled = null,
+        $colorEnabled = null
     ) {
         // Setup the icon to use when dark mode is disabled.
 

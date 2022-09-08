@@ -78,8 +78,14 @@ class NavbarNotification extends Component {
      * @return void
      */
     public function __construct(
-        $id, $icon, $iconColor = null, $badgeLabel = null, $badgeColor = null,
-        $updateCfg = [], $enableDropdownMode = false, $dropdownFooterLabel = null
+        $id,
+        $icon,
+        $iconColor = null,
+        $badgeLabel = null,
+        $badgeColor = null,
+        $updateCfg = [],
+        $enableDropdownMode = false,
+        $dropdownFooterLabel = null
     ) {
         $this->id = $id;
         $this->icon = $icon;

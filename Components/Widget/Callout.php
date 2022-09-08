@@ -42,7 +42,10 @@ class Callout extends Component {
      * @return void
      */
     public function __construct(
-        $theme = null, $icon = null, $title = null, $titleClass = null
+        $theme = null,
+        $icon = null,
+        $title = null,
+        $titleClass = null
     ) {
         $this->theme = $theme;
         $this->icon = $icon;

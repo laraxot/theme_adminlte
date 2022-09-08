@@ -1,33 +1,33 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['tableStriped'])) {
-    $newTable        = 'false';
-    $tableRows       = "''";
-    $tableCols       = "''";
-    $tableStriped    = urldecode($_GET['tableStriped']);
-    $tableBordered   = urldecode($_GET['tableBordered']);
-    $tableHover      = urldecode($_GET['tableHover']);
-    $tableCondensed  = urldecode($_GET['tableCondensed']);
+    $newTable = 'false';
+    $tableRows = "''";
+    $tableCols = "''";
+    $tableStriped = urldecode($_GET['tableStriped']);
+    $tableBordered = urldecode($_GET['tableBordered']);
+    $tableHover = urldecode($_GET['tableHover']);
+    $tableCondensed = urldecode($_GET['tableCondensed']);
     $tableResponsive = urldecode($_GET['tableResponsive']);
-    $tableCode       = "''";
+    $tableCode = "''";
 } else {
-    $newTable        = 'true';
-    $tableRows       = 5;
-    $tableCols       = 5;
-    $tableStriped    = 'false';
-    $tableBordered   = 'false';
-    $tableHover      = 'false';
-    $tableCondensed  = 'false';
+    $newTable = 'true';
+    $tableRows = 5;
+    $tableCols = 5;
+    $tableStriped = 'false';
+    $tableBordered = 'false';
+    $tableHover = 'false';
+    $tableCondensed = 'false';
     $tableResponsive = 'false';
-    $tableCode       = "''";
+    $tableCode = "''";
 }
 ?>
 <!DOCTYPE html>

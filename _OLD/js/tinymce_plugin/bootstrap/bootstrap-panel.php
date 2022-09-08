@@ -1,8 +1,7 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
-function siteURL()
-{
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+function siteURL() {
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;
@@ -11,29 +10,29 @@ define('SITE_URL', siteURL());
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['edit'])) {
-    $newPanel            = false;
-    $panelHeading        = '';
+    $newPanel = false;
+    $panelHeading = '';
     $panelHeadingContent = '';
-    $panelBodyContent    = '';
-    $panelFooter         = '';
-    $panelFooterContent  = '';
-    $panelStyle          = '';
-    $panelCode           = '';
+    $panelBodyContent = '';
+    $panelFooter = '';
+    $panelFooterContent = '';
+    $panelStyle = '';
+    $panelCode = '';
 } else {
-    $newPanel            = true;
-    $panelHeading        = true;
-    $panelHeadingContent = '<h3 class="panel-title">' . PANEL_TITLE . '</h3>';
-    $panelBodyContent    = '<p>' . PANEL_CONTENT . '</p>';
-    $panelFooter         = false;
-    $panelFooterContent  = '';
-    $panelStyle          = 'panel-primary';
-    $panelCode           = '<div class="panel panel-primary"><div class="panel-heading"><h3 class="panel-title">' . PANEL_TITLE . '</h3></div><div class="panel-body"><p>' . PANEL_CONTENT . '</p></div></div>';
+    $newPanel = true;
+    $panelHeading = true;
+    $panelHeadingContent = '<h3 class="panel-title">'.PANEL_TITLE.'</h3>';
+    $panelBodyContent = '<p>'.PANEL_CONTENT.'</p>';
+    $panelFooter = false;
+    $panelFooterContent = '';
+    $panelStyle = 'panel-primary';
+    $panelCode = '<div class="panel panel-primary"><div class="panel-heading"><h3 class="panel-title">'.PANEL_TITLE.'</h3></div><div class="panel-body"><p>'.PANEL_CONTENT.'</p></div></div>';
 }
 ?>
 <!DOCTYPE html>
@@ -133,7 +132,7 @@ if (isset($_GET['edit'])) {
                 <span class="label-primary"><?php echo PREVIEW; ?></span>
             </div>
             <div class="col-sm-12 margin-bottom-md" id="test-wrapper">
-                <?php echo $panelCode ?>
+                <?php echo $panelCode; ?>
             </div>
         </div>
         <div class="row">

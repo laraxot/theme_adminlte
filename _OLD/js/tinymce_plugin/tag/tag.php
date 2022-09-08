@@ -1,20 +1,20 @@
-<?php
-if (!session_id()) {
+<?php declare(strict_types=1);
+if (! session_id()) {
     session_start();
 }
 
 $lingua = 4;
 if (isset($_SESSION['lingua'])) {
-    $lingua=$_SESSION['lingua'];
+    $lingua = $_SESSION['lingua'];
 }
 
-require_once $_SERVER['DOCUMENT_ROOT']."/adminpath.php";
-require_once adminpath."/inc/lib.php";
-require_once "./libtag.php";
+require_once $_SERVER['DOCUMENT_ROOT'].'/adminpath.php';
+require_once adminpath.'/inc/lib.php';
+require_once './libtag.php';
 
-$type='News';
+$type = 'News';
 if (isset($_GET['type'])) {
-    $type=$_GET['type'];
+    $type = $_GET['type'];
 }
 
 ?>
@@ -59,41 +59,41 @@ if (isset($_GET['type'])) {
 									<td colspan=2">
 										<ul>
 										<?php
-                                            $arType=array('News','Foto','link','Lista Pagine','Form');
-                                            $arTypeLabel=array('News','Foto','link','Lista Pagine','Form');
-                                            
-                                            //if(isset($_SESSION['DOC']) and $_SESSION['DOC'])$arType[]='Documenti';
-                                            
-                                            if (isset($_SESSION['REG_EVENTI']) and $_SESSION['REG_EVENTI']) {
-                                                $arType[]='ModuliRegistrazioneEventi';
-                                                $arTypeLabel[]='Moduli di Registrazione Eventi';
-                                            }
-                                            
-                                            if (isset($_SESSION['CLASSIFICATION_PAGE']) and $_SESSION['CLASSIFICATION_PAGE']) {
-                                                $arType[]='ClassificazionePagine';
-                                                $arTypeLabel[]='Classificazione Pagine';
-                                            }
-                                            if (isset($_SESSION['MAKE_CLASSIFICATION_PAGE']) and $_SESSION['MAKE_CLASSIFICATION_PAGE']) {
-                                                $arType[]='Crea_ClassificazionePagine';
-                                                $arTypeLabel[]='Crea tag per Classificazione Pagine';
-                                            }
-                                            if (isset($_SESSION['CLASSIFICATION_DOC']) and $_SESSION['CLASSIFICATION_DOC']) {
-                                                $arType[]='ClassificazioneDocumenti';
-                                                $arTypeLabel[]='Classificazione Documenti';
-                                            }
-                                            if (isset($_SESSION['MAKE_CLASSIFICATION_DOC']) and $_SESSION['MAKE_CLASSIFICATION_DOC']) {
-                                                $arType[]='Crea_ClassificazioneDocumenti';
-                                                $arTypeLabel[]='Crea tag per Classificazione Documenti';
-                                            }
-                                        
-                                            for ($i=0;$i<sizeof($arType);$i++) {
-                                                if ($arType[$i]==$type) {
-                                                    echo '<li>Categoria: <strong>'.$arTypeLabel[$i].'</strong></li>';
-                                                } else {
-                                                    echo '<li><a href="tag.php?type='.$arType[$i].'">Categoria: <font color=blue>'.$arTypeLabel[$i].'</font></a></li>';
-                                                }
-                                            }
-                                        ?>
+                                            $arType = ['News', 'Foto', 'link', 'Lista Pagine', 'Form'];
+$arTypeLabel = ['News', 'Foto', 'link', 'Lista Pagine', 'Form'];
+
+// if(isset($_SESSION['DOC']) and $_SESSION['DOC'])$arType[]='Documenti';
+
+if (isset($_SESSION['REG_EVENTI']) and $_SESSION['REG_EVENTI']) {
+    $arType[] = 'ModuliRegistrazioneEventi';
+    $arTypeLabel[] = 'Moduli di Registrazione Eventi';
+}
+
+if (isset($_SESSION['CLASSIFICATION_PAGE']) and $_SESSION['CLASSIFICATION_PAGE']) {
+    $arType[] = 'ClassificazionePagine';
+    $arTypeLabel[] = 'Classificazione Pagine';
+}
+if (isset($_SESSION['MAKE_CLASSIFICATION_PAGE']) and $_SESSION['MAKE_CLASSIFICATION_PAGE']) {
+    $arType[] = 'Crea_ClassificazionePagine';
+    $arTypeLabel[] = 'Crea tag per Classificazione Pagine';
+}
+if (isset($_SESSION['CLASSIFICATION_DOC']) and $_SESSION['CLASSIFICATION_DOC']) {
+    $arType[] = 'ClassificazioneDocumenti';
+    $arTypeLabel[] = 'Classificazione Documenti';
+}
+if (isset($_SESSION['MAKE_CLASSIFICATION_DOC']) and $_SESSION['MAKE_CLASSIFICATION_DOC']) {
+    $arType[] = 'Crea_ClassificazioneDocumenti';
+    $arTypeLabel[] = 'Crea tag per Classificazione Documenti';
+}
+
+for ($i = 0; $i < sizeof($arType); ++$i) {
+    if ($arType[$i] == $type) {
+        echo '<li>Categoria: <strong>'.$arTypeLabel[$i].'</strong></li>';
+    } else {
+        echo '<li><a href="tag.php?type='.$arType[$i].'">Categoria: <font color=blue>'.$arTypeLabel[$i].'</font></a></li>';
+    }
+}
+?>
 										</ul>
 									</td> 
 								</tr>

@@ -70,8 +70,13 @@ class Progress extends Component {
      * @return void
      */
     public function __construct(
-        $value = 0, $theme = 'info', $size = null, $striped = null,
-        $vertical = null, $animated = null, $withLabel = null
+        $value = 0,
+        $theme = 'info',
+        $size = null,
+        $striped = null,
+        $vertical = null,
+        $animated = null,
+        $withLabel = null
     ) {
         // Control and setup the value property.
 

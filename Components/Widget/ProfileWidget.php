@@ -72,8 +72,14 @@ class ProfileWidget extends Component {
      * @return void
      */
     public function __construct(
-        $name = null, $desc = null, $img = null, $theme = null, $cover = null,
-        $headerClass = null, $footerClass = null, $layoutType = 'modern'
+        $name = null,
+        $desc = null,
+        $img = null,
+        $theme = null,
+        $cover = null,
+        $headerClass = null,
+        $footerClass = null,
+        $layoutType = 'modern'
     ) {
         $this->name = $name;
         $this->desc = $desc;

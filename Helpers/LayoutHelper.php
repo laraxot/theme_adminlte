@@ -149,7 +149,9 @@ class LayoutHelper {
         foreach ($cfg as $breakpoint => $enabled) {
             if (in_array($breakpoint, self::$screenBreakpoints)) {
                 $classes[] = self::makeFixedResponsiveClass(
-                    $section, $breakpoint, $enabled
+                    $section,
+                    $breakpoint,
+                    $enabled
                 );
             }
         }
@@ -195,7 +197,7 @@ class LayoutHelper {
 
         if (in_array($sidebarMiniCfg, self::$sidebarMiniValues)) {
             $suffix = 'lg' === $sidebarMiniCfg ? '' : "-{$sidebarMiniCfg}";
-            $classes[] = "sidebar-mini${suffix}";
+            $classes[] = "sidebar-mini{$suffix}";
         }
 
         // Add classes related to the "sidebar_collapse" configuration.

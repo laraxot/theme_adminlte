@@ -58,7 +58,10 @@ class Alert extends Component {
      * @return void
      */
     public function __construct(
-        $theme = null, $icon = null, $title = null, $dismissable = null
+        $theme = null,
+        $icon = null,
+        $title = null,
+        $dismissable = null
     ) {
         $this->theme = $theme;
         $this->icon = $icon;

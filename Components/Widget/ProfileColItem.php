@@ -59,8 +59,12 @@ class ProfileColItem extends Component {
      * @return void
      */
     public function __construct(
-        $title = null, $text = null, $icon = null, $size = 4,
-        $badge = null, $url = null
+        $title = null,
+        $text = null,
+        $icon = null,
+        $size = 4,
+        $badge = null,
+        $url = null
     ) {
         $this->title = $title;
         $this->text = $text;

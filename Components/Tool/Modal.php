@@ -86,8 +86,14 @@ class Modal extends Component {
      * @return void
      */
     public function __construct(
-        $id, $title = null, $icon = null, $size = null, $theme = null,
-        $vCentered = null, $scrollable = null, $staticBackdrop = null,
+        $id,
+        $title = null,
+        $icon = null,
+        $size = null,
+        $theme = null,
+        $vCentered = null,
+        $scrollable = null,
+        $staticBackdrop = null,
         $disableAnimations = null
     ) {
         $this->id = $id;

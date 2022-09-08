@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 
 /* images path for file browser */
@@ -9,72 +9,71 @@ $current_path = parse_url($_SERVER['HTTP_REFERER']);
 $img_path = ''; // default
 if (preg_match('`^/`', $img_dir)) { // absolute url sended
     $img_path = $img_dir;
-    if (!preg_match('`/$`', $img_dir)) { // add final slash if needed
+    if (! preg_match('`/$`', $img_dir)) { // add final slash if needed
         $img_path .= '/';
     }
 }
-if (!is_file($_SERVER['DOCUMENT_ROOT'] . $img_path . 'secure.php')) {
+if (! is_file($_SERVER['DOCUMENT_ROOT'].$img_path.'secure.php')) {
     $security_msg = '<body><div class="container"><p>&nbsp;</p><p class="alert alert-danger">Your images dir is not authorized.</p><p class="text-center">Please create an empty file named <i>secure.php</i> and save it into your images directory to allow access.</p></div><body>';
 }
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['imgSrc'])) {
-    $imgSrc        = urldecode($_GET['imgSrc']);
-    $imgAlt        = urldecode($_GET['imgAlt']);
-    $imgWidth      = urldecode($_GET['imgWidth']);
-    $imgHeight     = urldecode($_GET['imgHeight']);
-    $imgStyle      = urldecode($_GET['imgStyle']);
+    $imgSrc = urldecode($_GET['imgSrc']);
+    $imgAlt = urldecode($_GET['imgAlt']);
+    $imgWidth = urldecode($_GET['imgWidth']);
+    $imgHeight = urldecode($_GET['imgHeight']);
+    $imgStyle = urldecode($_GET['imgStyle']);
     $imgResponsive = urldecode($_GET['imgResponsive']);
-    $imgCode       = build_image();
+    $imgCode = build_image();
 } else {
-    $imgSrc        = str_replace('bootstrap-image.php', '', $_SERVER['SCRIPT_NAME']) . 'img/tinymce-bootstrap-plugin-small-preview.png';
-    $imgAlt        = '';
-    $imgWidth      = '';
-    $imgHeight     = '';
-    $imgStyle      = '';
+    $imgSrc = str_replace('bootstrap-image.php', '', $_SERVER['SCRIPT_NAME']).'img/tinymce-bootstrap-plugin-small-preview.png';
+    $imgAlt = '';
+    $imgWidth = '';
+    $imgHeight = '';
+    $imgStyle = '';
     $imgResponsive = 'false';
-    $imgCode       = build_image();
+    $imgCode = build_image();
 }
 
-function build_image()
-{
+function build_image() {
     global $imgSrc;
     global $imgAlt;
     global $imgWidth;
     global $imgHeight;
     global $imgStyle;
     global $imgResponsive;
-    if (is_file($imgSrc) || is_file($_SERVER['DOCUMENT_ROOT'] . $imgSrc)) {
+    if (is_file($imgSrc) || is_file($_SERVER['DOCUMENT_ROOT'].$imgSrc)) {
         $info = new SplFileInfo($imgSrc);
         if (preg_match('`jpg|jpeg|png|gif`', strtolower($info))) {
-            $img = '<img src="' . $imgSrc . '"';
-            if (!empty($imgWidth)) {
-                $img .= ' width="' . $imgWidth . '"';
+            $img = '<img src="'.$imgSrc.'"';
+            if (! empty($imgWidth)) {
+                $img .= ' width="'.$imgWidth.'"';
             }
-            if (!empty($imgHeight)) {
-                $img .= ' height="' . $imgHeight . '"';
+            if (! empty($imgHeight)) {
+                $img .= ' height="'.$imgHeight.'"';
             }
             $imgClass = '';
-            if (!empty($imgStyle)) {
+            if (! empty($imgStyle)) {
                 $imgClass .= $imgStyle;
             }
-            if ($imgResponsive !== 'false') {
+            if ('false' !== $imgResponsive) {
                 if (empty($imgClass)) {
                     $imgClass = 'img-responsive';
                 } else {
                     $imgClass .= ' img-responsive';
                 }
             }
-            if (!empty($imgClass)) {
-                $img .= ' class="' . $imgClass . '"';
+            if (! empty($imgClass)) {
+                $img .= ' class="'.$imgClass.'"';
             }
-            $img .= ' alt="' . $imgAlt . '"';
+            $img .= ' alt="'.$imgAlt.'"';
             $img .= ' />';
 
             return $img;
@@ -192,7 +191,7 @@ function build_image()
             <div class="col-sm-12 text-center" id="code-wrapper">
                 <pre><?php
                     echo htmlspecialchars($imgCode);
-                    ?></pre>
+?></pre>
             </div>
         </div>
     </div>
@@ -345,7 +344,7 @@ function build_image()
                     });
                 break;
                 default:
-                $('#image-file-preview').html('<p class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><?php echo PLEASE_CHOOSE_AN_IMAGE ?></p>');
+                $('#image-file-preview').html('<p class="alert alert-danger alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><?php echo PLEASE_CHOOSE_AN_IMAGE; ?></p>');
                 $('#image-file-preview').find('.btn-primary').attr('disabled');
                 break;
             }

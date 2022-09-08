@@ -65,8 +65,13 @@ class SmallBox extends Component {
      * @return void
      */
     public function __construct(
-        $title = null, $text = null, $icon = null, $theme = null,
-        $url = null, $urlText = null, $loading = null
+        $title = null,
+        $text = null,
+        $icon = null,
+        $theme = null,
+        $url = null,
+        $urlText = null,
+        $loading = null
     ) {
         $this->title = $title;
         $this->text = $text;

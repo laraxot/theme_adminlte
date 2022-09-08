@@ -114,10 +114,19 @@ class Datatable extends Component {
      * @return void
      */
     public function __construct(
-        $id, $heads, $theme = null, $headTheme = null, $bordered = null,
-        $hoverable = null, $striped = null, $compressed = null,
-        $withFooter = null, $footerTheme = null, $beautify = null,
-        $withButtons = null, $config = []
+        $id,
+        $heads,
+        $theme = null,
+        $headTheme = null,
+        $bordered = null,
+        $hoverable = null,
+        $striped = null,
+        $compressed = null,
+        $withFooter = null,
+        $footerTheme = null,
+        $beautify = null,
+        $withButtons = null,
+        $config = []
     ) {
         $this->id = $id;
         $this->heads = $heads;

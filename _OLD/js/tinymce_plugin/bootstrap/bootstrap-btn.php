@@ -1,33 +1,33 @@
-<?php
+<?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 
 /* language */
 
-if (file_exists('langs/' . $_GET['language'] . '.php')) {
-    require_once 'langs/' . $_GET['language'] . '.php';
+if (file_exists('langs/'.$_GET['language'].'.php')) {
+    require_once 'langs/'.$_GET['language'].'.php';
 } else { // default
     require_once 'langs/en_EN.php';
 }
 if (isset($_GET['btnCode'])) {
-    $btnCode  = urldecode($_GET['btnCode']);
-    $btnIcon  = urldecode($_GET['btnIcon']);
+    $btnCode = urldecode($_GET['btnCode']);
+    $btnIcon = urldecode($_GET['btnIcon']);
     $btnStyle = urldecode($_GET['btnStyle']);
-    $btnSize  = urldecode($_GET['btnSize']);
-    $btnTag   = urldecode($_GET['btnTag']);
-    $btnHref  = urldecode($_GET['btnHref']);
-    $btnType  = urldecode($_GET['btnType']);
-    $btnText  = urldecode($_GET['btnText']);
-    $iconPos  = urldecode($_GET['iconPos']);
+    $btnSize = urldecode($_GET['btnSize']);
+    $btnTag = urldecode($_GET['btnTag']);
+    $btnHref = urldecode($_GET['btnHref']);
+    $btnType = urldecode($_GET['btnType']);
+    $btnText = urldecode($_GET['btnText']);
+    $iconPos = urldecode($_GET['iconPos']);
 } else {
-    $btnCode  = '<button type="button" class="btn btn-primary" id="btn-test">' . MY_FANTASTIC_BUTTON . '</button>';
-    $btnIcon  = 'glyphicon-none';
+    $btnCode = '<button type="button" class="btn btn-primary" id="btn-test">'.MY_FANTASTIC_BUTTON.'</button>';
+    $btnIcon = 'glyphicon-none';
     $btnStyle = 'btn-primary';
-    $btnSize  = '';
-    $btnTag   = 'button';
-    $btnHref  = '#';
-    $btnType  = 'button';
-    $btnText  = MY_FANTASTIC_BUTTON;
-    $iconPos  = 'prepend';
+    $btnSize = '';
+    $btnTag = 'button';
+    $btnHref = '#';
+    $btnType = 'button';
+    $btnText = MY_FANTASTIC_BUTTON;
+    $iconPos = 'prepend';
 }
 ?>
 <!DOCTYPE html>
@@ -178,7 +178,7 @@ if (isset($_GET['btnCode'])) {
                 <span class="btn-primary"><?php echo PREVIEW; ?></span>
             </div>
             <div class="col-sm-12 text-center margin-bottom-md" id="test-wrapper">
-                <?php echo $btnCode ?>
+                <?php echo $btnCode; ?>
             </div>
         </div>
         <div class="row">
@@ -188,7 +188,7 @@ if (isset($_GET['btnCode'])) {
             <div class="col-sm-12" id="code-wrapper">
                 <pre><?php
                     echo htmlspecialchars($btnCode);
-                    ?></pre>
+?></pre>
             </div>
         </div>
     </div>

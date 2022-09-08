@@ -73,8 +73,13 @@ class InfoBox extends Component {
      * @return void
      */
     public function __construct(
-        $title = null, $text = null, $icon = null, $description = null,
-        $theme = null, $iconTheme = null, $progress = null,
+        $title = null,
+        $text = null,
+        $icon = null,
+        $description = null,
+        $theme = null,
+        $iconTheme = null,
+        $progress = null,
         $progressTheme = 'white'
     ) {
         $this->title = $title;

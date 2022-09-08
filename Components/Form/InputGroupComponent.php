@@ -84,8 +84,14 @@ class InputGroupComponent extends Component {
      * @return void
      */
     public function __construct(
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+        $name,
+        $id = null,
+        $label = null,
+        $igroupSize = null,
+        $labelClass = null,
+        $fgroupClass = null,
+        $igroupClass = null,
+        $disableFeedback = null,
         $errorKey = null
     ) {
         $this->id = $id ?? $name;
