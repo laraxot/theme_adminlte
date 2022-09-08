@@ -6,6 +6,7 @@ Theme::add('adm_theme::dist/js/custom.js', 4);
 @endphp
 
 @livewireScripts
+
 {!! Theme::showScripts(false) !!}
 
 @stack('scripts')
