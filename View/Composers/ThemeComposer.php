@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
-use Modules\Theme\View\Composers\XotBaseComposer;
+use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
