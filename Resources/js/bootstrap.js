@@ -57,6 +57,8 @@ try {
     //flatpickr.localize(Italian);
     //require("flatpickr/dist/themes/dark.css");
 
+    const Chart = window.Chart = require('chart.js/auto').default;
+
 } catch (e) {
     console.log(e);
 }
