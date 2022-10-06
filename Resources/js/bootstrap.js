@@ -10,6 +10,7 @@ try {
     global.$ = global.jQuery = window.$ = window.jQuery = require('jquery');
     //window.Popper = require('popper.js').default;
     window.Popper = require('@popperjs/core/dist/umd/popper').default;
+    window.dragula = require('dragula');
 
     require('bootstrap/dist/js/bootstrap.bundle.js');
     /*
