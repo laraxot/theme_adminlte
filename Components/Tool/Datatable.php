@@ -111,6 +111,20 @@ class Datatable extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $id
+     * @param mixed      $heads
+     * @param mixed|null $theme
+     * @param mixed|null $headTheme
+     * @param mixed|null $bordered
+     * @param mixed|null $hoverable
+     * @param mixed|null $striped
+     * @param mixed|null $compressed
+     * @param mixed|null $withFooter
+     * @param mixed|null $footerTheme
+     * @param mixed|null $beautify
+     * @param mixed|null $withButtons
+     * @param mixed      $config
+     *
      * @return void
      */
     public function __construct(
@@ -141,7 +155,7 @@ class Datatable extends Component {
         $this->beautify = $beautify;
         $this->withButtons = $withButtons;
 
-        $this->config = is_array($config) ? $config : [];
+        $this->config = \is_array($config) ? $config : [];
 
         // When buttons are enabled, change the default table layout.
 

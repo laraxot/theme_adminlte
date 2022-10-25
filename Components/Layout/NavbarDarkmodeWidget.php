@@ -39,6 +39,11 @@ class NavbarDarkmodeWidget extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $iconDisabled
+     * @param mixed|null $iconEnabled
+     * @param mixed|null $colorDisabled
+     * @param mixed|null $colorEnabled
+     *
      * @return void
      */
     public function __construct(

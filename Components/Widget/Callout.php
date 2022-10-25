@@ -39,6 +39,11 @@ class Callout extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $theme
+     * @param mixed|null $icon
+     * @param mixed|null $title
+     * @param mixed|null $titleClass
+     *
      * @return void
      */
     public function __construct(

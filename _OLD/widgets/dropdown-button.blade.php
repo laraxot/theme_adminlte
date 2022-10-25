@@ -1,11 +1,11 @@
 <div class="btn-group @if (isset($up)) dropup @endif">
-	@if (isset($split)) 
+	@if (isset($split))
 
 		<button type="button" class="btn btn-{{{ isset($class) ? $class : 'default' }}} {{{ isset($rounded) ? 'btn-rounded' : ''}}} {{{ isset($bordered) ? 'btn-bordered' : ''}}} @if (isset($size)) btn-{{$size}} @endif  {{{ isset($disabled) ? 'disabled' : '' }}}">{{ $value }}</button>
 		<button type="button" class="btn btn-{{{ isset($class) ? $class : 'default' }}} {{{ isset($rounded) ? 'btn-rounded' : ''}}} {{{ isset($bordered) ? 'btn-bordered' : ''}}} dropdown-toggle haha" data-toggle="dropdown" aria-expanded="false">
 			<span class="caret"></span>
 			<span class="sr-only"></span>
-		</button> 
+		</button>
 
 	@else
 

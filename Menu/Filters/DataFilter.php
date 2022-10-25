@@ -13,7 +13,7 @@ class DataFilter implements FilterInterface {
      * @return array The transformed menu item
      */
     public function transform($item) {
-        if (isset($item['data']) && is_array($item['data'])) {
+        if (isset($item['data']) && \is_array($item['data'])) {
             $item['data-compiled'] = $this->compileData($item['data']);
         }
 

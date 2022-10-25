@@ -53,8 +53,8 @@ class AuthViewsResource extends PackageResource {
         // of any existing authentication view.
 
         foreach ($this->source as $file => $content) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
-            CommandHelper::ensureDirectoryExists(dirname($target));
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
+            CommandHelper::ensureDirectoryExists(\dirname($target));
             file_put_contents($target, $content);
         }
     }
@@ -68,7 +68,7 @@ class AuthViewsResource extends PackageResource {
         // Remove the package authentication views.
 
         foreach ($this->source as $file => $content) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
             if (is_file($target)) {
                 unlink($target);
@@ -85,7 +85,7 @@ class AuthViewsResource extends PackageResource {
         // Check if any of the authentication views already exists.
 
         foreach ($this->source as $file => $content) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
             if (is_file($target)) {
                 return true;
@@ -102,7 +102,7 @@ class AuthViewsResource extends PackageResource {
      */
     public function installed() {
         foreach ($this->source as $file => $content) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
             if (! $this->authViewInstalled($target, $content)) {
                 return false;

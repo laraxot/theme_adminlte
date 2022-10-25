@@ -54,9 +54,9 @@ class HrefFilter implements FilterInterface {
         // When url is not available, check for route attribute.
 
         if (isset($item['route'])) {
-            if (is_array($item['route'])) {
+            if (\is_array($item['route'])) {
                 $route = $item['route'][0];
-                $params = is_array($item['route'][1]) ? $item['route'][1] : [];
+                $params = \is_array($item['route'][1]) ? $item['route'][1] : [];
 
                 return $this->urlGenerator->route($route, $params);
             }

@@ -2,7 +2,7 @@
 <div class="panel panel-{{{ isset($class) ? $class : 'default' }}}">
 		<div class="panel-heading">
 			<h4 class="panel-title">
-				<a data-toggle="collapse" data-parent="#accordion" 
+				<a data-toggle="collapse" data-parent="#accordion"
 				href="#collapse{{$id}}">
 				{{ $header }}
 			</a>

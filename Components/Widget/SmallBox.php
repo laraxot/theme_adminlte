@@ -62,6 +62,14 @@ class SmallBox extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $title
+     * @param mixed|null $text
+     * @param mixed|null $icon
+     * @param mixed|null $theme
+     * @param mixed|null $url
+     * @param mixed|null $urlText
+     * @param mixed|null $loading
+     *
      * @return void
      */
     public function __construct(

@@ -81,6 +81,16 @@ class InputGroupComponent extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     *
      * @return void
      */
     public function __construct(
@@ -131,7 +141,7 @@ class InputGroupComponent extends Component {
     public function makeInputGroupClass() {
         $classes = ['input-group'];
 
-        if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
+        if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
             $classes[] = "input-group-{$this->size}";
         }
 

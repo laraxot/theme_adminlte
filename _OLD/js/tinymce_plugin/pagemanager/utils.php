@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 function create_img_gd($imgfile, $imgthumb, $newwidth, $newheight = '') {
-    if ('' == $newheight) {
+    if ('' === $newheight) {
         $newheight = $newwidth;
     }
     // $imgfile=str_replace(" ","%20",$imgfile);

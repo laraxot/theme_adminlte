@@ -12,8 +12,8 @@
 			@if(isset($menus[$el->id]))
 				<span class="pull-right-container">
 					<i class="fa fa-angle-left pull-right"></i>
-				</span> 
-			@endif				
+				</span>
+			@endif
 			</a>
 			<ul class="treeview-menu">
 			@foreach($menus[$el->id] as $sub_el)

@@ -18,7 +18,7 @@ class MenuItemHelper {
      * @return bool
      */
     public static function isHeader($item) {
-        return is_string($item) || isset($item['header']);
+        return \is_string($item) || isset($item['header']);
     }
 
     /**
@@ -42,7 +42,7 @@ class MenuItemHelper {
      */
     public static function isSubmenu($item) {
         return isset($item['text'], $item['submenu']) &&
-               is_array($item['submenu']);
+               \is_array($item['submenu']);
     }
 
     /**

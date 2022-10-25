@@ -47,7 +47,7 @@ class BasicRoutesResource extends PackageResource {
 
         // Add the routes.
 
-        CommandHelper::ensureDirectoryExists(dirname($this->target));
+        CommandHelper::ensureDirectoryExists(\dirname($this->target));
         file_put_contents($this->target, $routes, FILE_APPEND);
     }
 

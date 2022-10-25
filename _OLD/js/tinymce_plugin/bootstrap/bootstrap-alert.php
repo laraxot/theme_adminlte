@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 function siteURL() {
-    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 === $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;

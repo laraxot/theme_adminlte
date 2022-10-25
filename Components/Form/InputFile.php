@@ -23,6 +23,18 @@ class InputFile extends InputGroupComponent {
      * Create a new component instance.
      * Note this component requires the 'bs-custom-input-file' plugin.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     * @param mixed      $placeholder
+     * @param mixed|null $legend
+     *
      * @return void
      */
     public function __construct(

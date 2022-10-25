@@ -14,13 +14,13 @@
 		<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
 			<span class="sr-only">{{ trans('adm_theme::message.togglenav') }}</span>
 		</a>
-		
+
 		<ul class="nav navbar-nav">
 			<li><a href="{{ url('/admin') }}">Backend</a></li>
 			<li><a href="{{ url('/') }}">Frontend</a></li>
 		</ul>
-		
-		<!-- Navbar Right Menu --> 
+
+		<!-- Navbar Right Menu -->
 		<div class="navbar-custom-menu">
 
 			<ul class="nav navbar-nav">
@@ -39,9 +39,9 @@
 						<!-- Menu Toggle Button -->
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="max-width: 280px;white-space: nowrap;overflow: hidden;overflow-text: ellipsis">
 							<!-- The user image in the navbar-->
-							
+
 							<img src="{{ Auth::user()->gravatar }}" class="user-image" alt="User Image"/>
-							
+
 							<!-- hidden-xs hides the username on small devices so only the image appears. -->
 							<span class="hidden-xs" data-toggle="tooltip" title="{{ Auth::user()->name }}">{{ Auth::user()->name }}</span>
 						</a>

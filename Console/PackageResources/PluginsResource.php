@@ -321,7 +321,7 @@ class PluginsResource extends PackageResource {
 
         // Add fully qualified paths and default values.
 
-        $DS = DIRECTORY_SEPARATOR;
+        $DS = \DIRECTORY_SEPARATOR;
         $plugin['source'] = $this->source.$DS.$plugin['source'];
         $plugin['target'] = $this->target.$DS.$plugin['target'];
         $plugin['ignore'] = $plugin['ignore'] ?? [];

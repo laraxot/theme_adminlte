@@ -186,7 +186,7 @@ class AssetsResource extends PackageResource {
                 $res['ignore'] ?? []
             );
         } elseif (is_file($res['source'])) {
-            CommandHelper::ensureDirectoryExists(dirname($res['target']));
+            CommandHelper::ensureDirectoryExists(\dirname($res['target']));
             copy($res['source'], $res['target']);
         }
     }

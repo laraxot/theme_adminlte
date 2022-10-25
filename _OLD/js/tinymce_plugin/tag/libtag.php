@@ -34,7 +34,7 @@ function makeTag_Classification($type, $tableRif) {
     $table1 = '<tr>
 <table cellpadding=5 cellspacing=0 border=0>';
     $strsql = '
-select 
+select
 	id_'.$tableRif.'_properties
 	,property
 	,admin_type_order
@@ -65,7 +65,7 @@ order by
         }// end switch
 
         $strsql = '
-select 
+select
 	id_'.$tableRif.'_property_values
 	,id_'.$tableRif.'_properties
 	,property_value
@@ -81,7 +81,7 @@ where
         }// end while
         $select .= '</select>';
         $table1 .= '<td>'.$select.'</td>
-<td><input type="checkbox" id="set_'.$row['id_'.$tableRif.'_properties'].'" value="1"/></td>		
+<td><input type="checkbox" id="set_'.$row['id_'.$tableRif.'_properties'].'" value="1"/></td>
 		</tr>';
 
         $table1 .= '</tr>';
@@ -571,7 +571,7 @@ function printResult($result) {
 		<td bgcolor="#333333"><strong>'.$result['title'].'</strong></td>
 	</tr>
 ';
-    if (sizeof($result['list'] > 0)) {
+    if (count($result['list'] > 0)) {
         foreach ($result['list'] as $tag => $title) {
             $tag = '##'.$tag.'##';
             $table .= '

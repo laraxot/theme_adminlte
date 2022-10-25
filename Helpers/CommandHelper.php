@@ -51,7 +51,7 @@ class CommandHelper {
     public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
         // Open the source folder. Return if fails to open.
 
-        if (! is_resource($dirHandler = @opendir($dir))) {
+        if (! \is_resource($dirHandler = @opendir($dir))) {
             return;
         }
 
@@ -73,8 +73,8 @@ class CommandHelper {
             // Now, copy the file/folder. If the resource is a folder, proceed
             // recursively. Otherwise, copy the file to destination.
 
-            $source = $dir.DIRECTORY_SEPARATOR.$file;
-            $target = $dest.DIRECTORY_SEPARATOR.$file;
+            $source = $dir.\DIRECTORY_SEPARATOR.$file;
+            $target = $dest.\DIRECTORY_SEPARATOR.$file;
 
             if (is_dir($source) && $recursive) {
                 self::copyDirectory($source, $target, $force, $recursive, $ignores);
@@ -101,7 +101,7 @@ class CommandHelper {
     public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
         // Open the first folder. Return if fails to open.
 
-        if (! is_resource($dirHandler = @opendir($dir1))) {
+        if (! \is_resource($dirHandler = @opendir($dir1))) {
             return;
         }
 
@@ -124,8 +124,8 @@ class CommandHelper {
 
             // Get paths of the resources to compare.
 
-            $source = $dir1.DIRECTORY_SEPARATOR.$file;
-            $target = $dir2.DIRECTORY_SEPARATOR.$file;
+            $source = $dir1.\DIRECTORY_SEPARATOR.$file;
+            $target = $dir2.\DIRECTORY_SEPARATOR.$file;
 
             // If the resources to compare are files, check that both files are
             // equals.
@@ -192,7 +192,7 @@ class CommandHelper {
             return self::$packagePath;
         }
 
-        return self::$packagePath.DIRECTORY_SEPARATOR.$path;
+        return self::$packagePath.\DIRECTORY_SEPARATOR.$path;
     }
 
     /**
@@ -207,7 +207,7 @@ class CommandHelper {
             return self::$stubsPath;
         }
 
-        return self::$stubsPath.DIRECTORY_SEPARATOR.$path;
+        return self::$stubsPath.\DIRECTORY_SEPARATOR.$path;
     }
 
     /**
@@ -224,7 +224,7 @@ class CommandHelper {
             return $basePath;
         }
 
-        return $basePath.DIRECTORY_SEPARATOR.$path;
+        return $basePath.\DIRECTORY_SEPARATOR.$path;
     }
 
     /**

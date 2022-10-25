@@ -70,6 +70,15 @@ class InfoBox extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $title
+     * @param mixed|null $text
+     * @param mixed|null $icon
+     * @param mixed|null $description
+     * @param mixed|null $theme
+     * @param mixed|null $iconTheme
+     * @param mixed|null $progress
+     * @param mixed      $progressTheme
+     *
      * @return void
      */
     public function __construct(

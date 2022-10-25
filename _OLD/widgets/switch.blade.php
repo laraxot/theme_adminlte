@@ -5,7 +5,7 @@
     <span class="onoffswitch-switch"></span>
   </label>
 </div>
-<!-- 
+<!--
 <div class="onoffswitch2">
   <input type="checkbox" name="onoffswitch2" class="onoffswitch-checkbox2" id="myonoffswitch2" checked>
   <label class="onoffswitch-label2" for="myonoffswitch2">

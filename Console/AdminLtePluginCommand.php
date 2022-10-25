@@ -160,7 +160,7 @@ class AdminLtePluginCommand extends Command {
 
         // Create a progress bar.
 
-        $bar = $this->output->createProgressBar(count($pluginsKeys));
+        $bar = $this->output->createProgressBar(\count($pluginsKeys));
 
         // Initialize the status check procedure.
 
@@ -277,7 +277,7 @@ class AdminLtePluginCommand extends Command {
 
         // Create a progress bar.
 
-        $bar = $this->output->createProgressBar(count($pluginsKeys));
+        $bar = $this->output->createProgressBar(\count($pluginsKeys));
         $bar->start();
 
         // Install the plugins.
@@ -371,7 +371,7 @@ class AdminLtePluginCommand extends Command {
 
         // Create a progress bar.
 
-        $bar = $this->output->createProgressBar(count($pluginsKeys));
+        $bar = $this->output->createProgressBar(\count($pluginsKeys));
         $bar->start();
 
         // Remove the plugins.

@@ -37,7 +37,7 @@ class ConfigResource extends PackageResource {
     public function install() {
         // Install the configuration file.
 
-        CommandHelper::ensureDirectoryExists(dirname($this->target));
+        CommandHelper::ensureDirectoryExists(\dirname($this->target));
         copy($this->source, $this->target);
     }
 

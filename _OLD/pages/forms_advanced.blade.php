@@ -415,7 +415,7 @@
 <!-- Select2 -->
 {{ Theme::add("theme/bc/select2/dist/js/select2.full.min.js") }}
 <!-- InputMask -->
-{{--  
+{{--
 {{ Theme::add("theme/plugins/input-mask/jquery.inputmask.js") }}
 {{ Theme::add("theme/plugins/input-mask/jquery.inputmask.date.extensions.js") }}
 {{ Theme::add("theme/plugins/input-mask/jquery.inputmask.extensions.js") }}
