@@ -40,7 +40,7 @@ class DarkModeController extends Controller {
     public function isEnabled() {
         // First, check if dark mode preference is available on the session.
 
-        if (! is_null(session($this->sessionKey, null))) {
+        if (null !== session($this->sessionKey, null)) {
             return session($this->sessionKey);
         }
 

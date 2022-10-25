@@ -1,8 +1,8 @@
 @extends('adm_theme::layouts.app')
 @section('page_heading','Impostazioni')
 
-@section('content') 
-    
+@section('content')
+
       <!-- =========================================================== -->
 
       <!-- Small boxes (Stat box) -->
@@ -79,7 +79,7 @@
       <!-- /.row -->
 
 	{{-- (\Auth::User()->areas) --}}
-    @foreach(\Auth::User()->areas as $area) 
-        {!! $area->dashboard_widget() !!}  
+    @foreach(\Auth::User()->areas as $area)
+        {!! $area->dashboard_widget() !!}
     @endforeach
 @endsection

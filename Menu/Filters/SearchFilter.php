@@ -41,7 +41,7 @@ class SearchFilter implements FilterInterface {
 
         if (! isset($item['method'])) {
             $item['method'] = $this->defMethod;
-        } elseif (! in_array(strtolower($item['method']), ['post', 'get'])) {
+        } elseif (! \in_array(strtolower($item['method']), ['post', 'get'], true)) {
             $item['method'] = $this->defMethod;
         }
 

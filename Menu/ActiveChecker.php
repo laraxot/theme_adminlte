@@ -97,7 +97,7 @@ class ActiveChecker {
     protected function isExplicitActive($activeDef) {
         // If the active definition is a bool, return it.
 
-        if (is_bool($activeDef)) {
+        if (\is_bool($activeDef)) {
             return $activeDef;
         }
 

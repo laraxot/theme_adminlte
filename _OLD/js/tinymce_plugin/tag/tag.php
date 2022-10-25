@@ -45,15 +45,15 @@ if (isset($_GET['type'])) {
 		<table cellpadding=0 bgcolor=#eeeeee border=0>
 			<tr>
 				<td valign="top">
-					
+
 					<span>Inserisci il tag </span>
-					
+
 					<div class="panel_wrapper">
 						<div id="general_panel" class="panel current">
 							<table border="0" cellpadding="4" cellspacing="0">
 								<tr>
 									<td nowrap="nowrap"><label for="href">tag selzionanto</label></td>
-									<td><input id="title" name="title" type="text" value="" style="width: 350px" ></td> 
+									<td><input id="title" name="title" type="text" value="" style="width: 350px" ></td>
 								</tr>
 								<tr>
 									<td colspan=2">
@@ -64,30 +64,30 @@ $arTypeLabel = ['News', 'Foto', 'link', 'Lista Pagine', 'Form'];
 
 // if(isset($_SESSION['DOC']) and $_SESSION['DOC'])$arType[]='Documenti';
 
-if (isset($_SESSION['REG_EVENTI']) and $_SESSION['REG_EVENTI']) {
+if (isset($_SESSION['REG_EVENTI']) && $_SESSION['REG_EVENTI']) {
     $arType[] = 'ModuliRegistrazioneEventi';
     $arTypeLabel[] = 'Moduli di Registrazione Eventi';
 }
 
-if (isset($_SESSION['CLASSIFICATION_PAGE']) and $_SESSION['CLASSIFICATION_PAGE']) {
+if (isset($_SESSION['CLASSIFICATION_PAGE']) && $_SESSION['CLASSIFICATION_PAGE']) {
     $arType[] = 'ClassificazionePagine';
     $arTypeLabel[] = 'Classificazione Pagine';
 }
-if (isset($_SESSION['MAKE_CLASSIFICATION_PAGE']) and $_SESSION['MAKE_CLASSIFICATION_PAGE']) {
+if (isset($_SESSION['MAKE_CLASSIFICATION_PAGE']) && $_SESSION['MAKE_CLASSIFICATION_PAGE']) {
     $arType[] = 'Crea_ClassificazionePagine';
     $arTypeLabel[] = 'Crea tag per Classificazione Pagine';
 }
-if (isset($_SESSION['CLASSIFICATION_DOC']) and $_SESSION['CLASSIFICATION_DOC']) {
+if (isset($_SESSION['CLASSIFICATION_DOC']) && $_SESSION['CLASSIFICATION_DOC']) {
     $arType[] = 'ClassificazioneDocumenti';
     $arTypeLabel[] = 'Classificazione Documenti';
 }
-if (isset($_SESSION['MAKE_CLASSIFICATION_DOC']) and $_SESSION['MAKE_CLASSIFICATION_DOC']) {
+if (isset($_SESSION['MAKE_CLASSIFICATION_DOC']) && $_SESSION['MAKE_CLASSIFICATION_DOC']) {
     $arType[] = 'Crea_ClassificazioneDocumenti';
     $arTypeLabel[] = 'Crea tag per Classificazione Documenti';
 }
 
-for ($i = 0; $i < sizeof($arType); ++$i) {
-    if ($arType[$i] == $type) {
+for ($i = 0; $i < count($arType); ++$i) {
+    if ($arType[$i] === $type) {
         echo '<li>Categoria: <strong>'.$arTypeLabel[$i].'</strong></li>';
     } else {
         echo '<li><a href="tag.php?type='.$arType[$i].'">Categoria: <font color=blue>'.$arTypeLabel[$i].'</font></a></li>';
@@ -95,7 +95,7 @@ for ($i = 0; $i < sizeof($arType); ++$i) {
 }
 ?>
 										</ul>
-									</td> 
+									</td>
 								</tr>
 							</table>
 						</div>

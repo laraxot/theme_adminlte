@@ -4,4 +4,3 @@
   <button type="button" class="btn btn-default">{{$value3}}</button>
   <button type="button" class="btn btn-default">{{$value4}}</button>
 </div>
-	 

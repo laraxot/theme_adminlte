@@ -48,11 +48,11 @@ class LangFilter implements FilterInterface {
 
             // Check if the property value is valid for be translated.
 
-            if (is_array($item[$prop])) {
+            if (\is_array($item[$prop])) {
                 $params = $item[$prop][1] ?? [];
-                $params = is_array($params) ? $params : [];
+                $params = \is_array($params) ? $params : [];
                 $item[$prop] = $this->getTranslation($item[$prop][0], $params);
-            } elseif (is_string($item[$prop])) {
+            } elseif (\is_string($item[$prop])) {
                 $item[$prop] = $this->getTranslation($item[$prop]);
             }
         }

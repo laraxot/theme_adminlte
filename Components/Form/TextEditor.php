@@ -19,6 +19,17 @@ class TextEditor extends InputGroupComponent {
      * Note this component requires the 'Summernote' plugin.
      * TODO: the append/prepend addon slots are not supported.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     * @param mixed      $config
+     *
      * @return void
      */
     public function __construct(
@@ -45,7 +56,7 @@ class TextEditor extends InputGroupComponent {
             $errorKey
         );
 
-        $this->config = is_array($config) ? $config : [];
+        $this->config = \is_array($config) ? $config : [];
 
         // Setup the default plugin width option.
 
@@ -61,7 +72,7 @@ class TextEditor extends InputGroupComponent {
     public function makeInputGroupClass() {
         $classes = ['input-group'];
 
-        if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
+        if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
             $classes[] = "input-group-{$this->size}";
         }
 

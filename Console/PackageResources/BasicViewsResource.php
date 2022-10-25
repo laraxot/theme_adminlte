@@ -48,8 +48,8 @@ class BasicViewsResource extends PackageResource {
         // existing basic view.
 
         foreach ($this->source as $file => $stub) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
-            CommandHelper::ensureDirectoryExists(dirname($target));
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
+            CommandHelper::ensureDirectoryExists(\dirname($target));
             copy(CommandHelper::getStubPath($stub), $target);
         }
     }
@@ -63,7 +63,7 @@ class BasicViewsResource extends PackageResource {
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
             if (is_file($target)) {
                 unlink($target);
@@ -80,7 +80,7 @@ class BasicViewsResource extends PackageResource {
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
             if (is_file($target)) {
                 return true;
@@ -97,7 +97,7 @@ class BasicViewsResource extends PackageResource {
      */
     public function installed() {
         foreach ($this->source as $file => $stub) {
-            $target = $this->target.DIRECTORY_SEPARATOR.$file;
+            $target = $this->target.\DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
 
             if (! $this->basicViewInstalled($target, $content)) {

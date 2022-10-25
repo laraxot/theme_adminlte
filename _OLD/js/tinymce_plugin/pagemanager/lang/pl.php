@@ -19,7 +19,7 @@ define('lang_Music', 'Muzyka');
 define('lang_New_Folder', 'Nowy folder');
 define('lang_Folder_Created', 'Folder został utworzony poprawnie');
 define('lang_Existing_Folder', 'Istniejący f older');
-define('lang_Confirm_Folder_del', 'Czy jesteś pewien, że chcesz usunąć folder i wszystko co znajduje się w nim?');
+define('lang_Confirm_Folder_del', "Czy jesteś pewien, że chcesz usunąć folder i wszystko co znajduje się\u{a0}w nim?");
 define('lang_Return_Files_List', 'Powróć do listy plików');
 define('lang_Preview', 'Podgląd');
 define('lang_Download', 'Pobierz');

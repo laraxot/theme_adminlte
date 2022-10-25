@@ -80,6 +80,16 @@ class Card extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $title
+     * @param mixed|null $icon
+     * @param mixed|null $theme
+     * @param mixed|null $themeMode
+     * @param mixed|null $bodyClass
+     * @param mixed|null $disabled
+     * @param mixed|null $collapsible
+     * @param mixed|null $removable
+     * @param mixed|null $maximizable
+     *
      * @return void
      */
     public function __construct(

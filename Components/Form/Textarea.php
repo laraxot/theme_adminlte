@@ -8,6 +8,16 @@ class Textarea extends InputGroupComponent {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     *
      * @return void
      */
     public function __construct(

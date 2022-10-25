@@ -75,6 +75,15 @@ class NavbarNotification extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $id
+     * @param mixed      $icon
+     * @param mixed|null $iconColor
+     * @param mixed|null $badgeLabel
+     * @param mixed|null $badgeColor
+     * @param mixed      $updateCfg
+     * @param mixed      $enableDropdownMode
+     * @param mixed|null $dropdownFooterLabel
+     *
      * @return void
      */
     public function __construct(
@@ -93,8 +102,8 @@ class NavbarNotification extends Component {
         $this->badgeLabel = $badgeLabel;
         $this->badgeColor = $badgeColor;
         $this->dropdownFooterLabel = $dropdownFooterLabel;
-        $this->enableDropdownMode = boolval($enableDropdownMode);
-        $this->updateCfg = is_array($updateCfg) ? $updateCfg : [];
+        $this->enableDropdownMode = (bool) $enableDropdownMode;
+        $this->updateCfg = \is_array($updateCfg) ? $updateCfg : [];
     }
 
     /**
@@ -167,7 +176,7 @@ class NavbarNotification extends Component {
             return 0;
         }
 
-        return (intval($this->updateCfg['period']) ?? 0) * 1000;
+        return ((int) ($this->updateCfg['period']) ?? 0) * 1000;
     }
 
     /**
@@ -208,13 +217,13 @@ class NavbarNotification extends Component {
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
-        $cfg = is_string($cfg) ? [$cfg] : $cfg;
+        $cfg = \is_string($cfg) ? [$cfg] : $cfg;
 
         // Check if config is an array with the url or route name and params.
 
-        if (is_array($cfg) && count($cfg) >= 1) {
+        if (\is_array($cfg) && \count($cfg) >= 1) {
             $path = $cfg[0];
-            $params = is_array($cfg[1] ?? null) ? $cfg[1] : [];
+            $params = \is_array($cfg[1] ?? null) ? $cfg[1] : [];
 
             return (self::CFG_ROUTE === $type) ?
                 route($path, $params) :

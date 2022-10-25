@@ -44,6 +44,17 @@ class InputDate extends InputGroupComponent {
      * Create a new component instance.
      * Note this component requires the 'Tempus Dominus' plugin.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     * @param mixed      $config
+     *
      * @return void
      */
     public function __construct(
@@ -70,7 +81,7 @@ class InputDate extends InputGroupComponent {
             $errorKey
         );
 
-        $this->config = is_array($config) ? $config : [];
+        $this->config = \is_array($config) ? $config : [];
 
         // Setup the default plugin icons option.
 

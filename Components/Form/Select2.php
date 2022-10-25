@@ -19,6 +19,17 @@ class Select2 extends InputGroupComponent {
      * Note this component requires the 'select2' plugin and the 'bootstrap4'
      * css theme.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     * @param mixed      $config
+     *
      * @return void
      */
     public function __construct(
@@ -45,7 +56,7 @@ class Select2 extends InputGroupComponent {
             $errorKey
         );
 
-        $this->config = is_array($config) ? $config : [];
+        $this->config = \is_array($config) ? $config : [];
         $this->config['theme'] = 'bootstrap4';
     }
 

@@ -55,6 +55,11 @@ class Alert extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $theme
+     * @param mixed|null $icon
+     * @param mixed|null $title
+     * @param mixed|null $dismissable
+     *
      * @return void
      */
     public function __construct(

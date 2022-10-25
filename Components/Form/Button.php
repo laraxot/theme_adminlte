@@ -40,6 +40,11 @@ class Button extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $label
+     * @param mixed      $type
+     * @param mixed      $theme
+     * @param mixed|null $icon
+     *
      * @return void
      */
     public function __construct(

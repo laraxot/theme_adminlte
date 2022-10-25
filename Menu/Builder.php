@@ -94,7 +94,7 @@ class Builder {
 
         // Normalize the menu (remove holes in the numeric indexes).
 
-        $holedArrPath = implode('.', array_slice($itemPath, 0, -1)) ?: null;
+        $holedArrPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
         $holedArr = Arr::get($this->menu, $holedArrPath, $this->menu);
         Arr::set($this->menu, $holedArrPath, array_values($holedArr));
     }
@@ -163,7 +163,7 @@ class Builder {
     protected function applyFilters($item) {
         // Filters are only applied to array type menu items.
 
-        if (! is_array($item)) {
+        if (! \is_array($item)) {
             return $item;
         }
 
@@ -216,7 +216,7 @@ class Builder {
             $targetArr = Arr::get($this->menu, $targetPath, []);
             array_push($targetArr, ...$items);
         } else {
-            $targetPath = implode('.', array_slice($itemPath, 0, -1)) ?: null;
+            $targetPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
             $targetArr = Arr::get($this->menu, $targetPath, $this->menu);
             $offset = (self::ADD_AFTER === $where) ? 1 : 0;
             array_splice($targetArr, $itemKeyIdx + $offset, 0, $items);

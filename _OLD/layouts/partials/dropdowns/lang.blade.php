@@ -1,4 +1,4 @@
-{{-- lang 
+{{-- lang
 <ul class="nav nav-tabs">
 	--}}
 {{ Theme::add('theme/bc/bootstrap-language/languages.min.css') }}

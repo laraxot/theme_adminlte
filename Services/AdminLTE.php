@@ -208,7 +208,7 @@ class AdminLTE extends XotBaseComposer {
             $model_menu = $panel->areas()
                 ->filter(
                     function ($item) use ($modules) {
-                        return in_array($item->area_define_name, $modules);
+                        return \in_array($item->area_define_name, $modules, true);
                     }
                 )
                 ->map(

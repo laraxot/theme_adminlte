@@ -27,6 +27,18 @@ class DateRange extends InputGroupComponent {
      * Create a new component instance.
      * Note this component requires the 'DateRangePicker' and 'Moment' plugins.
      *
+     * @param mixed      $name
+     * @param mixed|null $id
+     * @param mixed|null $label
+     * @param mixed|null $igroupSize
+     * @param mixed|null $labelClass
+     * @param mixed|null $fgroupClass
+     * @param mixed|null $igroupClass
+     * @param mixed|null $disableFeedback
+     * @param mixed|null $errorKey
+     * @param mixed      $config
+     * @param mixed|null $enableDefaultRanges
+     *
      * @return void
      */
     public function __construct(
@@ -54,7 +66,7 @@ class DateRange extends InputGroupComponent {
             $errorKey
         );
 
-        $this->config = is_array($config) ? $config : [];
+        $this->config = \is_array($config) ? $config : [];
         $this->enableDefaultRanges = $enableDefaultRanges;
     }
 

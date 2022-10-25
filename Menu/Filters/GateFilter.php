@@ -60,7 +60,7 @@ class GateFilter implements FilterInterface {
 
         // Check if the current user can perform the configured permissions.
 
-        if (is_string($item['can']) || is_array($item['can'])) {
+        if (\is_string($item['can']) || \is_array($item['can'])) {
             return $this->gate->any($item['can'], $args);
         }
 

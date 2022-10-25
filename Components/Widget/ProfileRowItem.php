@@ -56,6 +56,13 @@ class ProfileRowItem extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $title
+     * @param mixed|null $text
+     * @param mixed|null $icon
+     * @param mixed      $size
+     * @param mixed|null $badge
+     * @param mixed|null $url
+     *
      * @return void
      */
     public function __construct(

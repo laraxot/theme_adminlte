@@ -67,6 +67,14 @@ class Progress extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $value
+     * @param mixed      $theme
+     * @param mixed|null $size
+     * @param mixed|null $striped
+     * @param mixed|null $vertical
+     * @param mixed|null $animated
+     * @param mixed|null $withLabel
+     *
      * @return void
      */
     public function __construct(
@@ -100,7 +108,7 @@ class Progress extends Component {
     public function makeProgressClass() {
         $classes = ['progress'];
 
-        if (isset($this->size) && in_array($this->size, $this->pSizes)) {
+        if (isset($this->size) && \in_array($this->size, $this->pSizes, true)) {
             $classes[] = "progress-{$this->size}";
         }
 

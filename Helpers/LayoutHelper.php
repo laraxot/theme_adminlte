@@ -70,7 +70,7 @@ class LayoutHelper {
 
         $sbTheme = config('adminlte.sidebar_scrollbar_theme', 'os-theme-light');
 
-        if ('os-theme-light' != $sbTheme) {
+        if ('os-theme-light' !== $sbTheme) {
             $data[] = "data-scrollbar-theme={$sbTheme}";
         }
 
@@ -78,7 +78,7 @@ class LayoutHelper {
 
         $sbAutoHide = config('adminlte.sidebar_scrollbar_auto_hide', 'l');
 
-        if ('l' != $sbAutoHide) {
+        if ('l' !== $sbAutoHide) {
             $data[] = "data-scrollbar-auto-hide={$sbAutoHide}";
         }
 
@@ -140,14 +140,14 @@ class LayoutHelper {
 
         // At this point the config should be an array.
 
-        if (! is_array($cfg)) {
+        if (! \is_array($cfg)) {
             return $classes;
         }
 
         // Make the set of responsive classes in relation to the config.
 
         foreach ($cfg as $breakpoint => $enabled) {
-            if (in_array($breakpoint, self::$screenBreakpoints)) {
+            if (\in_array($breakpoint, self::$screenBreakpoints, true)) {
                 $classes[] = self::makeFixedResponsiveClass(
                     $section,
                     $breakpoint,
@@ -195,7 +195,7 @@ class LayoutHelper {
 
         $sidebarMiniCfg = config('adminlte.sidebar_mini', 'lg');
 
-        if (in_array($sidebarMiniCfg, self::$sidebarMiniValues)) {
+        if (\in_array($sidebarMiniCfg, self::$sidebarMiniValues, true)) {
             $suffix = 'lg' === $sidebarMiniCfg ? '' : "-{$sidebarMiniCfg}";
             $classes[] = "sidebar-mini{$suffix}";
         }
@@ -235,7 +235,7 @@ class LayoutHelper {
         $classes = [];
         $cfg = config('adminlte.classes_body', '');
 
-        if (is_string($cfg) && $cfg) {
+        if (\is_string($cfg) && $cfg) {
             $classes[] = $cfg;
         }
 

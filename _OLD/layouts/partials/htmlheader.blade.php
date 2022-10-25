@@ -1,6 +1,6 @@
 <head>
 	{!! Theme::metatags() !!}
-	{{--    
+	{{--
 	<meta charset="UTF-8">
 	<title>@yield('htmlheader_title', 'Your title here') </title>
 	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
@@ -18,7 +18,7 @@
 	{{ Theme::add("theme/css/xot.css") }}
 	{!! Theme::showStyles(false)  !!}
 
-	
+
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>

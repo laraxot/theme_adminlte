@@ -57,6 +57,13 @@ class Options extends Component {
 
     /**
      * Create a new component instance.
+     *
+     * @param mixed      $options
+     * @param mixed|null $selected
+     * @param mixed|null $disabled
+     * @param mixed|null $strict
+     * @param mixed|null $emptyOption
+     * @param mixed|null $placeholder
      */
     public function __construct(
         $options,
@@ -82,7 +89,7 @@ class Options extends Component {
      * @return bool
      */
     public function isSelected($key) {
-        return in_array($key, $this->selected, $this->strict);
+        return \in_array($key, $this->selected, $this->strict);
     }
 
     /**
@@ -93,7 +100,7 @@ class Options extends Component {
      * @return bool
      */
     public function isDisabled($key) {
-        return in_array($key, $this->disabled, $this->strict);
+        return \in_array($key, $this->disabled, $this->strict);
     }
 
     /**

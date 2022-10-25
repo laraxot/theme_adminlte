@@ -10,7 +10,7 @@
 			<section class="content">
 				<!-- Your Page Content Here -->
 				@yield('content')
-				
+
 			</section><!-- /.content -->
 		</div><!-- /.content-wrapper -->
 		@include('adm_theme::layouts.partials.controlsidebar')

@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
         if (! is_dir($dirPath)) {
             return false;
         }
-        if ('/' != substr($dirPath, strlen($dirPath) - 1, 1)) {
+        if ('/' !== substr($dirPath, strlen($dirPath) - 1, 1)) {
             $dirPath .= '/';
         }
         $files = glob($dirPath.'*', GLOB_MARK);
@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
         @deleteDir('thumbs/'.$subdir.$_GET['del_folder']);
     }
 
-    if (isset($_GET['lang']) && 'undefined' != $_GET['lang'] && is_readable('lang/'.$_GET['lang'].'.php')) {
+    if (isset($_GET['lang']) && 'undefined' !== $_GET['lang'] && is_readable('lang/'.$_GET['lang'].'.php')) {
         require_once 'lang/'.$_GET['lang'].'.php';
     } else {
         require_once 'lang/en_EN.php';

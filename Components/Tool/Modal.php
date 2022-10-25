@@ -83,6 +83,16 @@ class Modal extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed      $id
+     * @param mixed|null $title
+     * @param mixed|null $icon
+     * @param mixed|null $size
+     * @param mixed|null $theme
+     * @param mixed|null $vCentered
+     * @param mixed|null $scrollable
+     * @param mixed|null $staticBackdrop
+     * @param mixed|null $disableAnimations
+     *
      * @return void
      */
     public function __construct(
@@ -138,7 +148,7 @@ class Modal extends Component {
             $classes[] = 'modal-dialog-scrollable';
         }
 
-        if (isset($this->size) && in_array($this->size, $this->mSizes)) {
+        if (isset($this->size) && \in_array($this->size, $this->mSizes, true)) {
             $classes[] = "modal-{$this->size}";
         }
 

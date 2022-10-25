@@ -10,4 +10,4 @@
 		<a href="#"><i class="fa fa-circle text-success"></i> {{ trans('adm_theme::message.online') }}</a>
 	</div>
 </div>
-@endif 
+@endif

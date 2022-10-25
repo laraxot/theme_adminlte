@@ -3,7 +3,7 @@
 $bootstrap_css_path = addslashes($_GET['bootstrap_css_path']);
 $allowEdit = addslashes($_GET['allowEdit']);
 function siteURL() {
-    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 == $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
+    $protocol = (! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS'] || 443 === $_SERVER['SERVER_PORT']) ? 'https://' : 'http://';
     $domainName = $_SERVER['HTTP_HOST'];
 
     return $protocol.$domainName;
@@ -45,7 +45,7 @@ $snippets->getSnippets();
                 <?php echo $snippets->render(); ?>
             </div>
         </div><?php
-if ('true' == $allowEdit) {
+if ('true' === $allowEdit) {
     ?>
             <div class="row margin-bottom-md" id="new-snippet-form-wrapper">
                 <div class="choice-title">
@@ -89,7 +89,7 @@ if ('true' == $allowEdit) {
         <div class="row">
             <div id="code-title">
                 <a href="#" id="code-slide-link"><?php echo CODE; ?> <i class="glyphicon glyphicon-arrow-up"></i></a><?php
-if ('true' == $allowEdit) {
+if ('true' === $allowEdit) {
     ?>
                 <a href="#" id="edit-snippet-button" class="btn btn-default" data-toggle="tooltip" title="" data-original-title="<?php echo CHOOSE_SNIPPET_TO_EDIT; ?>">
                     <?php echo EDIT; ?> <i class="glyphicon glyphicon-edit"></i>
@@ -159,7 +159,7 @@ $(document).ready(function () {
     'use strict';
     makeResponsive();
     getBootstrapStyles();<?php
-if ('true' == $allowEdit) {
+if ('true' === $allowEdit) {
     ?>
     var disableOkButton,
         showAddSnippetForm;
@@ -391,7 +391,7 @@ if ('true' == $allowEdit) {
                 $('#delete-snippet-button').removeClass('btn-default').addClass('btn-danger').tooltip('destroy');
             });
         });<?php
-if ('true' == $allowEdit) {
+if ('true' === $allowEdit) {
     ?>
         $('#add-new-snippet-btn').on('click', showAddSnippetForm);
     <?php

@@ -69,6 +69,15 @@ class ProfileWidget extends Component {
     /**
      * Create a new component instance.
      *
+     * @param mixed|null $name
+     * @param mixed|null $desc
+     * @param mixed|null $img
+     * @param mixed|null $theme
+     * @param mixed|null $cover
+     * @param mixed|null $headerClass
+     * @param mixed|null $footerClass
+     * @param mixed      $layoutType
+     *
      * @return void
      */
     public function __construct(
@@ -93,7 +102,7 @@ class ProfileWidget extends Component {
 
         $this->layoutType = $layoutType;
 
-        if (! in_array($this->layoutType, ['classic', 'modern'])) {
+        if (! \in_array($this->layoutType, ['classic', 'modern'], true)) {
             $this->layoutType = 'modern';
         }
     }

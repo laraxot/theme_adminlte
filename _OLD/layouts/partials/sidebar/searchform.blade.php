@@ -7,5 +7,5 @@
                 </button>
               </span>
         </div>
-      </form> 
+      </form>
       <!-- /.search form -->

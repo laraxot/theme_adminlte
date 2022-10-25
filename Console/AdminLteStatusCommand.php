@@ -132,7 +132,7 @@ class AdminLteStatusCommand extends Command {
 
         // Create a progress bar.
 
-        $steps = count($this->pkgResources);
+        $steps = \count($this->pkgResources);
         $bar = $this->output->createProgressBar($steps);
 
         // Initialize the status check procedure.
