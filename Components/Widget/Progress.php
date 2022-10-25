@@ -165,6 +165,14 @@ class Progress extends Component {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.widget.progress');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.widget.progress';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }

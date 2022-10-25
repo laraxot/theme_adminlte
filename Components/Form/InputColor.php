@@ -64,6 +64,14 @@ class InputColor extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.form.input-color');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.form.input-color';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }

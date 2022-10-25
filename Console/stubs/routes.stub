@@ -2,5 +2,12 @@
 Auth::routes();
 
 Route::get('/home', function() {
-    return view('home');
+    /**
+* @phpstan-var view-string
+*/
+$view='home';
+$view_params=[
+   'view'=>$view,
+];
+return view($view,$view_params);
 })->name('home')->middleware('auth');

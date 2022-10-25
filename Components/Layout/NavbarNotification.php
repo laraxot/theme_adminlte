@@ -176,7 +176,7 @@ class NavbarNotification extends Component {
             return 0;
         }
 
-        return ((int) ($this->updateCfg['period']) ?? 0) * 1000;
+        return ((int) $this->updateCfg['period'] ?? 0) * 1000;
     }
 
     /**
@@ -241,6 +241,14 @@ class NavbarNotification extends Component {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.layout.navbar-notification');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.layout.navbar-notification';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }

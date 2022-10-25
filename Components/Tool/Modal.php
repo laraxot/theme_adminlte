@@ -191,6 +191,14 @@ class Modal extends Component {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.tool.modal');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.tool.modal';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }
