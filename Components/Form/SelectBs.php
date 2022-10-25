@@ -87,6 +87,14 @@ class SelectBs extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.form.select-bs');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.form.select-bs';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }

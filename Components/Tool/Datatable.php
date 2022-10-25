@@ -296,6 +296,14 @@ class Datatable extends Component {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.tool.datatable');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.tool.datatable';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }

@@ -93,6 +93,14 @@ class TextEditor extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
     public function render() {
-        return view('adminlte::components.form.text-editor');
+        /**
+         * @phpstan-var view-string
+         */
+        $view = 'adminlte::components.form.text-editor';
+        $view_params = [
+            'view' => $view,
+        ];
+
+        return view($view, $view_params);
     }
 }
