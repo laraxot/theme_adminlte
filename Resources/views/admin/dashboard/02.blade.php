@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 49899e0 (.)
@@ -105,6 +106,8 @@
 =======
 >>>>>>> 1194766 (up)
 >>>>>>> 6332637 (.)
+=======
+>>>>>>> 72c6c47 (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
