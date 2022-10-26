@@ -1,4 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection --}}
+
+
+
+>>>>>>> 7306100 (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -20,9 +30,12 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 =======
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 >>>>>>> 870e170 (.)
+=======
+>>>>>>> 7306100 (.)
