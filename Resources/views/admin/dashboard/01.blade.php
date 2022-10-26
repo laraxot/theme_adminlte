@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -45,3 +46,9 @@ aaa
 
 </x-dashboard>
 >>>>>>> 870e170 (.)
+=======
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+>>>>>>> 7306100 (.)
