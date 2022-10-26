@@ -9,6 +9,7 @@
                                             $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
                                             $profile->getProfile()->customers()->sync($customer_rnd);
                                             */
+<<<<<<< HEAD
     //dddx($customer_rnd);
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers;
@@ -29,6 +30,11 @@
     
 >>>>>>> e45345e (.)
 =======
+=======
+    //dddx($customer_rnd);
+    //dddx($profile->getProfile()->customers);
+    $customer = $profile->getProfile()->customers;
+>>>>>>> dc72f5e (.)
 
 >>>>>>> 8e96989 (.)
     $survey_pdf_first = null;
