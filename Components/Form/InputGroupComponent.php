@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -24,6 +25,9 @@ namespace Themes\KlekooAdm\Components\Form;
 =======
 namespace Themes\AdminLTE\Components\Form;
 >>>>>>> 63c2c43 (up)
+=======
+namespace Themes\KlekooAdm\Components\Form;
+>>>>>>> 8a5cc0b (.)
 
 use Illuminate\View\Component;
 

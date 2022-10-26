@@ -93,6 +93,7 @@ mix.js('Resources/js/auth.js', 'Resources/dist/js')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 =======
@@ -105,6 +106,10 @@ mix.extract();
 =======
 
 >>>>>>> 63c2c43 (up)
+=======
+mix.extract();
+/*
+>>>>>>> 8a5cc0b (.)
 mix.extract([
     'admin-lte',
     'axios',
@@ -124,6 +129,7 @@ mix.extract([
     'nouislider',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
@@ -139,6 +145,11 @@ mix.extract([
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 
 >>>>>>> 63c2c43 (up)
+=======
+] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
+);
+*/
+>>>>>>> 8a5cc0b (.)
 //mix.version();
 
 mix.sourceMaps();

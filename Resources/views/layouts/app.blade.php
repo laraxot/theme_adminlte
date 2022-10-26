@@ -1,6 +1,6 @@
 @extends('adm_theme::layouts.plane')
 
-@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
 
 @section('adminlte_css')
     @stack('css')
@@ -11,7 +11,11 @@
 @section('body_data', $layoutHelper->makeBodyData())
 
 @section('body')
+
+
+
     <div class="wrapper">
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -27,6 +31,11 @@
 >>>>>>> ac76b2e (.)
 =======
 >>>>>>> 63c2c43 (up)
+=======
+
+        <!-- Preloader -->
+        {{--
+>>>>>>> 8a5cc0b (.)
         <div class="preloader">
 >>>>>>> 31d6e3b (first)
 =======
@@ -35,11 +44,11 @@
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
             <div class="row">
                 <div class="col-md-12 justify-content-center">
-                    <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
-                        <span class="sr-only">Loading...</span>
-                    </div>
+                <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
+                  <span class="sr-only">Loading...</span>
                 </div>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
             </div>
 <<<<<<< HEAD
@@ -59,6 +68,12 @@
 =======
         </div>
 >>>>>>> 63c2c43 (up)
+=======
+            </div>
+        </div>
+        --}}
+
+>>>>>>> 8a5cc0b (.)
 
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())
@@ -78,6 +93,8 @@
         @else
             @include('adm_theme::layouts.partials.cwrapper.cwrapper-iframe')
         @endempty
+
+
 
         {{-- Footer --}}
         @hasSection('footer')

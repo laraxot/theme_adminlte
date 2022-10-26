@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Menu;
+namespace Themes\KlekooAdm\Menu;
 
 use Illuminate\Support\Arr;
-use Themes\AdminLTE\Helpers\MenuItemHelper;
+use Themes\KlekooAdm\Helpers\MenuItemHelper;
 
 class Builder {
     protected const ADD_AFTER = 0;

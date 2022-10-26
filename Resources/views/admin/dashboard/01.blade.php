@@ -12,6 +12,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
     @php
         //dddx($profile->areas());
     @endphp
@@ -209,6 +210,8 @@ aaa
 =======
 >>>>>>> 6332637 (.)
 =======
+=======
+>>>>>>> 8a5cc0b (.)
 @php
 use Modules\Quaeris\Services\LimeModelService;
 
@@ -220,7 +223,11 @@ $question = $questions->last();
 $answers = $lime->getAnswersByQuestionId((string) 30342);
 @endphp
 @php dddx($answers); @endphp
+<<<<<<< HEAD
 @endsection
 >>>>>>> b738e1c (rebase)
 =======
 >>>>>>> 63c2c43 (up)
+=======
+@endsection
+>>>>>>> 8a5cc0b (.)

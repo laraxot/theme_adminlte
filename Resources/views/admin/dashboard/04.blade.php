@@ -19,7 +19,7 @@
     @if (!is_null($question_charts))
         @foreach ($survey_pdf_first->questionCharts as $question_chart)
             <p>{{ $question_chart->question_txt }}</p>
-            <x-lime.chart type="chartjs" questionChartId="{{ $question_chart->id }}"></x-lime.chart>
+            <x-lime.chart type="chartjs" id="{{ $question_chart->id }}"></x-lime.chart>
         @endforeach
     @endif
 =======
