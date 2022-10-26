@@ -20,19 +20,26 @@ class ThemeComposer extends XotBaseComposer {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b135dba (.)
     /**
      * Bind data to the view.
      *
      * @return void
      */
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+=======
+>>>>>>> b135dba (.)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,3 +57,6 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> e6202c2 (.)
+=======
+}
+>>>>>>> b135dba (.)
