@@ -1,9 +1,23 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 49899e0 (.)
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+=======
+<<<<<<< HEAD
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
 =======
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
+>>>>>>> fac8ac6 (.)
 @endsection --}}
 
 
@@ -32,6 +46,7 @@
 </x-dashboard>
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -39,3 +54,7 @@
 >>>>>>> 870e170 (.)
 =======
 >>>>>>> 7306100 (.)
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> fac8ac6 (.)
+>>>>>>> 49899e0 (.)
