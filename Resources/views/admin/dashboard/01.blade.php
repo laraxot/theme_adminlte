@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -69,6 +70,8 @@ aaa
 >>>>>>> 1194766 (up)
 =======
 >>>>>>> 21fe4df (.)
+=======
+>>>>>>> e0a8e01 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -85,6 +88,7 @@ aaa
 <<<<<<< HEAD
 =======
 >>>>>>> 3cc23ea (.)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 7306100 (.)
@@ -96,6 +100,8 @@ aaa
 =======
 <<<<<<< HEAD
 >>>>>>> 21fe4df (.)
+=======
+>>>>>>> e0a8e01 (.)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -133,6 +139,7 @@ aaa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
 <<<<<<< HEAD
 >>>>>>> 49899e0 (.)
@@ -152,3 +159,8 @@ aaa
 =======
 >>>>>>> fac8ac6 (.)
 >>>>>>> 21fe4df (.)
+=======
+>>>>>>> fac8ac6 (.)
+=======
+>>>>>>> 3cc23ea (.)
+>>>>>>> e0a8e01 (.)
