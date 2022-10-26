@@ -91,11 +91,16 @@ mix.js('Resources/js/auth.js', 'Resources/dist/js')
 */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
+=======
+mix.extract();
+/*
+>>>>>>> 29587b0 (.)
 mix.extract([
     'admin-lte',
     'axios',
@@ -113,12 +118,18 @@ mix.extract([
     //'jasny-bootstrap',
     'moment',
     'nouislider',
+<<<<<<< HEAD
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
+=======
+] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
+);
+*/
+>>>>>>> 29587b0 (.)
 //mix.version();
 
 mix.sourceMaps();
