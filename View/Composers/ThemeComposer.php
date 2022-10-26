@@ -44,6 +44,7 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -60,3 +61,6 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> b135dba (.)
+=======
+}
+>>>>>>> 7bb12fc (.)
