@@ -1,20 +1,29 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class InfoBox extends Component {
 =======
 class InfoBox extends Component
 {
 >>>>>>> 31d6e3b (first)
+=======
+class InfoBox extends Component {
+>>>>>>> f405739 (up)
     /**
      * The title/header for the box.
      *
@@ -111,11 +120,15 @@ class InfoBox extends Component
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeBoxClass() {
 =======
     public function makeBoxClass()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function makeBoxClass() {
+>>>>>>> f405739 (up)
         $classes = ['info-box'];
 
         if (isset($this->theme)) {
@@ -131,11 +144,15 @@ class InfoBox extends Component
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeIconClass() {
 =======
     public function makeIconClass()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function makeIconClass() {
+>>>>>>> f405739 (up)
         $classes = ['info-box-icon'];
 
         if (isset($this->iconTheme)) {
@@ -151,11 +168,15 @@ class InfoBox extends Component
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
         return view('adminlte::components.widget.info-box');
     }
 }

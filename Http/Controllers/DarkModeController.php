@@ -1,20 +1,29 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
 namespace Themes\AdminLTE\Http\Controllers;
 
 use Themes\AdminLTE\Events\DarkModeWasToggled;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class DarkModeController extends Controller {
 =======
 class DarkModeController extends Controller
 {
 >>>>>>> 31d6e3b (first)
+=======
+class DarkModeController extends Controller {
+>>>>>>> f405739 (up)
     /**
      * The key to use for save dark mode preference on the session.
      *
@@ -28,11 +37,15 @@ class DarkModeController extends Controller
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function toggle() {
 =======
     public function toggle()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function toggle() {
+>>>>>>> f405739 (up)
         // Store the new dark mode preference on the session. This way, we can
         // keep the dark mode preference over multiple requests.
 
@@ -51,11 +64,15 @@ class DarkModeController extends Controller
      * @return bool
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function isEnabled() {
 =======
     public function isEnabled()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function isEnabled() {
+>>>>>>> f405739 (up)
         // First, check if dark mode preference is available on the session.
 
         if (! is_null(session($this->sessionKey, null))) {
@@ -73,11 +90,15 @@ class DarkModeController extends Controller
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function enable() {
 =======
     public function enable()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function enable() {
+>>>>>>> f405739 (up)
         session([$this->sessionKey => true]);
     }
 
@@ -87,11 +108,15 @@ class DarkModeController extends Controller
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function disable() {
 =======
     public function disable()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function disable() {
+>>>>>>> f405739 (up)
         session([$this->sessionKey => false]);
     }
 }

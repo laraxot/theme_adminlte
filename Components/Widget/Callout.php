@@ -1,20 +1,29 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Callout extends Component {
 =======
 class Callout extends Component
 {
 >>>>>>> 31d6e3b (first)
+=======
+class Callout extends Component {
+>>>>>>> f405739 (up)
     /**
      * The callout icon (a Font Awesome icon).
      *
@@ -71,11 +80,15 @@ class Callout extends Component
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeCalloutClass() {
 =======
     public function makeCalloutClass()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function makeCalloutClass() {
+>>>>>>> f405739 (up)
         $classes = ['callout'];
 
         if (! empty($this->theme)) {
@@ -91,11 +104,15 @@ class Callout extends Component
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
         return view('adminlte::components.widget.callout');
     }
 }

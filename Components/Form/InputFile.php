@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -12,6 +13,13 @@ namespace Themes\AdminLTE\Components\Form;
 class InputFile extends InputGroupComponent
 {
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class InputFile extends InputGroupComponent {
+>>>>>>> f405739 (up)
     /**
      * The placeholder for the input file box.
      *
@@ -77,11 +85,15 @@ class InputFile extends InputGroupComponent
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeItemClass() {
 =======
     public function makeItemClass()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function makeItemClass() {
+>>>>>>> f405739 (up)
         $classes = ['custom-file-input'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -97,11 +109,15 @@ class InputFile extends InputGroupComponent
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
         return view('adminlte::components.form.input-file');
     }
 }

@@ -1,31 +1,44 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class MainViewsResource extends PackageResource {
 =======
 class MainViewsResource extends PackageResource
 {
 >>>>>>> 31d6e3b (first)
+=======
+class MainViewsResource extends PackageResource {
+>>>>>>> f405739 (up)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function __construct() {
+>>>>>>> f405739 (up)
         // Fill the resource data.
 
         $this->description = 'The default package main views';
@@ -37,6 +50,7 @@ class MainViewsResource extends PackageResource
 
         $this->messages = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'install' => 'Install the AdminLTE main views?',
             'overwrite' => 'The main views already exists. Want to replace the views?',
             'success' => 'Main views installed successfully.',
@@ -45,6 +59,11 @@ class MainViewsResource extends PackageResource
             'overwrite' => 'The main views already exists. Want to replace the views?',
             'success'   => 'Main views installed successfully.',
 >>>>>>> 31d6e3b (first)
+=======
+            'install' => 'Install the AdminLTE main views?',
+            'overwrite' => 'The main views already exists. Want to replace the views?',
+            'success' => 'Main views installed successfully.',
+>>>>>>> f405739 (up)
         ];
     }
 
@@ -54,11 +73,15 @@ class MainViewsResource extends PackageResource
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function install() {
 =======
     public function install()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function install() {
+>>>>>>> f405739 (up)
         // Install the main views.
 
         CommandHelper::copyDirectory($this->source, $this->target, true, true);
@@ -70,11 +93,15 @@ class MainViewsResource extends PackageResource
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function uninstall() {
 =======
     public function uninstall()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function uninstall() {
+>>>>>>> f405739 (up)
         // Uninstall the package main views.
 
         if (is_dir($this->target)) {
@@ -88,11 +115,15 @@ class MainViewsResource extends PackageResource
      * @return bool
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function exists() {
 =======
     public function exists()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function exists() {
+>>>>>>> f405739 (up)
         return is_dir($this->target);
     }
 
@@ -102,11 +133,15 @@ class MainViewsResource extends PackageResource
      * @return bool
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function installed() {
 =======
     public function installed()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function installed() {
+>>>>>>> f405739 (up)
         return (bool) CommandHelper::compareDirectories(
             $this->source,
             $this->target,

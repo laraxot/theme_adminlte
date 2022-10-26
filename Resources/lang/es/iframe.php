@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -8,6 +9,11 @@ return [
 return [
 
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> f405739 (up)
     /*
     |--------------------------------------------------------------------------
     | IFrame Mode Language Lines
@@ -27,7 +33,10 @@ return [
     'tab_home' => 'Inicio',
     'tab_loading' => 'Cargando pestaña',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
 ];

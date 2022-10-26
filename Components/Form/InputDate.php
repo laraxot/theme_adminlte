@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -12,6 +13,13 @@ namespace Themes\AdminLTE\Components\Form;
 class InputDate extends InputGroupComponent
 {
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class InputDate extends InputGroupComponent {
+>>>>>>> f405739 (up)
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
@@ -19,10 +27,14 @@ class InputDate extends InputGroupComponent
      */
     protected $icons = [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f405739 (up)
         'time' => 'fas fa-clock',
         'date' => 'fas fa-calendar-alt',
         'up' => 'fas fa-arrow-up',
         'down' => 'fas fa-arrow-down',
+<<<<<<< HEAD
         'previous' => 'fas fa-chevron-left',
         'next' => 'fas fa-chevron-right',
         'today' => 'fas fa-calendar-check-o',
@@ -39,6 +51,13 @@ class InputDate extends InputGroupComponent
         'clear'    => 'fas fa-trash',
         'close'    => 'fas fa-times',
 >>>>>>> 31d6e3b (first)
+=======
+        'previous' => 'fas fa-chevron-left',
+        'next' => 'fas fa-chevron-right',
+        'today' => 'fas fa-calendar-check-o',
+        'clear' => 'fas fa-trash',
+        'close' => 'fas fa-times',
+>>>>>>> f405739 (up)
     ];
 
     /**
@@ -116,11 +135,15 @@ class InputDate extends InputGroupComponent
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeItemClass() {
 =======
     public function makeItemClass()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function makeItemClass() {
+>>>>>>> f405739 (up)
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -136,11 +159,15 @@ class InputDate extends InputGroupComponent
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
         return view('adminlte::components.form.input-date');
     }
 }

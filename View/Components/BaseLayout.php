@@ -21,10 +21,14 @@ class BaseLayout extends Component {
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render(): \Illuminate\Contracts\Support\Renderable {
 =======
     public function render():\Illuminate\Contracts\Support\Renderable {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render(): \Illuminate\Contracts\Support\Renderable {
+>>>>>>> f405739 (up)
         return view('layouts.base');
     }
 }

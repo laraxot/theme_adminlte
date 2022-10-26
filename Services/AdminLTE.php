@@ -67,10 +67,14 @@ class AdminLTE {
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
     public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
 >>>>>>> 31d6e3b (first)
+=======
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> f405739 (up)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -101,12 +105,17 @@ class AdminLTE {
         // Check for filter token.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
 =======
         //backtrace(true);
         //dddx($this->menu);
 >>>>>>> 31d6e3b (first)
+=======
+        // backtrace(true);
+        // dddx($this->menu);
+>>>>>>> f405739 (up)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -134,6 +143,7 @@ class AdminLTE {
         // the menu.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -149,17 +159,25 @@ class AdminLTE {
 =======
         //$this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
+=======
+        // $this->events->dispatch(new BuildingMenu($builder));
+        $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
+>>>>>>> f405739 (up)
 
-        //$builder->add(...$menu);
+        // $builder->add(...$menu);
 
         $model_menu = $this->setMenu();
 
-        //Cannot unpack array with string keys
-        //dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
+        // Cannot unpack array with string keys
+        // dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
 
         $builder->add(...$model_menu);
+<<<<<<< HEAD
         //dddx($builder->menu);
 >>>>>>> 31d6e3b (first)
+=======
+        // dddx($builder->menu);
+>>>>>>> f405739 (up)
 
         // Return the set of menu items.
 
@@ -344,7 +362,11 @@ class AdminLTE {
         return collect([]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 31d6e3b (first)
+=======
+}
+>>>>>>> f405739 (up)

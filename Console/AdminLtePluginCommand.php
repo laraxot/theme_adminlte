@@ -1,21 +1,30 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
 use Themes\AdminLTE\Console\PackageResources\PluginsResource;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class AdminLtePluginCommand extends Command {
 =======
 class AdminLtePluginCommand extends Command
 {
 >>>>>>> 31d6e3b (first)
+=======
+class AdminLtePluginCommand extends Command {
+>>>>>>> f405739 (up)
     /**
      * The name and signature of the console command.
      *
@@ -77,16 +86,21 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function __construct() {
+>>>>>>> f405739 (up)
         parent::__construct();
 
         // Fill the available operations handlers.
 
         $this->opHandlers = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'list' => [$this, 'showPlugins'],
             'install' => [$this, 'installPlugins'],
@@ -96,6 +110,11 @@ class AdminLtePluginCommand extends Command
             'install' => [$this, 'installPlugins'],
             'remove'  => [$this, 'removePlugins'],
 >>>>>>> 31d6e3b (first)
+=======
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+>>>>>>> f405739 (up)
         ];
 
         // Create the plugins resource instance.
@@ -109,11 +128,15 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function handle() {
 =======
     public function handle()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function handle() {
+>>>>>>> f405739 (up)
         // Get the type of operation to perform.
 
         $op = $this->argument('operation');
@@ -138,11 +161,15 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showPlugins() {
 =======
     protected function showPlugins()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    protected function showPlugins() {
+>>>>>>> f405739 (up)
         // Show the plugins status.
 
         $pluginsKeys = $this->getAffectedPlugins();
@@ -160,11 +187,15 @@ class AdminLtePluginCommand extends Command
      * @return array An array with plugins keys
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function getAffectedPlugins() {
 =======
     protected function getAffectedPlugins()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    protected function getAffectedPlugins() {
+>>>>>>> f405739 (up)
         // First, check if the user has specified the plugins keys.
 
         if (! empty($this->option('plugin'))) {
@@ -180,6 +211,7 @@ class AdminLtePluginCommand extends Command
      * Display the plugins status.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array $pluginsKeys Array with the plugins keys to evaluate
      *
      * @return void
@@ -192,6 +224,13 @@ class AdminLtePluginCommand extends Command
     protected function showPluginsStatus($pluginsKeys)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param array $pluginsKeys Array with the plugins keys to evaluate
+     *
+     * @return void
+     */
+    protected function showPluginsStatus($pluginsKeys) {
+>>>>>>> f405739 (up)
         // Define the table headers.
 
         $tblHeader = [
@@ -212,9 +251,12 @@ class AdminLtePluginCommand extends Command
 
         foreach ($pluginsKeys as $key) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -251,6 +293,7 @@ class AdminLtePluginCommand extends Command
      * Get the installation status of a plugin.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $pluginKey The plugin key
      *
      * @return string The plugin status
@@ -263,6 +306,13 @@ class AdminLtePluginCommand extends Command
     protected function getPluginStatus($pluginKey)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin key
+     *
+     * @return string The plugin status
+     */
+    protected function getPluginStatus($pluginKey) {
+>>>>>>> f405739 (up)
         $status = $this->status['uninstalled'];
 
         if ($this->plugins->installed($pluginKey)) {
@@ -280,11 +330,15 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showStatusLegends() {
 =======
     protected function showStatusLegends()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    protected function showStatusLegends() {
+>>>>>>> f405739 (up)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -314,6 +368,7 @@ class AdminLtePluginCommand extends Command
      * Give output style to some text.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
@@ -328,6 +383,14 @@ class AdminLtePluginCommand extends Command
     protected function styleOutput($text, $color)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param string $text  The text to be styled
+     * @param string $color The output color for the text
+     *
+     * @return string The styled text
+     */
+    protected function styleOutput($text, $color) {
+>>>>>>> f405739 (up)
         return "<fg={$color}>{$text}</>";
     }
 
@@ -337,11 +400,15 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function installPlugins() {
 =======
     protected function installPlugins()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    protected function installPlugins() {
+>>>>>>> f405739 (up)
         $summary = [];
 
         // Get the list of plugins to be installed.
@@ -357,9 +424,12 @@ class AdminLtePluginCommand extends Command
 
         foreach ($pluginsKeys as $pluginKey) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -391,6 +461,7 @@ class AdminLtePluginCommand extends Command
      * Install the specified plugin.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully installed
@@ -403,6 +474,13 @@ class AdminLtePluginCommand extends Command
     protected function installPlugin($pluginKey)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin string key
+     *
+     * @return bool Whether the plugin was succesfully installed
+     */
+    protected function installPlugin($pluginKey) {
+>>>>>>> f405739 (up)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('install');
@@ -448,11 +526,15 @@ class AdminLtePluginCommand extends Command
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function removePlugins() {
 =======
     protected function removePlugins()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    protected function removePlugins() {
+>>>>>>> f405739 (up)
         $summary = [];
 
         // Get the list of plugins to remove.
@@ -468,9 +550,12 @@ class AdminLtePluginCommand extends Command
 
         foreach ($pluginsKeys as $pluginKey) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -502,6 +587,7 @@ class AdminLtePluginCommand extends Command
      * Remove/Uninstall the specified plugin.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully removed
@@ -514,6 +600,13 @@ class AdminLtePluginCommand extends Command
     protected function removePlugin($pluginKey)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin string key
+     *
+     * @return bool Whether the plugin was succesfully removed
+     */
+    protected function removePlugin($pluginKey) {
+>>>>>>> f405739 (up)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('remove');
@@ -545,6 +638,7 @@ class AdminLtePluginCommand extends Command
      * Show the summary table for some operation.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array $rows the table rows
      *
      * @return void
@@ -557,6 +651,13 @@ class AdminLtePluginCommand extends Command
     protected function showSummaryTable($rows)
     {
 >>>>>>> 31d6e3b (first)
+=======
+     * @param array $rows the table rows
+     *
+     * @return void
+     */
+    protected function showSummaryTable($rows) {
+>>>>>>> f405739 (up)
         $header = [
             $this->styleOutput('Plugin Key', 'cyan'),
             $this->styleOutput('Status', 'cyan'),

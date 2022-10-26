@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -12,6 +13,13 @@ namespace Themes\AdminLTE\Components\Form;
 class Select2 extends InputGroupComponent
 {
 >>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class Select2 extends InputGroupComponent {
+>>>>>>> f405739 (up)
     /**
      * The select2 plugin configuration parameters. Array with key => value
      * pairs, where the key should be an existing configuration property of
@@ -72,11 +80,15 @@ class Select2 extends InputGroupComponent
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
     {
 >>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
         return view('adminlte::components.form.select2');
     }
 }

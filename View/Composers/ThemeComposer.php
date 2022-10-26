@@ -31,7 +31,11 @@ class ThemeComposer extends XotBaseComposer {
         $view->with('_theme', $this->adminlte);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 31d6e3b (first)
+=======
+}
+>>>>>>> f405739 (up)
