@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -10,3 +11,6 @@
         @endforeach
     </div>
 @endsection
+=======
+aaa
+>>>>>>> 28d9a7d (.)
