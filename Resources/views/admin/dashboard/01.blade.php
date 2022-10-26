@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -63,10 +64,13 @@ aaa
 >>>>>>> 49899e0 (.)
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 326d5c3 (.)
+=======
+>>>>>>> 1194766 (up)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7306100 (.)
@@ -134,3 +138,5 @@ aaa
 >>>>>>> 49899e0 (.)
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 326d5c3 (.)
+=======
+>>>>>>> 1194766 (up)
