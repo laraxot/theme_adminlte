@@ -6,6 +6,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -20,6 +21,9 @@ namespace Themes\AdminLTE\Menu;
 =======
 namespace Themes\KlekooAdm\Menu;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Menu;
+>>>>>>> 63c2c43 (up)
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Http\Request;

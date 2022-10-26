@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -59,6 +60,8 @@
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 =======
 >>>>>>> 29587b0 (.)
+=======
+>>>>>>> 63c2c43 (up)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -70,6 +73,7 @@
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +93,8 @@
 =======
 =======
 >>>>>>> 29587b0 (.)
+=======
+>>>>>>> 63c2c43 (up)
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
 =======

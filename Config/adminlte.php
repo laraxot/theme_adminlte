@@ -346,13 +346,13 @@ return [
     */
 
     'filters' => [
-        Themes\KlekooAdm\Menu\Filters\GateFilter::class,
-        Themes\KlekooAdm\Menu\Filters\HrefFilter::class,
-        Themes\KlekooAdm\Menu\Filters\SearchFilter::class,
-        Themes\KlekooAdm\Menu\Filters\ActiveFilter::class,
-        Themes\KlekooAdm\Menu\Filters\ClassesFilter::class,
-        Themes\KlekooAdm\Menu\Filters\LangFilter::class,
-        Themes\KlekooAdm\Menu\Filters\DataFilter::class,
+        Themes\AdminLTE\Menu\Filters\GateFilter::class,
+        Themes\AdminLTE\Menu\Filters\HrefFilter::class,
+        Themes\AdminLTE\Menu\Filters\SearchFilter::class,
+        Themes\AdminLTE\Menu\Filters\ActiveFilter::class,
+        Themes\AdminLTE\Menu\Filters\ClassesFilter::class,
+        Themes\AdminLTE\Menu\Filters\LangFilter::class,
+        Themes\AdminLTE\Menu\Filters\DataFilter::class,
     ],
 
     /*
