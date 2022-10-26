@@ -1,6 +1,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @php
     //dddx($profile->getProfile()->customers);
@@ -13,12 +14,15 @@
     $customer = $profile->getProfile()->customers;
 
 =======
+=======
+
+>>>>>>> 49f02ef (.)
     @php
     //dddx($profile->getProfile()->customers);
     /*
-        $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
-        $profile->getProfile()->customers()->sync($customer_rnd);
-        */
+                                $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
+                                $profile->getProfile()->customers()->sync($customer_rnd);
+                                */
     //dddx($customer_rnd);
     $customer = $profile->getProfile()->customers->first();
 <<<<<<< HEAD
@@ -56,8 +60,12 @@
 >>>>>>> e45345e (.)
 =======
             <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
+<<<<<<< HEAD
                 </x-lime.chart-img>
 >>>>>>> 8e96989 (.)
+=======
+            </x-lime.chart-img.v2>
+>>>>>>> 49f02ef (.)
         @endforeach
     @endif
 @endsection
