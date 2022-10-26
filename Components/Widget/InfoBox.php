@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class InfoBox extends Component {
+=======
+class InfoBox extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The title/header for the box.
      *
@@ -73,6 +81,7 @@ class InfoBox extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $title = null,
         $text = null,
         $icon = null,
@@ -80,6 +89,10 @@ class InfoBox extends Component {
         $theme = null,
         $iconTheme = null,
         $progress = null,
+=======
+        $title = null, $text = null, $icon = null, $description = null,
+        $theme = null, $iconTheme = null, $progress = null,
+>>>>>>> 31d6e3b (first)
         $progressTheme = 'white'
     ) {
         $this->title = $title;
@@ -97,7 +110,12 @@ class InfoBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeBoxClass() {
+=======
+    public function makeBoxClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['info-box'];
 
         if (isset($this->theme)) {
@@ -112,7 +130,12 @@ class InfoBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeIconClass() {
+=======
+    public function makeIconClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['info-box-icon'];
 
         if (isset($this->iconTheme)) {
@@ -127,7 +150,12 @@ class InfoBox extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.info-box');
     }
 }

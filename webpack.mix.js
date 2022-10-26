@@ -4,7 +4,11 @@
 //https://adminlte.io/blog/integrate-adminlte-with-laravel
 
 let mix = require('laravel-mix');
+<<<<<<< HEAD
 const path = require('path');
+=======
+//const path = require('path');
+>>>>>>> 31d6e3b (first)
 //https://dev.to/saymon/laravel-mix-rewrite-path-when-place-project-in-subfolder-2325
 //https://dev.to/tefoh/laravel-scaffold-command-2lg
 //https://dev.to/100r0bh/bulk-action-using-livewire-31i7
@@ -29,11 +33,17 @@ const path = require('path');
  |
  */
 
+<<<<<<< HEAD
 require('laravel-mix-purgecss');
 
 mix.autoload({
     //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
     jquery: ['$', 'window.jQuery', "jQuery", "window.$", "jquery", "window.jquery"],
+=======
+mix.autoload({
+    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
+    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
+>>>>>>> 31d6e3b (first)
     tether: ['Tether', 'windows.Tether'],
     //Popper: ['popper', 'Popper', 'popper.js'],
     //popper: ['Popper', 'popper.js'],
@@ -42,6 +52,7 @@ mix.autoload({
 
 mix.setPublicPath('Resources/dist');
 
+<<<<<<< HEAD
 mix.js('Resources/js/app.js', 'Resources/dist/js'); //.vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
@@ -52,17 +63,46 @@ mix.purgeCss({
     enabled: false,
 });
 
+=======
+mix.js('Resources/js/app.js', 'Resources/dist/js').vue();
+
+mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
+
+>>>>>>> 31d6e3b (first)
 /*
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
 */
+<<<<<<< HEAD
 mix.extract();
+=======
+
+mix.extract([
+    'admin-lte',
+    'axios',
+    //'bootstrap-sass',
+    'bootstrap',
+    'fastclick',
+    'jquery',
+    'jquery-slimscroll',
+    'lodash',
+    //'vue',
+    'popper.js',
+    'sweetalert2',
+    'lodash',
+    //'bootstrap-select',
+    //'jasny-bootstrap',
+    'moment',
+    'nouislider',
+] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
+>>>>>>> 31d6e3b (first)
 
 //mix.version();
 
 mix.sourceMaps();
 
 
+<<<<<<< HEAD
 mix.webpackConfig({
     resolve: {
         modules: [
@@ -86,6 +126,9 @@ mix.webpackConfig({
 
 
 //*
+=======
+/*
+>>>>>>> 31d6e3b (first)
 
 require('laravel-mix-polyfill');
 
@@ -95,7 +138,11 @@ mix.polyfill({
     //targets: { "firefox": "50", "ie": 11 }
     targets: "firefox 50, IE 11"
 });
+<<<<<<< HEAD
 //*/
+=======
+*/
+>>>>>>> 31d6e3b (first)
 
 var $from = './Resources/dist';
 var $to = '../../../public_html/themes/AdminLTE/dist';
@@ -107,4 +154,8 @@ console.log('to :' + $to);
 
 mix.copyDirectory($from, $to);
 
+<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
+=======
+mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
+>>>>>>> 31d6e3b (first)

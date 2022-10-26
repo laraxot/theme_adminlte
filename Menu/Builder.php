@@ -228,4 +228,8 @@ class Builder {
 
         $this->menu = $this->transformItems($this->menu);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 31d6e3b (first)

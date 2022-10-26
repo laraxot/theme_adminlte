@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class NavbarNotification extends Component {
+=======
+class NavbarNotification extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * Constants to define the available url configuration types.
      */
@@ -78,6 +86,7 @@ class NavbarNotification extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $id,
         $icon,
         $iconColor = null,
@@ -86,6 +95,10 @@ class NavbarNotification extends Component {
         $updateCfg = [],
         $enableDropdownMode = false,
         $dropdownFooterLabel = null
+=======
+        $id, $icon, $iconColor = null, $badgeLabel = null, $badgeColor = null,
+        $updateCfg = [], $enableDropdownMode = false, $dropdownFooterLabel = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->id = $id;
         $this->icon = $icon;
@@ -102,7 +115,12 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeListItemClass() {
+=======
+    public function makeListItemClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['nav-item'];
 
         if ($this->enableDropdownMode) {
@@ -117,7 +135,12 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeAnchorDefaultAttrs() {
+=======
+    public function makeAnchorDefaultAttrs()
+    {
+>>>>>>> 31d6e3b (first)
         $attrs = ['class' => 'nav-link'];
 
         if ($this->enableDropdownMode) {
@@ -132,7 +155,12 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeIconClass() {
+=======
+    public function makeIconClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = [$this->icon];
 
         if (! empty($this->iconColor)) {
@@ -147,7 +175,12 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeBadgeClass() {
+=======
+    public function makeBadgeClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['badge navbar-badge text-bold text-xs badge-pill'];
 
         if (! empty($this->badgeColor)) {
@@ -162,7 +195,12 @@ class NavbarNotification extends Component {
      *
      * @return int
      */
+<<<<<<< HEAD
     public function makeUpdatePeriod() {
+=======
+    public function makeUpdatePeriod()
+    {
+>>>>>>> 31d6e3b (first)
         if (! isset($this->updateCfg['period'])) {
             return 0;
         }
@@ -175,7 +213,12 @@ class NavbarNotification extends Component {
      *
      * @return string|null
      */
+<<<<<<< HEAD
     public function makeUpdateUrl() {
+=======
+    public function makeUpdateUrl()
+    {
+>>>>>>> 31d6e3b (first)
         // Check if the url property is available.
 
         if (! empty($this->updateCfg['url'])) {
@@ -199,12 +242,21 @@ class NavbarNotification extends Component {
     /**
      * Create the url from specific configuration type.
      *
+<<<<<<< HEAD
      * @param string|array $cfg  the configuration for the url
      * @param mixed        $type the configuration type (url or route)
      *
      * @return string|null
      */
     protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
+=======
+     * @param  string|array  $cfg  The configuration for the url.
+     * @param  mixed  $type  The configuration type (url or route).
+     * @return string|null
+     */
+    protected function makeUrlFromCfg($cfg, $type = self::CFG_URL)
+    {
+>>>>>>> 31d6e3b (first)
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
@@ -216,7 +268,11 @@ class NavbarNotification extends Component {
             $path = $cfg[0];
             $params = is_array($cfg[1] ?? null) ? $cfg[1] : [];
 
+<<<<<<< HEAD
             return (self::CFG_ROUTE === $type) ?
+=======
+            return ($type === self::CFG_ROUTE) ?
+>>>>>>> 31d6e3b (first)
                 route($path, $params) :
                 url($path, $params);
         }
@@ -231,7 +287,12 @@ class NavbarNotification extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.layout.navbar-notification');
     }
 }

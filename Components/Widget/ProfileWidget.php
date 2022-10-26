@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class ProfileWidget extends Component {
+=======
+class ProfileWidget extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The user name of the profile widget.
      *
@@ -72,6 +80,7 @@ class ProfileWidget extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $name = null,
         $desc = null,
         $img = null,
@@ -80,6 +89,10 @@ class ProfileWidget extends Component {
         $headerClass = null,
         $footerClass = null,
         $layoutType = 'modern'
+=======
+        $name = null, $desc = null, $img = null, $theme = null, $cover = null,
+        $headerClass = null, $footerClass = null, $layoutType = 'modern'
+>>>>>>> 31d6e3b (first)
     ) {
         $this->name = $name;
         $this->desc = $desc;
@@ -103,12 +116,22 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
         if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
         } elseif ('classic' === $this->layoutType) {
+=======
+    public function makeCardClass()
+    {
+        $classes = ['card', 'card-widget'];
+
+        if ($this->layoutType === 'modern') {
+            $classes[] = 'widget-user';
+        } elseif ($this->layoutType === 'classic') {
+>>>>>>> 31d6e3b (first)
             $classes[] = 'widget-user-2';
         }
 
@@ -120,7 +143,12 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeHeaderClass() {
+=======
+    public function makeHeaderClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -139,7 +167,12 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeHeaderStyle() {
+=======
+    public function makeHeaderStyle()
+    {
+>>>>>>> 31d6e3b (first)
         $style = [];
 
         if (! empty($this->cover)) {
@@ -154,7 +187,12 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeFooterClass() {
+=======
+    public function makeFooterClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -169,7 +207,12 @@ class ProfileWidget extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.profile-widget');
     }
 }

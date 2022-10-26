@@ -1,16 +1,24 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputDate extends InputGroupComponent {
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class InputDate extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
         'time' => 'fas fa-clock',
         'date' => 'fas fa-calendar-alt',
         'up' => 'fas fa-arrow-up',
@@ -20,6 +28,17 @@ class InputDate extends InputGroupComponent {
         'today' => 'fas fa-calendar-check-o',
         'clear' => 'fas fa-trash',
         'close' => 'fas fa-times',
+=======
+        'time'     => 'fas fa-clock',
+        'date'     => 'fas fa-calendar-alt',
+        'up'       => 'fas fa-arrow-up',
+        'down'     => 'fas fa-arrow-down',
+        'previous' => 'fas fa-chevron-left',
+        'next'     => 'fas fa-chevron-right',
+        'today'    => 'fas fa-calendar-check-o',
+        'clear'    => 'fas fa-trash',
+        'close'    => 'fas fa-times',
+>>>>>>> 31d6e3b (first)
     ];
 
     /**
@@ -47,6 +66,7 @@ class InputDate extends InputGroupComponent {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $name,
         $id = null,
         $label = null,
@@ -68,6 +88,15 @@ class InputDate extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+=======
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+        $errorKey = null, $config = []
+    ) {
+        parent::__construct(
+            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
+            $igroupClass, $disableFeedback, $errorKey
+>>>>>>> 31d6e3b (first)
         );
 
         $this->config = is_array($config) ? $config : [];
@@ -86,7 +115,12 @@ class InputDate extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -101,7 +135,12 @@ class InputDate extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.form.input-date');
     }
 }

@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Button extends Component {
+=======
+class Button extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The visible label (text) for the button.
      *
@@ -43,10 +51,14 @@ class Button extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $label = null,
         $type = 'button',
         $theme = 'default',
         $icon = null
+=======
+        $label = null, $type = 'button', $theme = 'default', $icon = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->label = $label;
         $this->type = $type;
@@ -59,7 +71,12 @@ class Button extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.form.button');
     }
 }

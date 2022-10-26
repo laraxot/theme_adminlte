@@ -30,4 +30,8 @@ $(function() {
         autoclose: true,
         todayHighlight: true
     })
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 31d6e3b (first)

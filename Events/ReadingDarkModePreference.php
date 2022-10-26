@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
+<<<<<<< HEAD
 class ReadingDarkModePreference {
+=======
+class ReadingDarkModePreference
+{
+>>>>>>> 31d6e3b (first)
     /**
      * An instance of the dark mode controller.
      *
@@ -16,8 +24,16 @@ class ReadingDarkModePreference {
 
     /**
      * Create a new event instance.
+<<<<<<< HEAD
      */
     public function __construct(DarkModeController $ctrl) {
+=======
+     *
+     * @param  DarkModeController  $ctrl
+     */
+    public function __construct(DarkModeController $ctrl)
+    {
+>>>>>>> 31d6e3b (first)
         $this->darkMode = $ctrl;
     }
 }

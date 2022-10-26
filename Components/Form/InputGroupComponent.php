@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class InputGroupComponent extends Component {
+=======
+class InputGroupComponent extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The id attribute for the underlying input group item. The input group
      * item may be an "input", a "select", a "textarea", etc.
@@ -84,6 +92,7 @@ class InputGroupComponent extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $name,
         $id = null,
         $label = null,
@@ -92,6 +101,10 @@ class InputGroupComponent extends Component {
         $fgroupClass = null,
         $igroupClass = null,
         $disableFeedback = null,
+=======
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+>>>>>>> 31d6e3b (first)
         $errorKey = null
     ) {
         $this->id = $id ?? $name;
@@ -113,7 +126,12 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeFormGroupClass() {
+=======
+    public function makeFormGroupClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['form-group'];
 
         if (isset($this->fgroupClass)) {
@@ -128,7 +146,12 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeInputGroupClass() {
+=======
+    public function makeInputGroupClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['input-group'];
 
         if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
@@ -151,7 +174,12 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -167,7 +195,12 @@ class InputGroupComponent extends Component {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function isInvalid() {
+=======
+    public function isInvalid()
+    {
+>>>>>>> 31d6e3b (first)
         // Get the errors bag from session. The errors bag will be an instance
         // of the Illuminate\Support\MessageBag class.
 
@@ -187,7 +220,12 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     protected function makeErrorKey() {
+=======
+    protected function makeErrorKey()
+    {
+>>>>>>> 31d6e3b (first)
         $errKey = preg_replace('@\[\]$@', '', $this->name);
 
         return preg_replace('@\[([^]]+)\]@', '.$1', $errKey);
@@ -198,7 +236,12 @@ class InputGroupComponent extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.form.input-group-component');
     }
 }

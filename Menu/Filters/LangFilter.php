@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
 
+<<<<<<< HEAD
 class LangFilter implements FilterInterface {
+=======
+class LangFilter implements FilterInterface
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The translator instance.
      *
@@ -23,8 +31,16 @@ class LangFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
      */
     public function __construct(Translator $translator) {
+=======
+     *
+     * @param  Translator  $translator
+     */
+    public function __construct(Translator $translator)
+    {
+>>>>>>> 31d6e3b (first)
         $this->translator = $translator;
         $this->itemProperties = ['header', 'text', 'label'];
     }
@@ -32,6 +48,7 @@ class LangFilter implements FilterInterface {
     /**
      * Transforms a menu item. Makes the item translations.
      *
+<<<<<<< HEAD
      * @param array $item A menu item
      *
      * @return array The transformed menu item
@@ -40,6 +57,17 @@ class LangFilter implements FilterInterface {
         // Translate the menu item properties.
 
         foreach ($this->itemProperties as $prop) {
+=======
+     * @param  array  $item  A menu item
+     * @return array The transformed menu item
+     */
+    public function transform($item)
+    {
+        // Translate the menu item properties.
+
+        foreach ($this->itemProperties as $prop) {
+
+>>>>>>> 31d6e3b (first)
             // Check if the property exists for the item.
 
             if (! isset($item[$prop])) {
@@ -63,12 +91,21 @@ class LangFilter implements FilterInterface {
     /**
      * Gets the translation for a given key.
      *
+<<<<<<< HEAD
      * @param string $key    The key to translate
      * @param array  $params The additional translation params
      *
      * @return string The translation
      */
     protected function getTranslation($key, $params = []) {
+=======
+     * @param  string  $key  The key to translate
+     * @param  array  $params  The additional translation params
+     * @return string The translation
+     */
+    protected function getTranslation($key, $params = [])
+    {
+>>>>>>> 31d6e3b (first)
         // Check for a translation.
 
         if ($this->translator->has('menu.'.$key)) {

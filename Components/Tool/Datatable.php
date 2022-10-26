@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Datatable extends Component {
+=======
+class Datatable extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -114,6 +122,7 @@ class Datatable extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $id,
         $heads,
         $theme = null,
@@ -127,6 +136,12 @@ class Datatable extends Component {
         $beautify = null,
         $withButtons = null,
         $config = []
+=======
+        $id, $heads, $theme = null, $headTheme = null, $bordered = null,
+        $hoverable = null, $striped = null, $compressed = null,
+        $withFooter = null, $footerTheme = null, $beautify = null,
+        $withButtons = null, $config = []
+>>>>>>> 31d6e3b (first)
     ) {
         $this->id = $id;
         $this->heads = $heads;
@@ -162,7 +177,12 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeTableClass() {
+=======
+    public function makeTableClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -193,7 +213,12 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     protected function makeDomCfg() {
+=======
+    protected function makeDomCfg()
+    {
+>>>>>>> 31d6e3b (first)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -215,7 +240,12 @@ class Datatable extends Component {
      *
      * @return array
      */
+<<<<<<< HEAD
     protected function makeButtonsCfg() {
+=======
+    protected function makeButtonsCfg()
+    {
+>>>>>>> 31d6e3b (first)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -281,7 +311,12 @@ class Datatable extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.tool.datatable');
     }
 }

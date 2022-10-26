@@ -18,13 +18,20 @@ class ThemeComposer extends XotBaseComposer {
         $this->adminlte = $adminlte;
     }
 
+<<<<<<< HEAD
     /**
      * Bind data to the view.
      *
      * @return void
      */
+=======
+>>>>>>> 31d6e3b (first)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 31d6e3b (first)

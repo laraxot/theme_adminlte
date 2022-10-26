@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
+<<<<<<< HEAD
 class NavbarDarkmodeWidget extends Component {
+=======
+class NavbarDarkmodeWidget extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The Font Awesome icon to use when dark mode is disabled.
      *
@@ -42,10 +50,15 @@ class NavbarDarkmodeWidget extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $iconDisabled = null,
         $iconEnabled = null,
         $colorDisabled = null,
         $colorEnabled = null
+=======
+        $iconDisabled = null, $iconEnabled = null,
+        $colorDisabled = null, $colorEnabled = null
+>>>>>>> 31d6e3b (first)
     ) {
         // Setup the icon to use when dark mode is disabled.
 
@@ -70,7 +83,12 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeIconClass() {
+=======
+    public function makeIconClass()
+    {
+>>>>>>> 31d6e3b (first)
         // Use the controller to check if dark mode is enabled.
 
         if ((new DarkModeController())->isEnabled()) {
@@ -89,7 +107,12 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return array
      */
+<<<<<<< HEAD
     public function makeIconDisabledClass() {
+=======
+    public function makeIconDisabledClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = explode(' ', $this->iconDisabled);
 
         if (! empty($this->colorDisabled)) {
@@ -106,7 +129,12 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return array
      */
+<<<<<<< HEAD
     public function makeIconEnabledClass() {
+=======
+    public function makeIconEnabledClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = explode(' ', $this->iconEnabled);
 
         if (! empty($this->colorEnabled)) {
@@ -123,7 +151,12 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.layout.navbar-darkmode-widget');
     }
 }

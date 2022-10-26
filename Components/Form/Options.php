@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Options extends Component {
+=======
+class Options extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The list of options as key value pairs.
      *
@@ -59,12 +67,17 @@ class Options extends Component {
      * Create a new component instance.
      */
     public function __construct(
+<<<<<<< HEAD
         $options,
         $selected = null,
         $disabled = null,
         $strict = null,
         $emptyOption = null,
         $placeholder = null
+=======
+        $options, $selected = null, $disabled = null,
+        $strict = null, $emptyOption = null, $placeholder = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->options = Arr::wrap($options);
         $this->selected = Arr::wrap($selected);
@@ -77,22 +90,38 @@ class Options extends Component {
     /**
      * Determines if an option's key is on selected state.
      *
+<<<<<<< HEAD
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isSelected($key) {
+=======
+     * @param  string  $key  The option's key.
+     * @return bool
+     */
+    public function isSelected($key)
+    {
+>>>>>>> 31d6e3b (first)
         return in_array($key, $this->selected, $this->strict);
     }
 
     /**
      * Determines if an option's key is on disabled state.
      *
+<<<<<<< HEAD
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isDisabled($key) {
+=======
+     * @param  string  $key  The option's key.
+     * @return bool
+     */
+    public function isDisabled($key)
+    {
+>>>>>>> 31d6e3b (first)
         return in_array($key, $this->disabled, $this->strict);
     }
 
@@ -101,7 +130,12 @@ class Options extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.form.options');
     }
 }

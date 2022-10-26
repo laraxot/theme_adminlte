@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Progress extends Component {
+=======
+class Progress extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The available progress bar sizes.
      *
@@ -70,6 +78,7 @@ class Progress extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $value = 0,
         $theme = 'info',
         $size = null,
@@ -77,6 +86,10 @@ class Progress extends Component {
         $vertical = null,
         $animated = null,
         $withLabel = null
+=======
+        $value = 0, $theme = 'info', $size = null, $striped = null,
+        $vertical = null, $animated = null, $withLabel = null
+>>>>>>> 31d6e3b (first)
     ) {
         // Control and setup the value property.
 
@@ -97,7 +110,12 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressClass() {
+=======
+    public function makeProgressClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['progress'];
 
         if (isset($this->size) && in_array($this->size, $this->pSizes)) {
@@ -116,7 +134,12 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarClass() {
+=======
+    public function makeProgressBarClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -139,7 +162,12 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarStyle() {
+=======
+    public function makeProgressBarStyle()
+    {
+>>>>>>> 31d6e3b (first)
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -156,7 +184,12 @@ class Progress extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.progress');
     }
 }

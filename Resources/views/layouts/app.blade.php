@@ -16,8 +16,13 @@
 
     <div class="wrapper">
 
+<<<<<<< HEAD
         <!-- Preloader -->
         {{-- <div class="preloader">
+=======
+          <!-- Preloader -->
+        <div class="preloader">
+>>>>>>> 31d6e3b (first)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
@@ -25,7 +30,11 @@
                 </div>
             </div>
             </div>
+<<<<<<< HEAD
         </div> --}}
+=======
+        </div>
+>>>>>>> 31d6e3b (first)
 
 
         {{-- Top Navbar --}}

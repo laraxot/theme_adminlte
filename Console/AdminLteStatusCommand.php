@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -13,7 +16,12 @@ use Themes\AdminLTE\Console\PackageResources\ConfigResource;
 use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
 use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
+<<<<<<< HEAD
 class AdminLteStatusCommand extends Command {
+=======
+class AdminLteStatusCommand extends Command
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The name and signature of the console command.
      *
@@ -63,18 +71,32 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function __construct() {
+=======
+    public function __construct()
+    {
+>>>>>>> 31d6e3b (first)
         parent::__construct();
 
         // Fill the array with the package resources.
 
         $this->pkgResources = [
+<<<<<<< HEAD
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
             'main_views' => new MainViewsResource(),
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
+=======
+            'assets'       => new AssetsResource(),
+            'config'       => new ConfigResource(),
+            'translations' => new TranslationsResource(),
+            'main_views'   => new MainViewsResource(),
+            'auth_views'   => new AuthViewsResource(),
+            'basic_views'  => new BasicViewsResource(),
+>>>>>>> 31d6e3b (first)
             'basic_routes' => new BasicRoutesResource(),
         ];
     }
@@ -84,7 +106,12 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function handle() {
+=======
+    public function handle()
+    {
+>>>>>>> 31d6e3b (first)
         // Display the resources installation status.
 
         $this->showResourcesStatus();
@@ -100,7 +127,12 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function showResourcesStatus() {
+=======
+    protected function showResourcesStatus()
+    {
+>>>>>>> 31d6e3b (first)
         // Define the table headers.
 
         $tblHeader = [
@@ -125,7 +157,12 @@ class AdminLteStatusCommand extends Command {
      *
      * @return array
      */
+<<<<<<< HEAD
     protected function getResourcesStatusRows() {
+=======
+    protected function getResourcesStatusRows()
+    {
+>>>>>>> 31d6e3b (first)
         // Define the array that will hold the table rows.
 
         $tblContent = [];
@@ -141,6 +178,10 @@ class AdminLteStatusCommand extends Command {
         $bar->start();
 
         foreach ($this->pkgResources as $name => $resource) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
             // Fill the status row of the current resource.
 
             $tblContent[] = [
@@ -169,11 +210,19 @@ class AdminLteStatusCommand extends Command {
     /**
      * Get the installation status of a package resource.
      *
+<<<<<<< HEAD
      * @param PackageResource $resource The package resource to check
      *
      * @return string The resource status
      */
     protected function getResourceStatus($resource) {
+=======
+     * @param  PackageResource  $resource  The package resource to check
+     * @return string The resource status
+     */
+    protected function getResourceStatus($resource)
+    {
+>>>>>>> 31d6e3b (first)
         $status = $this->status['uninstalled'];
 
         if ($resource->installed()) {
@@ -190,7 +239,12 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function showStatusLegends() {
+=======
+    protected function showStatusLegends()
+    {
+>>>>>>> 31d6e3b (first)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -219,12 +273,21 @@ class AdminLteStatusCommand extends Command {
     /**
      * Give output style to some text.
      *
+<<<<<<< HEAD
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
      * @return string The styled text
      */
     protected function styleOutput($text, $color) {
+=======
+     * @param  string  $text  The text to be styled
+     * @param  string  $color  The output color for the text
+     * @return string The styled text
+     */
+    protected function styleOutput($text, $color)
+    {
+>>>>>>> 31d6e3b (first)
         return "<fg={$color}>{$text}</>";
     }
 }

@@ -1,18 +1,31 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 class AssetsResource extends PackageResource {
+=======
+class AssetsResource extends PackageResource
+{
+>>>>>>> 31d6e3b (first)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
     public function __construct() {
+=======
+    public function __construct()
+    {
+>>>>>>> 31d6e3b (first)
         // Fill the resource data.
 
         $this->description = 'The AdminLTE required assets';
@@ -79,9 +92,15 @@ class AssetsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
             'install' => 'Install the basic package assets?',
             'overwrite' => 'The basic assets already exists. Want to replace the assets?',
             'success' => 'Basic assets installed successfully.',
+=======
+            'install'   => 'Install the basic package assets?',
+            'overwrite' => 'The basic assets already exists. Want to replace the assets?',
+            'success'   => 'Basic assets installed successfully.',
+>>>>>>> 31d6e3b (first)
         ];
     }
 
@@ -90,7 +109,12 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function install() {
+=======
+    public function install()
+    {
+>>>>>>> 31d6e3b (first)
         // Install the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -103,7 +127,12 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function uninstall() {
+=======
+    public function uninstall()
+    {
+>>>>>>> 31d6e3b (first)
         // Uninstall the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -116,7 +145,12 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function exists() {
+=======
+    public function exists()
+    {
+>>>>>>> 31d6e3b (first)
         foreach ($this->source as $asset) {
             if ($this->assetExists($asset)) {
                 return true;
@@ -131,7 +165,12 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function installed() {
+=======
+    public function installed()
+    {
+>>>>>>> 31d6e3b (first)
         foreach ($this->source as $asset) {
             if (! $this->assetInstalled($asset)) {
                 return false;
@@ -144,11 +183,19 @@ class AssetsResource extends PackageResource {
     /**
      * Install the specified AdminLTE asset.
      *
+<<<<<<< HEAD
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function installAsset($asset) {
+=======
+     * @param  array  $asset  An array with the asset data
+     * @return void
+     */
+    protected function installAsset($asset)
+    {
+>>>>>>> 31d6e3b (first)
         // Check if we just need to export the entire asset.
 
         if (! isset($asset['resources'])) {
@@ -170,11 +217,19 @@ class AssetsResource extends PackageResource {
     /**
      * Exports the specified resource (usually a file or folder).
      *
+<<<<<<< HEAD
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function exportResource($res) {
+=======
+     * @param  array  $res  An array with the resource data
+     * @return void
+     */
+    protected function exportResource($res)
+    {
+>>>>>>> 31d6e3b (first)
         // Check the resource type in order to copy it.
 
         if (is_dir($res['source'])) {
@@ -194,22 +249,38 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified asset already exists on the target destination.
      *
+<<<<<<< HEAD
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetExists($asset) {
+=======
+     * @param  array  $asset  An array with the asset data
+     * @return bool
+     */
+    protected function assetExists($asset)
+    {
+>>>>>>> 31d6e3b (first)
         return is_dir($asset['target']);
     }
 
     /**
      * Check if the specified asset is correctly installed.
      *
+<<<<<<< HEAD
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetInstalled($asset) {
+=======
+     * @param  array  $asset  An array with the asset data
+     * @return bool
+     */
+    protected function assetInstalled($asset)
+    {
+>>>>>>> 31d6e3b (first)
         // Check if the asset have resources.
 
         if (! isset($asset['resources'])) {
@@ -232,11 +303,19 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified resource is correctly installed.
      *
+<<<<<<< HEAD
      * @param array $res An array with the resource data
      *
      * @return bool
      */
     protected function resourceInstalled($res) {
+=======
+     * @param  array  $res  An array with the resource data
+     * @return bool
+     */
+    protected function resourceInstalled($res)
+    {
+>>>>>>> 31d6e3b (first)
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -259,11 +338,19 @@ class AssetsResource extends PackageResource {
     /**
      * Uninstall or remove the specified asset.
      *
+<<<<<<< HEAD
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function uninstallAsset($asset) {
+=======
+     * @param  array  $asset  An array with the asset data
+     * @return void
+     */
+    protected function uninstallAsset($asset)
+    {
+>>>>>>> 31d6e3b (first)
         $target = $asset['target'];
 
         // Uninstall the asset (actually, the target should be a folder).

@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class SmallBox extends Component {
+=======
+class SmallBox extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The title/header for the box.
      *
@@ -65,6 +73,7 @@ class SmallBox extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $title = null,
         $text = null,
         $icon = null,
@@ -72,6 +81,10 @@ class SmallBox extends Component {
         $url = null,
         $urlText = null,
         $loading = null
+=======
+        $title = null, $text = null, $icon = null, $theme = null,
+        $url = null, $urlText = null, $loading = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -87,7 +100,12 @@ class SmallBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeBoxClass() {
+=======
+    public function makeBoxClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -102,7 +120,12 @@ class SmallBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeOverlayClass() {
+=======
+    public function makeOverlayClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -117,7 +140,12 @@ class SmallBox extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.small-box');
     }
 }

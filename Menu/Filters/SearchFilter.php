@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
+<<<<<<< HEAD
 class SearchFilter implements FilterInterface {
+=======
+class SearchFilter implements FilterInterface
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The default name attribute to be used on the search input.
      *
@@ -25,11 +33,19 @@ class SearchFilter implements FilterInterface {
     /**
      * Transforms a menu item. Makes the proper search bar configuration.
      *
+<<<<<<< HEAD
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+=======
+     * @param  array  $item  A menu item
+     * @return array The transformed menu item
+     */
+    public function transform($item)
+    {
+>>>>>>> 31d6e3b (first)
         $isSearch = NavbarItemHelper::isSearch($item) ||
                     SidebarItemHelper::isSearch($item);
 

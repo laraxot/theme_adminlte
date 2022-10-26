@@ -8,10 +8,18 @@
     @php($dashboard_url = $dashboard_url ? url($dashboard_url) : '')
 @endif
 
+<<<<<<< HEAD
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
+=======
+<a href="{{ $dashboard_url }}" @if ($layoutHelper->isLayoutTopnavEnabled())
+    class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
+@else
+    class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}"
+    @endif>
+>>>>>>> 31d6e3b (first)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -21,5 +29,10 @@
     Brand text
     <span class="brand-text font-weight-light {{ config('adm_theme::adminlte.classes_brand_text') }}">
         {!! config('adm_theme::adminlte.logo', '<b>Admin</b>LTE') !!}
+<<<<<<< HEAD
     </span> --}}
+=======
+    </span>
+    --}}
+>>>>>>> 31d6e3b (first)
 </a>

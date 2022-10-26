@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Card extends Component {
+=======
+class Card extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The title for the card header.
      *
@@ -83,6 +91,7 @@ class Card extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $title = null,
         $icon = null,
         $theme = null,
@@ -92,6 +101,11 @@ class Card extends Component {
         $collapsible = null,
         $removable = null,
         $maximizable = null
+=======
+        $title = null, $icon = null, $theme = null, $themeMode = null,
+        $bodyClass = null, $disabled = null, $collapsible = null,
+        $removable = null, $maximizable = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->title = $title;
         $this->icon = $icon;
@@ -109,6 +123,7 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCardClass() {
         $classes = ['card'];
 
@@ -117,11 +132,26 @@ class Card extends Component {
             $classes[] = "{$base}-{$this->theme}";
 
             if ('outline' === $this->themeMode) {
+=======
+    public function makeCardClass()
+    {
+        $classes = ['card'];
+
+        if (isset($this->theme)) {
+            $base = $this->themeMode === 'full' ? 'bg-gradient' : 'card';
+            $classes[] = "{$base}-{$this->theme}";
+
+            if ($this->themeMode === 'outline') {
+>>>>>>> 31d6e3b (first)
                 $classes[] = 'card-outline';
             }
         }
 
+<<<<<<< HEAD
         if ('collapsed' === $this->collapsible) {
+=======
+        if ($this->collapsible === 'collapsed') {
+>>>>>>> 31d6e3b (first)
             $classes[] = 'collapsed-card';
         }
 
@@ -133,7 +163,12 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCardBodyClass() {
+=======
+    public function makeCardBodyClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['card-body'];
 
         if (isset($this->bodyClass)) {
@@ -148,7 +183,12 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCardHeaderClass() {
+=======
+    public function makeCardHeaderClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['card-header'];
 
         if ($this->isCardHeaderEmpty()) {
@@ -163,10 +203,18 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCardTitleClass() {
         $classes = ['card-title'];
 
         if (isset($this->theme) && 'outline' === $this->themeMode) {
+=======
+    public function makeCardTitleClass()
+    {
+        $classes = ['card-title'];
+
+        if (isset($this->theme) && $this->themeMode === 'outline') {
+>>>>>>> 31d6e3b (first)
             $classes[] = "text-{$this->theme}";
         }
 
@@ -178,7 +226,12 @@ class Card extends Component {
      *
      * @return bool
      */
+<<<<<<< HEAD
     protected function isCardHeaderEmpty() {
+=======
+    protected function isCardHeaderEmpty()
+    {
+>>>>>>> 31d6e3b (first)
         $hasTools = isset($this->collapsible) ||
                     isset($this->maximizable) ||
                     isset($this->removable);
@@ -191,7 +244,12 @@ class Card extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.card');
     }
 }

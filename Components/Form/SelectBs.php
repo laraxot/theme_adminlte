@@ -1,10 +1,17 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class SelectBs extends InputGroupComponent {
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class SelectBs extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The bootstrap-select plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -21,6 +28,7 @@ class SelectBs extends InputGroupComponent {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $name,
         $id = null,
         $label = null,
@@ -42,6 +50,15 @@ class SelectBs extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+=======
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+        $errorKey = null, $config = []
+    ) {
+        parent::__construct(
+            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
+            $igroupClass, $disableFeedback, $errorKey
+>>>>>>> 31d6e3b (first)
         );
 
         $this->config = is_array($config) ? $config : [];
@@ -52,7 +69,12 @@ class SelectBs extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -75,7 +97,12 @@ class SelectBs extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.form.select-bs');
     }
 }

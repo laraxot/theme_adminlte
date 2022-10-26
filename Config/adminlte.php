@@ -245,7 +245,11 @@ return [
         [
             'text' => 'blog',
             'url' => 'admin/blog',
+<<<<<<< HEAD
             // 'can' => 'manage-blog',
+=======
+            //'can' => 'manage-blog',
+>>>>>>> 31d6e3b (first)
         ],
         [
             'text' => 'pages',
@@ -474,4 +478,8 @@ return [
     */
 
     'livewire' => false,
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> 31d6e3b (first)

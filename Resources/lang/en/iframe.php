@@ -1,8 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+return [
+
+>>>>>>> 31d6e3b (first)
     /*
     |--------------------------------------------------------------------------
     | IFrame Mode Language Lines
@@ -21,4 +26,8 @@ return [
     'tab_empty' => 'No tab selected!',
     'tab_home' => 'Home',
     'tab_loading' => 'Tab is loading',
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
 ];

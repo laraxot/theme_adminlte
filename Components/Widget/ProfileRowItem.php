@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class ProfileRowItem extends Component {
+=======
+class ProfileRowItem extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The title/header for the item.
      *
@@ -59,12 +67,17 @@ class ProfileRowItem extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $title = null,
         $text = null,
         $icon = null,
         $size = 12,
         $badge = null,
         $url = null
+=======
+        $title = null, $text = null, $icon = null, $size = 12,
+        $badge = null, $url = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -79,7 +92,12 @@ class ProfileRowItem extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeTextWrapperClass() {
+=======
+    public function makeTextWrapperClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['float-right'];
 
         if (isset($this->badge)) {
@@ -94,7 +112,12 @@ class ProfileRowItem extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.profile-row-item');
     }
 }

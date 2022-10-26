@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -26,3 +27,10 @@
 
 
 </x-dashboard>
+=======
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+
+>>>>>>> 31d6e3b (first)

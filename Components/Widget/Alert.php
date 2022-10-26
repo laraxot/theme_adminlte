@@ -1,18 +1,27 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Alert extends Component {
+=======
+class Alert extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The default icon for each alert theme.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -21,6 +30,16 @@ class Alert extends Component {
         'success' => 'fas fa-check-circle',
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
+=======
+        'dark'      => 'fas fa-bolt',
+        'light'     => 'far fa-lightbulb',
+        'primary'   => 'fas fa-bell',
+        'secondary' => 'fas fa-tag',
+        'info'      => 'fas fa-info-circle',
+        'success'   => 'fas fa-check-circle',
+        'warning'   => 'fas fa-exclamation-triangle',
+        'danger'    => 'fas fa-ban',
+>>>>>>> 31d6e3b (first)
     ];
 
     /**
@@ -58,10 +77,14 @@ class Alert extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $theme = null,
         $icon = null,
         $title = null,
         $dismissable = null
+=======
+        $theme = null, $icon = null, $title = null, $dismissable = null
+>>>>>>> 31d6e3b (first)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -81,7 +104,12 @@ class Alert extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeAlertClass() {
+=======
+    public function makeAlertClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -102,7 +130,12 @@ class Alert extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.widget.alert');
     }
 }

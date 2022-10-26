@@ -1,12 +1,20 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Modal extends Component {
+=======
+class Modal extends Component
+{
+>>>>>>> 31d6e3b (first)
     /**
      * The available modal sizes.
      *
@@ -86,6 +94,7 @@ class Modal extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
         $id,
         $title = null,
         $icon = null,
@@ -94,6 +103,10 @@ class Modal extends Component {
         $vCentered = null,
         $scrollable = null,
         $staticBackdrop = null,
+=======
+        $id, $title = null, $icon = null, $size = null, $theme = null,
+        $vCentered = null, $scrollable = null, $staticBackdrop = null,
+>>>>>>> 31d6e3b (first)
         $disableAnimations = null
     ) {
         $this->id = $id;
@@ -112,7 +125,12 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeModalClass() {
+=======
+    public function makeModalClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['modal'];
 
         if (! isset($this->disableAnimations)) {
@@ -127,7 +145,12 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeModalDialogClass() {
+=======
+    public function makeModalDialogClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['modal-dialog'];
 
         if (isset($this->vCentered)) {
@@ -150,7 +173,12 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeModalHeaderClass() {
+=======
+    public function makeModalHeaderClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['modal-header'];
 
         if (isset($this->theme)) {
@@ -165,7 +193,12 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCloseButtonClass() {
+=======
+    public function makeCloseButtonClass()
+    {
+>>>>>>> 31d6e3b (first)
         $classes = ['bg-secondary'];
 
         if (isset($this->theme)) {
@@ -180,7 +213,12 @@ class Modal extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
         return view('adminlte::components.tool.modal');
     }
 }

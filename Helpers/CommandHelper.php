@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 31d6e3b (first)
 namespace Themes\AdminLTE\Helpers;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
 class CommandHelper {
+=======
+class CommandHelper
+{
+>>>>>>> 31d6e3b (first)
     /**
      * Path to the package root folder.
      *
@@ -25,6 +33,7 @@ class CommandHelper {
     /**
      * Ensure a directory exists by creating it when needed.
      *
+<<<<<<< HEAD
      * @param string $dir       The path of the directory
      * @param int    $mode      The directory access mode
      * @param bool   $recursive Allow creating nested directories present in path
@@ -32,6 +41,15 @@ class CommandHelper {
      * @return void
      */
     public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true) {
+=======
+     * @param  string  $dir  The path of the directory
+     * @param  int  $mode  The directory access mode
+     * @param  bool  $recursive  Allow creating nested directories present in path
+     * @return void
+     */
+    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true)
+    {
+>>>>>>> 31d6e3b (first)
         if (! is_dir($dir)) {
             mkdir($dir, $mode, $recursive);
         }
@@ -40,6 +58,7 @@ class CommandHelper {
     /**
      * Copy an entire directory to a destination.
      *
+<<<<<<< HEAD
      * @param string $dir       The path of the source folder
      * @param string $dest      The path of the destination folder
      * @param bool   $force     Whether to force the overwrite of existing files
@@ -49,6 +68,17 @@ class CommandHelper {
      * @return void
      */
     public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
+=======
+     * @param  string  $dir  The path of the source folder
+     * @param  string  $dest  The path of the destination folder
+     * @param  bool  $force  Whether to force the overwrite of existing files
+     * @param  bool  $recursive  Whether to copy subfolders recursively
+     * @param  array  $ignores  Array of files to be ignored
+     * @return void
+     */
+    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = [])
+    {
+>>>>>>> 31d6e3b (first)
         // Open the source folder. Return if fails to open.
 
         if (! is_resource($dirHandler = @opendir($dir))) {
@@ -62,6 +92,10 @@ class CommandHelper {
         // Copy the source files to destination.
 
         while (($file = readdir($dirHandler)) !== false) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
             // Check if this file should be ignored.
 
             $filesToIgnore = array_merge($ignores, ['.', '..']);
@@ -91,6 +125,7 @@ class CommandHelper {
     /**
      * Compare two directories file by file.
      *
+<<<<<<< HEAD
      * @param string $dir1      The path of the first folder
      * @param string $dir2      The path of the second folder
      * @param bool   $recursive Whether to compare subfolders recursively
@@ -99,6 +134,16 @@ class CommandHelper {
      * @return bool|null Result of comparison or null if a folder not exists
      */
     public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
+=======
+     * @param  string  $dir1  The path of the first folder
+     * @param  string  $dir2  The path of the second folder
+     * @param  bool  $recursive  Whether to compare subfolders recursively
+     * @param  array  $ignores  Array of files to be ignored
+     * @return bool|null Result of comparison or null if a folder not exists
+     */
+    public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = [])
+    {
+>>>>>>> 31d6e3b (first)
         // Open the first folder. Return if fails to open.
 
         if (! is_resource($dirHandler = @opendir($dir1))) {
@@ -114,6 +159,10 @@ class CommandHelper {
         // Now, compare the folders.
 
         while (($file = readdir($dirHandler)) !== false) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
             // Check if this file should be ignored.
 
             $filesToIgnore = array_merge($ignores, ['.', '..']);
@@ -156,12 +205,21 @@ class CommandHelper {
     /**
      * Check if two files are equals by comparing sha1 hash values.
      *
+<<<<<<< HEAD
      * @param string $file1 The first file
      * @param string $file2 The second file
      *
      * @return bool
      */
     public static function compareFiles($file1, $file2) {
+=======
+     * @param  string  $file1  The first file
+     * @param  string  $file2  The second file
+     * @return bool
+     */
+    public static function compareFiles($file1, $file2)
+    {
+>>>>>>> 31d6e3b (first)
         if (! is_file($file1) || ! is_file($file2)) {
             return false;
         }
@@ -172,22 +230,38 @@ class CommandHelper {
     /**
      * Recursively delete a directory.
      *
+<<<<<<< HEAD
      * @param string $dir The directory to remove
      *
      * @return bool
      */
     public static function removeDirectory($dir) {
+=======
+     * @param  string  $dir  The directory to remove
+     * @return bool
+     */
+    public static function removeDirectory($dir)
+    {
+>>>>>>> 31d6e3b (first)
         return File::deleteDirectory($dir);
     }
 
     /**
      * Get the fully qualified path to some package resource.
      *
+<<<<<<< HEAD
      * @param string $path Relative path to the resource
      *
      * @return string Fully qualified path to the resource
      */
     public static function getPackagePath($path = null) {
+=======
+     * @param  string  $path  Relative path to the resource
+     * @return string Fully qualified path to the resource
+     */
+    public static function getPackagePath($path = null)
+    {
+>>>>>>> 31d6e3b (first)
         if (! $path) {
             return self::$packagePath;
         }
@@ -198,11 +272,19 @@ class CommandHelper {
     /**
      * Get the fully qualified path to some package stub resource.
      *
+<<<<<<< HEAD
      * @param string $path Relative path to the stub resource
      *
      * @return string Fully qualified path to the stub resource
      */
     public static function getStubPath($path = null) {
+=======
+     * @param  string  $path  Relative path to the stub resource
+     * @return string Fully qualified path to the stub resource
+     */
+    public static function getStubPath($path = null)
+    {
+>>>>>>> 31d6e3b (first)
         if (! $path) {
             return self::$stubsPath;
         }
@@ -213,11 +295,19 @@ class CommandHelper {
     /**
      * Get the fully qualified path relative to the configured view path.
      *
+<<<<<<< HEAD
      * @param string $path Relative path to some view
      *
      * @return string Fully qualified path to the view
      */
     public static function getViewPath($path = null) {
+=======
+     * @param  string  $path  Relative path to some view
+     * @return string Fully qualified path to the view
+     */
+    public static function getViewPath($path = null)
+    {
+>>>>>>> 31d6e3b (first)
         $basePath = config('view.paths')[0] ?? resource_path('views');
 
         if (! $path) {
@@ -230,12 +320,21 @@ class CommandHelper {
     /**
      * Check if a file is included in a set of ignored file patterns.
      *
+<<<<<<< HEAD
      * @param string $file    The file to check
      * @param array  $ignores Array of file patterns to be ignored
      *
      * @return bool
      */
     protected static function isIgnoredFile($file, $ignores) {
+=======
+     * @param  string  $file  The file to check
+     * @param  array  $ignores  Array of file patterns to be ignored
+     * @return bool
+     */
+    protected static function isIgnoredFile($file, $ignores)
+    {
+>>>>>>> 31d6e3b (first)
         foreach ($ignores as $pattern) {
             $match = Str::startsWith($pattern, 'regex:') ?
                      preg_match(Str::substr($pattern, 6), $file) :
