@@ -1,6 +1,6 @@
 @extends('adm_theme::layouts.plane')
 
-@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
 
 @section('adminlte_css')
     @stack('css')
@@ -12,7 +12,9 @@
 
 @section('body')
 
-
+@php
+dddx(get_defined_vars())
+@endphp
 
     <div class="wrapper">
 <<<<<<< HEAD
