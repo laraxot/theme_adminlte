@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 49899e0 (.)
@@ -11,10 +12,15 @@
 >>>>>>> aa7fac8 (.)
 =======
 >>>>>>> 326d5c3 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 21fe4df (.)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3cc23ea (.)
@@ -38,6 +44,8 @@
 =======
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 21fe4df (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -47,14 +55,21 @@
 @section('content')
     DASHBOARD
 >>>>>>> fac8ac6 (.)
+<<<<<<< HEAD
 >>>>>>> 7cb5b32 (.)
+=======
+>>>>>>> 21fe4df (.)
 @endsection --}}
 
 
 
+<<<<<<< HEAD
 >>>>>>> 7306100 (.)
 =======
 >>>>>>> 1194766 (up)
+=======
+>>>>>>> 49899e0 (.)
+>>>>>>> 21fe4df (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -76,6 +91,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,3 +129,8 @@
 >>>>>>> 326d5c3 (.)
 =======
 >>>>>>> 1194766 (up)
+=======
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> fac8ac6 (.)
+>>>>>>> 21fe4df (.)
