@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Services;
+namespace Themes\AdminLTE\Services;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Str;
@@ -35,15 +36,22 @@ use Themes\AdminLTE\Menu\Builder;
 use Illuminate\Support\Collection;
 >>>>>>> 8a5cc0b (.)
 use Nwidart\Modules\Facades\Module;
+=======
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+>>>>>>> 5b4054a (.)
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Themes\AdminLTE\Menu\Builder;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +85,9 @@ class AdminLTE extends XotBaseComposer {
 =======
 class AdminLTE extends XotBaseComposer { 
 >>>>>>> 8a5cc0b (.)
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> 5b4054a (.)
     /**
      * The array of menu items.
      *
@@ -116,7 +127,7 @@ class AdminLTE extends XotBaseComposer {
 
     /**
      * Constructor.
-     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\KlekooAdm\Services\AdminLTE.
+     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +445,7 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -453,3 +465,6 @@ class AdminLTE extends XotBaseComposer {
 =======
 }
 >>>>>>> 8a5cc0b (.)
+=======
+}
+>>>>>>> 5b4054a (.)

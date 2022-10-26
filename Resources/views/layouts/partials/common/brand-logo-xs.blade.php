@@ -1,4 +1,4 @@
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @php($dashboard_url = View::getSection('dashboard_url') ?? config('adm_theme::adminlte.dashboard_url', 'home'))
 
@@ -8,6 +8,7 @@
     @php($dashboard_url = $dashboard_url ? url($dashboard_url) : '')
 @endif
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <a href="{{ $dashboard_url }}"
@@ -26,6 +27,12 @@
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+=======
+<a href="{{ $dashboard_url }}"
+    @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
+@else
+    class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
+>>>>>>> 5b4054a (.)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -37,6 +44,7 @@
         {!! config('adm_theme::adminlte.logo', '<b>Admin</b>LTE') !!}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     </span> --}}
 =======
     </span>
@@ -46,4 +54,7 @@
     </span>
     --}}
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+=======
+    </span> --}}
+>>>>>>> 5b4054a (.)
 </a>

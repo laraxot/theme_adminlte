@@ -8,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -28,8 +29,11 @@ namespace Themes\AdminLTE\Events;
 =======
 namespace Themes\KlekooAdm\Events;
 >>>>>>> 8a5cc0b (.)
+=======
+namespace Themes\AdminLTE\Events;
+>>>>>>> 5b4054a (.)
 
-use Themes\KlekooAdm\Menu\Builder;
+use Themes\AdminLTE\Menu\Builder;
 
 <<<<<<< HEAD
 <<<<<<< HEAD

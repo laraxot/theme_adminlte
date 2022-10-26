@@ -8,6 +8,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -28,9 +29,12 @@ namespace Themes\AdminLTE\Menu\Filters;
 =======
 namespace Themes\KlekooAdm\Menu\Filters;
 >>>>>>> 8a5cc0b (.)
+=======
+namespace Themes\AdminLTE\Menu\Filters;
+>>>>>>> 5b4054a (.)
 
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
+use Themes\AdminLTE\Helpers\NavbarItemHelper;
+use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
