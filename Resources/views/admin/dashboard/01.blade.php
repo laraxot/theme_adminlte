@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -66,10 +67,13 @@ aaa
 >>>>>>> 326d5c3 (.)
 =======
 >>>>>>> 1194766 (up)
+=======
+>>>>>>> 21fe4df (.)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +92,10 @@ aaa
 =======
 <<<<<<< HEAD
 >>>>>>> 7cb5b32 (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 21fe4df (.)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -124,6 +132,7 @@ aaa
 >>>>>>> 7306100 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
 <<<<<<< HEAD
 >>>>>>> 49899e0 (.)
@@ -140,3 +149,6 @@ aaa
 >>>>>>> 326d5c3 (.)
 =======
 >>>>>>> 1194766 (up)
+=======
+>>>>>>> fac8ac6 (.)
+>>>>>>> 21fe4df (.)
