@@ -11,8 +11,6 @@
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
-<<<<<<< HEAD
-<<<<<<< HEAD
         "@popperjs/core": "^2.11.6",
         "@tinymce/tinymce-vue": "^4.0.7",
         "admin-lte": "^3.2.0",
@@ -26,20 +24,6 @@
         "fastclick": "^1.0.6",
         "file-loader": "^6.2.0",
         "flatpickr": "^4.6.13",
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-        "@popperjs/core": "^2.10.2",
-        "@tinymce/tinymce-vue": "^4.0.7",
-        "admin-lte": "^3.2.0",
-        "axios": "^0.22.0",
-        "babel-loader": "^8.2.4",
-        "bootstrap": "4.6",
-        "bootstrap-datepicker": "^1.9.0",
-        "cross-env": "^7.0.3",
-        "fastclick": "^1.0.6",
-        "file-loader": "^6.2.0",
-        "flatpickr": "^4.6.9",
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
