@@ -1,54 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Components\Tool;
-=======
-namespace Themes\KlekooAdm\Components\Tool;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Tool;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Tool;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Tool;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Modal extends Component {
-=======
-class Modal extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Modal extends Component {
->>>>>>> f405739 (up)
-=======
-class Modal extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The available modal sizes.
      *
@@ -128,8 +86,6 @@ class Modal extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
         $id,
         $title = null,
         $icon = null,
@@ -138,14 +94,6 @@ class Modal extends Component {
         $vCentered = null,
         $scrollable = null,
         $staticBackdrop = null,
-=======
-        $id, $title = null, $icon = null, $size = null, $theme = null,
-        $vCentered = null, $scrollable = null, $staticBackdrop = null,
->>>>>>> 31d6e3b (first)
-=======
-        $id, $title = null, $icon = null, $size = null, $theme = null,
-        $vCentered = null, $scrollable = null, $staticBackdrop = null,
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $disableAnimations = null
     ) {
         $this->id = $id;
@@ -164,20 +112,7 @@ class Modal extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeModalClass() {
-=======
-    public function makeModalClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeModalClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeModalClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['modal'];
 
         if (! isset($this->disableAnimations)) {
@@ -192,20 +127,7 @@ class Modal extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeModalDialogClass() {
-=======
-    public function makeModalDialogClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeModalDialogClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeModalDialogClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['modal-dialog'];
 
         if (isset($this->vCentered)) {
@@ -228,20 +150,7 @@ class Modal extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeModalHeaderClass() {
-=======
-    public function makeModalHeaderClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeModalHeaderClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeModalHeaderClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['modal-header'];
 
         if (isset($this->theme)) {
@@ -256,20 +165,7 @@ class Modal extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeCloseButtonClass() {
-=======
-    public function makeCloseButtonClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeCloseButtonClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeCloseButtonClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['bg-secondary'];
 
         if (isset($this->theme)) {
@@ -284,20 +180,7 @@ class Modal extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.tool.modal');
     }
 }

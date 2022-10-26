@@ -1,73 +1,18 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Console\PackageResources;
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class AssetsResource extends PackageResource {
-=======
-class AssetsResource extends PackageResource
-{
->>>>>>> 31d6e3b (first)
-=======
-class AssetsResource extends PackageResource {
->>>>>>> f405739 (up)
-=======
-class AssetsResource extends PackageResource {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * Create a new resource instance.
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function __construct() {
-=======
-    public function __construct()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function __construct() {
->>>>>>> f405739 (up)
-=======
-    public function __construct() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Fill the resource data.
 
         $this->description = 'The AdminLTE required assets';
@@ -134,27 +79,9 @@ class AssetsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             'install' => 'Install the basic package assets?',
             'overwrite' => 'The basic assets already exists. Want to replace the assets?',
             'success' => 'Basic assets installed successfully.',
-=======
-            'install'   => 'Install the basic package assets?',
-            'overwrite' => 'The basic assets already exists. Want to replace the assets?',
-            'success'   => 'Basic assets installed successfully.',
->>>>>>> 31d6e3b (first)
-=======
-            'install' => 'Install the basic package assets?',
-            'overwrite' => 'The basic assets already exists. Want to replace the assets?',
-            'success' => 'Basic assets installed successfully.',
->>>>>>> f405739 (up)
-=======
-            'install' => 'Install the basic package assets?',
-            'overwrite' => 'The basic assets already exists. Want to replace the assets?',
-            'success' => 'Basic assets installed successfully.',
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         ];
     }
 
@@ -163,20 +90,7 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function install() {
-=======
-    public function install()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function install() {
->>>>>>> f405739 (up)
-=======
-    public function install() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Install the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -189,20 +103,7 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function uninstall() {
-=======
-    public function uninstall()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function uninstall() {
->>>>>>> f405739 (up)
-=======
-    public function uninstall() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Uninstall the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -215,20 +116,7 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function exists() {
-=======
-    public function exists()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function exists() {
->>>>>>> f405739 (up)
-=======
-    public function exists() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         foreach ($this->source as $asset) {
             if ($this->assetExists($asset)) {
                 return true;
@@ -243,20 +131,7 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function installed() {
-=======
-    public function installed()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function installed() {
->>>>>>> f405739 (up)
-=======
-    public function installed() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         foreach ($this->source as $asset) {
             if (! $this->assetInstalled($asset)) {
                 return false;
@@ -269,33 +144,11 @@ class AssetsResource extends PackageResource {
     /**
      * Install the specified AdminLTE asset.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function installAsset($asset) {
-<<<<<<< HEAD
-=======
-     * @param  array  $asset  An array with the asset data
-     * @return void
-     */
-    protected function installAsset($asset)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $asset An array with the asset data
-     *
-     * @return void
-     */
-    protected function installAsset($asset) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if we just need to export the entire asset.
 
         if (! isset($asset['resources'])) {
@@ -317,33 +170,11 @@ class AssetsResource extends PackageResource {
     /**
      * Exports the specified resource (usually a file or folder).
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function exportResource($res) {
-<<<<<<< HEAD
-=======
-     * @param  array  $res  An array with the resource data
-     * @return void
-     */
-    protected function exportResource($res)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $res An array with the resource data
-     *
-     * @return void
-     */
-    protected function exportResource($res) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check the resource type in order to copy it.
 
         if (is_dir($res['source'])) {
@@ -363,66 +194,22 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified asset already exists on the target destination.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetExists($asset) {
-<<<<<<< HEAD
-=======
-     * @param  array  $asset  An array with the asset data
-     * @return bool
-     */
-    protected function assetExists($asset)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $asset An array with the asset data
-     *
-     * @return bool
-     */
-    protected function assetExists($asset) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return is_dir($asset['target']);
     }
 
     /**
      * Check if the specified asset is correctly installed.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetInstalled($asset) {
-<<<<<<< HEAD
-=======
-     * @param  array  $asset  An array with the asset data
-     * @return bool
-     */
-    protected function assetInstalled($asset)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $asset An array with the asset data
-     *
-     * @return bool
-     */
-    protected function assetInstalled($asset) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if the asset have resources.
 
         if (! isset($asset['resources'])) {
@@ -445,33 +232,11 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified resource is correctly installed.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $res An array with the resource data
      *
      * @return bool
      */
     protected function resourceInstalled($res) {
-<<<<<<< HEAD
-=======
-     * @param  array  $res  An array with the resource data
-     * @return bool
-     */
-    protected function resourceInstalled($res)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $res An array with the resource data
-     *
-     * @return bool
-     */
-    protected function resourceInstalled($res) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -494,33 +259,11 @@ class AssetsResource extends PackageResource {
     /**
      * Uninstall or remove the specified asset.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function uninstallAsset($asset) {
-<<<<<<< HEAD
-=======
-     * @param  array  $asset  An array with the asset data
-     * @return void
-     */
-    protected function uninstallAsset($asset)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param array $asset An array with the asset data
-     *
-     * @return void
-     */
-    protected function uninstallAsset($asset) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $target = $asset['target'];
 
         // Uninstall the asset (actually, the target should be a folder).

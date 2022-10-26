@@ -1,54 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Components\Form;
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Button extends Component {
-=======
-class Button extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Button extends Component {
->>>>>>> f405739 (up)
-=======
-class Button extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The visible label (text) for the button.
      *
@@ -85,18 +43,10 @@ class Button extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
         $label = null,
         $type = 'button',
         $theme = 'default',
         $icon = null
-=======
-        $label = null, $type = 'button', $theme = 'default', $icon = null
->>>>>>> 31d6e3b (first)
-=======
-        $label = null, $type = 'button', $theme = 'default', $icon = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     ) {
         $this->label = $label;
         $this->type = $type;
@@ -109,20 +59,7 @@ class Button extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.button');
     }
 }

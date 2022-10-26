@@ -1,54 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Components\Form;
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 class InputGroupComponent extends Component {
-=======
-class InputGroupComponent extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class InputGroupComponent extends Component {
->>>>>>> f405739 (up)
-=======
-class InputGroupComponent extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The id attribute for the underlying input group item. The input group
      * item may be an "input", a "select", a "textarea", etc.
@@ -126,8 +84,6 @@ class InputGroupComponent extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
         $name,
         $id = null,
         $label = null,
@@ -136,14 +92,6 @@ class InputGroupComponent extends Component {
         $fgroupClass = null,
         $igroupClass = null,
         $disableFeedback = null,
-=======
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
->>>>>>> 31d6e3b (first)
-=======
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $errorKey = null
     ) {
         $this->id = $id ?? $name;
@@ -165,20 +113,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeFormGroupClass() {
-=======
-    public function makeFormGroupClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeFormGroupClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeFormGroupClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['form-group'];
 
         if (isset($this->fgroupClass)) {
@@ -193,20 +128,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeInputGroupClass() {
-=======
-    public function makeInputGroupClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeInputGroupClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeInputGroupClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['input-group'];
 
         if (isset($this->size) && in_array($this->size, ['sm', 'lg'])) {
@@ -229,20 +151,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeItemClass() {
-=======
-    public function makeItemClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeItemClass() {
->>>>>>> f405739 (up)
-=======
-    public function makeItemClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -258,20 +167,7 @@ class InputGroupComponent extends Component {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function isInvalid() {
-=======
-    public function isInvalid()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function isInvalid() {
->>>>>>> f405739 (up)
-=======
-    public function isInvalid() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Get the errors bag from session. The errors bag will be an instance
         // of the Illuminate\Support\MessageBag class.
 
@@ -291,20 +187,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function makeErrorKey() {
-=======
-    protected function makeErrorKey()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function makeErrorKey() {
->>>>>>> f405739 (up)
-=======
-    protected function makeErrorKey() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $errKey = preg_replace('@\[\]$@', '', $this->name);
 
         return preg_replace('@\[([^]]+)\]@', '.$1', $errKey);
@@ -315,20 +198,7 @@ class InputGroupComponent extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.input-group-component');
     }
 }

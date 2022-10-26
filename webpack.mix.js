@@ -4,15 +4,7 @@
 //https://adminlte.io/blog/integrate-adminlte-with-laravel
 
 let mix = require('laravel-mix');
-<<<<<<< HEAD
-<<<<<<< HEAD
 const path = require('path');
-=======
-//const path = require('path');
->>>>>>> 31d6e3b (first)
-=======
-//const path = require('path');
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 //https://dev.to/saymon/laravel-mix-rewrite-path-when-place-project-in-subfolder-2325
 //https://dev.to/tefoh/laravel-scaffold-command-2lg
 //https://dev.to/100r0bh/bulk-action-using-livewire-31i7
@@ -37,23 +29,11 @@ const path = require('path');
  |
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 require('laravel-mix-purgecss');
 
 mix.autoload({
     //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
     jquery: ['$', 'window.jQuery', "jQuery", "window.$", "jquery", "window.jquery"],
-=======
-mix.autoload({
-    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
-    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
->>>>>>> 31d6e3b (first)
-=======
-mix.autoload({
-    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
-    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     tether: ['Tether', 'windows.Tether'],
     //Popper: ['popper', 'Popper', 'popper.js'],
     //popper: ['Popper', 'popper.js'],
@@ -62,8 +42,6 @@ mix.autoload({
 
 mix.setPublicPath('Resources/dist');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 mix.js('Resources/js/app.js', 'Resources/dist/js'); //.vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
@@ -74,89 +52,17 @@ mix.purgeCss({
     enabled: false,
 });
 
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-mix.js('Resources/js/app.js', 'Resources/dist/js').vue();
-
-mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
-
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 /*
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 mix.extract();
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
-=======
-mix.extract();
-/*
->>>>>>> 29587b0 (.)
-=======
-
->>>>>>> 63c2c43 (up)
-=======
-mix.extract();
-/*
->>>>>>> 8a5cc0b (.)
-mix.extract([
-    'admin-lte',
-    'axios',
-    //'bootstrap-sass',
-    'bootstrap',
-    'fastclick',
-    'jquery',
-    'jquery-slimscroll',
-    'lodash',
-    //'vue',
-    'popper.js',
-    'sweetalert2',
-    'lodash',
-    //'bootstrap-select',
-    //'jasny-bootstrap',
-    'moment',
-    'nouislider',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-
-=======
-] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
-);
-*/
->>>>>>> 29587b0 (.)
-=======
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-
->>>>>>> 63c2c43 (up)
-=======
-] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
-);
-*/
->>>>>>> 8a5cc0b (.)
 //mix.version();
 
 mix.sourceMaps();
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 mix.webpackConfig({
     resolve: {
         modules: [
@@ -180,12 +86,6 @@ mix.webpackConfig({
 
 
 //*
-=======
-/*
->>>>>>> 31d6e3b (first)
-=======
-/*
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
 require('laravel-mix-polyfill');
 
@@ -195,15 +95,7 @@ mix.polyfill({
     //targets: { "firefox": "50", "ie": 11 }
     targets: "firefox 50, IE 11"
 });
-<<<<<<< HEAD
-<<<<<<< HEAD
 //*/
-=======
-*/
->>>>>>> 31d6e3b (first)
-=======
-*/
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
 var $from = './Resources/dist';
 var $to = '../../../public_html/themes/AdminLTE/dist';
@@ -215,12 +107,4 @@ console.log('to :' + $to);
 
 mix.copyDirectory($from, $to);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 31d6e3b (first)
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")

@@ -1,22 +1,10 @@
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
   * Bootstrap v4.6.2 (https://getbootstrap.com/)
   * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-=======
-  * Bootstrap v4.6.1 (https://getbootstrap.com/)
-  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
->>>>>>> 31d6e3b (first)
-=======
-  * Bootstrap v4.6.1 (https://getbootstrap.com/)
-  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @kurkle/color v0.2.1
  * https://github.com/kurkle/color#readme
  * (c) 2022 Jukka Kurkela
@@ -24,21 +12,12 @@
  */
 
 /*!
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  * AdminLTE v3.2.0 (https://adminlte.io)
  * Copyright 2014-2022 Colorlib <https://colorlib.com>
  * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
  */
 
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -46,28 +25,16 @@
  */
 
 /*!
-=======
->>>>>>> 29587b0 (.)
-=======
->>>>>>> 8a5cc0b (.)
  * Datepicker for Bootstrap v1.9.0 (https://github.com/uxsolutions/bootstrap-datepicker)
  *
  * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
  */
 
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-=======
->>>>>>> 29587b0 (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
->>>>>>> 8a5cc0b (.)
+ * Programatically add the following
+ */
+
+/*!
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -79,15 +46,13 @@
  */
 
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 29587b0 (.)
-=======
->>>>>>> 8a5cc0b (.)
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
@@ -97,21 +62,7 @@
  */
 
 /*!
-<<<<<<< HEAD
-<<<<<<< HEAD
  * jQuery JavaScript Library v3.6.1
-=======
-=======
->>>>>>> 29587b0 (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
->>>>>>> 8a5cc0b (.)
- * jQuery JavaScript Library v3.6.0
->>>>>>> 31d6e3b (first)
-=======
- * jQuery JavaScript Library v3.6.0
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -121,16 +72,16 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
  * Date: 2022-08-26T17:52Z
-=======
- * Date: 2021-03-02T17:08Z
->>>>>>> 31d6e3b (first)
-=======
- * Date: 2021-03-02T17:08Z
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  */
+
+/*! @name @videojs/http-streaming @version 2.14.3 @license Apache-2.0 */
+
+/*! @name aes-decrypter @version 3.1.3 @license Apache-2.0 */
+
+/*! @name m3u8-parser @version 4.7.1 @license Apache-2.0 */
+
+/*! @name pkcs7 @version 1.0.4 @license Apache-2.0 */
 
 /*! Copyright (c) 2011 Piotr Rochala (http://rocha.la)
  * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
@@ -139,6 +90,11 @@
  * Version: 1.3.8
  *
  */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! videojs-markers-plugin - v1.0.2 - 2019-08-23
+  * Copyright (c) 2019 ; Licensed  */
 
 /**
 	 * @preserve FastClick: polyfill to remove click delays on browsers with touch UIs.
