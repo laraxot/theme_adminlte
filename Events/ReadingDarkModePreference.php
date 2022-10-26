@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,10 +11,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class ReadingDarkModePreference {
@@ -24,6 +30,9 @@ class ReadingDarkModePreference
 =======
 class ReadingDarkModePreference {
 >>>>>>> f405739 (up)
+=======
+class ReadingDarkModePreference {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * An instance of the dark mode controller.
      *
@@ -33,6 +42,7 @@ class ReadingDarkModePreference {
 
     /**
      * Create a new event instance.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -48,6 +58,10 @@ class ReadingDarkModePreference {
      */
     public function __construct(DarkModeController $ctrl) {
 >>>>>>> f405739 (up)
+=======
+     */
+    public function __construct(DarkModeController $ctrl) {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $this->darkMode = $ctrl;
     }
 }

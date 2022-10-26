@@ -10,9 +10,12 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Xot\Services\PanelService;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\View\Composers\XotBaseComposer;
 =======
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
@@ -21,10 +24,14 @@ use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class AdminLTE extends XotBaseComposer {
 =======
 class AdminLTE {
 >>>>>>> 31d6e3b (first)
+=======
+class AdminLTE {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The array of menu items.
      *
@@ -68,6 +75,7 @@ class AdminLTE {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
     public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
@@ -75,6 +83,9 @@ class AdminLTE {
 =======
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 >>>>>>> f405739 (up)
+=======
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -106,6 +117,7 @@ class AdminLTE {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
 =======
@@ -116,6 +128,10 @@ class AdminLTE {
         // backtrace(true);
         // dddx($this->menu);
 >>>>>>> f405739 (up)
+=======
+        // backtrace(true);
+        // dddx($this->menu);
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -144,6 +160,9 @@ class AdminLTE {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -156,6 +175,7 @@ class AdminLTE {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
+<<<<<<< HEAD
 =======
         //$this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
@@ -178,6 +198,8 @@ class AdminLTE {
 =======
         // dddx($builder->menu);
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
         // Return the set of menu items.
 
@@ -363,6 +385,7 @@ class AdminLTE {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -370,3 +393,6 @@ class AdminLTE {
 =======
 }
 >>>>>>> f405739 (up)
+=======
+}
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")

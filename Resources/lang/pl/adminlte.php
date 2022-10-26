@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 declare(strict_types=1);
 
 return [
@@ -28,6 +31,7 @@ return [
     'verify_if_not_recieved' => 'Jeśli nie otrzymałeś emaila',
     'verify_request_another' => 'kliknij tutaj, aby poprosić o inny',
     'confirm_password_message' => 'Aby kontynuować, proszę potwierdzić swoje hasło.',
+<<<<<<< HEAD
 =======
 return [
 =======
@@ -76,4 +80,6 @@ return [
     'verify_request_another' => 'kliknij tutaj, aby poprosić o inny',
     'confirm_password_message' => 'Aby kontynuować, proszę potwierdzić swoje hasło.',
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 ];

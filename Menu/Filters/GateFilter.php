@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,10 +11,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class GateFilter implements FilterInterface {
@@ -24,6 +30,9 @@ class GateFilter implements FilterInterface
 =======
 class GateFilter implements FilterInterface {
 >>>>>>> f405739 (up)
+=======
+class GateFilter implements FilterInterface {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The Laravel gate instance, used to check for permissions.
      *
@@ -33,6 +42,7 @@ class GateFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -48,6 +58,10 @@ class GateFilter implements FilterInterface {
      */
     public function __construct(Gate $gate) {
 >>>>>>> f405739 (up)
+=======
+     */
+    public function __construct(Gate $gate) {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $this->gate = $gate;
     }
 
@@ -57,11 +71,15 @@ class GateFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 =======
      * @param  array  $item  A menu item
      * @return array The transformed menu item
@@ -76,6 +94,8 @@ class GateFilter implements FilterInterface {
      */
     public function transform($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Set a special attribute when item is not allowed. Items with this
         // attribute will be filtered out of the menu.
 
@@ -91,11 +111,15 @@ class GateFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $item A menu item
      *
      * @return bool
      */
     protected function isAllowed($item) {
+<<<<<<< HEAD
 =======
      * @param  array  $item  A menu item
      * @return bool
@@ -110,6 +134,8 @@ class GateFilter implements FilterInterface {
      */
     protected function isAllowed($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if there are any permission defined for the item.
 
         if (empty($item['can'])) {

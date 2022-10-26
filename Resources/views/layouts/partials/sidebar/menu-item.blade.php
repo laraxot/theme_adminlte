@@ -2,6 +2,7 @@
 
 @if ($sidebarItemHelper->isHeader($item))
 <<<<<<< HEAD
+<<<<<<< HEAD
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -17,6 +18,8 @@
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
 =======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
@@ -41,5 +44,8 @@
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
 
+<<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 @endif

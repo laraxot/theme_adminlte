@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 declare(strict_types=1);
 
 return [
@@ -22,6 +25,7 @@ return [
     'password_reset_message' => 'ລະຫັດລີເຊັດຂໍ້ຄວາມ',
     'reset_password' => 'ລີເຊັດຂໍ້ຄວາມ',
     'send_password_reset_link' => 'ສົ່ງລິ້ງລີເຊັດລະຫັດຜ່ານ',
+<<<<<<< HEAD
 =======
 return [
 =======
@@ -58,4 +62,6 @@ return [
     'reset_password' => 'ລີເຊັດຂໍ້ຄວາມ',
     'send_password_reset_link' => 'ສົ່ງລິ້ງລີເຊັດລະຫັດຜ່ານ',
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 ];

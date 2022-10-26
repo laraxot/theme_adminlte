@@ -4,6 +4,7 @@
     "/css/app.css": "/css/app.css",
     "/js/vendor.js": "/js/vendor.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/public_html/themes/AdminLTE/dist/admin-lte.css": "/public_html/themes/AdminLTE/dist/admin-lte.css",
     "/public_html/themes/AdminLTE/dist/admin-lte.js": "/public_html/themes/AdminLTE/dist/admin-lte.js",
     "/public_html/themes/AdminLTE/dist/css/admin-lte.css": "/public_html/themes/AdminLTE/dist/css/admin-lte.css",
@@ -62,6 +63,9 @@
 =======
     "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
 >>>>>>> 31d6e3b (first)
+=======
+    "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     "/public_html/webfonts/fa-brands-400.eot": "/public_html/webfonts/fa-brands-400.eot",
     "/public_html/webfonts/fa-brands-400.svg": "/public_html/webfonts/fa-brands-400.svg",
     "/public_html/webfonts/fa-brands-400.ttf": "/public_html/webfonts/fa-brands-400.ttf",

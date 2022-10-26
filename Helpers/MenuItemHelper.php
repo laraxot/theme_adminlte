@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,6 +11,10 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Helpers;
 
 /**
@@ -19,6 +24,9 @@ namespace Themes\AdminLTE\Helpers;
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 class MenuItemHelper {
     /**
      * Check if a menu item is a header.
@@ -28,6 +36,7 @@ class MenuItemHelper {
      * @return bool
      */
     public static function isHeader($item) {
+<<<<<<< HEAD
 =======
 class MenuItemHelper
 {
@@ -48,6 +57,8 @@ class MenuItemHelper {
 =======
     public static function isHeader($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return is_string($item) || isset($item['header']);
     }
 
@@ -56,11 +67,15 @@ class MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLink($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -75,6 +90,8 @@ class MenuItemHelper {
      */
     public static function isLink($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -84,11 +101,15 @@ class MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSubmenu($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -103,6 +124,8 @@ class MenuItemHelper {
      */
     public static function isSubmenu($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return isset($item['text'], $item['submenu']) &&
                is_array($item['submenu']);
     }
@@ -112,11 +135,15 @@ class MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLegacySearch($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -131,6 +158,8 @@ class MenuItemHelper {
      */
     public static function isLegacySearch($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -140,11 +169,15 @@ class MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAllowed($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -159,6 +192,8 @@ class MenuItemHelper {
      */
     public static function isAllowed($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return $item && empty($item['restricted']);
     }
 }

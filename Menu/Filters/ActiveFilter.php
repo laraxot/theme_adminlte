@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,11 +11,16 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 use Themes\AdminLTE\Menu\ActiveChecker;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class ActiveFilter implements FilterInterface {
@@ -25,6 +31,9 @@ class ActiveFilter implements FilterInterface
 =======
 class ActiveFilter implements FilterInterface {
 >>>>>>> f405739 (up)
+=======
+class ActiveFilter implements FilterInterface {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The active checker instance.
      *
@@ -34,6 +43,7 @@ class ActiveFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      */
@@ -49,6 +59,10 @@ class ActiveFilter implements FilterInterface {
      */
     public function __construct(ActiveChecker $activeChecker) {
 >>>>>>> f405739 (up)
+=======
+     */
+    public function __construct(ActiveChecker $activeChecker) {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $this->activeChecker = $activeChecker;
     }
 
@@ -57,11 +71,15 @@ class ActiveFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 =======
      * @param  array  $item  A menu item
      * @return array The transformed menu item
@@ -76,6 +94,8 @@ class ActiveFilter implements FilterInterface {
      */
     public function transform($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         if (! MenuItemHelper::isHeader($item)) {
             $item['active'] = $this->activeChecker->isActive($item);
         }

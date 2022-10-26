@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,10 +11,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class ConfigResource extends PackageResource {
@@ -24,11 +30,15 @@ class ConfigResource extends PackageResource
 =======
 class ConfigResource extends PackageResource {
 >>>>>>> f405739 (up)
+=======
+class ConfigResource extends PackageResource {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
@@ -39,6 +49,9 @@ class ConfigResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Fill the resource data.
 
         $this->description = 'The default package configuration file';
@@ -49,6 +62,7 @@ class ConfigResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the package config file?',
@@ -64,6 +78,11 @@ class ConfigResource extends PackageResource {
             'overwrite' => 'The config file already exists. Want to replace it?',
             'success' => 'Configuration file installed successfully.',
 >>>>>>> f405739 (up)
+=======
+            'install' => 'Install the package config file?',
+            'overwrite' => 'The config file already exists. Want to replace it?',
+            'success' => 'Configuration file installed successfully.',
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         ];
     }
 
@@ -74,6 +93,7 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function install() {
 =======
     public function install()
@@ -82,6 +102,9 @@ class ConfigResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> f405739 (up)
+=======
+    public function install() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Install the configuration file.
 
         CommandHelper::ensureDirectoryExists(dirname($this->target));
@@ -95,6 +118,7 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function uninstall() {
 =======
     public function uninstall()
@@ -103,6 +127,9 @@ class ConfigResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> f405739 (up)
+=======
+    public function uninstall() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Uninstall the configuration file.
 
         if (is_file($this->target)) {
@@ -117,6 +144,7 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function exists() {
 =======
     public function exists()
@@ -125,6 +153,9 @@ class ConfigResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> f405739 (up)
+=======
+    public function exists() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return is_file($this->target);
     }
 
@@ -135,6 +166,7 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function installed() {
 =======
     public function installed()
@@ -143,6 +175,9 @@ class ConfigResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> f405739 (up)
+=======
+    public function installed() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return CommandHelper::compareFiles($this->source, $this->target);
     }
 }

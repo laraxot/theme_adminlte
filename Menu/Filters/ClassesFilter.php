@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,6 +11,10 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
@@ -17,6 +22,9 @@ use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 class ClassesFilter implements FilterInterface {
     /**
      * Transforms a menu item. Add particular classes when suitable.
@@ -26,6 +34,7 @@ class ClassesFilter implements FilterInterface {
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 =======
 class ClassesFilter implements FilterInterface
 {
@@ -46,6 +55,8 @@ class ClassesFilter implements FilterInterface {
 =======
     public function transform($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $item['class'] = implode(' ', $this->makeClasses($item));
 
         if (MenuItemHelper::isSubmenu($item)) {
@@ -60,11 +71,15 @@ class ClassesFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $item A menu item
      *
      * @return array The array of classes
      */
     protected function makeClasses($item) {
+<<<<<<< HEAD
 =======
      * @param  array  $item  A menu item
      * @return array The array of classes
@@ -79,6 +94,8 @@ class ClassesFilter implements FilterInterface {
      */
     protected function makeClasses($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = [];
 
         // Add custom classes (from menu item configuration).
@@ -101,11 +118,15 @@ class ClassesFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $item A menu item
      *
      * @return array The array of classes
      */
     protected function makeSubmenuClasses($item) {
+<<<<<<< HEAD
 =======
      * @param  array  $item  A menu item
      * @return array The array of classes
@@ -120,6 +141,8 @@ class ClassesFilter implements FilterInterface {
      */
     protected function makeSubmenuClasses($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $classes = [];
 
         // Add the menu-open class when a sidebar submenu is active. Note we

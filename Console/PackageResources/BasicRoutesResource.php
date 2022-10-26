@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,10 +11,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class BasicRoutesResource extends PackageResource {
@@ -24,11 +30,15 @@ class BasicRoutesResource extends PackageResource
 =======
 class BasicRoutesResource extends PackageResource {
 >>>>>>> f405739 (up)
+=======
+class BasicRoutesResource extends PackageResource {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
@@ -39,6 +49,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Fill the resource data.
 
         $this->description = 'The package routes';
@@ -49,6 +62,7 @@ class BasicRoutesResource extends PackageResource {
         // Fill the installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the basic package routes?',
@@ -64,6 +78,11 @@ class BasicRoutesResource extends PackageResource {
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
             'success' => 'Basic routes installed successfully.',
 >>>>>>> f405739 (up)
+=======
+            'install' => 'Install the basic package routes?',
+            'overwrite' => 'Basic routes are already installed. Want to install they again?',
+            'success' => 'Basic routes installed successfully.',
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         ];
     }
 
@@ -74,6 +93,7 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function install() {
 =======
     public function install()
@@ -82,6 +102,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> f405739 (up)
+=======
+    public function install() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // If routes already exists, there is no need to install again.
 
         if ($this->exists()) {
@@ -105,6 +128,7 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function uninstall() {
 =======
     public function uninstall()
@@ -113,6 +137,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> f405739 (up)
+=======
+    public function uninstall() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $routes = file_get_contents($this->source);
 
         // If the target routes file exists, remove the package routes.
@@ -131,6 +158,7 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function exists() {
 =======
     public function exists()
@@ -139,6 +167,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> f405739 (up)
+=======
+    public function exists() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $routes = file_get_contents($this->source);
 
         // First, check if the target routes file exists.
@@ -153,6 +184,7 @@ class BasicRoutesResource extends PackageResource {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return false !== strpos($targetContent, $routes);
 =======
         return strpos($targetContent, $routes) !== false;
@@ -160,6 +192,9 @@ class BasicRoutesResource extends PackageResource {
 =======
         return false !== strpos($targetContent, $routes);
 >>>>>>> f405739 (up)
+=======
+        return false !== strpos($targetContent, $routes);
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     }
 
     /**
@@ -167,6 +202,7 @@ class BasicRoutesResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
@@ -177,6 +213,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> f405739 (up)
+=======
+    public function installed() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return $this->exists();
     }
 }

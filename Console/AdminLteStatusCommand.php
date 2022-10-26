@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,6 +11,10 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -23,6 +28,7 @@ use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class AdminLteStatusCommand extends Command {
 =======
 class AdminLteStatusCommand extends Command
@@ -31,6 +37,9 @@ class AdminLteStatusCommand extends Command
 =======
 class AdminLteStatusCommand extends Command {
 >>>>>>> f405739 (up)
+=======
+class AdminLteStatusCommand extends Command {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The name and signature of the console command.
      *
@@ -82,6 +91,7 @@ class AdminLteStatusCommand extends Command {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
@@ -90,6 +100,9 @@ class AdminLteStatusCommand extends Command {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         parent::__construct();
 
         // Fill the array with the package resources.
@@ -97,12 +110,16 @@ class AdminLteStatusCommand extends Command {
         $this->pkgResources = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
             'main_views' => new MainViewsResource(),
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
+<<<<<<< HEAD
 =======
             'assets'       => new AssetsResource(),
             'config'       => new ConfigResource(),
@@ -119,6 +136,8 @@ class AdminLteStatusCommand extends Command {
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
             'basic_routes' => new BasicRoutesResource(),
         ];
     }
@@ -130,6 +149,7 @@ class AdminLteStatusCommand extends Command {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function handle() {
 =======
     public function handle()
@@ -138,6 +158,9 @@ class AdminLteStatusCommand extends Command {
 =======
     public function handle() {
 >>>>>>> f405739 (up)
+=======
+    public function handle() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Display the resources installation status.
 
         $this->showResourcesStatus();
@@ -155,6 +178,7 @@ class AdminLteStatusCommand extends Command {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showResourcesStatus() {
 =======
     protected function showResourcesStatus()
@@ -163,6 +187,9 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function showResourcesStatus() {
 >>>>>>> f405739 (up)
+=======
+    protected function showResourcesStatus() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Define the table headers.
 
         $tblHeader = [
@@ -189,6 +216,7 @@ class AdminLteStatusCommand extends Command {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function getResourcesStatusRows() {
 =======
     protected function getResourcesStatusRows()
@@ -197,6 +225,9 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function getResourcesStatusRows() {
 >>>>>>> f405739 (up)
+=======
+    protected function getResourcesStatusRows() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Define the array that will hold the table rows.
 
         $tblContent = [];
@@ -214,11 +245,14 @@ class AdminLteStatusCommand extends Command {
         foreach ($this->pkgResources as $name => $resource) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
             // Fill the status row of the current resource.
 
             $tblContent[] = [
@@ -249,11 +283,15 @@ class AdminLteStatusCommand extends Command {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param PackageResource $resource The package resource to check
      *
      * @return string The resource status
      */
     protected function getResourceStatus($resource) {
+<<<<<<< HEAD
 =======
      * @param  PackageResource  $resource  The package resource to check
      * @return string The resource status
@@ -268,6 +306,8 @@ class AdminLteStatusCommand extends Command {
      */
     protected function getResourceStatus($resource) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $status = $this->status['uninstalled'];
 
         if ($resource->installed()) {
@@ -286,6 +326,7 @@ class AdminLteStatusCommand extends Command {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showStatusLegends() {
 =======
     protected function showStatusLegends()
@@ -294,6 +335,9 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function showStatusLegends() {
 >>>>>>> f405739 (up)
+=======
+    protected function showStatusLegends() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -324,12 +368,16 @@ class AdminLteStatusCommand extends Command {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
      * @return string The styled text
      */
     protected function styleOutput($text, $color) {
+<<<<<<< HEAD
 =======
      * @param  string  $text  The text to be styled
      * @param  string  $color  The output color for the text
@@ -346,6 +394,8 @@ class AdminLteStatusCommand extends Command {
      */
     protected function styleOutput($text, $color) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return "<fg={$color}>{$text}</>";
     }
 }

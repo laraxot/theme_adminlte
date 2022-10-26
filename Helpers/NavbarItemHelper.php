@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -17,6 +20,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
                'navbar-search' === $item['type'];
+<<<<<<< HEAD
 =======
 =======
 declare(strict_types=1);
@@ -40,6 +44,8 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
                'navbar-search' === $item['type'];
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     }
 
     /**
@@ -47,6 +53,9 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
@@ -54,6 +63,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isFullscreen($item) {
         return isset($item['type']) &&
                'fullscreen-widget' === $item['type'];
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
 =======
@@ -70,6 +80,8 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
                'fullscreen-widget' === $item['type'];
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     }
 
     /**
@@ -77,6 +89,9 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
@@ -84,6 +99,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isDarkmode($item) {
         return isset($item['type']) &&
                'darkmode-widget' === $item['type'];
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
 =======
@@ -100,6 +116,8 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
                'darkmode-widget' === $item['type'];
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     }
 
     /**
@@ -107,6 +125,9 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
@@ -115,6 +136,7 @@ class NavbarItemHelper extends MenuItemHelper {
         return isset($item['id'], $item['icon'], $item['type']) &&
                (isset($item['url']) || isset($item['route'])) &&
                'navbar-notification' === $item['type'];
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
 =======
@@ -132,6 +154,8 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
                'navbar-notification' === $item['type'];
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     }
 
     /**
@@ -139,11 +163,15 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSearch($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -158,6 +186,8 @@ class NavbarItemHelper extends MenuItemHelper {
      */
     public static function isSearch($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item);
     }
@@ -167,11 +197,15 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAcceptedItem($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -186,6 +220,8 @@ class NavbarItemHelper extends MenuItemHelper {
      */
     public static function isAcceptedItem($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return self::isNotification($item) ||
                self::isFullscreen($item) ||
                self::isDarkmode($item) ||
@@ -199,11 +235,15 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidLeftItem($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -218,6 +258,8 @@ class NavbarItemHelper extends MenuItemHelper {
      */
     public static function isValidLeftItem($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return self::isAcceptedItem($item) &&
                isset($item['topnav']) &&
                $item['topnav'];
@@ -228,11 +270,15 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidRightItem($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -247,6 +293,8 @@ class NavbarItemHelper extends MenuItemHelper {
      */
     public static function isValidRightItem($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return self::isAcceptedItem($item) &&
                isset($item['topnav_right']) &&
                $item['topnav_right'];
@@ -257,11 +305,15 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidUserMenuItem($item) {
+<<<<<<< HEAD
 =======
      * @param  mixed  $item
      * @return bool
@@ -276,6 +328,8 @@ class NavbarItemHelper extends MenuItemHelper {
      */
     public static function isValidUserMenuItem($item) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return self::isAcceptedItem($item) &&
                isset($item['topnav_user']) &&
                $item['topnav_user'];

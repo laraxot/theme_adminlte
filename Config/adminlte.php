@@ -247,6 +247,7 @@ return [
             'url' => 'admin/blog',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // 'can' => 'manage-blog',
 =======
             //'can' => 'manage-blog',
@@ -254,6 +255,9 @@ return [
 =======
             // 'can' => 'manage-blog',
 >>>>>>> f405739 (up)
+=======
+            // 'can' => 'manage-blog',
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         ],
         [
             'text' => 'pages',
@@ -484,6 +488,7 @@ return [
     'livewire' => false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 ];
@@ -491,3 +496,6 @@ return [
 =======
 ];
 >>>>>>> f405739 (up)
+=======
+];
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")

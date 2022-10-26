@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 declare(strict_types=1);
 
 return [
@@ -19,6 +22,7 @@ return [
     'important' => 'Penting',
     'warning' => 'Peringatan',
     'information' => 'Informasi',
+<<<<<<< HEAD
 =======
 return [
 
@@ -56,4 +60,6 @@ return [
     'warning' => 'Peringatan',
     'information' => 'Informasi',
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 ];

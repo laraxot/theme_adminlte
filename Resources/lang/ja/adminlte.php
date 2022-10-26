@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 declare(strict_types=1);
 
 return [
@@ -27,6 +30,7 @@ return [
     'verify_check_your_email' => '続行する前に、認証用リンクについてメールを確認してください。',
     'verify_if_not_recieved' => 'メールが届かない場合',
     'verify_request_another' => 'ここをクリックしてもう一度送信する',
+<<<<<<< HEAD
 =======
 return [
 =======
@@ -73,4 +77,6 @@ return [
     'verify_if_not_recieved' => 'メールが届かない場合',
     'verify_request_another' => 'ここをクリックしてもう一度送信する',
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 ];

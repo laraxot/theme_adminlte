@@ -1,15 +1,21 @@
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
   * Bootstrap v4.6.2 (https://getbootstrap.com/)
   * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
 =======
   * Bootstrap v4.6.1 (https://getbootstrap.com/)
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
 >>>>>>> 31d6e3b (first)
+=======
+  * Bootstrap v4.6.1 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @kurkle/color v0.2.1
  * https://github.com/kurkle/color#readme
@@ -20,12 +26,15 @@
 /*!
 =======
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  * AdminLTE v3.2.0 (https://adminlte.io)
  * Copyright 2014-2022 Colorlib <https://colorlib.com>
  * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
  * Chart.js v3.9.1
  * https://www.chartjs.org
@@ -42,6 +51,8 @@
 /*!
 =======
 >>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -53,6 +64,7 @@
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
@@ -67,6 +79,9 @@
 =======
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
+=======
+ * jQuery JavaScript Library v3.6.0
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -77,10 +92,14 @@
  * https://jquery.org/license
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Date: 2022-08-26T17:52Z
 =======
  * Date: 2021-03-02T17:08Z
 >>>>>>> 31d6e3b (first)
+=======
+ * Date: 2021-03-02T17:08Z
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
  */
 
 /*! Copyright (c) 2011 Piotr Rochala (http://rocha.la)

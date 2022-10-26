@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -10,10 +11,15 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class PluginsResource extends PackageResource {
@@ -24,6 +30,9 @@ class PluginsResource extends PackageResource
 =======
 class PluginsResource extends PackageResource {
 >>>>>>> f405739 (up)
+=======
+class PluginsResource extends PackageResource {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
     /**
      * The available plugins data. A plugin can contain next data keys:
      * - name: The name of the plugin.
@@ -221,6 +230,7 @@ class PluginsResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
@@ -229,6 +239,9 @@ class PluginsResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Fill the basic resource data.
 
         $this->description = 'The set of AdminLTE additional plugins';
@@ -247,6 +260,7 @@ class PluginsResource extends PackageResource {
         $this->messages = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'install' => 'Install the AdminLTE :plugin plugin?',
             'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
             'remove' => 'Do you really want to remove the :plugin plugin?',
@@ -260,6 +274,11 @@ class PluginsResource extends PackageResource {
             'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
             'remove' => 'Do you really want to remove the :plugin plugin?',
 >>>>>>> f405739 (up)
+=======
+            'install' => 'Install the AdminLTE :plugin plugin?',
+            'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
+            'remove' => 'Do you really want to remove the :plugin plugin?',
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         ];
     }
 
@@ -268,11 +287,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $pluginKey A plugin string key
      *
      * @return array
      */
     public function getSourceData($pluginKey = null) {
+<<<<<<< HEAD
 =======
      * @param  string  $pluginKey  A plugin string key
      * @return array
@@ -287,6 +310,8 @@ class PluginsResource extends PackageResource {
      */
     public function getSourceData($pluginKey = null) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if we need to get data of a specific AdminLTE plugin.
 
         if (isset($pluginKey)) {
@@ -303,11 +328,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $pluginKey A plugin string key
      *
      * @return void
      */
     public function install($pluginKey = null) {
+<<<<<<< HEAD
 =======
      * @param  string  $pluginKey  A plugin string key
      * @return void
@@ -322,6 +351,8 @@ class PluginsResource extends PackageResource {
      */
     public function install($pluginKey = null) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->installPlugin($plugin);
@@ -333,11 +364,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $pluginKey A plugin string key
      *
      * @return void
      */
     public function uninstall($pluginKey = null) {
+<<<<<<< HEAD
 =======
      * @param  string  $pluginKey  A plugin string key
      * @return void
@@ -352,6 +387,8 @@ class PluginsResource extends PackageResource {
      */
     public function uninstall($pluginKey = null) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->uninstallPlugin($plugin);
@@ -363,11 +400,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $pluginKey A plugin string key
      *
      * @return bool
      */
     public function exists($pluginKey = null) {
+<<<<<<< HEAD
 =======
      * @param  string  $pluginKey  A plugin string key
      * @return bool
@@ -382,6 +423,8 @@ class PluginsResource extends PackageResource {
      */
     public function exists($pluginKey = null) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -396,11 +439,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param string $pluginKey A plugin string key
      *
      * @return bool
      */
     public function installed($pluginKey = null) {
+<<<<<<< HEAD
 =======
      * @param  string  $pluginKey  A plugin string key
      * @return bool
@@ -415,6 +462,8 @@ class PluginsResource extends PackageResource {
      */
     public function installed($pluginKey = null) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -429,11 +478,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $plugin An array with the plugin data
      *
      * @return array An array with normalized plugin data
      */
     protected function preparePlugin($plugin) {
+<<<<<<< HEAD
 =======
      * @param  array  $plugin  An array with the plugin data
      * @return array An array with normalized plugin data
@@ -448,6 +501,8 @@ class PluginsResource extends PackageResource {
      */
     protected function preparePlugin($plugin) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Add source and target when not defined.
 
         $plugin['source'] = $plugin['source'] ?? '';
@@ -484,11 +539,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $plugin An array with the plugin data
      *
      * @return void
      */
     protected function installPlugin($plugin) {
+<<<<<<< HEAD
 =======
      * @param  array  $plugin  An array with the plugin data
      * @return void
@@ -503,6 +562,8 @@ class PluginsResource extends PackageResource {
      */
     protected function installPlugin($plugin) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if we need to export the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -523,11 +584,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function exportResource($res) {
+<<<<<<< HEAD
 =======
      * @param  array  $res  An array with the resource data
      * @return void
@@ -542,6 +607,8 @@ class PluginsResource extends PackageResource {
      */
     protected function exportResource($res) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check the resource source type.
 
         if (is_dir($res['source'])) {
@@ -560,11 +627,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $plugin An array with the plugin data
      *
      * @return bool
      */
     protected function pluginExists($plugin) {
+<<<<<<< HEAD
 =======
      * @param  array  $plugin  An array with the plugin data
      * @return bool
@@ -579,6 +650,8 @@ class PluginsResource extends PackageResource {
      */
     protected function pluginExists($plugin) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // When the plugin is not a resources list, check if target exists.
 
         if (! isset($plugin['resources'])) {
@@ -601,11 +674,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $plugin An array with the plugin data
      *
      * @return bool
      */
     protected function pluginInstalled($plugin) {
+<<<<<<< HEAD
 =======
      * @param  array  $plugin  An array with the plugin data
      * @return bool
@@ -620,6 +697,8 @@ class PluginsResource extends PackageResource {
      */
     protected function pluginInstalled($plugin) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // When the plugin is not a resources list, check if installed.
 
         if (! isset($plugin['resources'])) {
@@ -642,11 +721,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $res An array with the resource data
      *
      * @return bool
      */
     protected function resourceInstalled($res) {
+<<<<<<< HEAD
 =======
      * @param  array  $res  An array with the resource data
      * @return bool
@@ -661,6 +744,8 @@ class PluginsResource extends PackageResource {
      */
     protected function resourceInstalled($res) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -680,11 +765,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $plugin An array with the plugin data
      *
      * @return void
      */
     protected function uninstallPlugin($plugin) {
+<<<<<<< HEAD
 =======
      * @param  array  $plugin  An array with the plugin data
      * @return void
@@ -699,6 +788,8 @@ class PluginsResource extends PackageResource {
      */
     protected function uninstallPlugin($plugin) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         // Check if we need to remove the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -719,11 +810,15 @@ class PluginsResource extends PackageResource {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function uninstallResource($res) {
+<<<<<<< HEAD
 =======
      * @param  array  $res  An array with the resource data
      * @return void
@@ -738,6 +833,8 @@ class PluginsResource extends PackageResource {
      */
     protected function uninstallResource($res) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         $target = $res['target'];
 
         if (is_dir($target)) {
