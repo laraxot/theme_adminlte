@@ -2,6 +2,9 @@
 @section('content')
     @php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 73d66bc (.)
 
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers->first();
