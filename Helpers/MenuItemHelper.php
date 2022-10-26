@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -16,6 +17,9 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Helpers;
+=======
+namespace Themes\KlekooAdm\Helpers;
+>>>>>>> b738e1c (rebase)
 
 /**
  * TODO: On the future, all menu items should have a type property. We can use

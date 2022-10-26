@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -16,9 +17,12 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 namespace Themes\AdminLTE\Components\Layout;
+=======
+namespace Themes\KlekooAdm\Components\Layout;
+>>>>>>> b738e1c (rebase)
 
 use Illuminate\View\Component;
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
