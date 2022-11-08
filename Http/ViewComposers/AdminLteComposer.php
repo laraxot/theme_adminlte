@@ -90,6 +90,11 @@ class AdminLteComposer {
         $this->adminlte = $adminlte;
     }
 
+    /**
+     * Bind data to the view.
+     *
+     * @return void
+     */
     public function compose(View $view) {
 <<<<<<< HEAD
 >>>>>>> f405739 (up)
