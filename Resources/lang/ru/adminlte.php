@@ -4,7 +4,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 declare(strict_types=1);
 
 return [
@@ -26,7 +31,10 @@ return [
     'reset_password' => 'Восстановление пароля',
     'send_password_reset_link' => 'Отправить ссылку для восстановления пароля',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d (rebase)
 =======
 =======
 declare(strict_types=1);
@@ -63,5 +71,10 @@ return [
     'reset_password' => 'Восстановление пароля',
     'send_password_reset_link' => 'Отправить ссылку для восстановления пароля',
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 ];

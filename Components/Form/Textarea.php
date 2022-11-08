@@ -4,14 +4,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class Textarea extends InputGroupComponent {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d (rebase)
 =======
 namespace Themes\AdminLTE\Components\Form;
 
@@ -25,7 +33,12 @@ namespace Themes\AdminLTE\Components\Form;
 
 class Textarea extends InputGroupComponent {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * Create a new component instance.
      *
@@ -42,6 +55,11 @@ class Textarea extends InputGroupComponent {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
         $name,
         $id = null,
         $label = null,
@@ -62,6 +80,23 @@ class Textarea extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+        $errorKey = null
+    ) {
+        parent::__construct(
+            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
+            $igroupClass, $disableFeedback, $errorKey
+<<<<<<< HEAD
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         );
     }
 
@@ -84,6 +119,7 @@ class Textarea extends InputGroupComponent {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -92,6 +128,9 @@ class Textarea extends InputGroupComponent {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.textarea');
 >>>>>>> f617437 (rebase)
     }

@@ -4,14 +4,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Console\PackageResources;
 
 abstract class PackageResource {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d (rebase)
 =======
 namespace Themes\AdminLTE\Console\PackageResources;
 
@@ -25,7 +33,12 @@ namespace Themes\AdminLTE\Console\PackageResources;
 
 abstract class PackageResource {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * The package resource description. A litle summary of what this
      * resource contains.
@@ -100,14 +113,22 @@ abstract class PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
      * @param string $key The message keyword
      *
      * @return string
      */
     public function getInstallMessage($key) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d (rebase)
 =======
      * @param  string  $key  The message keyword
      * @return string
@@ -122,7 +143,12 @@ abstract class PackageResource {
      */
     public function getInstallMessage($key) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         if (! isset($this->messages[$key])) {
             return '';
         }

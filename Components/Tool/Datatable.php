@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
@@ -22,6 +30,7 @@ use Illuminate\View\Component;
 <<<<<<< HEAD
 class Datatable extends Component {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class Datatable extends Component {
@@ -32,7 +41,13 @@ class Datatable extends Component
 =======
 class Datatable extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class Datatable extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -154,6 +169,11 @@ class Datatable extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
         $id,
         $heads,
         $theme = null,
@@ -167,6 +187,20 @@ class Datatable extends Component {
         $beautify = null,
         $withButtons = null,
         $config = []
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+        $id, $heads, $theme = null, $headTheme = null, $bordered = null,
+        $hoverable = null, $striped = null, $compressed = null,
+        $withFooter = null, $footerTheme = null, $beautify = null,
+        $withButtons = null, $config = []
+<<<<<<< HEAD
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     ) {
         $this->id = $id;
         $this->heads = $heads;
@@ -207,6 +241,7 @@ class Datatable extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeTableClass() {
 =======
     public function makeTableClass()
@@ -215,7 +250,13 @@ class Datatable extends Component {
 =======
     public function makeTableClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeTableClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -251,6 +292,7 @@ class Datatable extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function makeDomCfg() {
 =======
     protected function makeDomCfg()
@@ -259,7 +301,13 @@ class Datatable extends Component {
 =======
     protected function makeDomCfg() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function makeDomCfg() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -286,6 +334,7 @@ class Datatable extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function makeButtonsCfg() {
 =======
     protected function makeButtonsCfg()
@@ -294,7 +343,13 @@ class Datatable extends Component {
 =======
     protected function makeButtonsCfg() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function makeButtonsCfg() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -374,6 +429,7 @@ class Datatable extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -382,6 +438,9 @@ class Datatable extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.tool.datatable');
 >>>>>>> f617437 (rebase)
     }

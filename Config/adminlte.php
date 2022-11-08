@@ -250,6 +250,7 @@ return [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // 'can' => 'manage-blog',
 =======
             //'can' => 'manage-blog',
@@ -257,7 +258,13 @@ return [
 =======
             // 'can' => 'manage-blog',
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+            // 'can' => 'manage-blog',
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         ],
         [
             'text' => 'pages',
@@ -491,6 +498,7 @@ return [
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 ];
@@ -498,4 +506,10 @@ return [
 =======
 ];
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+];
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)

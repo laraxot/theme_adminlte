@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
@@ -22,6 +30,7 @@ use Illuminate\View\Component;
 <<<<<<< HEAD
 class InputGroupComponent extends Component {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class InputGroupComponent extends Component {
@@ -32,7 +41,13 @@ class InputGroupComponent extends Component
 =======
 class InputGroupComponent extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class InputGroupComponent extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * The id attribute for the underlying input group item. The input group
      * item may be an "input", a "select", a "textarea", etc.
@@ -120,6 +135,11 @@ class InputGroupComponent extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
         $name,
         $id = null,
         $label = null,
@@ -128,6 +148,17 @@ class InputGroupComponent extends Component {
         $fgroupClass = null,
         $igroupClass = null,
         $disableFeedback = null,
+<<<<<<< HEAD
+=======
+=======
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+>>>>>>> 31d6e3b (first)
+=======
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $errorKey = null
     ) {
         $this->id = $id ?? $name;
@@ -154,6 +185,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeFormGroupClass() {
 =======
     public function makeFormGroupClass()
@@ -162,7 +194,13 @@ class InputGroupComponent extends Component {
 =======
     public function makeFormGroupClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeFormGroupClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['form-group'];
 
         if (isset($this->fgroupClass)) {
@@ -182,6 +220,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeInputGroupClass() {
 =======
     public function makeInputGroupClass()
@@ -190,7 +229,13 @@ class InputGroupComponent extends Component {
 =======
     public function makeInputGroupClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeInputGroupClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['input-group'];
 
         if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
@@ -218,6 +263,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeItemClass() {
 =======
     public function makeItemClass()
@@ -226,7 +272,13 @@ class InputGroupComponent extends Component {
 =======
     public function makeItemClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeItemClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -247,6 +299,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function isInvalid() {
 =======
     public function isInvalid()
@@ -255,7 +308,13 @@ class InputGroupComponent extends Component {
 =======
     public function isInvalid() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function isInvalid() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         // Get the errors bag from session. The errors bag will be an instance
         // of the Illuminate\Support\MessageBag class.
 
@@ -280,6 +339,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function makeErrorKey() {
 =======
     protected function makeErrorKey()
@@ -288,7 +348,13 @@ class InputGroupComponent extends Component {
 =======
     protected function makeErrorKey() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function makeErrorKey() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $errKey = preg_replace('@\[\]$@', '', $this->name);
 
         return preg_replace('@\[([^]]+)\]@', '.$1', $errKey);
@@ -313,6 +379,7 @@ class InputGroupComponent extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -321,6 +388,9 @@ class InputGroupComponent extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.input-group-component');
 >>>>>>> f617437 (rebase)
     }

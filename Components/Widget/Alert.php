@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
@@ -22,6 +30,7 @@ use Illuminate\View\Component;
 <<<<<<< HEAD
 class Alert extends Component {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class Alert extends Component {
@@ -32,7 +41,13 @@ class Alert extends Component
 =======
 class Alert extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class Alert extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * The default icon for each alert theme.
      *
@@ -43,7 +58,12 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -53,7 +73,10 @@ class Alert extends Component {
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d (rebase)
 =======
         'dark'      => 'fas fa-bolt',
         'light'     => 'far fa-lightbulb',
@@ -74,7 +97,12 @@ class Alert extends Component {
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     ];
 
     /**
@@ -117,10 +145,24 @@ class Alert extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
         $theme = null,
         $icon = null,
         $title = null,
         $dismissable = null
+<<<<<<< HEAD
+=======
+=======
+        $theme = null, $icon = null, $title = null, $dismissable = null
+>>>>>>> 31d6e3b (first)
+=======
+        $theme = null, $icon = null, $title = null, $dismissable = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -145,6 +187,7 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeAlertClass() {
 =======
     public function makeAlertClass()
@@ -153,7 +196,13 @@ class Alert extends Component {
 =======
     public function makeAlertClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeAlertClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -188,6 +237,7 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -196,6 +246,9 @@ class Alert extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.alert');
 >>>>>>> f617437 (rebase)
     }

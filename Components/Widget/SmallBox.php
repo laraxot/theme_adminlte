@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
@@ -22,6 +30,7 @@ use Illuminate\View\Component;
 <<<<<<< HEAD
 class SmallBox extends Component {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class SmallBox extends Component {
@@ -32,7 +41,13 @@ class SmallBox extends Component
 =======
 class SmallBox extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class SmallBox extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     /**
      * The title/header for the box.
      *
@@ -99,6 +114,11 @@ class SmallBox extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
         $title = null,
         $text = null,
         $icon = null,
@@ -106,6 +126,17 @@ class SmallBox extends Component {
         $url = null,
         $urlText = null,
         $loading = null
+<<<<<<< HEAD
+=======
+=======
+        $title = null, $text = null, $icon = null, $theme = null,
+        $url = null, $urlText = null, $loading = null
+>>>>>>> 31d6e3b (first)
+=======
+        $title = null, $text = null, $icon = null, $theme = null,
+        $url = null, $urlText = null, $loading = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -126,6 +157,7 @@ class SmallBox extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeBoxClass() {
 =======
     public function makeBoxClass()
@@ -134,7 +166,13 @@ class SmallBox extends Component {
 =======
     public function makeBoxClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeBoxClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -154,6 +192,7 @@ class SmallBox extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeOverlayClass() {
 =======
     public function makeOverlayClass()
@@ -162,7 +201,13 @@ class SmallBox extends Component {
 =======
     public function makeOverlayClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeOverlayClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -191,6 +236,7 @@ class SmallBox extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -199,6 +245,9 @@ class SmallBox extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.small-box');
 >>>>>>> f617437 (rebase)
     }

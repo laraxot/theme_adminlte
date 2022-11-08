@@ -1,0 +1,8 @@
+@extends('adm_theme::components.form.input-group-component')
+
+@section('input_group_item')
+
+    {{-- Input --}}
+    <input id="{{ $id }}" name="{{ $name }}" {{ $attributes->merge(['class' => $makeItemClass()]) }}>
+
+@overwrite

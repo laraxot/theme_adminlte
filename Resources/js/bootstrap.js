@@ -10,7 +10,17 @@ try {
     global.$ = global.jQuery = window.$ = window.jQuery = require('jquery');
     //window.Popper = require('popper.js').default;
     window.Popper = require('@popperjs/core/dist/umd/popper').default;
+<<<<<<< HEAD
     window.dragula = require('dragula');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    window.dragula = require('dragula');
+=======
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 
     require('bootstrap/dist/js/bootstrap.bundle.js');
     /*
@@ -38,7 +48,19 @@ try {
 
     require('admin-lte');
 
+<<<<<<< HEAD
     window.Swal = global.Swal = require('sweetalert2');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    window.Swal = global.Swal = require('sweetalert2');
+=======
+    window.Swal = Swal = require('sweetalert2');
+>>>>>>> 31d6e3b (first)
+=======
+    window.Swal = Swal = require('sweetalert2');
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 
     window.noUiSlider = require('nouislider');
 
@@ -58,8 +80,19 @@ try {
     //flatpickr.localize(Italian);
     //require("flatpickr/dist/themes/dark.css");
 
+<<<<<<< HEAD
     const Chart = window.Chart = require('chart.js/auto').default;
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    const Chart = window.Chart = require('chart.js/auto').default;
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 } catch (e) {
     console.log(e);
 }
@@ -112,4 +145,16 @@ if (token) {
 // window.Echo = new Echo({
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
+<<<<<<< HEAD
 // });
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// });
+=======
+// });
+>>>>>>> 31d6e3b (first)
+=======
+// });
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
