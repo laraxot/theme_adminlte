@@ -34,6 +34,7 @@
         "flatpickr": "^4.6.13",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -56,15 +57,20 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> 331dc6f (.)
         "font-awesome": "^4.7.0",
         "icheck": "^1.0.2",
         "ionicons": "^5.5.3",
         "jquery-slimscroll": "^1.3.8",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> 331dc6f (.)
         "jquery-ui": "^1.13.2",
         "laravel-mix": "^6.0.49",
         "laravel-mix-polyfill": "^3.0.1",
@@ -94,6 +100,7 @@
     },
     "dependencies": {
         "jquery": "^3.6.1"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -129,6 +136,8 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> 331dc6f (.)
     },
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",
