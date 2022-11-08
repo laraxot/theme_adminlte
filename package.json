@@ -36,7 +36,7 @@
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         "@popperjs/core": "^2.10.2",
         "@tinymce/tinymce-vue": "^4.0.7",
-        "admin-lte": "^3.2.0",
+        "admin-lte": "^3.2.0-rc",
         "axios": "^0.22.0",
         "babel-loader": "^8.2.4",
         "bootstrap": "4.6",
