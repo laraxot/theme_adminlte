@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class SmallBox extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class SmallBox extends Component {
+=======
+class SmallBox extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class SmallBox extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The title/header for the box.
      *
@@ -95,7 +121,20 @@ class SmallBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeBoxClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeBoxClass() {
+=======
+    public function makeBoxClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeBoxClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -110,7 +149,20 @@ class SmallBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeOverlayClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeOverlayClass() {
+=======
+    public function makeOverlayClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeOverlayClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -125,6 +177,7 @@ class SmallBox extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -135,5 +188,18 @@ class SmallBox extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.small-box');
+>>>>>>> f617437 (rebase)
     }
 }

@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -15,11 +20,42 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-custom-search' === $item['type'];
+<<<<<<< HEAD
+=======
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+namespace Themes\AdminLTE\Helpers;
+
+class SidebarItemHelper extends MenuItemHelper {
+    /**
+     * Check if a menu item is a sidebar custom search bar.
+     *
+     * @param mixed $item
+     *
+     * @return bool
+     */
+    public static function isCustomSearch($item) {
+        return isset($item['text'], $item['type']) &&
+<<<<<<< HEAD
+               $item['type'] === 'sidebar-custom-search';
+>>>>>>> 31d6e3b (first)
+=======
+               'sidebar-custom-search' === $item['type'];
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     }
 
     /**
      * Check if a menu item is a sidebar menu search bar.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -27,16 +63,57 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isMenuSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-menu-search' === $item['type'];
+<<<<<<< HEAD
+=======
+=======
+     * @param  mixed  $item
+=======
+     * @param mixed $item
+     *
+>>>>>>> f405739 (up)
+     * @return bool
+     */
+    public static function isMenuSearch($item) {
+        return isset($item['text'], $item['type']) &&
+<<<<<<< HEAD
+               $item['type'] === 'sidebar-menu-search';
+>>>>>>> 31d6e3b (first)
+=======
+               'sidebar-menu-search' === $item['type'];
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     }
 
     /**
      * Check if a menu item is a sidebar search item (legacy or new).
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSearch($item) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  mixed  $item
+     * @return bool
+     */
+    public static function isSearch($item)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param mixed $item
+     *
+     * @return bool
+     */
+    public static function isSearch($item) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item) ||
                self::isMenuSearch($item);
@@ -45,11 +122,33 @@ class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is accepted for the sidebar section.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAcceptedItem($item) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  mixed  $item
+     * @return bool
+     */
+    public static function isAcceptedItem($item)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param mixed $item
+     *
+     * @return bool
+     */
+    public static function isAcceptedItem($item) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         return self::isSubmenu($item) ||
                self::isSearch($item) ||
                self::isHeader($item) ||
@@ -59,11 +158,33 @@ class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is valid for the sidebar.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidItem($item) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  mixed  $item
+     * @return bool
+     */
+    public static function isValidItem($item)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param mixed $item
+     *
+     * @return bool
+     */
+    public static function isValidItem($item) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         return self::isAcceptedItem($item) &&
                empty($item['topnav_right']) &&
                empty($item['topnav_user']) &&

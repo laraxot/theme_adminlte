@@ -1,8 +1,25 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+return [
+=======
+return [
+
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /*
     |--------------------------------------------------------------------------
     | IFrame Mode Language Lines
@@ -21,4 +38,14 @@ return [
     'tab_empty' => 'Ninguna pestaña seleccionada!',
     'tab_home' => 'Inicio',
     'tab_loading' => 'Cargando pestaña',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 ];

@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Callout extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Callout extends Component {
+=======
+class Callout extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Callout extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The callout icon (a Font Awesome icon).
      *
@@ -63,7 +89,20 @@ class Callout extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeCalloutClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeCalloutClass() {
+=======
+    public function makeCalloutClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeCalloutClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['callout'];
 
         if (! empty($this->theme)) {
@@ -78,6 +117,7 @@ class Callout extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -88,5 +128,18 @@ class Callout extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.callout');
+>>>>>>> f617437 (rebase)
     }
 }

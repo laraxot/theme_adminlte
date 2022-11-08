@@ -1,10 +1,31 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputFile extends InputGroupComponent {
+<<<<<<< HEAD
+=======
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class InputFile extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class InputFile extends InputGroupComponent {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The placeholder for the input file box.
      *
@@ -71,7 +92,20 @@ class InputFile extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeItemClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['custom-file-input'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -86,6 +120,7 @@ class InputFile extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -96,5 +131,18 @@ class InputFile extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.input-file');
+>>>>>>> f617437 (rebase)
     }
 }

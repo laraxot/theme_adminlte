@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
 
+<<<<<<< HEAD
 class LangFilter implements FilterInterface {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class LangFilter implements FilterInterface {
+=======
+class LangFilter implements FilterInterface
+{
+>>>>>>> 31d6e3b (first)
+=======
+class LangFilter implements FilterInterface {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The translator instance.
      *
@@ -23,8 +49,26 @@ class LangFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
      */
     public function __construct(Translator $translator) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+     */
+    public function __construct(Translator $translator) {
+=======
+     *
+     * @param  Translator  $translator
+     */
+    public function __construct(Translator $translator)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     */
+    public function __construct(Translator $translator) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $this->translator = $translator;
         $this->itemProperties = ['header', 'text', 'label'];
     }
@@ -32,6 +76,11 @@ class LangFilter implements FilterInterface {
     /**
      * Transforms a menu item. Makes the item translations.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
@@ -40,6 +89,26 @@ class LangFilter implements FilterInterface {
         // Translate the menu item properties.
 
         foreach ($this->itemProperties as $prop) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  array  $item  A menu item
+=======
+     * @param array $item A menu item
+     *
+>>>>>>> f405739 (up)
+     * @return array The transformed menu item
+     */
+    public function transform($item) {
+        // Translate the menu item properties.
+
+        foreach ($this->itemProperties as $prop) {
+<<<<<<< HEAD
+
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
             // Check if the property exists for the item.
 
             if (! isset($item[$prop])) {
@@ -63,12 +132,36 @@ class LangFilter implements FilterInterface {
     /**
      * Gets the translation for a given key.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param string $key    The key to translate
      * @param array  $params The additional translation params
      *
      * @return string The translation
      */
     protected function getTranslation($key, $params = []) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  string  $key  The key to translate
+     * @param  array  $params  The additional translation params
+     * @return string The translation
+     */
+    protected function getTranslation($key, $params = [])
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $key    The key to translate
+     * @param array  $params The additional translation params
+     *
+     * @return string The translation
+     */
+    protected function getTranslation($key, $params = []) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Check for a translation.
 
         if ($this->translator->has('menu.'.$key)) {

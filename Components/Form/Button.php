@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Button extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Button extends Component {
+=======
+class Button extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Button extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The visible label (text) for the button.
      *
@@ -64,6 +90,7 @@ class Button extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -74,5 +101,18 @@ class Button extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.button');
+>>>>>>> f617437 (rebase)
     }
 }

@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Progress extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Progress extends Component {
+=======
+class Progress extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Progress extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The available progress bar sizes.
      *
@@ -105,7 +131,20 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressClass() {
+=======
+    public function makeProgressClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['progress'];
 
         if (isset($this->size) && \in_array($this->size, $this->pSizes, true)) {
@@ -124,7 +163,20 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarClass() {
+=======
+    public function makeProgressBarClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressBarClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -147,7 +199,20 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarStyle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarStyle() {
+=======
+    public function makeProgressBarStyle()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressBarStyle() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -164,6 +229,7 @@ class Progress extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -174,5 +240,18 @@ class Progress extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.progress');
+>>>>>>> f617437 (rebase)
     }
 }

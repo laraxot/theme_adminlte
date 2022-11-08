@@ -1,18 +1,49 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Alert extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Alert extends Component {
+=======
+class Alert extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Alert extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The default icon for each alert theme.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -21,6 +52,29 @@ class Alert extends Component {
         'success' => 'fas fa-check-circle',
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
+<<<<<<< HEAD
+=======
+=======
+        'dark'      => 'fas fa-bolt',
+        'light'     => 'far fa-lightbulb',
+        'primary'   => 'fas fa-bell',
+        'secondary' => 'fas fa-tag',
+        'info'      => 'fas fa-info-circle',
+        'success'   => 'fas fa-check-circle',
+        'warning'   => 'fas fa-exclamation-triangle',
+        'danger'    => 'fas fa-ban',
+>>>>>>> 31d6e3b (first)
+=======
+        'dark' => 'fas fa-bolt',
+        'light' => 'far fa-lightbulb',
+        'primary' => 'fas fa-bell',
+        'secondary' => 'fas fa-tag',
+        'info' => 'fas fa-info-circle',
+        'success' => 'fas fa-check-circle',
+        'warning' => 'fas fa-exclamation-triangle',
+        'danger' => 'fas fa-ban',
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     ];
 
     /**
@@ -86,7 +140,20 @@ class Alert extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeAlertClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeAlertClass() {
+=======
+    public function makeAlertClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeAlertClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -107,6 +174,7 @@ class Alert extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -117,5 +185,18 @@ class Alert extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.alert');
+>>>>>>> f617437 (rebase)
     }
 }

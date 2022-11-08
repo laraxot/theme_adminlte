@@ -228,4 +228,16 @@ class Builder {
 
         $this->menu = $this->transformItems($this->menu);
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 31d6e3b (first)
+=======
+}
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
