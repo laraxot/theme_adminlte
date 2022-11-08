@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Events;
-=======
-namespace Themes\KlekooAdm\Events;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Events;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Events;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Events;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class DarkModeWasToggled {
 =======
@@ -64,6 +58,9 @@ class DarkModeWasToggled {
 class DarkModeWasToggled {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class DarkModeWasToggled {
+>>>>>>> d79d738 (up)
     /**
      * An instance of the dark mode controller.
      *
@@ -73,6 +70,7 @@ class DarkModeWasToggled {
 
     /**
      * Create a new event instance.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(DarkModeController $ctrl) {
@@ -101,6 +99,10 @@ class DarkModeWasToggled {
     public function __construct(DarkModeController $ctrl) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+     */
+    public function __construct(DarkModeController $ctrl) {
+>>>>>>> d79d738 (up)
         $this->darkMode = $ctrl;
     }
 }

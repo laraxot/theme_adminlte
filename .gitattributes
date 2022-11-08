@@ -3,6 +3,7 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 <<<<<<< HEAD
+<<<<<<< HEAD
 CHANGELOG.md export-ignore
 <<<<<<< HEAD
 =======
@@ -23,3 +24,6 @@ CHANGELOG.md export-ignore
 =======
 CHANGELOG.md export-ignores
 >>>>>>> 46a3d18 (rebase)
+=======
+CHANGELOG.md export-ignore
+>>>>>>> d79d738 (up)

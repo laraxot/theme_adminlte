@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,11 +11,14 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class SelectBs extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -39,6 +43,8 @@ class SelectBs extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     /**
      * The bootstrap-select plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -67,10 +73,13 @@ class SelectBs extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $name,
         $id = null,
         $label = null,
@@ -93,6 +102,7 @@ class SelectBs extends InputGroupComponent {
             $disableFeedback,
             $errorKey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -109,6 +119,8 @@ class SelectBs extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -119,6 +131,7 @@ class SelectBs extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeItemClass() {
 =======
@@ -140,6 +153,9 @@ class SelectBs extends InputGroupComponent {
     public function makeItemClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeItemClass() {
+>>>>>>> d79d738 (up)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -163,6 +179,7 @@ class SelectBs extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -177,17 +194,9 @@ class SelectBs extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738 (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.select-bs');
 >>>>>>> f617437 (rebase)
     }

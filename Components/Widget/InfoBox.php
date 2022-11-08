@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class InfoBox extends Component {
 =======
@@ -64,6 +58,9 @@ class InfoBox extends Component {
 class InfoBox extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class InfoBox extends Component {
+>>>>>>> d79d738 (up)
     /**
      * The title/header for the box.
      *
@@ -140,10 +137,13 @@ class InfoBox extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $title = null,
         $text = null,
         $icon = null,
@@ -151,6 +151,7 @@ class InfoBox extends Component {
         $theme = null,
         $iconTheme = null,
         $progress = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -162,6 +163,8 @@ class InfoBox extends Component {
         $theme = null, $iconTheme = null, $progress = null,
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $progressTheme = 'white'
     ) {
         $this->title = $title;
@@ -179,6 +182,7 @@ class InfoBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeBoxClass() {
 =======
@@ -200,6 +204,9 @@ class InfoBox extends Component {
     public function makeBoxClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeBoxClass() {
+>>>>>>> d79d738 (up)
         $classes = ['info-box'];
 
         if (isset($this->theme)) {
@@ -214,6 +221,7 @@ class InfoBox extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeIconClass() {
 =======
@@ -235,6 +243,9 @@ class InfoBox extends Component {
     public function makeIconClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeIconClass() {
+>>>>>>> d79d738 (up)
         $classes = ['info-box-icon'];
 
         if (isset($this->iconTheme)) {
@@ -250,6 +261,7 @@ class InfoBox extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -264,17 +276,9 @@ class InfoBox extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738 (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.info-box');
 >>>>>>> f617437 (rebase)
     }

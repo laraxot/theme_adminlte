@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,23 +12,15 @@
 =======
 <<<<<<< HEAD
 >>>>>>> d1cab52 (rebase)
+=======
+>>>>>>> d79d738 (up)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 
-<<<<<<< HEAD
-=======
->>>>>>> 63c2c43 (up)
-=======
-
-
-
->>>>>>> 8a5cc0b (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -49,6 +42,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -98,3 +92,5 @@
 </x-dashboard>
 >>>>>>> 9a4b06e (.)
 >>>>>>> d1cab52 (rebase)
+=======
+>>>>>>> d79d738 (up)

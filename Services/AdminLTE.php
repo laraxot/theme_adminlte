@@ -7,6 +7,7 @@ namespace Themes\AdminLTE\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
@@ -31,24 +32,12 @@ use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> d79d738 (up)
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
->>>>>>> 63c2c43 (up)
-use Modules\Xot\Services\PanelService;
-=======
-use Illuminate\Support\Str;
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 8a5cc0b (.)
-use Nwidart\Modules\Facades\Module;
-=======
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
->>>>>>> 5b4054a (.)
 use Modules\Xot\Services\PanelService;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
@@ -58,6 +47,7 @@ use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLTE extends XotBaseComposer {
 =======
@@ -114,6 +104,9 @@ class AdminLTE extends XotBaseComposer {
 class AdminLTE extends XotBaseComposer {
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> d79d738 (up)
     /**
      * The array of menu items.
      *
@@ -156,6 +149,7 @@ class AdminLTE extends XotBaseComposer {
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
 <<<<<<< HEAD
@@ -175,6 +169,9 @@ class AdminLTE extends XotBaseComposer {
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> d79d738 (up)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -205,6 +202,7 @@ class AdminLTE extends XotBaseComposer {
         // Check for filter token.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
 =======
@@ -229,6 +227,10 @@ class AdminLTE extends XotBaseComposer {
         // dddx($this->menu);
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+        // backtrace(true);
+        // dddx($this->menu);
+>>>>>>> d79d738 (up)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -256,6 +258,7 @@ class AdminLTE extends XotBaseComposer {
         // the menu.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265,6 +268,8 @@ class AdminLTE extends XotBaseComposer {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -277,6 +282,7 @@ class AdminLTE extends XotBaseComposer {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -310,6 +316,8 @@ class AdminLTE extends XotBaseComposer {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 
         // Return the set of menu items.
 
@@ -494,6 +502,7 @@ class AdminLTE extends XotBaseComposer {
         return collect([]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 <<<<<<< HEAD
@@ -541,3 +550,6 @@ class AdminLTE extends XotBaseComposer {
 }
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+=======
+}
+>>>>>>> d79d738 (up)

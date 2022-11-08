@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,8 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 declare(strict_types=1);
 
 return [
@@ -36,6 +39,7 @@ return [
     'verify_if_not_recieved' => 'Ako niste dobili email',
     'verify_request_another' => 'kliknite ovde da biste zatražili još jedan',
     'confirm_password_message' => 'Molimo vas da potvrdite lozinku da biste nastavili',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -95,4 +99,6 @@ return [
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 ];

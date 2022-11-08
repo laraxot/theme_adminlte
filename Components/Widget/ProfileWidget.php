@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ProfileWidget extends Component {
 =======
@@ -64,6 +58,9 @@ class ProfileWidget extends Component {
 class ProfileWidget extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class ProfileWidget extends Component {
+>>>>>>> d79d738 (up)
     /**
      * The user name of the profile widget.
      *
@@ -139,10 +136,13 @@ class ProfileWidget extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $name = null,
         $desc = null,
         $img = null,
@@ -151,6 +151,7 @@ class ProfileWidget extends Component {
         $headerClass = null,
         $footerClass = null,
         $layoutType = 'modern'
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -162,6 +163,8 @@ class ProfileWidget extends Component {
         $headerClass = null, $footerClass = null, $layoutType = 'modern'
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     ) {
         $this->name = $name;
         $this->desc = $desc;
@@ -186,6 +189,7 @@ class ProfileWidget extends Component {
      * @return string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,12 +199,15 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
         if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
         } elseif ('classic' === $this->layoutType) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -228,6 +235,8 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
             $classes[] = 'widget-user-2';
         }
 
@@ -239,6 +248,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeHeaderClass() {
 =======
@@ -260,6 +270,9 @@ class ProfileWidget extends Component {
     public function makeHeaderClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeHeaderClass() {
+>>>>>>> d79d738 (up)
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -278,6 +291,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeHeaderStyle() {
 =======
@@ -299,6 +313,9 @@ class ProfileWidget extends Component {
     public function makeHeaderStyle() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeHeaderStyle() {
+>>>>>>> d79d738 (up)
         $style = [];
 
         if (! empty($this->cover)) {
@@ -313,6 +330,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeFooterClass() {
 =======
@@ -334,6 +352,9 @@ class ProfileWidget extends Component {
     public function makeFooterClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeFooterClass() {
+>>>>>>> d79d738 (up)
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -349,6 +370,7 @@ class ProfileWidget extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -363,17 +385,9 @@ class ProfileWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738 (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.profile-widget');
 >>>>>>> f617437 (rebase)
     }

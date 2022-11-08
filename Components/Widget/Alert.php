@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Alert extends Component {
 =======
@@ -64,12 +58,16 @@ class Alert extends Component {
 class Alert extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class Alert extends Component {
+>>>>>>> d79d738 (up)
     /**
      * The default icon for each alert theme.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -80,6 +78,8 @@ class Alert extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -88,6 +88,7 @@ class Alert extends Component {
         'success' => 'fas fa-check-circle',
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -119,6 +120,8 @@ class Alert extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     ];
 
     /**
@@ -162,14 +165,18 @@ class Alert extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $theme = null,
         $icon = null,
         $title = null,
         $dismissable = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -179,6 +186,8 @@ class Alert extends Component {
         $theme = null, $icon = null, $title = null, $dismissable = null
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -198,6 +207,7 @@ class Alert extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeAlertClass() {
 =======
@@ -219,6 +229,9 @@ class Alert extends Component {
     public function makeAlertClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeAlertClass() {
+>>>>>>> d79d738 (up)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -240,6 +253,7 @@ class Alert extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -254,17 +268,9 @@ class Alert extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738 (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.alert');
 >>>>>>> f617437 (rebase)
     }

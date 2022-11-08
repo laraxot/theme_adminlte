@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,23 +28,16 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Menu\Filters;
-=======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 5b4054a (.)
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class HrefFilter implements FilterInterface {
 =======
@@ -65,6 +59,9 @@ class HrefFilter implements FilterInterface {
 class HrefFilter implements FilterInterface {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class HrefFilter implements FilterInterface {
+>>>>>>> d79d738 (up)
     /**
      * The url generator instance.
      *
@@ -74,6 +71,7 @@ class HrefFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(UrlGenerator $urlGenerator) {
@@ -102,12 +100,17 @@ class HrefFilter implements FilterInterface {
     public function __construct(UrlGenerator $urlGenerator) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+     */
+    public function __construct(UrlGenerator $urlGenerator) {
+>>>>>>> d79d738 (up)
         $this->urlGenerator = $urlGenerator;
     }
 
     /**
      * Transforms a menu item. Make the href attribute when situable.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -118,11 +121,14 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -148,6 +154,8 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         if (! MenuItemHelper::isHeader($item)) {
             $item['href'] = $this->makeHref($item);
         }
@@ -159,6 +167,7 @@ class HrefFilter implements FilterInterface {
      * Make the href attribute for a menu item.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,11 +177,14 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param array $item A menu item
      *
      * @return string The href attribute
      */
     protected function makeHref($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -198,6 +210,8 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         // If url attribute is available, use it to make the href.
 
         if (isset($item['url'])) {

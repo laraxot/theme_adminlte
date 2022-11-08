@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,8 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -25,6 +28,7 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-custom-search' === $item['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,11 +63,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     }
 
     /**
      * Check if a menu item is a sidebar menu search bar.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -74,6 +81,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
@@ -81,6 +90,7 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isMenuSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-menu-search' === $item['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -108,11 +118,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     }
 
     /**
      * Check if a menu item is a sidebar search item (legacy or new).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -123,11 +136,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSearch($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -153,6 +169,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item) ||
                self::isMenuSearch($item);
@@ -161,6 +179,7 @@ class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is accepted for the sidebar section.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -171,11 +190,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAcceptedItem($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -201,6 +223,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return self::isSubmenu($item) ||
                self::isSearch($item) ||
                self::isHeader($item) ||
@@ -211,6 +235,7 @@ class SidebarItemHelper extends MenuItemHelper {
      * Check if a menu item is valid for the sidebar.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220,11 +245,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidItem($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -250,6 +278,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return self::isAcceptedItem($item) &&
                empty($item['topnav_right']) &&
                empty($item['topnav_user']) &&

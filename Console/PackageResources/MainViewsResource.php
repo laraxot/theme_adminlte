@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Console\PackageResources;
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class MainViewsResource extends PackageResource {
 =======
@@ -64,11 +58,15 @@ class MainViewsResource extends PackageResource {
 class MainViewsResource extends PackageResource {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class MainViewsResource extends PackageResource {
+>>>>>>> d79d738 (up)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -90,6 +88,9 @@ class MainViewsResource extends PackageResource {
     public function __construct() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function __construct() {
+>>>>>>> d79d738 (up)
         // Fill the resource data.
 
         $this->description = 'The default package main views';
@@ -100,6 +101,7 @@ class MainViewsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the AdminLTE main views?',
             'overwrite' => 'The main views already exists. Want to replace the views?',
@@ -130,6 +132,11 @@ class MainViewsResource extends PackageResource {
             'success' => 'Main views installed successfully.',
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+            'install' => 'Install the AdminLTE main views?',
+            'overwrite' => 'The main views already exists. Want to replace the views?',
+            'success' => 'Main views installed successfully.',
+>>>>>>> d79d738 (up)
         ];
     }
 
@@ -138,6 +145,7 @@ class MainViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -159,6 +167,9 @@ class MainViewsResource extends PackageResource {
     public function install() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function install() {
+>>>>>>> d79d738 (up)
         // Install the main views.
 
         CommandHelper::copyDirectory($this->source, $this->target, true, true);
@@ -169,6 +180,7 @@ class MainViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -190,6 +202,9 @@ class MainViewsResource extends PackageResource {
     public function uninstall() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function uninstall() {
+>>>>>>> d79d738 (up)
         // Uninstall the package main views.
 
         if (is_dir($this->target)) {
@@ -202,6 +217,7 @@ class MainViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -223,6 +239,9 @@ class MainViewsResource extends PackageResource {
     public function exists() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function exists() {
+>>>>>>> d79d738 (up)
         return is_dir($this->target);
     }
 
@@ -231,6 +250,7 @@ class MainViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -252,6 +272,9 @@ class MainViewsResource extends PackageResource {
     public function installed() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function installed() {
+>>>>>>> d79d738 (up)
         return (bool) CommandHelper::compareDirectories(
             $this->source,
             $this->target,

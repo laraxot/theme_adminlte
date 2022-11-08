@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ProfileRowItem extends Component {
 =======
@@ -64,6 +58,9 @@ class ProfileRowItem extends Component {
 class ProfileRowItem extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class ProfileRowItem extends Component {
+>>>>>>> d79d738 (up)
     /**
      * The title/header for the item.
      *
@@ -124,16 +121,20 @@ class ProfileRowItem extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $title = null,
         $text = null,
         $icon = null,
         $size = 12,
         $badge = null,
         $url = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -145,6 +146,8 @@ class ProfileRowItem extends Component {
         $badge = null, $url = null
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -159,6 +162,7 @@ class ProfileRowItem extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeTextWrapperClass() {
 =======
@@ -180,6 +184,9 @@ class ProfileRowItem extends Component {
     public function makeTextWrapperClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function makeTextWrapperClass() {
+>>>>>>> d79d738 (up)
         $classes = ['float-right'];
 
         if (isset($this->badge)) {
@@ -195,6 +202,7 @@ class ProfileRowItem extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -209,17 +217,9 @@ class ProfileRowItem extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738 (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.profile-row-item');
 >>>>>>> f617437 (rebase)
     }

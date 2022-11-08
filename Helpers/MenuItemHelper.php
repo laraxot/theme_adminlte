@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,25 +28,18 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Helpers;
-=======
-namespace Themes\KlekooAdm\Helpers;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Helpers;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Helpers;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Helpers;
->>>>>>> 5b4054a (.)
 
 /**
  * TODO: On the future, all menu items should have a type property. We can use
  * the type property to easy distinguish the item type and avoid guessing it by
  * they properties.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -56,6 +50,8 @@ namespace Themes\AdminLTE\Helpers;
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 class MenuItemHelper {
     /**
      * Check if a menu item is a header.
@@ -65,6 +61,7 @@ class MenuItemHelper {
      * @return bool
      */
     public static function isHeader($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         return \is_string($item) || isset($item['header']);
@@ -93,6 +90,8 @@ class MenuItemHelper {
 >>>>>>> f405739 (up)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+=======
+>>>>>>> d79d738 (up)
         return is_string($item) || isset($item['header']);
 >>>>>>> f617437 (rebase)
     }
@@ -100,6 +99,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a link.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -110,11 +110,14 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLink($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -140,6 +143,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -147,6 +152,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a submenu.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -157,11 +163,14 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSubmenu($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -187,6 +196,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return isset($item['text'], $item['submenu']) &&
                \is_array($item['submenu']);
     }
@@ -194,6 +205,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a legacy search bar.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -204,11 +216,14 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLegacySearch($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -234,6 +249,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -241,6 +258,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is allowed to be shown (not restricted).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -251,11 +269,14 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAllowed($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -281,6 +302,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         return $item && empty($item['restricted']);
     }
 }

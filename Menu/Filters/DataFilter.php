@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,8 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu\Filters;
@@ -23,6 +26,7 @@ class DataFilter implements FilterInterface {
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if (isset($item['data']) && \is_array($item['data'])) {
@@ -53,6 +57,8 @@ class DataFilter implements FilterInterface {
 >>>>>>> f405739 (up)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+=======
+>>>>>>> d79d738 (up)
         if (isset($item['data']) && is_array($item['data'])) {
 >>>>>>> f617437 (rebase)
             $item['data-compiled'] = $this->compileData($item['data']);
@@ -65,6 +71,7 @@ class DataFilter implements FilterInterface {
      * Compile an array of data attributes into a data string.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,11 +81,14 @@ class DataFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
      * @param array $dataArray Array of html data attributes
      *
      * @return string The compiled version of data attributes
      */
     protected function compileData($dataArray) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -104,6 +114,8 @@ class DataFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
         $compiled = [];
 
         foreach ($dataArray as $key => $value) {

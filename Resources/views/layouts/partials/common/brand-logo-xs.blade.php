@@ -9,6 +9,7 @@
 @endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16,10 +17,13 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+=======
+>>>>>>> d79d738 (up)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -44,6 +48,8 @@
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+=======
+>>>>>>> d79d738 (up)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -53,6 +59,7 @@
     Brand text
     <span class="brand-text font-weight-light {{ config('adm_theme::adminlte.classes_brand_text') }}">
         {!! config('adm_theme::adminlte.logo', '<b>Admin</b>LTE') !!}
+<<<<<<< HEAD
 <<<<<<< HEAD
     </span> --}}
 =======
@@ -75,4 +82,7 @@
     </span> --}}
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+=======
+    </span> --}}
+>>>>>>> d79d738 (up)
 </a>

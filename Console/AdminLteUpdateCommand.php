@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
 namespace Themes\AdminLTE\Console;
-=======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Console;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Console;
->>>>>>> 5b4054a (.)
 
 use Illuminate\Console\Command;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteUpdateCommand extends Command {
 =======
@@ -64,6 +58,9 @@ class AdminLteUpdateCommand extends Command {
 class AdminLteUpdateCommand extends Command {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+class AdminLteUpdateCommand extends Command {
+>>>>>>> d79d738 (up)
     /**
      * The name and signature of the console command.
      *
@@ -83,6 +80,7 @@ class AdminLteUpdateCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle() {
 =======
@@ -104,6 +102,9 @@ class AdminLteUpdateCommand extends Command {
     public function handle() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+=======
+    public function handle() {
+>>>>>>> d79d738 (up)
         $options = ['--force' => true, '--only' => ['assets']];
 
         $this->call('adminlte:install', $options);
