@@ -1,4 +1,4 @@
-@inject('sidebarItemHelper', 'Themes\AdminLTE\Helpers\SidebarItemHelper')
+@inject('sidebarItemHelper', 'Themes\KlekooAdm\Helpers\SidebarItemHelper')
 
 @if ($sidebarItemHelper->isHeader($item))
 <<<<<<< HEAD
@@ -50,8 +50,12 @@
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
 @endif
+=======
+@endif
+>>>>>>> b738e1c (rebase)

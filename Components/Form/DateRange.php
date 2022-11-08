@@ -12,7 +12,7 @@
 >>>>>>> 905478d (rebase)
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Components\Form;
+namespace Themes\KlekooAdm\Components\Form;
 
 class DateRange extends InputGroupComponent {
 <<<<<<< HEAD

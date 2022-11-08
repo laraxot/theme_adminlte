@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -24,9 +25,12 @@ declare(strict_types=1);
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
 namespace Themes\AdminLTE\Http\ViewComposers;
+=======
+namespace Themes\KlekooAdm\Http\ViewComposers;
+>>>>>>> b738e1c (rebase)
 
 use Illuminate\View\View;
-use Themes\AdminLTE\AdminLte;
+use Themes\KlekooAdm\AdminLte;
 
 <<<<<<< HEAD
 class AdminLteComposer {
