@@ -13,9 +13,12 @@
 @section('content')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @php
         //dddx($profile->areas());
     @endphp
+=======
+>>>>>>> 5b4054a (.)
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
@@ -23,6 +26,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 =======
 aaa
 >>>>>>> 28d9a7d (.)
@@ -231,3 +235,5 @@ $answers = $lime->getAnswersByQuestionId((string) 30342);
 =======
 @endsection
 >>>>>>> 8a5cc0b (.)
+=======
+>>>>>>> 5b4054a (.)

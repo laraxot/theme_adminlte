@@ -12,7 +12,7 @@
 >>>>>>> 905478d (rebase)
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Menu\Filters;
+namespace Themes\AdminLTE\Menu\Filters;
 
 interface FilterInterface {
     /**
