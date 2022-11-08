@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -32,6 +33,9 @@ namespace Themes\KlekooAdm\Menu\Filters;
 =======
 namespace Themes\AdminLTE\Menu\Filters;
 >>>>>>> 63c2c43 (up)
+=======
+namespace Themes\KlekooAdm\Menu\Filters;
+>>>>>>> 8a5cc0b (.)
 
 use Illuminate\Translation\Translator;
 

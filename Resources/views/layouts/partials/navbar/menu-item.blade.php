@@ -1,4 +1,4 @@
-@inject('navbarItemHelper', 'Themes\AdminLTE\Helpers\NavbarItemHelper')
+@inject('navbarItemHelper', 'Themes\KlekooAdm\Helpers\NavbarItemHelper')
 
 @if ($navbarItemHelper->isSearch($item))
 <<<<<<< HEAD
@@ -41,7 +41,7 @@
 @elseif ($navbarItemHelper->isNotification($item))
 
     {{-- Notification link --}}
-    {{--
+    {{--  
     <x-adminlte-navbar-notification :id="$item['id']" :href="$item['href']" :icon="$item['icon']"
         :icon-color="$item['icon_color'] ?? null" :badge-label="$item['label'] ?? null"
         :badge-color="$item['label_color'] ?? null" :update-cfg="$item['update_cfg'] ?? null"
@@ -57,7 +57,7 @@
 @elseif ($navbarItemHelper->isDarkmode($item))
 
     {{-- Darkmode toggle widget --}}
-    {{--
+    {{--  
     <x-adminlte-navbar-darkmode-widget :icon-enabled="$item['icon_enabled'] ?? null"
         :color-enabled="$item['color_enabled'] ?? null" :icon-disabled="$item['icon_disabled'] ?? null"
         :color-disabled="$item['color_disabled'] ?? null" />

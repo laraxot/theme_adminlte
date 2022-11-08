@@ -1,13 +1,10 @@
 <aside class="main-sidebar {{ config('adm_theme::adminlte.classes_sidebar', 'sidebar-dark-primary elevation-4') }}">
-
     {{-- Sidebar brand logo --}}
     @if (config('adm_theme::adminlte.logo_img_xl'))
         @include('adm_theme::layouts.partials.common.brand-logo-xl')
     @else
         @include('adm_theme::layouts.partials.common.brand-logo-xs')
     @endif
-
-
     {{-- Sidebar menu --}}
     <div class="sidebar">
         <nav class="pt-2">
@@ -17,6 +14,7 @@
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300) data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}" @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47,6 +45,14 @@
                 @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion'))
                     data-accordion="false"
+=======
+                data-widget="treeview" role="menu"
+                @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300)
+                    data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}"
+                @endif
+                @if (!config('adm_theme::adminlte.sidebar_nav_accordion'))
+                    data-accordion="false"
+>>>>>>> 8a5cc0b (.)
                 @endif
                 >
                 <?php
@@ -76,6 +82,7 @@
                     <?php
                 }
                 ?>
+<<<<<<< HEAD
 >>>>>>> b738e1c (rebase)
 <<<<<<< HEAD
 >>>>>>> 018589a (rebase)
@@ -88,12 +95,15 @@
                     data-accordion="false"
                 @endif>
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 >>>>>>> 08eedf4 (rebase)
+=======
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea7 (rebase)
                 {{-- Configured sidebar links --}}
                 {{-- dddx($adminlte->menu('sidebar')) --}}
-                @each('adm_theme::layouts.partials.sidebar.menu-item', $adminlte->menu('sidebar'), 'item')
             </ul>
         </nav>
     </div>
-
 </aside>
