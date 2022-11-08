@@ -1,13 +1,39 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Options extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Options extends Component {
+=======
+class Options extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Options extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The list of options as key value pairs.
      *
@@ -84,23 +110,69 @@ class Options extends Component {
     /**
      * Determines if an option's key is on selected state.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isSelected($key) {
+<<<<<<< HEAD
         return \in_array($key, $this->selected, $this->strict);
+=======
+=======
+     * @param  string  $key  The option's key.
+     * @return bool
+     */
+    public function isSelected($key)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $key the option's key
+     *
+     * @return bool
+     */
+    public function isSelected($key) {
+>>>>>>> f405739 (up)
+        return in_array($key, $this->selected, $this->strict);
+>>>>>>> f617437 (rebase)
     }
 
     /**
      * Determines if an option's key is on disabled state.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isDisabled($key) {
+<<<<<<< HEAD
         return \in_array($key, $this->disabled, $this->strict);
+=======
+=======
+     * @param  string  $key  The option's key.
+     * @return bool
+     */
+    public function isDisabled($key)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $key the option's key
+     *
+     * @return bool
+     */
+    public function isDisabled($key) {
+>>>>>>> f405739 (up)
+        return in_array($key, $this->disabled, $this->strict);
+>>>>>>> f617437 (rebase)
     }
 
     /**
@@ -108,6 +180,7 @@ class Options extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -118,5 +191,18 @@ class Options extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.options');
+>>>>>>> f617437 (rebase)
     }
 }

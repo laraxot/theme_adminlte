@@ -1,10 +1,31 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class Select2 extends InputGroupComponent {
+<<<<<<< HEAD
+=======
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class Select2 extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class Select2 extends InputGroupComponent {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The select2 plugin configuration parameters. Array with key => value
      * pairs, where the key should be an existing configuration property of
@@ -65,6 +86,7 @@ class Select2 extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -75,5 +97,18 @@ class Select2 extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.select2');
+>>>>>>> f617437 (rebase)
     }
 }

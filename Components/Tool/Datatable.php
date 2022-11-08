@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Datatable extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Datatable extends Component {
+=======
+class Datatable extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Datatable extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -176,7 +202,20 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeTableClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeTableClass() {
+=======
+    public function makeTableClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeTableClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -207,7 +246,20 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     protected function makeDomCfg() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function makeDomCfg() {
+=======
+    protected function makeDomCfg()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function makeDomCfg() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -229,7 +281,20 @@ class Datatable extends Component {
      *
      * @return array
      */
+<<<<<<< HEAD
     protected function makeButtonsCfg() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function makeButtonsCfg() {
+=======
+    protected function makeButtonsCfg()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function makeButtonsCfg() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -295,6 +360,7 @@ class Datatable extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -305,5 +371,18 @@ class Datatable extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.tool.datatable');
+>>>>>>> f617437 (rebase)
     }
 }

@@ -1,25 +1,75 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputDate extends InputGroupComponent {
+<<<<<<< HEAD
+=======
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class InputDate extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class InputDate extends InputGroupComponent {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         'time' => 'fas fa-clock',
         'date' => 'fas fa-calendar-alt',
         'up' => 'fas fa-arrow-up',
         'down' => 'fas fa-arrow-down',
+<<<<<<< HEAD
         'previous' => 'fas fa-chevron-left',
         'next' => 'fas fa-chevron-right',
         'today' => 'fas fa-calendar-check-o',
         'clear' => 'fas fa-trash',
         'close' => 'fas fa-times',
+<<<<<<< HEAD
+=======
+=======
+        'time'     => 'fas fa-clock',
+        'date'     => 'fas fa-calendar-alt',
+        'up'       => 'fas fa-arrow-up',
+        'down'     => 'fas fa-arrow-down',
+        'previous' => 'fas fa-chevron-left',
+        'next'     => 'fas fa-chevron-right',
+        'today'    => 'fas fa-calendar-check-o',
+        'clear'    => 'fas fa-trash',
+        'close'    => 'fas fa-times',
+>>>>>>> 31d6e3b (first)
+=======
+        'previous' => 'fas fa-chevron-left',
+        'next' => 'fas fa-chevron-right',
+        'today' => 'fas fa-calendar-check-o',
+        'clear' => 'fas fa-trash',
+        'close' => 'fas fa-times',
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     ];
 
     /**
@@ -97,7 +147,20 @@ class InputDate extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeItemClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -112,6 +175,7 @@ class InputDate extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -122,5 +186,18 @@ class InputDate extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.input-date');
+>>>>>>> f617437 (rebase)
     }
 }

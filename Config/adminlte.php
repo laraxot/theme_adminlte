@@ -245,7 +245,19 @@ return [
         [
             'text' => 'blog',
             'url' => 'admin/blog',
+<<<<<<< HEAD
             // 'can' => 'manage-blog',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            // 'can' => 'manage-blog',
+=======
+            //'can' => 'manage-blog',
+>>>>>>> 31d6e3b (first)
+=======
+            // 'can' => 'manage-blog',
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         ],
         [
             'text' => 'pages',
@@ -474,4 +486,16 @@ return [
     */
 
     'livewire' => false,
+<<<<<<< HEAD
 ];
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+];
+=======
+];
+>>>>>>> 31d6e3b (first)
+=======
+];
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)

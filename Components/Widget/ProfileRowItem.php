@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class ProfileRowItem extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class ProfileRowItem extends Component {
+=======
+class ProfileRowItem extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class ProfileRowItem extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The title/header for the item.
      *
@@ -86,7 +112,20 @@ class ProfileRowItem extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeTextWrapperClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeTextWrapperClass() {
+=======
+    public function makeTextWrapperClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeTextWrapperClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['float-right'];
 
         if (isset($this->badge)) {
@@ -101,6 +140,7 @@ class ProfileRowItem extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -111,5 +151,18 @@ class ProfileRowItem extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.profile-row-item');
+>>>>>>> f617437 (rebase)
     }
 }

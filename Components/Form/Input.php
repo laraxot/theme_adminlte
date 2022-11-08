@@ -1,10 +1,31 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class Input extends InputGroupComponent {
+<<<<<<< HEAD
+=======
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class Input extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class Input extends InputGroupComponent {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * Create a new component instance.
      *
@@ -49,6 +70,7 @@ class Input extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -59,5 +81,18 @@ class Input extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.form.input');
+>>>>>>> f617437 (rebase)
     }
 }

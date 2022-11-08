@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class ProfileWidget extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class ProfileWidget extends Component {
+=======
+class ProfileWidget extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class ProfileWidget extends Component {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * The user name of the profile widget.
      *
@@ -112,12 +138,36 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
     public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
         if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
         } elseif ('classic' === $this->layoutType) {
+<<<<<<< HEAD
+=======
+=======
+    public function makeCardClass()
+    {
+=======
+    public function makeCardClass() {
+>>>>>>> f405739 (up)
+        $classes = ['card', 'card-widget'];
+
+        if ('modern' === $this->layoutType) {
+            $classes[] = 'widget-user';
+<<<<<<< HEAD
+        } elseif ($this->layoutType === 'classic') {
+>>>>>>> 31d6e3b (first)
+=======
+        } elseif ('classic' === $this->layoutType) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
             $classes[] = 'widget-user-2';
         }
 
@@ -129,7 +179,20 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeHeaderClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeHeaderClass() {
+=======
+    public function makeHeaderClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeHeaderClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -148,7 +211,20 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeHeaderStyle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeHeaderStyle() {
+=======
+    public function makeHeaderStyle()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeHeaderStyle() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $style = [];
 
         if (! empty($this->cover)) {
@@ -163,7 +239,20 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeFooterClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeFooterClass() {
+=======
+    public function makeFooterClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeFooterClass() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -178,6 +267,7 @@ class ProfileWidget extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -188,5 +278,18 @@ class ProfileWidget extends Component {
         ];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+        return view('adminlte::components.widget.profile-widget');
+>>>>>>> f617437 (rebase)
     }
 }

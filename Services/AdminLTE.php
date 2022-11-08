@@ -59,7 +59,19 @@ class AdminLTE extends XotBaseComposer {
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
+<<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+=======
+    public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> 31d6e3b (first)
+=======
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -89,8 +101,23 @@ class AdminLTE extends XotBaseComposer {
 
         // Check for filter token.
 
+<<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // backtrace(true);
+        // dddx($this->menu);
+=======
+        //backtrace(true);
+        //dddx($this->menu);
+>>>>>>> 31d6e3b (first)
+=======
+        // backtrace(true);
+        // dddx($this->menu);
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -117,6 +144,11 @@ class AdminLTE extends XotBaseComposer {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -129,6 +161,31 @@ class AdminLTE extends XotBaseComposer {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
+<<<<<<< HEAD
+=======
+=======
+        //$this->events->dispatch(new BuildingMenu($builder));
+        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
+=======
+        // $this->events->dispatch(new BuildingMenu($builder));
+        $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
+>>>>>>> f405739 (up)
+
+        // $builder->add(...$menu);
+
+        $model_menu = $this->setMenu();
+
+        // Cannot unpack array with string keys
+        // dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
+
+        $builder->add(...$model_menu);
+<<<<<<< HEAD
+        //dddx($builder->menu);
+>>>>>>> 31d6e3b (first)
+=======
+        // dddx($builder->menu);
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 
         // Return the set of menu items.
 
@@ -312,4 +369,16 @@ class AdminLTE extends XotBaseComposer {
     public function getMenuItemsByName(string $name): Collection {
         return collect([]);
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 31d6e3b (first)
+=======
+}
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)

@@ -1,12 +1,38 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 class BasicViewsResource extends PackageResource {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class BasicViewsResource extends PackageResource {
+=======
+class BasicViewsResource extends PackageResource
+{
+>>>>>>> 31d6e3b (first)
+=======
+class BasicViewsResource extends PackageResource {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
     /**
      * Array with the replacement content of the basic views.
      *
@@ -21,7 +47,20 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function __construct() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct() {
+=======
+    public function __construct()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function __construct() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package basic views';
@@ -32,9 +71,27 @@ class BasicViewsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
             'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
             'success' => 'Basic views installed successfully.',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'install' => 'Install the AdminLTE basic views?',
+            'overwrite' => 'The basic views already exists. Want to replace the views?',
+            'success' => 'Basic views installed successfully.',
+=======
+            'install'   => 'Install the AdminLTE basic views?',
+            'overwrite' => 'The basic views already exists. Want to replace the views?',
+            'success'   => 'Basic views installed successfully.',
+>>>>>>> 31d6e3b (first)
+=======
+            'install' => 'Install the AdminLTE basic views?',
+            'overwrite' => 'The basic views already exists. Want to replace the views?',
+            'success' => 'Basic views installed successfully.',
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         ];
     }
 
@@ -43,7 +100,20 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function install() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function install() {
+=======
+    public function install()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function install() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Install the basic views. We going to replace the content of any
         // existing basic view.
 
@@ -59,7 +129,20 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function uninstall() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function uninstall() {
+=======
+    public function uninstall()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function uninstall() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
@@ -76,7 +159,20 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function exists() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function exists() {
+=======
+    public function exists()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function exists() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
@@ -95,7 +191,20 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function installed() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function installed() {
+=======
+    public function installed()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function installed() {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         foreach ($this->source as $file => $stub) {
             $target = $this->target.\DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
@@ -111,12 +220,36 @@ class BasicViewsResource extends PackageResource {
     /**
      * Check if a basic view is correctly installed.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
      * @param string $path    Absolute path of the view
      * @param string $content The expected content of the view
      *
      * @return bool
      */
     protected function basicViewInstalled($path, $content) {
+<<<<<<< HEAD
+=======
+=======
+     * @param  string  $path  Absolute path of the view
+     * @param  string  $content  The expected content of the view
+     * @return bool
+     */
+    protected function basicViewInstalled($path, $content)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $path    Absolute path of the view
+     * @param string $content The expected content of the view
+     *
+     * @return bool
+     */
+    protected function basicViewInstalled($path, $content) {
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }
