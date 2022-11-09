@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!-- Preloader -->
         {{-- <div class="preloader">
 =======
@@ -76,10 +77,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 763ce2c (rebase)
         <!-- Preloader -->
         {{-- <div class="preloader">
 =======
           <!-- Preloader -->
+=======
+        <!-- Preloader -->
+        {{--
+>>>>>>> ac76b2e (.)
         <div class="preloader">
 >>>>>>> 31d6e3b (first)
 =======
@@ -137,11 +144,18 @@
         </div> --}}
 =======
         </div>
+<<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
         </div>
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+=======
+        --}}
+>>>>>>> ac76b2e (.)
+>>>>>>> 5e67a8b (rebase)
 
 
         {{-- Top Navbar --}}
