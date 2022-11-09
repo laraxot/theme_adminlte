@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\View\Composers;
+namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
 <<<<<<< HEAD
@@ -10,8 +10,12 @@ use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 =======
 use Modules\Theme\View\Composers\XotBaseComposer;
+<<<<<<< HEAD
 use Themes\KlekooAdm\Services\AdminLTE;
 >>>>>>> b6bf7b3 (rebase)
+=======
+use Themes\AdminLTE\Services\AdminLTE;
+>>>>>>> 4ab624f (rebase)
 
 class ThemeComposer extends XotBaseComposer {
     /**
@@ -36,6 +40,7 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,5 +92,14 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+=======
+=======
+=======
+}
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)

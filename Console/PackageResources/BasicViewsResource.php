@@ -14,6 +14,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -38,9 +39,15 @@ namespace Themes\AdminLTE\Console\PackageResources;
 =======
 namespace Themes\KlekooAdm\Console\PackageResources;
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+=======
+=======
+namespace Themes\AdminLTE\Console\PackageResources;
+>>>>>>> 5b4054a (.)
+>>>>>>> 4ab624f (rebase)
 
-use Themes\KlekooAdm\Helpers\CommandHelper;
+use Themes\AdminLTE\Helpers\CommandHelper;
 
 class BasicViewsResource extends PackageResource {
     /**

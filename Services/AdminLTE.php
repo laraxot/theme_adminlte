@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Services;
+namespace Themes\AdminLTE\Services;
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Illuminate\Support\Str;
@@ -48,13 +49,24 @@ use Illuminate\Support\Collection;
 >>>>>>> 8a5cc0b (.)
 >>>>>>> b6bf7b3 (rebase)
 use Nwidart\Modules\Facades\Module;
+=======
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+>>>>>>> 5b4054a (.)
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
+<<<<<<< HEAD
+=======
+use Themes\AdminLTE\Menu\Builder;
+
+>>>>>>> 4ab624f (rebase)
 <<<<<<< HEAD
 use Themes\AdminLTE\Menu\Builder;
 =======
@@ -65,6 +77,7 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,8 +123,17 @@ class AdminLTE extends XotBaseComposer {
 =======
 class AdminLTE extends XotBaseComposer { 
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+=======
+=======
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)
     /**
      * The array of menu items.
      *
@@ -151,7 +173,7 @@ class AdminLTE extends XotBaseComposer {
 
     /**
      * Constructor.
-     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\KlekooAdm\Services\AdminLTE.
+     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
@@ -416,6 +438,7 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -447,5 +470,14 @@ class AdminLTE extends XotBaseComposer {
 =======
 }
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+=======
+=======
+=======
+}
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)
