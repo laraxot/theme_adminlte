@@ -25,7 +25,7 @@
 >>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Helpers;
+namespace Themes\KlekooAdm\Helpers;
 
 class SidebarItemHelper extends MenuItemHelper {
     /**

@@ -25,7 +25,7 @@
 >>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Menu\Filters;
+namespace Themes\KlekooAdm\Menu\Filters;
 
 interface FilterInterface {
     /**

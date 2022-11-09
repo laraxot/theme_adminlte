@@ -1,6 +1,6 @@
 @extends('adm_theme::layouts.plane')
 
-@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
 
 @section('adminlte_css')
     @stack('css')

@@ -21,10 +21,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 4a726e2 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -54,9 +57,12 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
+=======
+namespace Themes\KlekooAdm\Components\Layout;
+>>>>>>> b738e1c (rebase)
 
 use Illuminate\View\Component;
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
