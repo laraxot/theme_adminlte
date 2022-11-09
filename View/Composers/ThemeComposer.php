@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Modules\Theme\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
@@ -94,10 +94,13 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 4861446 (rebase)
 }
 =======
 }
@@ -117,11 +120,15 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4861446 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
 }
 >>>>>>> e6202c2 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2388cd9 (rebase)
 =======
@@ -162,3 +169,6 @@ class ThemeComposer extends XotBaseComposer {
 =======
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 2388cd9 (rebase)
+>>>>>>> 4861446 (rebase)
