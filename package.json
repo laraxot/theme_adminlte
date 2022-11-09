@@ -52,6 +52,7 @@
         "@tinymce/tinymce-vue": "^4.0.7",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "admin-lte": "^3.2.0",
 =======
         "admin-lte": "^3.2.0-rc",
@@ -59,6 +60,9 @@
 =======
         "admin-lte": "^3.2.0",
 >>>>>>> 8629e12 (rebase)
+=======
+        "admin-lte": "^3.2.0-rc",
+>>>>>>> f63434d (rebase)
         "axios": "^0.22.0",
         "babel-loader": "^8.2.4",
         "bootstrap": "4.6",

@@ -22,12 +22,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> f63434d (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -60,6 +63,9 @@ namespace Themes\AdminLTE\Helpers;
 =======
 namespace Themes\KlekooAdm\Helpers;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Helpers;
+>>>>>>> 63c2c43 (up)
 
 /**
  * TODO: On the future, all menu items should have a type property. We can use
