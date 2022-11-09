@@ -4,36 +4,6 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Str;
-<<<<<<< HEAD
-use Modules\Xot\Services\PanelService;
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
-=======
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 7bb12fc (.)
->>>>>>> 7582ab0c (rebase)
-use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d79d738c (up)
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
@@ -47,66 +17,7 @@ use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class AdminLTE extends XotBaseComposer {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class AdminLTE extends XotBaseComposer {
-=======
-class AdminLTE {
->>>>>>> 31d6e3b (first)
-=======
-class AdminLTE {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
-<<<<<<< HEAD
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0c (rebase)
-=======
-=======
-=======
-use Themes\KlekooAdm\Events\BuildingMenu;
-use Themes\KlekooAdm\Helpers\LayoutHelper;
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
-use Themes\KlekooAdm\Menu\Builder;
-
-class AdminLTE {
->>>>>>> e4c311e... .
->>>>>>> b738e1c (rebase)
-<<<<<<< HEAD
->>>>>>> 018589a3 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
->>>>>>> 08eedf4d (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea70 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d6 (rebase)
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> d79d738c (up)
     /**
      * The array of menu items.
      *
@@ -148,30 +59,7 @@ class AdminLTE extends XotBaseComposer {
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
-=======
-    public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> 31d6e3b (first)
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> d79d738c (up)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -201,36 +89,8 @@ class AdminLTE extends XotBaseComposer {
 
         // Check for filter token.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        // backtrace(true);
-        // dddx($this->menu);
-=======
-        //backtrace(true);
-        //dddx($this->menu);
->>>>>>> 31d6e3b (first)
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> d79d738c (up)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -257,19 +117,6 @@ class AdminLTE extends XotBaseComposer {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -282,42 +129,6 @@ class AdminLTE extends XotBaseComposer {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-        //$this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
-=======
-        // $this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
->>>>>>> f405739 (up)
-
-        // $builder->add(...$menu);
-
-        $model_menu = $this->setMenu();
-
-        // Cannot unpack array with string keys
-        // dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
-
-        $builder->add(...$model_menu);
-<<<<<<< HEAD
-        //dddx($builder->menu);
->>>>>>> 31d6e3b (first)
-=======
-        // dddx($builder->menu);
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
 
         // Return the set of menu items.
 
@@ -501,55 +312,4 @@ class AdminLTE extends XotBaseComposer {
     public function getMenuItemsByName(string $name): Collection {
         return collect([]);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 31d6e3b (first)
-=======
-}
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-}
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
-=======
-}
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0c (rebase)
-=======
-=======
-}
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
->>>>>>> 08eedf4d (rebase)
-=======
-=======
-}
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea70 (rebase)
-=======
-=======
-}
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d6 (rebase)
-=======
-}
->>>>>>> d79d738c (up)

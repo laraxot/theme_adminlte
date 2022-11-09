@@ -1,66 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class BasicViewsResource extends PackageResource {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class BasicViewsResource extends PackageResource {
-=======
-class BasicViewsResource extends PackageResource
-{
->>>>>>> 31d6e3b (first)
-=======
-class BasicViewsResource extends PackageResource {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class BasicViewsResource extends PackageResource {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-class BasicViewsResource extends PackageResource {
->>>>>>> d79d738c (up)
     /**
      * Array with the replacement content of the basic views.
      *
@@ -75,31 +21,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function __construct() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function __construct() {
-=======
-    public function __construct()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function __construct() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function __construct() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function __construct() {
->>>>>>> d79d738c (up)
         // Fill the resource data.
 
         $this->description = 'The default package basic views';
@@ -110,42 +32,9 @@ class BasicViewsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
-<<<<<<< HEAD
-<<<<<<< HEAD
             'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
             'success' => 'Basic views installed successfully.',
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            'install' => 'Install the AdminLTE basic views?',
-            'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success' => 'Basic views installed successfully.',
-=======
-            'install'   => 'Install the AdminLTE basic views?',
-            'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success'   => 'Basic views installed successfully.',
->>>>>>> 31d6e3b (first)
-=======
-            'install' => 'Install the AdminLTE basic views?',
-            'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success' => 'Basic views installed successfully.',
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-            'install' => 'Install the AdminLTE basic views?',
-            'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success' => 'Basic views installed successfully.',
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-            'install' => 'Install the AdminLTE basic views?',
-            'overwrite' => 'The basic views already exists. Want to replace the views?',
-            'success' => 'Basic views installed successfully.',
->>>>>>> d79d738c (up)
         ];
     }
 
@@ -154,31 +43,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function install() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function install() {
-=======
-    public function install()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function install() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function install() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function install() {
->>>>>>> d79d738c (up)
         // Install the basic views. We going to replace the content of any
         // existing basic view.
 
@@ -194,31 +59,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function uninstall() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function uninstall() {
-=======
-    public function uninstall()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function uninstall() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function uninstall() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function uninstall() {
->>>>>>> d79d738c (up)
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
@@ -235,31 +76,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function exists() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function exists() {
-=======
-    public function exists()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function exists() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function exists() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function exists() {
->>>>>>> d79d738c (up)
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
@@ -278,31 +95,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function installed() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function installed() {
-=======
-    public function installed()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function installed() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function installed() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function installed() {
->>>>>>> d79d738c (up)
         foreach ($this->source as $file => $stub) {
             $target = $this->target.\DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
@@ -318,55 +111,12 @@ class BasicViewsResource extends PackageResource {
     /**
      * Check if a basic view is correctly installed.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
      * @param string $path    Absolute path of the view
      * @param string $content The expected content of the view
      *
      * @return bool
      */
     protected function basicViewInstalled($path, $content) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-     * @param  string  $path  Absolute path of the view
-     * @param  string  $content  The expected content of the view
-     * @return bool
-     */
-    protected function basicViewInstalled($path, $content)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $path    Absolute path of the view
-     * @param string $content The expected content of the view
-     *
-     * @return bool
-     */
-    protected function basicViewInstalled($path, $content) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }

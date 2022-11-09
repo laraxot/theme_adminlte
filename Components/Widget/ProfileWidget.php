@@ -1,66 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class ProfileWidget extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class ProfileWidget extends Component {
-=======
-class ProfileWidget extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class ProfileWidget extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class ProfileWidget extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-class ProfileWidget extends Component {
->>>>>>> d79d738c (up)
     /**
      * The user name of the profile widget.
      *
@@ -135,14 +81,6 @@ class ProfileWidget extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         $name = null,
         $desc = null,
         $img = null,
@@ -151,20 +89,6 @@ class ProfileWidget extends Component {
         $headerClass = null,
         $footerClass = null,
         $layoutType = 'modern'
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        $name = null, $desc = null, $img = null, $theme = null, $cover = null,
-        $headerClass = null, $footerClass = null, $layoutType = 'modern'
->>>>>>> 31d6e3b (first)
-=======
-        $name = null, $desc = null, $img = null, $theme = null, $cover = null,
-        $headerClass = null, $footerClass = null, $layoutType = 'modern'
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
     ) {
         $this->name = $name;
         $this->desc = $desc;
@@ -188,55 +112,12 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
     public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
         if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
         } elseif ('classic' === $this->layoutType) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeCardClass()
-    {
-=======
-    public function makeCardClass() {
->>>>>>> f405739 (up)
-        $classes = ['card', 'card-widget'];
-
-        if ('modern' === $this->layoutType) {
-            $classes[] = 'widget-user';
-<<<<<<< HEAD
-        } elseif ($this->layoutType === 'classic') {
->>>>>>> 31d6e3b (first)
-=======
-        } elseif ('classic' === $this->layoutType) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
             $classes[] = 'widget-user-2';
         }
 
@@ -248,31 +129,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeHeaderClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeHeaderClass() {
-=======
-    public function makeHeaderClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeHeaderClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeHeaderClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeHeaderClass() {
->>>>>>> d79d738c (up)
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -291,31 +148,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeHeaderStyle() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeHeaderStyle() {
-=======
-    public function makeHeaderStyle()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeHeaderStyle() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeHeaderStyle() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeHeaderStyle() {
->>>>>>> d79d738c (up)
         $style = [];
 
         if (! empty($this->cover)) {
@@ -330,31 +163,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeFooterClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeFooterClass() {
-=======
-    public function makeFooterClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeFooterClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeFooterClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeFooterClass() {
->>>>>>> d79d738c (up)
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -369,8 +178,6 @@ class ProfileWidget extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -381,14 +188,5 @@ class ProfileWidget extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738c (up)
-    public function render() {
-        return view('adminlte::components.widget.profile-widget');
->>>>>>> f617437 (rebase)
     }
 }

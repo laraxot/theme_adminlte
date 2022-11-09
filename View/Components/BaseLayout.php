@@ -20,8 +20,6 @@ class BaseLayout extends Component {
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render(): \Illuminate\Contracts\Support\Renderable {
         /**
          * @phpstan-var view-string
@@ -32,14 +30,5 @@ class BaseLayout extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738c (up)
-    public function render(): \Illuminate\Contracts\Support\Renderable {
-        return view('layouts.base');
->>>>>>> f617437 (rebase)
     }
 }

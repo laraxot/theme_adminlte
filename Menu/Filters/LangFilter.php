@@ -1,66 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class LangFilter implements FilterInterface {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class LangFilter implements FilterInterface {
-=======
-class LangFilter implements FilterInterface
-{
->>>>>>> 31d6e3b (first)
-=======
-class LangFilter implements FilterInterface {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class LangFilter implements FilterInterface {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-class LangFilter implements FilterInterface {
->>>>>>> d79d738c (up)
     /**
      * The translator instance.
      *
@@ -77,39 +23,8 @@ class LangFilter implements FilterInterface {
 
     /**
      * Constructor.
-<<<<<<< HEAD
-<<<<<<< HEAD
      */
     public function __construct(Translator $translator) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-     */
-    public function __construct(Translator $translator) {
-=======
-     *
-     * @param  Translator  $translator
-     */
-    public function __construct(Translator $translator)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     */
-    public function __construct(Translator $translator) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-     */
-    public function __construct(Translator $translator) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-     */
-    public function __construct(Translator $translator) {
->>>>>>> d79d738c (up)
         $this->translator = $translator;
         $this->itemProperties = ['header', 'text', 'label'];
     }
@@ -117,19 +32,6 @@ class LangFilter implements FilterInterface {
     /**
      * Transforms a menu item. Makes the item translations.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
@@ -138,37 +40,6 @@ class LangFilter implements FilterInterface {
         // Translate the menu item properties.
 
         foreach ($this->itemProperties as $prop) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-     * @param  array  $item  A menu item
-=======
-     * @param array $item A menu item
-     *
->>>>>>> f405739 (up)
-     * @return array The transformed menu item
-     */
-    public function transform($item) {
-        // Translate the menu item properties.
-
-        foreach ($this->itemProperties as $prop) {
-<<<<<<< HEAD
-
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
             // Check if the property exists for the item.
 
             if (! isset($item[$prop])) {
@@ -192,55 +63,12 @@ class LangFilter implements FilterInterface {
     /**
      * Gets the translation for a given key.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
      * @param string $key    The key to translate
      * @param array  $params The additional translation params
      *
      * @return string The translation
      */
     protected function getTranslation($key, $params = []) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-     * @param  string  $key  The key to translate
-     * @param  array  $params  The additional translation params
-     * @return string The translation
-     */
-    protected function getTranslation($key, $params = [])
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $key    The key to translate
-     * @param array  $params The additional translation params
-     *
-     * @return string The translation
-     */
-    protected function getTranslation($key, $params = []) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         // Check for a translation.
 
         if ($this->translator->has('menu.'.$key)) {

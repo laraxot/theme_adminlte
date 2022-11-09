@@ -15,88 +15,15 @@
 
 
     <div class="wrapper">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
-
-        <!-- Preloader -->
-<<<<<<< HEAD
-        {{--
->>>>>>> 8a5cc0b (.)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
-=======
-        {{-- <div class="preloader">
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d6 (rebase)
-=======
 
         <!-- Preloader -->
         {{-- <div class="preloader">
->>>>>>> d79d738c (up)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
                   <span class="sr-only">Loading...</span>
                 </div>
             </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            </div>
-<<<<<<< HEAD
-        </div> --}}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        </div> --}}
-=======
-        </div>
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
-        </div>
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
-=======
-        --}}
->>>>>>> ac76b2e (.)
->>>>>>> 5e67a8b9 (rebase)
-
-=======
-        </div>
->>>>>>> 63c2c43 (up)
-=======
-=======
->>>>>>> d79d738c (up)
             </div>
         </div> --}}
 

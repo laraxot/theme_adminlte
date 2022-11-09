@@ -1,50 +1,10 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputColor extends InputGroupComponent {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-namespace Themes\AdminLTE\Components\Form;
-
-class InputColor extends InputGroupComponent
-{
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
-namespace Themes\AdminLTE\Components\Form;
-
-class InputColor extends InputGroupComponent {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
     /**
      * The Bootstrap Colorpicker plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -72,14 +32,6 @@ class InputColor extends InputGroupComponent {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         $name,
         $id = null,
         $label = null,
@@ -101,26 +53,6 @@ class InputColor extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
-        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
-        $errorKey = null, $config = []
-    ) {
-        parent::__construct(
-            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
-            $igroupClass, $disableFeedback, $errorKey
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -131,8 +63,6 @@ class InputColor extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -143,14 +73,5 @@ class InputColor extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738c (up)
-    public function render() {
-        return view('adminlte::components.form.input-color');
->>>>>>> f617437 (rebase)
     }
 }

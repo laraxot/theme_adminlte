@@ -1,66 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Progress extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class Progress extends Component {
-=======
-class Progress extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Progress extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class Progress extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-class Progress extends Component {
->>>>>>> d79d738c (up)
     /**
      * The available progress bar sizes.
      *
@@ -132,14 +78,6 @@ class Progress extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         $value = 0,
         $theme = 'info',
         $size = null,
@@ -147,20 +85,6 @@ class Progress extends Component {
         $vertical = null,
         $animated = null,
         $withLabel = null
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        $value = 0, $theme = 'info', $size = null, $striped = null,
-        $vertical = null, $animated = null, $withLabel = null
->>>>>>> 31d6e3b (first)
-=======
-        $value = 0, $theme = 'info', $size = null, $striped = null,
-        $vertical = null, $animated = null, $withLabel = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
     ) {
         // Control and setup the value property.
 
@@ -181,31 +105,7 @@ class Progress extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeProgressClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeProgressClass() {
-=======
-    public function makeProgressClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeProgressClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeProgressClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeProgressClass() {
->>>>>>> d79d738c (up)
         $classes = ['progress'];
 
         if (isset($this->size) && \in_array($this->size, $this->pSizes, true)) {
@@ -224,31 +124,7 @@ class Progress extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeProgressBarClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeProgressBarClass() {
-=======
-    public function makeProgressBarClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeProgressBarClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeProgressBarClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeProgressBarClass() {
->>>>>>> d79d738c (up)
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -271,31 +147,7 @@ class Progress extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeProgressBarStyle() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeProgressBarStyle() {
-=======
-    public function makeProgressBarStyle()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeProgressBarStyle() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeProgressBarStyle() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-    public function makeProgressBarStyle() {
->>>>>>> d79d738c (up)
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -312,8 +164,6 @@ class Progress extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -324,14 +174,5 @@ class Progress extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738c (up)
-    public function render() {
-        return view('adminlte::components.widget.progress');
->>>>>>> f617437 (rebase)
     }
 }

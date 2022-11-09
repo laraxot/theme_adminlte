@@ -1,67 +1,13 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Options extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class Options extends Component {
-=======
-class Options extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Options extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class Options extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
-class Options extends Component {
->>>>>>> d79d738c (up)
     /**
      * The list of options as key value pairs.
      *
@@ -120,34 +66,12 @@ class Options extends Component {
      * @param mixed|null $placeholder
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
         $options,
         $selected = null,
         $disabled = null,
         $strict = null,
         $emptyOption = null,
         $placeholder = null
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        $options, $selected = null, $disabled = null,
-        $strict = null, $emptyOption = null, $placeholder = null
->>>>>>> 31d6e3b (first)
-=======
-        $options, $selected = null, $disabled = null,
-        $strict = null, $emptyOption = null, $placeholder = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
     ) {
         $this->options = Arr::wrap($options);
         $this->selected = Arr::wrap($selected);
@@ -160,101 +84,23 @@ class Options extends Component {
     /**
      * Determines if an option's key is on selected state.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isSelected($key) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return \in_array($key, $this->selected, $this->strict);
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-     * @param  string  $key  The option's key.
-     * @return bool
-     */
-    public function isSelected($key)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $key the option's key
-     *
-     * @return bool
-     */
-    public function isSelected($key) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-=======
->>>>>>> d79d738c (up)
-        return in_array($key, $this->selected, $this->strict);
->>>>>>> f617437 (rebase)
     }
 
     /**
      * Determines if an option's key is on disabled state.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d7 (rebase)
-=======
->>>>>>> d79d738c (up)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isDisabled($key) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         return \in_array($key, $this->disabled, $this->strict);
-=======
-=======
->>>>>>> 905478d7 (rebase)
-=======
-     * @param  string  $key  The option's key.
-     * @return bool
-     */
-    public function isDisabled($key)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $key the option's key
-     *
-     * @return bool
-     */
-    public function isDisabled($key) {
->>>>>>> f405739 (up)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-=======
->>>>>>> d79d738c (up)
-        return in_array($key, $this->disabled, $this->strict);
->>>>>>> f617437 (rebase)
     }
 
     /**
@@ -262,8 +108,6 @@ class Options extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -274,14 +118,5 @@ class Options extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738c (up)
-    public function render() {
-        return view('adminlte::components.form.options');
->>>>>>> f617437 (rebase)
     }
 }
