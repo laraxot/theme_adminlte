@@ -8,6 +8,7 @@ namespace Themes\AdminLTE\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
@@ -37,7 +38,10 @@ use Nwidart\Modules\Facades\Module;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
+=======
+>>>>>>> d20c4d6 (rebase)
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
 <<<<<<< HEAD
 use Modules\Xot\View\Composers\XotBaseComposer;
@@ -49,13 +53,23 @@ use Modules\Xot\View\Composers\XotBaseComposer;
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+=======
+=======
+use Themes\AdminLTE\Menu\Builder;
+use Illuminate\Support\Collection;
+>>>>>>> 7bb12fc (.)
+>>>>>>> 7582ab0 (rebase)
 use Nwidart\Modules\Facades\Module;
+use Modules\Xot\Services\PanelService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Themes\AdminLTE\Menu\Builder;
+use Modules\Xot\View\Composers\XotBaseComposer;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,8 +85,11 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> d20c4d6 (rebase)
 class AdminLTE extends XotBaseComposer {
 =======
 class AdminLTE {
@@ -82,10 +99,14 @@ class AdminLTE {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d20c4d6 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
 class AdminLTE extends XotBaseComposer { 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7bb12fc (.)
 <<<<<<< HEAD
@@ -127,6 +148,10 @@ class AdminLTE extends XotBaseComposer {
 =======
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 7bb12fc (.)
+>>>>>>> 7582ab0 (rebase)
+>>>>>>> d20c4d6 (rebase)
     /**
      * The array of menu items.
      *
@@ -611,10 +636,13 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> d20c4d6 (rebase)
 }
 =======
 }
@@ -634,11 +662,15 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d20c4d6 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
 }
 >>>>>>> 7bb12fc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7582ab0 (rebase)
 =======
@@ -667,3 +699,6 @@ class AdminLTE extends XotBaseComposer {
 =======
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 7582ab0 (rebase)
+>>>>>>> d20c4d6 (rebase)
