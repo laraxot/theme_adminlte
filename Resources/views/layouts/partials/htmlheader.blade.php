@@ -20,6 +20,7 @@
     @yield('adminlte_css_pre')
 
     {{ Theme::add('adm_theme::dist/css/app.css') }}
+    {{ Theme::add('adm_theme::js/chart.js-3.8.2/chart.min.js') }}
 
     {!! Theme::showStyles(false) !!}
     @livewireStyles

@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Services;
+namespace Themes\AdminLTE\Services;
 
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
@@ -29,19 +30,26 @@ use Illuminate\Support\Collection;
 >>>>>>> d6276e3 (rebase)
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
+=======
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+>>>>>>> 63c2c43 (up)
 use Modules\Xot\Services\PanelService;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
+use Themes\AdminLTE\Menu\Builder;
 use Modules\Xot\View\Composers\XotBaseComposer;
 
 class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,8 +84,17 @@ use Themes\KlekooAdm\Menu\Builder;
 class AdminLTE {
 >>>>>>> e4c311e... .
 >>>>>>> b738e1c (rebase)
+<<<<<<< HEAD
 >>>>>>> 018589a (rebase)
+<<<<<<< HEAD
 >>>>>>> cf4e5c1 (rebase)
+=======
+=======
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> 63c2c43 (up)
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 158b642 (rebase)
     /**
      * The array of menu items.
      *
@@ -117,7 +134,7 @@ class AdminLTE {
 
     /**
      * Constructor.
-     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\KlekooAdm\Services\AdminLTE.
+     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
@@ -380,6 +397,7 @@ class AdminLTE {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
@@ -399,5 +417,14 @@ class AdminLTE {
 =======
 }
 >>>>>>> 7bb12fc (.)
+<<<<<<< HEAD
 >>>>>>> 7582ab0 (rebase)
+<<<<<<< HEAD
 >>>>>>> d6276e3 (rebase)
+=======
+=======
+=======
+}
+>>>>>>> 63c2c43 (up)
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 158b642 (rebase)

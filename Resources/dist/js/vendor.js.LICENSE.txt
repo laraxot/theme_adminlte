@@ -25,10 +25,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 01e5fdc (rebase)
+<<<<<<< HEAD
 >>>>>>> 1ca94cc (rebase)
+=======
+=======
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 158b642 (rebase)
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -67,8 +73,16 @@
 =======
 =======
 >>>>>>> 29587b0 (.)
+<<<<<<< HEAD
 >>>>>>> 01e5fdc (rebase)
+<<<<<<< HEAD
 >>>>>>> 1ca94cc (rebase)
+=======
+=======
+=======
+>>>>>>> 63c2c43 (up)
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 158b642 (rebase)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -93,8 +107,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
+=======
+>>>>>>> 08eedf4 (rebase)
 =======
 >>>>>>> 29587b0 (.)
 >>>>>>> 01e5fdc (rebase)
@@ -117,6 +134,8 @@
 =======
 =======
 >>>>>>> 29587b0 (.)
+=======
+>>>>>>> 63c2c43 (up)
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
 =======

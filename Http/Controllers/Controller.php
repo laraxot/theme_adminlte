@@ -11,6 +11,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -30,6 +31,9 @@ namespace Themes\AdminLTE\Http\Controllers;
 =======
 namespace Themes\KlekooAdm\Http\Controllers;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Http\Controllers;
+>>>>>>> 63c2c43 (up)
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

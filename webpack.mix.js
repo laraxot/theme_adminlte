@@ -63,6 +63,7 @@ mix.extract();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 =======
@@ -72,6 +73,9 @@ mix.extract();
 mix.extract();
 /*
 >>>>>>> 29587b0 (.)
+=======
+
+>>>>>>> 63c2c43 (up)
 mix.extract([
     'admin-lte',
     'axios',
@@ -90,6 +94,7 @@ mix.extract([
     'moment',
     'nouislider',
 <<<<<<< HEAD
+<<<<<<< HEAD
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
@@ -103,6 +108,10 @@ mix.extract([
 );
 */
 >>>>>>> 29587b0 (.)
+=======
+] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
+
+>>>>>>> 63c2c43 (up)
 //mix.version();
 
 mix.sourceMaps();
