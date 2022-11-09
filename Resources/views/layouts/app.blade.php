@@ -11,148 +11,22 @@
 @section('body_data', $layoutHelper->makeBodyData())
 
 @section('body')
+
+
+
     <div class="wrapper">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f63434d (rebase)
-
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
 
         <!-- Preloader -->
-<<<<<<< HEAD
-        {{--
->>>>>>> 8a5cc0b (.)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
         {{-- <div class="preloader">
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-=======
-
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-<<<<<<< HEAD
->>>>>>> d79d738 (up)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763ce2c (rebase)
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
-                    <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
-                        <span class="sr-only">Loading...</span>
-                    </div>
+                <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
+                  <span class="sr-only">Loading...</span>
                 </div>
             </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
             </div>
-<<<<<<< HEAD
         </div> --}}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        </div> --}}
-=======
-        </div>
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
-        </div>
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-        --}}
->>>>>>> ac76b2e (.)
->>>>>>> 5e67a8b (rebase)
 
-=======
-        </div>
->>>>>>> 63c2c43 (up)
-=======
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> f63434d (rebase)
-            </div>
-<<<<<<< HEAD
-        </div> --}}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        </div> --}}
-=======
-        </div>
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
-        </div>
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-        --}}
->>>>>>> ac76b2e (.)
->>>>>>> 5e67a8b (rebase)
-
-=======
-        </div>
->>>>>>> 63c2c43 (up)
 
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())
@@ -172,6 +46,8 @@
         @else
             @include('adm_theme::layouts.partials.cwrapper.cwrapper-iframe')
         @endempty
+
+
 
         {{-- Footer --}}
         @hasSection('footer')

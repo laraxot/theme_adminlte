@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 include 'config.php';
 include 'utils.php';
 
@@ -70,5 +72,3 @@ if (! empty($_FILES) && $upload_files) {
 if (isset($_POST['submit'])) {
     header('location: dialog.php?type='.$_POST['type'].'&lang='.$_POST['lang'].'&field_id='.$_POST['field_id'].'&editor='.$_POST['editor'].'&fldr='.$_POST['fldr']);
 }
-
-?>

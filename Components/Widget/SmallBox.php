@@ -1,118 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
 class SmallBox extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-class SmallBox extends Component {
-=======
-class SmallBox extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class SmallBox extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-class SmallBox extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-class SmallBox extends Component {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
     /**
      * The title/header for the box.
      *
@@ -179,20 +73,6 @@ class SmallBox extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> 64fad46 (rebase)
         $title = null,
         $text = null,
         $icon = null,
@@ -200,26 +80,6 @@ class SmallBox extends Component {
         $url = null,
         $urlText = null,
         $loading = null
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-        $title = null, $text = null, $icon = null, $theme = null,
-        $url = null, $urlText = null, $loading = null
->>>>>>> 31d6e3b (first)
-=======
-        $title = null, $text = null, $icon = null, $theme = null,
-        $url = null, $urlText = null, $loading = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> 64fad46 (rebase)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -235,50 +95,7 @@ class SmallBox extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function makeBoxClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeBoxClass() {
-=======
-    public function makeBoxClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeBoxClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeBoxClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeBoxClass() {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -293,50 +110,7 @@ class SmallBox extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function makeOverlayClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeOverlayClass() {
-=======
-    public function makeOverlayClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeOverlayClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeOverlayClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeOverlayClass() {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -351,11 +125,6 @@ class SmallBox extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -366,34 +135,5 @@ class SmallBox extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-=======
-=======
->>>>>>> 64fad46 (rebase)
-    public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 64fad46 (rebase)
-        return view('adminlte::components.widget.small-box');
->>>>>>> f617437 (rebase)
     }
 }

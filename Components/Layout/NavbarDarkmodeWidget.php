@@ -1,119 +1,13 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
-=======
-namespace Themes\KlekooAdm\Components\Layout;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Layout;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
 class NavbarDarkmodeWidget extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-class NavbarDarkmodeWidget extends Component {
-=======
-class NavbarDarkmodeWidget extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class NavbarDarkmodeWidget extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-class NavbarDarkmodeWidget extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-class NavbarDarkmodeWidget extends Component {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
     /**
      * The Font Awesome icon to use when dark mode is disabled.
      *
@@ -153,44 +47,10 @@ class NavbarDarkmodeWidget extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> 64fad46 (rebase)
         $iconDisabled = null,
         $iconEnabled = null,
         $colorDisabled = null,
         $colorEnabled = null
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-        $iconDisabled = null, $iconEnabled = null,
-        $colorDisabled = null, $colorEnabled = null
->>>>>>> 31d6e3b (first)
-=======
-        $iconDisabled = null, $iconEnabled = null,
-        $colorDisabled = null, $colorEnabled = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> 64fad46 (rebase)
     ) {
         // Setup the icon to use when dark mode is disabled.
 
@@ -215,50 +75,7 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function makeIconClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeIconClass() {
-=======
-    public function makeIconClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeIconClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeIconClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeIconClass() {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         // Use the controller to check if dark mode is enabled.
 
         if ((new DarkModeController())->isEnabled()) {
@@ -277,50 +94,7 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return array
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function makeIconDisabledClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeIconDisabledClass() {
-=======
-    public function makeIconDisabledClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeIconDisabledClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeIconDisabledClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeIconDisabledClass() {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         $classes = explode(' ', $this->iconDisabled);
 
         if (! empty($this->colorDisabled)) {
@@ -337,50 +111,7 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return array
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function makeIconEnabledClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeIconEnabledClass() {
-=======
-    public function makeIconEnabledClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeIconEnabledClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeIconEnabledClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeIconEnabledClass() {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         $classes = explode(' ', $this->iconEnabled);
 
         if (! empty($this->colorEnabled)) {
@@ -397,11 +128,6 @@ class NavbarDarkmodeWidget extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -412,34 +138,5 @@ class NavbarDarkmodeWidget extends Component {
         ];
 
         return view($view, $view_params);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-=======
-=======
->>>>>>> 64fad46 (rebase)
-    public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 64fad46 (rebase)
-        return view('adminlte::components.layout.navbar-darkmode-widget');
->>>>>>> f617437 (rebase)
     }
 }

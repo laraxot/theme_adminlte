@@ -4,191 +4,20 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Str;
-<<<<<<< HEAD
-use Modules\Xot\Services\PanelService;
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 7bb12fc (.)
->>>>>>> 7582ab0 (rebase)
-use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d79d738 (up)
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
-=======
->>>>>>> d20c4d6 (rebase)
-=======
->>>>>>> f63434d (rebase)
-use Illuminate\Support\Str;
-<<<<<<< HEAD
-use Modules\Xot\Services\PanelService;
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 7bb12fc (.)
->>>>>>> 7582ab0 (rebase)
-use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-=======
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
->>>>>>> 63c2c43 (up)
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
-use Modules\Xot\View\Composers\XotBaseComposer;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
 class AdminLTE extends XotBaseComposer {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
->>>>>>> d20c4d6 (rebase)
-=======
->>>>>>> f63434d (rebase)
-class AdminLTE extends XotBaseComposer {
-=======
-class AdminLTE {
->>>>>>> 31d6e3b (first)
-=======
-class AdminLTE {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d20c4d6 (rebase)
->>>>>>> 905478d (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0 (rebase)
-=======
-=======
-=======
-use Themes\KlekooAdm\Events\BuildingMenu;
-use Themes\KlekooAdm\Helpers\LayoutHelper;
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
-use Themes\KlekooAdm\Menu\Builder;
-
-class AdminLTE {
->>>>>>> e4c311e... .
->>>>>>> b738e1c (rebase)
-<<<<<<< HEAD
->>>>>>> 018589a (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 08eedf4 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea7 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> d79d738 (up)
-=======
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 4a726e2 (rebase)
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0 (rebase)
-<<<<<<< HEAD
->>>>>>> d20c4d6 (rebase)
-=======
-=======
-=======
-=======
-use Themes\KlekooAdm\Events\BuildingMenu;
-use Themes\KlekooAdm\Helpers\LayoutHelper;
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
-use Themes\KlekooAdm\Menu\Builder;
-
-class AdminLTE {
->>>>>>> e4c311e... .
->>>>>>> b738e1c (rebase)
->>>>>>> 018589a (rebase)
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> 08eedf4 (rebase)
->>>>>>> f63434d (rebase)
     /**
      * The array of menu items.
      *
@@ -230,49 +59,7 @@ class AdminLTE {
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
-=======
-    public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> 31d6e3b (first)
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -302,55 +89,8 @@ class AdminLTE {
 
         // Check for filter token.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
         // backtrace(true);
         // dddx($this->menu);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-        // backtrace(true);
-        // dddx($this->menu);
-=======
-        //backtrace(true);
-        //dddx($this->menu);
->>>>>>> 31d6e3b (first)
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-        // backtrace(true);
-        // dddx($this->menu);
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -377,34 +117,6 @@ class AdminLTE {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -417,63 +129,6 @@ class AdminLTE {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-        //$this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
-=======
-        // $this->events->dispatch(new BuildingMenu($builder));
-        $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
->>>>>>> f405739 (up)
-
-        // $builder->add(...$menu);
-
-        $model_menu = $this->setMenu();
-
-        // Cannot unpack array with string keys
-        // dddx(['menu' => $menu, 'modelmenu' => $modelmenu]);
-
-        $builder->add(...$model_menu);
-<<<<<<< HEAD
-        //dddx($builder->menu);
->>>>>>> 31d6e3b (first)
-=======
-        // dddx($builder->menu);
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
 
         // Return the set of menu items.
 
@@ -657,95 +312,4 @@ class AdminLTE {
     public function getMenuItemsByName(string $name): Collection {
         return collect([]);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
 }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-=======
->>>>>>> d20c4d6 (rebase)
-=======
->>>>>>> f63434d (rebase)
-}
-=======
-}
->>>>>>> 31d6e3b (first)
-=======
-}
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-}
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d20c4d6 (rebase)
->>>>>>> 905478d (rebase)
-=======
-=======
-}
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f63434d (rebase)
->>>>>>> 7582ab0 (rebase)
-=======
-=======
-}
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 08eedf4 (rebase)
-=======
-=======
-}
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea7 (rebase)
-=======
-=======
-}
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-=======
-}
->>>>>>> d79d738 (up)
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
-=======
->>>>>>> 7582ab0 (rebase)
->>>>>>> d20c4d6 (rebase)
-=======
->>>>>>> 08eedf4 (rebase)
->>>>>>> f63434d (rebase)
