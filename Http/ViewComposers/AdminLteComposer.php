@@ -12,6 +12,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -36,9 +37,12 @@ namespace Themes\AdminLTE\Http\ViewComposers;
 =======
 namespace Themes\KlekooAdm\Http\ViewComposers;
 >>>>>>> 8a5cc0b (.)
+=======
+namespace Themes\AdminLTE\Http\ViewComposers;
+>>>>>>> 5b4054a (.)
 
 use Illuminate\View\View;
-use Themes\KlekooAdm\AdminLte;
+use Themes\AdminLTE\AdminLte;
 
 <<<<<<< HEAD
 class AdminLteComposer {
