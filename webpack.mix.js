@@ -109,8 +109,4 @@ console.log('to :' + $to);
 
 mix.copyDirectory($from, $to);
 
-<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 51dd1cf0 (up)
