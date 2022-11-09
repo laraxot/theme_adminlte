@@ -13,6 +13,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -38,6 +39,9 @@ namespace Themes\AdminLTE\Components\Tool;
 =======
 namespace Themes\KlekooAdm\Components\Tool;
 >>>>>>> 8a5cc0b (.)
+=======
+namespace Themes\AdminLTE\Components\Tool;
+>>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
