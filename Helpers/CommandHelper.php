@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -32,6 +33,9 @@ namespace Themes\KlekooAdm\Helpers;
 =======
 namespace Themes\AdminLTE\Helpers;
 >>>>>>> 63c2c43 (up)
+=======
+namespace Themes\KlekooAdm\Helpers;
+>>>>>>> 8a5cc0b (.)
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;

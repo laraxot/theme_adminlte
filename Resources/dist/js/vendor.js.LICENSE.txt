@@ -51,11 +51,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d7 (rebase)
 =======
 >>>>>>> 01e5fdcc (rebase)
 =======
 >>>>>>> 08eedf4d (rebase)
+=======
+>>>>>>> db07ea70 (rebase)
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -65,12 +68,15 @@
 /*!
 =======
 >>>>>>> 29587b0 (.)
+=======
+>>>>>>> 8a5cc0b (.)
  * Datepicker for Bootstrap v1.9.0 (https://github.com/uxsolutions/bootstrap-datepicker)
  *
  * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * Programatically add the following
@@ -80,6 +86,8 @@
 =======
 =======
 >>>>>>> 01e5fdcc (rebase)
+=======
+>>>>>>> db07ea70 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -94,7 +102,12 @@
 =======
 =======
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 >>>>>>> 08eedf4d (rebase)
+=======
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea70 (rebase)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -119,6 +132,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d7 (rebase)
 =======
 =======
@@ -126,6 +140,12 @@
 =======
 >>>>>>> 29587b0 (.)
 >>>>>>> 01e5fdcc (rebase)
+=======
+=======
+>>>>>>> 29587b0 (.)
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea70 (rebase)
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
@@ -136,6 +156,7 @@
 
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
  * jQuery JavaScript Library v3.6.1
 <<<<<<< HEAD
 =======
@@ -144,6 +165,8 @@
 >>>>>>> 29587b0 (.)
 =======
 >>>>>>> 63c2c43 (up)
+=======
+>>>>>>> 8a5cc0b (.)
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
 =======
