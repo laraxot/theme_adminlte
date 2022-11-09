@@ -2,6 +2,7 @@
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
+<<<<<<< HEAD
 CHANGELOG.md export-ignore
 <<<<<<< HEAD
 =======
@@ -19,3 +20,6 @@ CHANGELOG.md export-ignore
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+CHANGELOG.md export-ignores
+>>>>>>> 46a3d180 (rebase)
