@@ -46,7 +46,9 @@ mix.js('Resources/js/app.js', 'Resources/dist/js'); //.vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
 
-mix.vue({ version: 3 });
+mix.vue({
+    version: 3
+});
 
 mix.purgeCss({
     enabled: false,
@@ -107,4 +109,8 @@ console.log('to :' + $to);
 
 mix.copyDirectory($from, $to);
 
+<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
+=======
+mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
+>>>>>>> 51dd1cf0 (up)
