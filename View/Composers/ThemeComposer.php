@@ -18,11 +18,42 @@ class ThemeComposer extends XotBaseComposer {
         $this->adminlte = $adminlte;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+=======
+>>>>>>> b135dba (.)
+>>>>>>> 5fba10f (rebase)
+>>>>>>> f264dab (rebase)
     /**
      * Bind data to the view.
      *
      * @return void
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5fba10f (rebase)
+=======
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+=======
+>>>>>>> b135dba (.)
+>>>>>>> 5fba10f (rebase)
+>>>>>>> f264dab (rebase)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
@@ -31,6 +62,7 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,5 +86,14 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> e6202c2 (.)
+<<<<<<< HEAD
 >>>>>>> 2388cd9 (rebase)
+<<<<<<< HEAD
 >>>>>>> e7c0b61 (rebase)
+=======
+=======
+=======
+}
+>>>>>>> b135dba (.)
+>>>>>>> 5fba10f (rebase)
+>>>>>>> f264dab (rebase)
