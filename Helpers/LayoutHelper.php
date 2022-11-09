@@ -151,6 +151,9 @@ class LayoutHelper {
                 $classes[] = self::makeFixedResponsiveClass(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
                     $section,
                     $breakpoint,
                     $enabled
@@ -167,11 +170,14 @@ class LayoutHelper {
                     $section, $breakpoint, $enabled
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
                     $section,
                     $breakpoint,
                     $enabled
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)
                 );
             }
         }
@@ -219,6 +225,9 @@ class LayoutHelper {
             $suffix = 'lg' === $sidebarMiniCfg ? '' : "-{$sidebarMiniCfg}";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
             $classes[] = "sidebar-mini{$suffix}";
 =======
 <<<<<<< HEAD
@@ -231,9 +240,12 @@ class LayoutHelper {
             $classes[] = "sidebar-mini${suffix}";
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
             $classes[] = "sidebar-mini{$suffix}";
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)
         }
 
         // Add classes related to the "sidebar_collapse" configuration.

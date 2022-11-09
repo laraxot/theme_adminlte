@@ -12,6 +12,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -30,6 +33,9 @@ declare(strict_types=1);
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -37,6 +43,7 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -44,6 +51,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
@@ -59,8 +68,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 class AssetsResource extends PackageResource {
 =======
 class AssetsResource extends PackageResource
@@ -71,18 +83,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 class AssetsResource extends PackageResource {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 class AssetsResource extends PackageResource {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     /**
      * Create a new resource instance.
      *
@@ -99,8 +117,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function __construct() {
 =======
     public function __construct()
@@ -111,18 +132,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function __construct() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function __construct() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Fill the resource data.
 
         $this->description = 'The AdminLTE required assets';
@@ -202,8 +229,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'install' => 'Install the basic package assets?',
             'overwrite' => 'The basic assets already exists. Want to replace the assets?',
             'success' => 'Basic assets installed successfully.',
@@ -219,6 +249,9 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -227,6 +260,7 @@ class AssetsResource extends PackageResource {
             'success' => 'Basic assets installed successfully.',
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
             'install' => 'Install the basic package assets?',
             'overwrite' => 'The basic assets already exists. Want to replace the assets?',
@@ -235,6 +269,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         ];
     }
 
@@ -254,8 +290,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function install() {
 =======
     public function install()
@@ -266,18 +305,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function install() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function install() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Install the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -301,8 +346,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function uninstall() {
 =======
     public function uninstall()
@@ -313,18 +361,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function uninstall() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function uninstall() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Uninstall the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -348,8 +402,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function exists() {
 =======
     public function exists()
@@ -360,18 +417,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function exists() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function exists() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         foreach ($this->source as $asset) {
             if ($this->assetExists($asset)) {
                 return true;
@@ -397,8 +460,11 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function installed() {
 =======
     public function installed()
@@ -409,18 +475,24 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function installed() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function installed() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         foreach ($this->source as $asset) {
             if (! $this->assetInstalled($asset)) {
                 return false;
@@ -451,8 +523,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return void
@@ -462,14 +542,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $asset  An array with the asset data
      * @return void
      */
@@ -485,16 +571,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Check if we just need to export the entire asset.
 
         if (! isset($asset['resources'])) {
@@ -534,8 +626,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $res An array with the resource data
      *
      * @return void
@@ -545,14 +645,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $res  An array with the resource data
      * @return void
      */
@@ -568,16 +674,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Check the resource type in order to copy it.
 
         if (is_dir($res['source'])) {
@@ -615,8 +727,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return bool
@@ -626,14 +746,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $asset  An array with the asset data
      * @return bool
      */
@@ -649,16 +775,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return is_dir($asset['target']);
     }
 
@@ -683,8 +815,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return bool
@@ -694,14 +834,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $asset  An array with the asset data
      * @return bool
      */
@@ -717,16 +863,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Check if the asset have resources.
 
         if (! isset($asset['resources'])) {
@@ -767,8 +919,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $res An array with the resource data
      *
      * @return bool
@@ -778,14 +938,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $res  An array with the resource data
      * @return bool
      */
@@ -801,16 +967,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -851,8 +1023,16 @@ class AssetsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return void
@@ -862,14 +1042,20 @@ class AssetsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $asset  An array with the asset data
      * @return void
      */
@@ -885,16 +1071,22 @@ class AssetsResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         $target = $asset['target'];
 
         // Uninstall the asset (actually, the target should be a folder).

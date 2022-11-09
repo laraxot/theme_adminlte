@@ -40,10 +40,13 @@ class BaseLayout extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render(): \Illuminate\Contracts\Support\Renderable {
 =======
+=======
+>>>>>>> 64fad46 (rebase)
     public function render(): \Illuminate\Contracts\Support\Renderable {
 =======
     public function render():\Illuminate\Contracts\Support\Renderable {
@@ -51,7 +54,13 @@ class BaseLayout extends Component {
 =======
     public function render(): \Illuminate\Contracts\Support\Renderable {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+    public function render(): \Illuminate\Contracts\Support\Renderable {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 64fad46 (rebase)
         return view('layouts.base');
 >>>>>>> f617437 (rebase)
     }

@@ -12,6 +12,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -30,6 +33,9 @@ declare(strict_types=1);
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -37,6 +43,7 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -44,6 +51,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\View\Component;
@@ -59,8 +68,11 @@ class Button extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 class Button extends Component {
 =======
 class Button extends Component
@@ -71,18 +83,24 @@ class Button extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 class Button extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 class Button extends Component {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     /**
      * The visible label (text) for the button.
      *
@@ -126,18 +144,27 @@ class Button extends Component {
     public function __construct(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)
         $label = null,
         $type = 'button',
         $theme = 'default',
         $icon = null
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
         $label = null, $type = 'button', $theme = 'default', $icon = null
@@ -146,8 +173,11 @@ class Button extends Component {
         $label = null, $type = 'button', $theme = 'default', $icon = null
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)
     ) {
         $this->label = $label;
         $this->type = $type;
@@ -180,10 +210,13 @@ class Button extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
 =======
+=======
+>>>>>>> 64fad46 (rebase)
     public function render() {
 =======
     public function render()
@@ -192,7 +225,13 @@ class Button extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 64fad46 (rebase)
         return view('adminlte::components.form.button');
 >>>>>>> f617437 (rebase)
     }

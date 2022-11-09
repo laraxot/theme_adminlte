@@ -10,6 +10,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,12 +20,21 @@
 >>>>>>> 5a3868d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 =======
@@ -39,6 +49,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -50,6 +61,9 @@
 >>>>>>> 5a3868d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -61,11 +75,17 @@
         {!! config('adm_theme::adminlte.logo', '<b>Admin</b>LTE') !!}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
     </span> --}}
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
     </span> --}}
 =======
     </span>
@@ -76,6 +96,7 @@
     --}}
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -85,4 +106,7 @@
 =======
     </span> --}}
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
 </a>

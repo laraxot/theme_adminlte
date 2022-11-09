@@ -12,6 +12,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
@@ -20,6 +21,8 @@
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -39,14 +42,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 declare(strict_types=1);
 
@@ -71,16 +80,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     }
 
     /**
@@ -104,8 +119,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -117,14 +140,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -142,16 +171,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     }
 
     /**
@@ -175,8 +210,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -188,14 +231,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -213,16 +262,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     }
 
     /**
@@ -246,8 +301,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -260,14 +323,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -286,16 +355,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     }
 
     /**
@@ -319,8 +394,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -330,14 +413,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -353,16 +442,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item);
     }
@@ -388,8 +483,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -399,14 +502,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -422,16 +531,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return self::isNotification($item) ||
                self::isFullscreen($item) ||
                self::isDarkmode($item) ||
@@ -461,8 +576,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -472,14 +595,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -495,16 +624,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav']) &&
                $item['topnav'];
@@ -531,8 +666,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -542,14 +685,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -565,16 +714,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav_right']) &&
                $item['topnav_right'];
@@ -601,8 +756,16 @@ class NavbarItemHelper extends MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -612,14 +775,20 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -635,16 +804,22 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav_user']) &&
                $item['topnav_user'];

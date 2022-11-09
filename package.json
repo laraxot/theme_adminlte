@@ -13,12 +13,18 @@
         "@fortawesome/fontawesome-free": "^5.15.4",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> 00381f3 (.)
+=======
+>>>>>>> 64fad46 (rebase)
         "@popperjs/core": "^2.11.6",
         "@tinymce/tinymce-vue": "^4.0.7",
         "admin-lte": "^3.2.0",
@@ -35,13 +41,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         "@popperjs/core": "^2.10.2",
         "@tinymce/tinymce-vue": "^4.0.7",
+<<<<<<< HEAD
         "admin-lte": "^3.2.0",
+=======
+        "admin-lte": "^3.2.0-rc",
+>>>>>>> 64fad46 (rebase)
         "axios": "^0.22.0",
         "babel-loader": "^8.2.4",
         "bootstrap": "4.6",
@@ -50,27 +63,39 @@
         "fastclick": "^1.0.6",
         "file-loader": "^6.2.0",
         "flatpickr": "^4.6.9",
+<<<<<<< HEAD
 =======
 >>>>>>> 00381f3 (.)
+=======
+>>>>>>> 64fad46 (rebase)
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> 331dc6f (.)
+=======
+>>>>>>> 64fad46 (rebase)
         "font-awesome": "^4.7.0",
         "icheck": "^1.0.2",
         "ionicons": "^5.5.3",
         "jquery-slimscroll": "^1.3.8",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> 331dc6f (.)
+=======
+>>>>>>> 64fad46 (rebase)
         "jquery-ui": "^1.13.2",
         "laravel-mix": "^6.0.49",
         "laravel-mix-polyfill": "^3.0.1",
@@ -102,6 +127,9 @@
         "jquery": "^3.6.1"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 =======
@@ -136,8 +164,11 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> 331dc6f (.)
+=======
+>>>>>>> 64fad46 (rebase)
     },
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",

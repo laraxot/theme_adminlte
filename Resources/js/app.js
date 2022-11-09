@@ -32,6 +32,9 @@ $(function() {
     })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 });
 =======
 <<<<<<< HEAD
@@ -44,6 +47,9 @@ $(function() {
 });
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 });
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)

@@ -12,6 +12,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -30,6 +33,9 @@ declare(strict_types=1);
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -37,6 +43,7 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
@@ -44,6 +51,8 @@ declare(strict_types=1);
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -66,8 +75,11 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 class AdminLteInstallCommand extends Command {
 =======
 class AdminLteInstallCommand extends Command
@@ -78,18 +90,24 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 class AdminLteInstallCommand extends Command {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 class AdminLteInstallCommand extends Command {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -160,8 +178,11 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function __construct() {
 =======
     public function __construct()
@@ -172,18 +193,24 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function __construct() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function __construct() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         parent::__construct();
 
         // Fill the array with the package resources.
@@ -207,8 +234,16 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
@@ -219,14 +254,20 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'assets'       => new AssetsResource(),
             'config'       => new ConfigResource(),
             'translations' => new TranslationsResource(),
@@ -244,16 +285,22 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'basic_routes' => new BasicRoutesResource(),
         ];
 
@@ -277,8 +324,11 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'basic' => $basic,
             'enhanced' => $enhanced,
             'full' => $full,
@@ -294,6 +344,9 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -302,6 +355,7 @@ class AdminLteInstallCommand extends Command {
             'full' => $full,
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
             'basic' => $basic,
             'enhanced' => $enhanced,
@@ -310,6 +364,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         ];
 
         // Add the resources related to each available --only option.
@@ -333,8 +389,16 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
             'assets' => ['assets'],
             'config' => ['config'],
             'translations' => ['translations'],
@@ -345,14 +409,20 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'assets'       => ['assets'],
             'config'       => ['config'],
             'translations' => ['translations'],
@@ -370,16 +440,22 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'basic_routes' => ['basic_routes'],
         ];
 
@@ -399,8 +475,11 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'main_views' => ['main_views'],
             'auth_views' => ['auth_views'],
             'basic_views' => ['basic_views'],
@@ -416,6 +495,9 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -424,6 +506,7 @@ class AdminLteInstallCommand extends Command {
             'basic_views' => ['basic_views'],
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
             'main_views' => ['main_views'],
             'auth_views' => ['auth_views'],
@@ -432,6 +515,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             'basic_routes' => ['basic_routes'],
         ];
     }
@@ -452,8 +537,11 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function handle() {
 =======
     public function handle()
@@ -464,18 +552,24 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function handle() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function handle() {
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         // Reset the variable that keep track of the installed packages.
 
         $this->installedResources = [];
@@ -529,14 +623,24 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array  $values    An array with the option values
      * @param array  $resources An array with the resources of each option
      * @param string $opt       Descriptive name of the handled option
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return void
      */
@@ -563,6 +667,9 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -571,11 +678,14 @@ class AdminLteInstallCommand extends Command {
     protected function handleOptions($values, $resources, $opt) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         foreach ($values as $value) {
             $this->handleOption($value, $resources, $opt);
         }
@@ -605,14 +715,24 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param string $value     A string with the option value
      * @param array  $resources An array with the resources of each option
      * @param string $opt       Descriptive name of the handled option
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @return void
      */
@@ -639,6 +759,9 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -647,11 +770,14 @@ class AdminLteInstallCommand extends Command {
     protected function handleOption($value, $resources, $opt) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         if (! isset($resources[$value])) {
             $this->comment("The option --{$opt}={$value} is invalid!");
 
@@ -684,8 +810,16 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param string $resources The resources to install
      *
      * @return void
@@ -696,14 +830,20 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  string  $resources  The resources to install
 =======
      * @param string $resources The resources to install
@@ -720,16 +860,22 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
             // Check if resource was already installed on the current command
             // execution. This can happen, for example, when using:
             // php artisan --type=full --with=auth_views
@@ -764,8 +910,16 @@ class AdminLteInstallCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param string $resource The keyword of the resource to install
      *
      * @return void
@@ -775,14 +929,20 @@ class AdminLteInstallCommand extends Command {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  string  $resource  The keyword of the resource to install
      * @return void
      */
@@ -798,16 +958,22 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         $resource = $this->pkgResources[$resource];
         $installMsg = $resource->getInstallMessage('install');
         $overwriteMsg = $resource->getInstallMessage('overwrite');

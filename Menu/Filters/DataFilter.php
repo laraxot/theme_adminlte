@@ -12,6 +12,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
@@ -20,6 +21,8 @@
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu\Filters;
@@ -37,16 +40,22 @@ class DataFilter implements FilterInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
         if (isset($item['data']) && \is_array($item['data'])) {
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
         if (isset($item['data']) && \is_array($item['data'])) {
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 declare(strict_types=1);
 
@@ -69,12 +78,17 @@ class DataFilter implements FilterInterface {
     public function transform($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 64fad46 (rebase)
         if (isset($item['data']) && is_array($item['data'])) {
 >>>>>>> f617437 (rebase)
             $item['data-compiled'] = $this->compileData($item['data']);
@@ -104,8 +118,16 @@ class DataFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
      * @param array $dataArray Array of html data attributes
      *
      * @return string The compiled version of data attributes
@@ -115,14 +137,20 @@ class DataFilter implements FilterInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
      * @param  array  $dataArray  Array of html data attributes
      * @return string The compiled version of data attributes
      */
@@ -138,16 +166,22 @@ class DataFilter implements FilterInterface {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         $compiled = [];
 
         foreach ($dataArray as $key => $value) {
