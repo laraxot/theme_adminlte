@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +129,8 @@
 =======
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />

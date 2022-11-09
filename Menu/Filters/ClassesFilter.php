@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Themes\AdminLTE\Menu\Filters;
 =======
 =======
@@ -46,6 +47,9 @@ namespace Themes\KlekooAdm\Menu\Filters;
 namespace Themes\AdminLTE\Menu\Filters;
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+namespace Themes\AdminLTE\Menu\Filters;
+>>>>>>> 3703261 (up)
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;

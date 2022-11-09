@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Themes\AdminLTE\Console\PackageResources;
 =======
 =======
@@ -46,6 +47,9 @@ namespace Themes\KlekooAdm\Console\PackageResources;
 namespace Themes\AdminLTE\Console\PackageResources;
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+namespace Themes\AdminLTE\Console\PackageResources;
+>>>>>>> 3703261 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 

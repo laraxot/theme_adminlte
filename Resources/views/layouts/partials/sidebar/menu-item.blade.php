@@ -2,6 +2,7 @@
 
 @if ($sidebarItemHelper->isHeader($item))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,6 +13,8 @@
 =======
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -26,6 +29,7 @@
 @elseif ($sidebarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 @endif
 =======
@@ -78,3 +82,6 @@
 @endif
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+@endif
+>>>>>>> 3703261 (up)

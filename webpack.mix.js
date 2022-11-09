@@ -58,6 +58,7 @@ mix.js('Resources/js/auth.js', 'Resources/dist/js')
 */
 mix.extract();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -124,6 +125,9 @@ mix.extract([
 */
 >>>>>>> 8a5cc0b (.)
 >>>>>>> b6bf7b3 (rebase)
+=======
+
+>>>>>>> 3703261 (up)
 //mix.version();
 
 mix.sourceMaps();

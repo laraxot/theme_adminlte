@@ -2,6 +2,7 @@
 
 @if ($navbarItemHelper->isSubmenu($item))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,11 +13,14 @@
 =======
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
     {{-- Dropdown submenu --}}
     @include('adm_theme::layouts.partials.navbar.dropdown-item-submenu')
 @elseif ($navbarItemHelper->isLink($item))
     {{-- Dropdown link --}}
     @include('adm_theme::layouts.partials.navbar.dropdown-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -45,4 +49,6 @@
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
 @endif

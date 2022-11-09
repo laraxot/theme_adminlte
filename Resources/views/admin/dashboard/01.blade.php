@@ -1,6 +1,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,16 +15,11 @@
 >>>>>>> ffaaa23 (rebase)
 =======
 >>>>>>> 9dfd354 (rebase)
+=======
+>>>>>>> 3703261 (up)
     @php
         //dddx($profile->areas());
     @endphp
-=======
->>>>>>> 5b4054a (.)
-=======
-<<<<<<< Updated upstream
->>>>>>> ffc2572 (.)
-=======
->>>>>>> 6864355 (up)
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
@@ -31,6 +27,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,3 +267,5 @@ $answers = $lime->getAnswersByQuestionId((string) 30342);
 =======
 >>>>>>> 6864355 (up)
 >>>>>>> 9dfd354 (rebase)
+=======
+>>>>>>> 3703261 (up)

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Themes\AdminLTE\Events;
 =======
 =======
@@ -46,6 +47,9 @@ namespace Themes\KlekooAdm\Events;
 namespace Themes\AdminLTE\Events;
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+namespace Themes\AdminLTE\Events;
+>>>>>>> 3703261 (up)
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 

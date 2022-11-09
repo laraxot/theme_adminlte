@@ -6,6 +6,9 @@ namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3703261 (up)
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 =======
@@ -37,6 +40,7 @@ class ThemeComposer extends XotBaseComposer {
         $view->with('_theme', $this->adminlte);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -103,3 +107,5 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)

@@ -3,23 +3,18 @@
     DASHBOARD
 @endsection --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-
-
-
-<<<<<<< HEAD
 =======
->>>>>>> 63c2c43 (up)
-=======
+>>>>>>> 3703261 (up)
 
 
 
->>>>>>> 8a5cc0b (.)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -41,6 +36,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -80,3 +76,5 @@
 
 
 </x-dashboard>
+=======
+>>>>>>> 3703261 (up)

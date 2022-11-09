@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Themes\AdminLTE\Components\Widget;
 =======
 =======
@@ -46,6 +47,9 @@ namespace Themes\KlekooAdm\Components\Widget;
 namespace Themes\AdminLTE\Components\Widget;
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+namespace Themes\AdminLTE\Components\Widget;
+>>>>>>> 3703261 (up)
 
 use Illuminate\View\Component;
 
