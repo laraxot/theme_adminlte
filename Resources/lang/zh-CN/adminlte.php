@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,6 +11,8 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
 declare(strict_types=1);
 
 return [
@@ -30,6 +33,7 @@ return [
     'password_reset_message' => '重置密码',
     'reset_password' => '重置密码',
     'send_password_reset_link' => '发送密码重置链接',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -77,4 +81,6 @@ return [
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
 ];

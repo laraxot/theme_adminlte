@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,23 +28,16 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Menu\Filters;
-=======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 use Themes\AdminLTE\Menu\ActiveChecker;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ActiveFilter implements FilterInterface {
 =======
@@ -65,6 +59,9 @@ class ActiveFilter implements FilterInterface {
 class ActiveFilter implements FilterInterface {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+class ActiveFilter implements FilterInterface {
+>>>>>>> d79d738c (up)
     /**
      * The active checker instance.
      *
@@ -74,6 +71,7 @@ class ActiveFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(ActiveChecker $activeChecker) {
@@ -102,12 +100,17 @@ class ActiveFilter implements FilterInterface {
     public function __construct(ActiveChecker $activeChecker) {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+     */
+    public function __construct(ActiveChecker $activeChecker) {
+>>>>>>> d79d738c (up)
         $this->activeChecker = $activeChecker;
     }
 
     /**
      * Transforms a menu item. Adds the active attribute when suitable.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -118,11 +121,14 @@ class ActiveFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -148,6 +154,8 @@ class ActiveFilter implements FilterInterface {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         if (! MenuItemHelper::isHeader($item)) {
             $item['active'] = $this->activeChecker->isActive($item);
         }

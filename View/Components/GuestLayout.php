@@ -10,6 +10,7 @@ class GuestLayout extends Component {
     /**
      * Get the view / contents that represents the component.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ class GuestLayout extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
      */
     public function render(): \Illuminate\Contracts\Support\Renderable {
         /**
@@ -32,6 +35,7 @@ class GuestLayout extends Component {
         return view($view, $view_params);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -57,3 +61,5 @@ class GuestLayout extends Component {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)

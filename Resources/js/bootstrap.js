@@ -11,6 +11,7 @@ try {
     //window.Popper = require('popper.js').default;
     window.Popper = require('@popperjs/core/dist/umd/popper').default;
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.dragula = require('dragula');
 =======
 <<<<<<< HEAD
@@ -21,6 +22,9 @@ try {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    window.dragula = require('dragula');
+>>>>>>> d79d738c (up)
 
     require('bootstrap/dist/js/bootstrap.bundle.js');
     /*
@@ -49,6 +53,7 @@ try {
     require('admin-lte');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.Swal = global.Swal = require('sweetalert2');
 =======
 <<<<<<< HEAD
@@ -61,6 +66,9 @@ try {
     window.Swal = Swal = require('sweetalert2');
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    window.Swal = global.Swal = require('sweetalert2');
+>>>>>>> d79d738c (up)
 
     window.noUiSlider = require('nouislider');
 
@@ -81,6 +89,7 @@ try {
     //require("flatpickr/dist/themes/dark.css");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     const Chart = window.Chart = require('chart.js/auto').default;
 
 =======
@@ -93,6 +102,10 @@ try {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    const Chart = window.Chart = require('chart.js/auto').default;
+
+>>>>>>> d79d738c (up)
 } catch (e) {
     console.log(e);
 }
@@ -146,6 +159,7 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 <<<<<<< HEAD
+<<<<<<< HEAD
 // });
 =======
 <<<<<<< HEAD
@@ -158,3 +172,6 @@ if (token) {
 // });
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+// });
+>>>>>>> d79d738c (up)

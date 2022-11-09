@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,11 +11,14 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputColor extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -39,6 +43,8 @@ class InputColor extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
     /**
      * The Bootstrap Colorpicker plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -67,10 +73,13 @@ class InputColor extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         $name,
         $id = null,
         $label = null,
@@ -93,6 +102,7 @@ class InputColor extends InputGroupComponent {
             $disableFeedback,
             $errorKey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -109,6 +119,8 @@ class InputColor extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -119,6 +131,7 @@ class InputColor extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function render() {
         /**
@@ -134,17 +147,9 @@ class InputColor extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738c (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.input-color');
 >>>>>>> f617437 (rebase)
     }

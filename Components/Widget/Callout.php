@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Callout extends Component {
 =======
@@ -64,6 +58,9 @@ class Callout extends Component {
 class Callout extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+class Callout extends Component {
+>>>>>>> d79d738c (up)
     /**
      * The callout icon (a Font Awesome icon).
      *
@@ -105,14 +102,18 @@ class Callout extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         $theme = null,
         $icon = null,
         $title = null,
         $titleClass = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -122,6 +123,8 @@ class Callout extends Component {
         $theme = null, $icon = null, $title = null, $titleClass = null
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -134,6 +137,7 @@ class Callout extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeCalloutClass() {
 =======
@@ -155,6 +159,9 @@ class Callout extends Component {
     public function makeCalloutClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function makeCalloutClass() {
+>>>>>>> d79d738c (up)
         $classes = ['callout'];
 
         if (! empty($this->theme)) {
@@ -170,6 +177,7 @@ class Callout extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -184,17 +192,9 @@ class Callout extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738c (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.widget.callout');
 >>>>>>> f617437 (rebase)
     }

@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,23 +28,16 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Http\ViewComposers;
-=======
-namespace Themes\KlekooAdm\Http\ViewComposers;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Http\ViewComposers;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Http\ViewComposers;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Http\ViewComposers;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\View;
 use Themes\AdminLTE\AdminLte;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteComposer {
 =======
@@ -65,11 +59,15 @@ class AdminLteComposer {
 class AdminLteComposer {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+class AdminLteComposer {
+>>>>>>> d79d738c (up)
     /**
      * @var AdminLte
      */
     private $adminlte;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -78,6 +76,8 @@ class AdminLteComposer {
 >>>>>>> f617437 (rebase)
 =======
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
     public function __construct(AdminLte $adminlte) {
         $this->adminlte = $adminlte;
     }
@@ -88,6 +88,7 @@ class AdminLteComposer {
      * @return void
      */
     public function compose(View $view) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -120,6 +121,8 @@ class AdminLteComposer {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         $view->with('adminlte', $this->adminlte);
     }
 }

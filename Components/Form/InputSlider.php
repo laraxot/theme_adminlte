@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,11 +11,14 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputSlider extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -39,6 +43,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
     /**
      * The bootstrap-slider plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -75,10 +81,13 @@ class InputSlider extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         $name,
         $id = null,
         $label = null,
@@ -102,6 +111,7 @@ class InputSlider extends InputGroupComponent {
             $disableFeedback,
             $errorKey
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -118,6 +128,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+>>>>>>> d79d738c (up)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -134,6 +146,7 @@ class InputSlider extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeInputGroupClass() {
 =======
@@ -155,6 +168,9 @@ class InputSlider extends InputGroupComponent {
     public function makeInputGroupClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function makeInputGroupClass() {
+>>>>>>> d79d738c (up)
         $classes = ['input-group'];
 
         if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
@@ -178,6 +194,7 @@ class InputSlider extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
         /**
          * @phpstan-var view-string
@@ -192,17 +209,9 @@ class InputSlider extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-    public function render() {
 =======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
+>>>>>>> d79d738c (up)
     public function render() {
->>>>>>> f405739 (up)
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.input-slider');
 >>>>>>> f617437 (rebase)
     }

@@ -4,6 +4,7 @@
     "/css/app.css": "/css/app.css",
     "/js/vendor.js": "/js/vendor.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18,11 +19,14 @@
 =======
 >>>>>>> 8a5cc0b (.)
 >>>>>>> db07ea70 (rebase)
+=======
+>>>>>>> d79d738c (up)
     "/public_html/themes/AdminLTE/dist/css/admin-lte.css": "/public_html/themes/AdminLTE/dist/css/admin-lte.css",
     "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map": "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map",
     "/public_html/themes/AdminLTE/dist/css/adminlte.css.map": "/public_html/themes/AdminLTE/dist/css/adminlte.css.map",
     "/public_html/themes/AdminLTE/dist/css/app.css": "/public_html/themes/AdminLTE/dist/css/app.css",
     "/public_html/themes/AdminLTE/dist/css/app.css.map": "/public_html/themes/AdminLTE/dist/css/app.css.map",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -42,6 +46,8 @@
 =======
 >>>>>>> 8a5cc0b (.)
 >>>>>>> db07ea70 (rebase)
+=======
+>>>>>>> d79d738c (up)
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf",
@@ -57,6 +63,7 @@
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -81,6 +88,8 @@
 =======
 >>>>>>> 8a5cc0b (.)
 >>>>>>> db07ea70 (rebase)
+=======
+>>>>>>> d79d738c (up)
     "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue.png": "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue.png",
     "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue@2x.png": "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue@2x.png",
     "/public_html/themes/AdminLTE/dist/js/admin-lte.js": "/public_html/themes/AdminLTE/dist/js/admin-lte.js",
@@ -89,6 +98,7 @@
     "/public_html/themes/AdminLTE/dist/js/app.js": "/public_html/themes/AdminLTE/dist/js/app.js",
     "/public_html/themes/AdminLTE/dist/js/app.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/app.js.LICENSE.txt",
     "/public_html/themes/AdminLTE/dist/js/app.js.map": "/public_html/themes/AdminLTE/dist/js/app.js.map",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -110,12 +120,15 @@
 =======
 =======
 >>>>>>> 8a5cc0b (.)
+=======
+>>>>>>> d79d738c (up)
     "/public_html/themes/AdminLTE/dist/js/custom.js": "/public_html/themes/AdminLTE/dist/js/custom.js",
     "/public_html/themes/AdminLTE/dist/js/manifest.js": "/public_html/themes/AdminLTE/dist/js/manifest.js",
     "/public_html/themes/AdminLTE/dist/js/manifest.js.map": "/public_html/themes/AdminLTE/dist/js/manifest.js.map",
     "/public_html/themes/AdminLTE/dist/js/vendor.js": "/public_html/themes/AdminLTE/dist/js/vendor.js",
     "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt",
     "/public_html/themes/AdminLTE/dist/js/vendor.js.map": "/public_html/themes/AdminLTE/dist/js/vendor.js.map",
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 29587b0 (.)
 <<<<<<< HEAD
@@ -142,6 +155,9 @@
     "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
+>>>>>>> d79d738c (up)
     "/public_html/webfonts/fa-brands-400.eot": "/public_html/webfonts/fa-brands-400.eot",
     "/public_html/webfonts/fa-brands-400.svg": "/public_html/webfonts/fa-brands-400.svg",
     "/public_html/webfonts/fa-brands-400.ttf": "/public_html/webfonts/fa-brands-400.ttf",

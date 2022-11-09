@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -27,22 +28,15 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738c (up)
 namespace Themes\AdminLTE\Console\PackageResources;
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ConfigResource extends PackageResource {
 =======
@@ -64,11 +58,15 @@ class ConfigResource extends PackageResource {
 class ConfigResource extends PackageResource {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+class ConfigResource extends PackageResource {
+>>>>>>> d79d738c (up)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -90,6 +88,9 @@ class ConfigResource extends PackageResource {
     public function __construct() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function __construct() {
+>>>>>>> d79d738c (up)
         // Fill the resource data.
 
         $this->description = 'The default package configuration file';
@@ -100,6 +101,7 @@ class ConfigResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the package config file?',
             'overwrite' => 'The config file already exists. Want to replace it?',
@@ -130,6 +132,11 @@ class ConfigResource extends PackageResource {
             'success' => 'Configuration file installed successfully.',
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+            'install' => 'Install the package config file?',
+            'overwrite' => 'The config file already exists. Want to replace it?',
+            'success' => 'Configuration file installed successfully.',
+>>>>>>> d79d738c (up)
         ];
     }
 
@@ -138,6 +145,7 @@ class ConfigResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -159,6 +167,9 @@ class ConfigResource extends PackageResource {
     public function install() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function install() {
+>>>>>>> d79d738c (up)
         // Install the configuration file.
 
         CommandHelper::ensureDirectoryExists(\dirname($this->target));
@@ -170,6 +181,7 @@ class ConfigResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -191,6 +203,9 @@ class ConfigResource extends PackageResource {
     public function uninstall() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> d79d738c (up)
         // Uninstall the configuration file.
 
         if (is_file($this->target)) {
@@ -203,6 +218,7 @@ class ConfigResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -224,6 +240,9 @@ class ConfigResource extends PackageResource {
     public function exists() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function exists() {
+>>>>>>> d79d738c (up)
         return is_file($this->target);
     }
 
@@ -232,6 +251,7 @@ class ConfigResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -253,6 +273,9 @@ class ConfigResource extends PackageResource {
     public function installed() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
+=======
+    public function installed() {
+>>>>>>> d79d738c (up)
         return CommandHelper::compareFiles($this->source, $this->target);
     }
 }
