@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,17 +41,26 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Menu\Builder;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BuildingMenu {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BuildingMenu {
 =======
 class BuildingMenu
@@ -52,6 +70,7 @@ class BuildingMenu
 class BuildingMenu {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -61,6 +80,9 @@ class BuildingMenu {
 =======
 class BuildingMenu {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The menu builder.
      *
@@ -72,12 +94,18 @@ class BuildingMenu {
      * Create a new event instance.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(Builder $menu) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(Builder $menu) {
 =======
@@ -92,6 +120,7 @@ class BuildingMenu {
     public function __construct(Builder $menu) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -103,6 +132,9 @@ class BuildingMenu {
      */
     public function __construct(Builder $menu) {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $this->menu = $menu;
     }
 }

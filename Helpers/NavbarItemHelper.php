@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +14,12 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -31,10 +38,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 =======
 declare(strict_types=1);
 
@@ -58,6 +70,7 @@ class NavbarItemHelper extends MenuItemHelper {
                'navbar-search' === $item['type'];
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -65,6 +78,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     }
 
     /**
@@ -72,6 +88,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +100,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -93,10 +116,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -113,6 +141,7 @@ class NavbarItemHelper extends MenuItemHelper {
                'fullscreen-widget' === $item['type'];
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -120,6 +149,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     }
 
     /**
@@ -127,6 +159,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +171,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -148,10 +187,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -168,6 +212,7 @@ class NavbarItemHelper extends MenuItemHelper {
                'darkmode-widget' === $item['type'];
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -175,6 +220,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     }
 
     /**
@@ -182,6 +230,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +242,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -204,10 +259,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
 =======
      * @param mixed $item
@@ -225,6 +285,7 @@ class NavbarItemHelper extends MenuItemHelper {
                'navbar-notification' === $item['type'];
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -232,6 +293,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     }
 
     /**
@@ -239,6 +303,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,6 +315,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -258,10 +329,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -276,6 +352,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isSearch($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -283,6 +360,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item);
     }
@@ -292,6 +372,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,6 +384,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -311,10 +398,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -329,6 +421,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isAcceptedItem($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -336,6 +429,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return self::isNotification($item) ||
                self::isFullscreen($item) ||
                self::isDarkmode($item) ||
@@ -349,6 +445,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +457,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -368,10 +471,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -386,6 +494,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isValidLeftItem($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -393,6 +502,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav']) &&
                $item['topnav'];
@@ -403,6 +515,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +527,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -422,10 +541,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -440,6 +564,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isValidRightItem($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -447,6 +572,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav_right']) &&
                $item['topnav_right'];
@@ -457,6 +585,7 @@ class NavbarItemHelper extends MenuItemHelper {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,6 +597,12 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -476,10 +611,15 @@ class NavbarItemHelper extends MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -494,6 +634,7 @@ class NavbarItemHelper extends MenuItemHelper {
     public static function isValidUserMenuItem($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -501,6 +642,9 @@ class NavbarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return self::isAcceptedItem($item) &&
                isset($item['topnav_user']) &&
                $item['topnav_user'];

@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,17 +41,26 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class SmallBox extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class SmallBox extends Component {
 =======
 class SmallBox extends Component
@@ -52,6 +70,7 @@ class SmallBox extends Component
 class SmallBox extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -61,6 +80,9 @@ class SmallBox extends Component {
 =======
 class SmallBox extends Component {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The title/header for the box.
      *
@@ -173,11 +195,17 @@ class SmallBox extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeBoxClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeBoxClass() {
 =======
     public function makeBoxClass()
@@ -186,6 +214,7 @@ class SmallBox extends Component {
 =======
     public function makeBoxClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -196,6 +225,9 @@ class SmallBox extends Component {
 =======
     public function makeBoxClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['small-box'];
 
         if (isset($this->theme)) {
@@ -212,11 +244,17 @@ class SmallBox extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeOverlayClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeOverlayClass() {
 =======
     public function makeOverlayClass()
@@ -225,6 +263,7 @@ class SmallBox extends Component {
 =======
     public function makeOverlayClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -235,6 +274,9 @@ class SmallBox extends Component {
 =======
     public function makeOverlayClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['overlay'];
 
         if (! isset($this->loading)) {
@@ -251,6 +293,9 @@ class SmallBox extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -265,9 +310,20 @@ class SmallBox extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.widget.small-box');
 >>>>>>> f617437 (rebase)
     }

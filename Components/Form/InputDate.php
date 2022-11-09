@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +14,12 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -21,10 +28,15 @@ class InputDate extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 class InputDate extends InputGroupComponent
@@ -38,6 +50,7 @@ namespace Themes\AdminLTE\Components\Form;
 class InputDate extends InputGroupComponent {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -45,12 +58,16 @@ class InputDate extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -67,10 +84,19 @@ class InputDate extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f405739 (up)
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         'time' => 'fas fa-clock',
         'date' => 'fas fa-calendar-alt',
         'up' => 'fas fa-arrow-up',
         'down' => 'fas fa-arrow-down',
+<<<<<<< HEAD
         'previous' => 'fas fa-chevron-left',
         'next' => 'fas fa-chevron-right',
         'today' => 'fas fa-calendar-check-o',
@@ -79,10 +105,15 @@ class InputDate extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
         'time'     => 'fas fa-clock',
         'date'     => 'fas fa-calendar-alt',
         'up'       => 'fas fa-arrow-up',
@@ -101,6 +132,7 @@ class InputDate extends InputGroupComponent {
         'close' => 'fas fa-times',
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -108,6 +140,9 @@ class InputDate extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     ];
 
     /**
@@ -215,11 +250,17 @@ class InputDate extends InputGroupComponent {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeItemClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeItemClass() {
 =======
     public function makeItemClass()
@@ -228,6 +269,7 @@ class InputDate extends InputGroupComponent {
 =======
     public function makeItemClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -238,6 +280,9 @@ class InputDate extends InputGroupComponent {
 =======
     public function makeItemClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -254,6 +299,9 @@ class InputDate extends InputGroupComponent {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -268,9 +316,20 @@ class InputDate extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.form.input-date');
 >>>>>>> f617437 (rebase)
     }

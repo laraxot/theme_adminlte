@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13,6 +14,12 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -21,10 +28,15 @@ class InputSwitch extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 class InputSwitch extends InputGroupComponent
@@ -38,6 +50,7 @@ namespace Themes\AdminLTE\Components\Form;
 class InputSwitch extends InputGroupComponent {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -45,6 +58,9 @@ class InputSwitch extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The Bootstrap Switch plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -134,11 +150,17 @@ class InputSwitch extends InputGroupComponent {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeInputGroupClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeInputGroupClass() {
 =======
     public function makeInputGroupClass()
@@ -147,6 +169,7 @@ class InputSwitch extends InputGroupComponent {
 =======
     public function makeInputGroupClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -157,6 +180,9 @@ class InputSwitch extends InputGroupComponent {
 =======
     public function makeInputGroupClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['input-group'];
 
         if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
@@ -181,11 +207,17 @@ class InputSwitch extends InputGroupComponent {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeItemClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeItemClass() {
 =======
     public function makeItemClass()
@@ -194,6 +226,7 @@ class InputSwitch extends InputGroupComponent {
 =======
     public function makeItemClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -204,6 +237,9 @@ class InputSwitch extends InputGroupComponent {
 =======
     public function makeItemClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = [];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -220,6 +256,9 @@ class InputSwitch extends InputGroupComponent {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -234,9 +273,20 @@ class InputSwitch extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.form.input-switch');
 >>>>>>> f617437 (rebase)
     }

@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,6 +41,9 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
@@ -39,11 +51,17 @@ use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class NavbarDarkmodeWidget extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class NavbarDarkmodeWidget extends Component {
 =======
 class NavbarDarkmodeWidget extends Component
@@ -53,6 +71,7 @@ class NavbarDarkmodeWidget extends Component
 class NavbarDarkmodeWidget extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -62,6 +81,9 @@ class NavbarDarkmodeWidget extends Component {
 =======
 class NavbarDarkmodeWidget extends Component {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The Font Awesome icon to use when dark mode is disabled.
      *
@@ -153,11 +175,17 @@ class NavbarDarkmodeWidget extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconClass() {
 =======
     public function makeIconClass()
@@ -166,6 +194,7 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -176,6 +205,9 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Use the controller to check if dark mode is enabled.
 
         if ((new DarkModeController())->isEnabled()) {
@@ -196,11 +228,17 @@ class NavbarDarkmodeWidget extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconDisabledClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconDisabledClass() {
 =======
     public function makeIconDisabledClass()
@@ -209,6 +247,7 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconDisabledClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -219,6 +258,9 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconDisabledClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = explode(' ', $this->iconDisabled);
 
         if (! empty($this->colorDisabled)) {
@@ -237,11 +279,17 @@ class NavbarDarkmodeWidget extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconEnabledClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconEnabledClass() {
 =======
     public function makeIconEnabledClass()
@@ -250,6 +298,7 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconEnabledClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -260,6 +309,9 @@ class NavbarDarkmodeWidget extends Component {
 =======
     public function makeIconEnabledClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = explode(' ', $this->iconEnabled);
 
         if (! empty($this->colorEnabled)) {
@@ -278,6 +330,9 @@ class NavbarDarkmodeWidget extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -292,9 +347,20 @@ class NavbarDarkmodeWidget extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.layout.navbar-darkmode-widget');
 >>>>>>> f617437 (rebase)
     }

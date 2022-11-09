@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,6 +41,9 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
@@ -39,11 +51,17 @@ use Illuminate\View\Component;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class Options extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class Options extends Component {
 =======
 class Options extends Component
@@ -53,6 +71,7 @@ class Options extends Component
 class Options extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -62,6 +81,9 @@ class Options extends Component {
 =======
 class Options extends Component {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The list of options as key value pairs.
      *
@@ -162,6 +184,7 @@ class Options extends Component {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +196,12 @@ class Options extends Component {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param string $key the option's key
      *
      * @return bool
@@ -181,11 +210,17 @@ class Options extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \in_array($key, $this->selected, $this->strict);
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+        return \in_array($key, $this->selected, $this->strict);
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string  $key  The option's key.
      * @return bool
      */
@@ -199,10 +234,13 @@ class Options extends Component {
      */
     public function isSelected($key) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 59a8928 (rebase)
         return in_array($key, $this->selected, $this->strict);
 >>>>>>> f617437 (rebase)
     }
@@ -212,6 +250,7 @@ class Options extends Component {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,6 +262,12 @@ class Options extends Component {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param string $key the option's key
      *
      * @return bool
@@ -231,11 +276,17 @@ class Options extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \in_array($key, $this->disabled, $this->strict);
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+        return \in_array($key, $this->disabled, $this->strict);
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string  $key  The option's key.
      * @return bool
      */
@@ -249,10 +300,13 @@ class Options extends Component {
      */
     public function isDisabled($key) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 59a8928 (rebase)
         return in_array($key, $this->disabled, $this->strict);
 >>>>>>> f617437 (rebase)
     }
@@ -264,6 +318,9 @@ class Options extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -278,9 +335,20 @@ class Options extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.form.options');
 >>>>>>> f617437 (rebase)
     }

@@ -247,11 +247,17 @@ return [
             'url' => 'admin/blog',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             // 'can' => 'manage-blog',
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             // 'can' => 'manage-blog',
 =======
             //'can' => 'manage-blog',
@@ -259,6 +265,7 @@ return [
 =======
             // 'can' => 'manage-blog',
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -269,6 +276,9 @@ return [
 =======
             // 'can' => 'manage-blog',
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         ],
         [
             'text' => 'pages',
@@ -499,11 +509,17 @@ return [
     'livewire' => false,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 ];
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 ];
 =======
 ];
@@ -511,6 +527,7 @@ return [
 =======
 ];
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -521,3 +538,6 @@ return [
 =======
 ];
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)

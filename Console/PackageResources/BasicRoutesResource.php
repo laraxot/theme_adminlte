@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,17 +41,26 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BasicRoutesResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BasicRoutesResource extends PackageResource {
 =======
 class BasicRoutesResource extends PackageResource
@@ -52,6 +70,7 @@ class BasicRoutesResource extends PackageResource
 class BasicRoutesResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -61,6 +80,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 class BasicRoutesResource extends PackageResource {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * Create a new resource instance.
      *
@@ -68,11 +90,17 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
     public function __construct()
@@ -82,6 +110,7 @@ class BasicRoutesResource extends PackageResource {
     public function __construct() {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -91,6 +120,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Fill the resource data.
 
         $this->description = 'The package routes';
@@ -103,6 +135,9 @@ class BasicRoutesResource extends PackageResource {
         $this->messages = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the basic package routes?',
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
             'success' => 'Basic routes installed successfully.',
@@ -110,6 +145,9 @@ class BasicRoutesResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the basic package routes?',
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
             'success' => 'Basic routes installed successfully.',
@@ -124,6 +162,7 @@ class BasicRoutesResource extends PackageResource {
             'success' => 'Basic routes installed successfully.',
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -137,6 +176,9 @@ class BasicRoutesResource extends PackageResource {
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
             'success' => 'Basic routes installed successfully.',
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         ];
     }
 
@@ -147,11 +189,17 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
     public function install()
@@ -160,6 +208,7 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -170,6 +219,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // If routes already exists, there is no need to install again.
 
         if ($this->exists()) {
@@ -193,11 +245,17 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
     public function uninstall()
@@ -206,6 +264,7 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -216,6 +275,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $routes = file_get_contents($this->source);
 
         // If the target routes file exists, remove the package routes.
@@ -234,11 +296,17 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
     public function exists()
@@ -247,6 +315,7 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -257,6 +326,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $routes = file_get_contents($this->source);
 
         // First, check if the target routes file exists.
@@ -271,11 +343,17 @@ class BasicRoutesResource extends PackageResource {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
         return false !== strpos($targetContent, $routes);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
         return false !== strpos($targetContent, $routes);
 =======
         return strpos($targetContent, $routes) !== false;
@@ -283,6 +361,7 @@ class BasicRoutesResource extends PackageResource {
 =======
         return false !== strpos($targetContent, $routes);
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -293,6 +372,9 @@ class BasicRoutesResource extends PackageResource {
 =======
         return false !== strpos($targetContent, $routes);
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     }
 
     /**
@@ -302,11 +384,17 @@ class BasicRoutesResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
     public function installed()
@@ -315,6 +403,7 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -325,6 +414,9 @@ class BasicRoutesResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return $this->exists();
     }
 }

@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,17 +41,26 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class NavbarNotification extends Component {
 =======
 class NavbarNotification extends Component
@@ -52,6 +70,7 @@ class NavbarNotification extends Component
 class NavbarNotification extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -61,6 +80,9 @@ class NavbarNotification extends Component {
 =======
 class NavbarNotification extends Component {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * Constants to define the available url configuration types.
      */
@@ -189,11 +211,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeListItemClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeListItemClass() {
 =======
     public function makeListItemClass()
@@ -202,6 +230,7 @@ class NavbarNotification extends Component {
 =======
     public function makeListItemClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -212,6 +241,9 @@ class NavbarNotification extends Component {
 =======
     public function makeListItemClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['nav-item'];
 
         if ($this->enableDropdownMode) {
@@ -228,11 +260,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeAnchorDefaultAttrs() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeAnchorDefaultAttrs() {
 =======
     public function makeAnchorDefaultAttrs()
@@ -241,6 +279,7 @@ class NavbarNotification extends Component {
 =======
     public function makeAnchorDefaultAttrs() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -251,6 +290,9 @@ class NavbarNotification extends Component {
 =======
     public function makeAnchorDefaultAttrs() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $attrs = ['class' => 'nav-link'];
 
         if ($this->enableDropdownMode) {
@@ -267,11 +309,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeIconClass() {
 =======
     public function makeIconClass()
@@ -280,6 +328,7 @@ class NavbarNotification extends Component {
 =======
     public function makeIconClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -290,6 +339,9 @@ class NavbarNotification extends Component {
 =======
     public function makeIconClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = [$this->icon];
 
         if (! empty($this->iconColor)) {
@@ -306,11 +358,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeBadgeClass() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeBadgeClass() {
 =======
     public function makeBadgeClass()
@@ -319,6 +377,7 @@ class NavbarNotification extends Component {
 =======
     public function makeBadgeClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -329,6 +388,9 @@ class NavbarNotification extends Component {
 =======
     public function makeBadgeClass() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $classes = ['badge navbar-badge text-bold text-xs badge-pill'];
 
         if (! empty($this->badgeColor)) {
@@ -345,11 +407,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeUpdatePeriod() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeUpdatePeriod() {
 =======
     public function makeUpdatePeriod()
@@ -358,6 +426,7 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdatePeriod() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -368,6 +437,9 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdatePeriod() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         if (! isset($this->updateCfg['period'])) {
             return 0;
         }
@@ -382,11 +454,17 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeUpdateUrl() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function makeUpdateUrl() {
 =======
     public function makeUpdateUrl()
@@ -395,6 +473,7 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdateUrl() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -405,6 +484,9 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdateUrl() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Check if the url property is available.
 
         if (! empty($this->updateCfg['url'])) {
@@ -430,6 +512,7 @@ class NavbarNotification extends Component {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +524,12 @@ class NavbarNotification extends Component {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param string|array $cfg  the configuration for the url
      * @param mixed        $type the configuration type (url or route)
      *
@@ -450,10 +539,15 @@ class NavbarNotification extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string|array  $cfg  The configuration for the url.
      * @param  mixed  $type  The configuration type (url or route).
      * @return string|null
@@ -470,6 +564,7 @@ class NavbarNotification extends Component {
     protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -477,6 +572,9 @@ class NavbarNotification extends Component {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
@@ -490,11 +588,17 @@ class NavbarNotification extends Component {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             return (self::CFG_ROUTE === $type) ?
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             return (self::CFG_ROUTE === $type) ?
 =======
             return ($type === self::CFG_ROUTE) ?
@@ -502,6 +606,7 @@ class NavbarNotification extends Component {
 =======
             return (self::CFG_ROUTE === $type) ?
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -512,6 +617,9 @@ class NavbarNotification extends Component {
 =======
             return (self::CFG_ROUTE === $type) ?
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
                 route($path, $params) :
                 url($path, $params);
         }
@@ -528,6 +636,9 @@ class NavbarNotification extends Component {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -542,9 +653,20 @@ class NavbarNotification extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.layout.navbar-notification');
 >>>>>>> f617437 (rebase)
     }

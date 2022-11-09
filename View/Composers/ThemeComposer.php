@@ -65,6 +65,9 @@ class ThemeComposer extends XotBaseComposer {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 }
 =======
 <<<<<<< HEAD
@@ -76,6 +79,9 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 }
 =======
 }
@@ -83,6 +89,7 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -129,3 +136,6 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)

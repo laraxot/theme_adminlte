@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,17 +41,26 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class ConfigResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class ConfigResource extends PackageResource {
 =======
 class ConfigResource extends PackageResource
@@ -52,6 +70,7 @@ class ConfigResource extends PackageResource
 class ConfigResource extends PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -61,6 +80,9 @@ class ConfigResource extends PackageResource {
 =======
 class ConfigResource extends PackageResource {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * Create a new resource instance.
      *
@@ -68,11 +90,17 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
     public function __construct()
@@ -82,6 +110,7 @@ class ConfigResource extends PackageResource {
     public function __construct() {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -91,6 +120,9 @@ class ConfigResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package configuration file';
@@ -103,6 +135,9 @@ class ConfigResource extends PackageResource {
         $this->messages = [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the package config file?',
             'overwrite' => 'The config file already exists. Want to replace it?',
             'success' => 'Configuration file installed successfully.',
@@ -110,6 +145,9 @@ class ConfigResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the package config file?',
             'overwrite' => 'The config file already exists. Want to replace it?',
             'success' => 'Configuration file installed successfully.',
@@ -124,6 +162,7 @@ class ConfigResource extends PackageResource {
             'success' => 'Configuration file installed successfully.',
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -137,6 +176,9 @@ class ConfigResource extends PackageResource {
             'overwrite' => 'The config file already exists. Want to replace it?',
             'success' => 'Configuration file installed successfully.',
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         ];
     }
 
@@ -147,11 +189,17 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
     public function install()
@@ -160,6 +208,7 @@ class ConfigResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -170,6 +219,9 @@ class ConfigResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Install the configuration file.
 
         CommandHelper::ensureDirectoryExists(\dirname($this->target));
@@ -183,11 +235,17 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
     public function uninstall()
@@ -196,6 +254,7 @@ class ConfigResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -206,6 +265,9 @@ class ConfigResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         // Uninstall the configuration file.
 
         if (is_file($this->target)) {
@@ -220,11 +282,17 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
     public function exists()
@@ -233,6 +301,7 @@ class ConfigResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -243,6 +312,9 @@ class ConfigResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return is_file($this->target);
     }
 
@@ -253,11 +325,17 @@ class ConfigResource extends PackageResource {
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
     public function installed()
@@ -266,6 +344,7 @@ class ConfigResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -276,6 +355,9 @@ class ConfigResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         return CommandHelper::compareFiles($this->source, $this->target);
     }
 }

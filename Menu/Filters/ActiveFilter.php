@@ -2,24 +2,33 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 declare(strict_types=1);
 
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -32,6 +41,9 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
@@ -39,11 +51,17 @@ use Themes\AdminLTE\Menu\ActiveChecker;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class ActiveFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class ActiveFilter implements FilterInterface {
 =======
 class ActiveFilter implements FilterInterface
@@ -53,6 +71,7 @@ class ActiveFilter implements FilterInterface
 class ActiveFilter implements FilterInterface {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -62,6 +81,9 @@ class ActiveFilter implements FilterInterface {
 =======
 class ActiveFilter implements FilterInterface {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
     /**
      * The active checker instance.
      *
@@ -73,12 +95,18 @@ class ActiveFilter implements FilterInterface {
      * Constructor.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(ActiveChecker $activeChecker) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(ActiveChecker $activeChecker) {
 =======
@@ -93,6 +121,7 @@ class ActiveFilter implements FilterInterface {
     public function __construct(ActiveChecker $activeChecker) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -104,6 +133,9 @@ class ActiveFilter implements FilterInterface {
      */
     public function __construct(ActiveChecker $activeChecker) {
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         $this->activeChecker = $activeChecker;
     }
 
@@ -112,6 +144,7 @@ class ActiveFilter implements FilterInterface {
      *
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,6 +156,12 @@ class ActiveFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
@@ -131,10 +170,15 @@ class ActiveFilter implements FilterInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  array  $item  A menu item
      * @return array The transformed menu item
      */
@@ -149,6 +193,7 @@ class ActiveFilter implements FilterInterface {
     public function transform($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -156,6 +201,9 @@ class ActiveFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
         if (! MenuItemHelper::isHeader($item)) {
             $item['active'] = $this->activeChecker->isActive($item);
         }
