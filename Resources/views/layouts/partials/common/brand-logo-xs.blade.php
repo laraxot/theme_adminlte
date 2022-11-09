@@ -1,4 +1,4 @@
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @php($dashboard_url = View::getSection('dashboard_url') ?? config('adm_theme::adminlte.dashboard_url', 'home'))
 

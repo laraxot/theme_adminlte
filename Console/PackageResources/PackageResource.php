@@ -12,7 +12,7 @@
 >>>>>>> 905478d7 (rebase)
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Console\PackageResources;
+namespace Themes\AdminLTE\Console\PackageResources;
 
 abstract class PackageResource {
 <<<<<<< HEAD

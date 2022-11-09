@@ -10,6 +10,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -28,9 +29,12 @@ namespace Themes\AdminLTE\Menu\Filters;
 =======
 namespace Themes\KlekooAdm\Menu\Filters;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Menu\Filters;
+>>>>>>> 63c2c43 (up)
 
 use Illuminate\Contracts\Routing\UrlGenerator;
-use Themes\KlekooAdm\Helpers\MenuItemHelper;
+use Themes\AdminLTE\Helpers\MenuItemHelper;
 
 <<<<<<< HEAD
 class HrefFilter implements FilterInterface {
