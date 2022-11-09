@@ -51,10 +51,14 @@
         "@popperjs/core": "^2.10.2",
         "@tinymce/tinymce-vue": "^4.0.7",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "admin-lte": "^3.2.0",
 =======
         "admin-lte": "^3.2.0-rc",
 >>>>>>> 64fad46 (rebase)
+=======
+        "admin-lte": "^3.2.0",
+>>>>>>> 8629e12 (rebase)
         "axios": "^0.22.0",
         "babel-loader": "^8.2.4",
         "bootstrap": "4.6",

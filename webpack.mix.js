@@ -169,11 +169,16 @@ mix.extract();
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
+=======
+mix.extract();
+/*
+>>>>>>> 29587b0 (.)
 mix.extract([
     'admin-lte',
     'axios',
@@ -191,6 +196,7 @@ mix.extract([
     //'jasny-bootstrap',
     'moment',
     'nouislider',
+<<<<<<< HEAD
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
@@ -198,6 +204,7 @@ mix.extract([
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 mix.extract();
@@ -238,10 +245,13 @@ mix.extract([
 >>>>>>> 905478d (rebase)
 
 =======
+>>>>>>> 8629e12 (rebase)
+=======
 ] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
 );
 */
 >>>>>>> 29587b0 (.)
+<<<<<<< HEAD
 =======
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 
@@ -253,6 +263,8 @@ mix.extract([
 >>>>>>> 8a5cc0b (.)
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 8629e12 (rebase)
 //mix.version();
 
 mix.sourceMaps();
