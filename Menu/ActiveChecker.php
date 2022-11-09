@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 namespace Themes\AdminLTE\Menu;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
@@ -26,6 +34,7 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class ActiveChecker {
 =======
 class ActiveChecker
@@ -34,7 +43,13 @@ class ActiveChecker
 =======
 class ActiveChecker {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class ActiveChecker {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     /**
      * The request instance.
      *
@@ -64,6 +79,7 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     public function __construct(UrlGenerator $url) {
 =======
@@ -77,7 +93,14 @@ class ActiveChecker {
      */
     public function __construct(UrlGenerator $url) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+     */
+    public function __construct(UrlGenerator $url) {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $this->request = $url->getRequest();
         $this->url = $url;
 
@@ -93,6 +116,7 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'active' => [$this, 'isExplicitActive'],
             'href' => [$this, 'checkPattern'],
             'url' => [$this, 'checkPattern'],
@@ -106,7 +130,15 @@ class ActiveChecker {
             'href' => [$this, 'checkPattern'],
             'url' => [$this, 'checkPattern'],
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+            'active' => [$this, 'isExplicitActive'],
+            'href' => [$this, 'checkPattern'],
+            'url' => [$this, 'checkPattern'],
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         ];
     }
 
@@ -118,14 +150,22 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param mixed $item The menu item to check
      *
      * @return bool
      */
     public function isActive($item) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  mixed  $item  The menu item to check
      * @return bool
@@ -140,7 +180,12 @@ class ActiveChecker {
      */
     public function isActive($item) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // Return true if any of the verification tests is met.
 
         foreach ($this->tests as $prop => $testFunc) {
@@ -161,14 +206,22 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param array $items The items to check
      *
      * @return bool
      */
     protected function containsActive($items) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  array  $items  The items to check
      * @return bool
@@ -183,7 +236,12 @@ class ActiveChecker {
      */
     protected function containsActive($items) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         foreach ($items as $item) {
             if ($this->isActive($item)) {
                 return true;
@@ -200,14 +258,22 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param bool|array $activeDef
      *
      * @return bool
      */
     protected function isExplicitActive($activeDef) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  bool|array  $activeDef
      * @return bool
@@ -222,7 +288,12 @@ class ActiveChecker {
      */
     protected function isExplicitActive($activeDef) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // If the active definition is a bool, return it.
 
         if (\is_bool($activeDef)) {
@@ -248,14 +319,22 @@ class ActiveChecker {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param string $pattern
      *
      * @return bool
      */
     protected function checkPattern($pattern) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  string  $pattern
      * @return bool
@@ -270,7 +349,12 @@ class ActiveChecker {
      */
     protected function checkPattern($pattern) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // First, check if the pattern is a regular expression.
 
         if (Str::startsWith($pattern, 'regex:')) {

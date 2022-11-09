@@ -4,7 +4,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 declare(strict_types=1);
 
 return [
@@ -31,7 +36,10 @@ return [
     'verify_if_not_recieved' => 'Wenn Sie die E-Mail nicht empfangen haben',
     'verify_request_another' => 'klicken Sie hier, um eine neue E-Mail anzufordern',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
 return [
 =======
@@ -78,5 +86,10 @@ return [
     'verify_if_not_recieved' => 'Wenn Sie die E-Mail nicht empfangen haben',
     'verify_request_another' => 'klicken Sie hier, um eine neue E-Mail anzufordern',
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 ];

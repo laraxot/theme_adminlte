@@ -2,6 +2,7 @@
 Auth::routes();
 
 Route::get('/home', function() {
+<<<<<<< HEAD
     /**
 * @phpstan-var view-string
 */
@@ -10,4 +11,7 @@ $view_params=[
    'view'=>$view,
 ];
 return view($view,$view_params);
+=======
+    return view('home');
+>>>>>>> 905478d7 (rebase)
 })->name('home')->middleware('auth');

@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 use Illuminate\Support\Arr;
@@ -25,6 +33,7 @@ class Options extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Options extends Component {
 =======
 class Options extends Component
@@ -33,7 +42,13 @@ class Options extends Component
 =======
 class Options extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class Options extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     /**
      * The list of options as key value pairs.
      *
@@ -92,12 +107,28 @@ class Options extends Component {
      * @param mixed|null $placeholder
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d7 (rebase)
         $options,
         $selected = null,
         $disabled = null,
         $strict = null,
         $emptyOption = null,
         $placeholder = null
+<<<<<<< HEAD
+=======
+=======
+        $options, $selected = null, $disabled = null,
+        $strict = null, $emptyOption = null, $placeholder = null
+>>>>>>> 31d6e3b (first)
+=======
+        $options, $selected = null, $disabled = null,
+        $strict = null, $emptyOption = null, $placeholder = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     ) {
         $this->options = Arr::wrap($options);
         $this->selected = Arr::wrap($selected);
@@ -114,15 +145,23 @@ class Options extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isSelected($key) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \in_array($key, $this->selected, $this->strict);
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  string  $key  The option's key.
      * @return bool
@@ -137,6 +176,8 @@ class Options extends Component {
      */
     public function isSelected($key) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return in_array($key, $this->selected, $this->strict);
 >>>>>>> f617437 (rebase)
     }
@@ -148,15 +189,23 @@ class Options extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isDisabled($key) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \in_array($key, $this->disabled, $this->strict);
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  string  $key  The option's key.
      * @return bool
@@ -171,6 +220,8 @@ class Options extends Component {
      */
     public function isDisabled($key) {
 >>>>>>> f405739 (up)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return in_array($key, $this->disabled, $this->strict);
 >>>>>>> f617437 (rebase)
     }
@@ -194,6 +245,7 @@ class Options extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -202,6 +254,9 @@ class Options extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.form.options');
 >>>>>>> f617437 (rebase)
     }

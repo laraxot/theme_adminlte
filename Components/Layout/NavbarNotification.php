@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
 
 use Illuminate\View\Component;
@@ -22,6 +30,7 @@ use Illuminate\View\Component;
 <<<<<<< HEAD
 class NavbarNotification extends Component {
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 class NavbarNotification extends Component {
@@ -32,7 +41,13 @@ class NavbarNotification extends Component
 =======
 class NavbarNotification extends Component {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class NavbarNotification extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     /**
      * Constants to define the available url configuration types.
      */
@@ -113,6 +128,11 @@ class NavbarNotification extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d7 (rebase)
         $id,
         $icon,
         $iconColor = null,
@@ -121,6 +141,17 @@ class NavbarNotification extends Component {
         $updateCfg = [],
         $enableDropdownMode = false,
         $dropdownFooterLabel = null
+<<<<<<< HEAD
+=======
+=======
+        $id, $icon, $iconColor = null, $badgeLabel = null, $badgeColor = null,
+        $updateCfg = [], $enableDropdownMode = false, $dropdownFooterLabel = null
+>>>>>>> 31d6e3b (first)
+=======
+        $id, $icon, $iconColor = null, $badgeLabel = null, $badgeColor = null,
+        $updateCfg = [], $enableDropdownMode = false, $dropdownFooterLabel = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     ) {
         $this->id = $id;
         $this->icon = $icon;
@@ -142,6 +173,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeListItemClass() {
 =======
     public function makeListItemClass()
@@ -150,7 +182,13 @@ class NavbarNotification extends Component {
 =======
     public function makeListItemClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeListItemClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $classes = ['nav-item'];
 
         if ($this->enableDropdownMode) {
@@ -170,6 +208,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeAnchorDefaultAttrs() {
 =======
     public function makeAnchorDefaultAttrs()
@@ -178,7 +217,13 @@ class NavbarNotification extends Component {
 =======
     public function makeAnchorDefaultAttrs() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeAnchorDefaultAttrs() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $attrs = ['class' => 'nav-link'];
 
         if ($this->enableDropdownMode) {
@@ -198,6 +243,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeIconClass() {
 =======
     public function makeIconClass()
@@ -206,7 +252,13 @@ class NavbarNotification extends Component {
 =======
     public function makeIconClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeIconClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $classes = [$this->icon];
 
         if (! empty($this->iconColor)) {
@@ -226,6 +278,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeBadgeClass() {
 =======
     public function makeBadgeClass()
@@ -234,7 +287,13 @@ class NavbarNotification extends Component {
 =======
     public function makeBadgeClass() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeBadgeClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $classes = ['badge navbar-badge text-bold text-xs badge-pill'];
 
         if (! empty($this->badgeColor)) {
@@ -254,6 +313,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeUpdatePeriod() {
 =======
     public function makeUpdatePeriod()
@@ -262,7 +322,13 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdatePeriod() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeUpdatePeriod() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         if (! isset($this->updateCfg['period'])) {
             return 0;
         }
@@ -280,6 +346,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function makeUpdateUrl() {
 =======
     public function makeUpdateUrl()
@@ -288,7 +355,13 @@ class NavbarNotification extends Component {
 =======
     public function makeUpdateUrl() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeUpdateUrl() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // Check if the url property is available.
 
         if (! empty($this->updateCfg['url'])) {
@@ -316,7 +389,12 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param string|array $cfg  the configuration for the url
      * @param mixed        $type the configuration type (url or route)
      *
@@ -324,7 +402,10 @@ class NavbarNotification extends Component {
      */
     protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  string|array  $cfg  The configuration for the url.
      * @param  mixed  $type  The configuration type (url or route).
@@ -341,7 +422,12 @@ class NavbarNotification extends Component {
      */
     protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
@@ -358,6 +444,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return (self::CFG_ROUTE === $type) ?
 =======
             return ($type === self::CFG_ROUTE) ?
@@ -365,7 +452,13 @@ class NavbarNotification extends Component {
 =======
             return (self::CFG_ROUTE === $type) ?
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+            return (self::CFG_ROUTE === $type) ?
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
                 route($path, $params) :
                 url($path, $params);
         }
@@ -394,6 +487,7 @@ class NavbarNotification extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function render() {
 =======
     public function render()
@@ -402,6 +496,9 @@ class NavbarNotification extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         return view('adminlte::components.layout.navbar-notification');
 >>>>>>> f617437 (rebase)
     }

@@ -6,6 +6,7 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 =======
@@ -14,7 +15,14 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
 namespace Themes\AdminLTE\Console;
 
 use Illuminate\Console\Command;
@@ -31,6 +39,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class AdminLteStatusCommand extends Command {
 =======
 class AdminLteStatusCommand extends Command
@@ -39,7 +48,13 @@ class AdminLteStatusCommand extends Command
 =======
 class AdminLteStatusCommand extends Command {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+class AdminLteStatusCommand extends Command {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -94,6 +109,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
@@ -102,7 +118,13 @@ class AdminLteStatusCommand extends Command {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         parent::__construct();
 
         // Fill the array with the package resources.
@@ -112,7 +134,12 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
@@ -120,7 +147,10 @@ class AdminLteStatusCommand extends Command {
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
             'assets'       => new AssetsResource(),
             'config'       => new ConfigResource(),
@@ -137,7 +167,12 @@ class AdminLteStatusCommand extends Command {
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
             'basic_routes' => new BasicRoutesResource(),
         ];
     }
@@ -152,6 +187,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function handle() {
 =======
     public function handle()
@@ -160,7 +196,13 @@ class AdminLteStatusCommand extends Command {
 =======
     public function handle() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    public function handle() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // Display the resources installation status.
 
         $this->showResourcesStatus();
@@ -181,6 +223,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showResourcesStatus() {
 =======
     protected function showResourcesStatus()
@@ -189,7 +232,13 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function showResourcesStatus() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function showResourcesStatus() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // Define the table headers.
 
         $tblHeader = [
@@ -219,6 +268,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function getResourcesStatusRows() {
 =======
     protected function getResourcesStatusRows()
@@ -227,7 +277,13 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function getResourcesStatusRows() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function getResourcesStatusRows() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         // Define the array that will hold the table rows.
 
         $tblContent = [];
@@ -247,12 +303,18 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
             // Fill the status row of the current resource.
 
             $tblContent[] = [
@@ -285,14 +347,22 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param PackageResource $resource The package resource to check
      *
      * @return string The resource status
      */
     protected function getResourceStatus($resource) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  PackageResource  $resource  The package resource to check
      * @return string The resource status
@@ -307,7 +377,12 @@ class AdminLteStatusCommand extends Command {
      */
     protected function getResourceStatus($resource) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $status = $this->status['uninstalled'];
 
         if ($resource->installed()) {
@@ -329,6 +404,7 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function showStatusLegends() {
 =======
     protected function showStatusLegends()
@@ -337,7 +413,13 @@ class AdminLteStatusCommand extends Command {
 =======
     protected function showStatusLegends() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+    protected function showStatusLegends() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -370,7 +452,12 @@ class AdminLteStatusCommand extends Command {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
@@ -378,7 +465,10 @@ class AdminLteStatusCommand extends Command {
      */
     protected function styleOutput($text, $color) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 905478d7 (rebase)
 =======
      * @param  string  $text  The text to be styled
      * @param  string  $color  The output color for the text
@@ -395,7 +485,12 @@ class AdminLteStatusCommand extends Command {
      */
     protected function styleOutput($text, $color) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d7 (rebase)
         return "<fg={$color}>{$text}</>";
     }
 }
