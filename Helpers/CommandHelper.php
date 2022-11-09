@@ -2,54 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 namespace Themes\AdminLTE\Helpers;
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-namespace Themes\AdminLTE\Helpers;
-=======
-namespace Themes\KlekooAdm\Helpers;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Helpers;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Helpers;
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
-=======
-=======
-namespace Themes\AdminLTE\Helpers;
->>>>>>> 5b4054a (.)
->>>>>>> 4ab624f (rebase)
-=======
-namespace Themes\AdminLTE\Helpers;
->>>>>>> 3703261 (up)
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
