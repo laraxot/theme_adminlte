@@ -4,63 +4,10 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Illuminate\Support\Str;
-<<<<<<< HEAD
-use Modules\Xot\Services\PanelService;
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 7bb12fc (.)
->>>>>>> 7582ab0 (rebase)
-use Nwidart\Modules\Facades\Module;
-<<<<<<< HEAD
-=======
->>>>>>> b6bf7b3 (rebase)
-=======
->>>>>>> 3703261 (up)
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
-use Modules\Xot\Services\PanelService;
-<<<<<<< HEAD
-use Modules\Xot\View\Composers\XotBaseComposer;
-=======
-=======
-use Illuminate\Support\Str;
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
->>>>>>> 8a5cc0b (.)
->>>>>>> b6bf7b3 (rebase)
-use Nwidart\Modules\Facades\Module;
-=======
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
->>>>>>> 5b4054a (.)
-=======
->>>>>>> 3703261 (up)
 use Modules\Xot\Services\PanelService;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
@@ -68,82 +15,9 @@ use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-<<<<<<< HEAD
-=======
 use Themes\AdminLTE\Menu\Builder;
 
-<<<<<<< HEAD
->>>>>>> 4ab624f (rebase)
-<<<<<<< HEAD
-use Themes\AdminLTE\Menu\Builder;
-=======
-use Modules\Xot\View\Composers\XotBaseComposer;
->>>>>>> b6bf7b3 (rebase)
-
 class AdminLTE extends XotBaseComposer {
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class AdminLTE extends XotBaseComposer {
-=======
-class AdminLTE {
->>>>>>> 31d6e3b (first)
-=======
-class AdminLTE {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
-<<<<<<< HEAD
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0 (rebase)
-=======
-=======
-=======
-use Themes\KlekooAdm\Events\BuildingMenu;
-use Themes\KlekooAdm\Helpers\LayoutHelper;
-use Themes\KlekooAdm\Helpers\NavbarItemHelper;
-use Themes\KlekooAdm\Helpers\SidebarItemHelper;
-use Themes\KlekooAdm\Menu\Builder;
-
-class AdminLTE {
->>>>>>> e4c311e... .
->>>>>>> b738e1c (rebase)
-<<<<<<< HEAD
->>>>>>> 018589a (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
->>>>>>> 08eedf4 (rebase)
-=======
-=======
-class AdminLTE extends XotBaseComposer { 
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea7 (rebase)
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
-=======
-=======
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
->>>>>>> 4ab624f (rebase)
-=======
-class AdminLTE extends XotBaseComposer {
->>>>>>> 3703261 (up)
     /**
      * The array of menu items.
      *
@@ -439,58 +313,3 @@ class AdminLTE extends XotBaseComposer {
         return collect([]);
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 31d6e3b (first)
-=======
-}
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-}
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-}
->>>>>>> 7bb12fc (.)
-<<<<<<< HEAD
->>>>>>> 7582ab0 (rebase)
-=======
-=======
-}
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
->>>>>>> 08eedf4 (rebase)
-=======
-=======
-}
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
->>>>>>> db07ea7 (rebase)
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
-=======
-=======
-=======
-}
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
->>>>>>> 4ab624f (rebase)
-=======
->>>>>>> 3703261 (up)

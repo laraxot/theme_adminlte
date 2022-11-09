@@ -11,16 +11,6 @@
 @section('body_data', $layoutHelper->makeBodyData())
 
 @section('body')
-<<<<<<< HEAD
-=======
-
-
-
-    <div class="wrapper">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
 
 
 
@@ -28,81 +18,15 @@
 
         <!-- Preloader -->
         {{-- <div class="preloader">
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
-
-        <!-- Preloader -->
-<<<<<<< HEAD
-        {{--
->>>>>>> 8a5cc0b (.)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
-=======
-=======
-=======
-        {{-- <div class="preloader">
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
->>>>>>> 4ab624f (rebase)
-=======
-
-        <!-- Preloader -->
-        {{-- <div class="preloader">
->>>>>>> 3703261 (up)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
                   <span class="sr-only">Loading...</span>
                 </div>
             </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
             </div>
         </div> --}}
 
-<<<<<<< HEAD
-=======
-=======
-        </div>
->>>>>>> 63c2c43 (up)
-=======
-            </div>
-        </div> --}}
-
->>>>>>> 8a5cc0b (.)
->>>>>>> b6bf7b3 (rebase)
-=======
-            </div>
-        </div> --}}
-
->>>>>>> 3703261 (up)
 
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())
