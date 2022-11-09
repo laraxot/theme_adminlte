@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 01e5fdc (rebase)
@@ -34,7 +35,12 @@
 =======
 =======
 >>>>>>> 08eedf4 (rebase)
+<<<<<<< HEAD
 >>>>>>> 158b642 (rebase)
+=======
+=======
+>>>>>>> db07ea7 (rebase)
+>>>>>>> 3343d3d (rebase)
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -44,6 +50,8 @@
 /*!
 =======
 >>>>>>> 29587b0 (.)
+=======
+>>>>>>> 8a5cc0b (.)
  * Datepicker for Bootstrap v1.9.0 (https://github.com/uxsolutions/bootstrap-datepicker)
  *
  * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
@@ -54,7 +62,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1ca94cc (rebase)
+=======
+>>>>>>> 3343d3d (rebase)
  * Programatically add the following
  */
 
@@ -64,6 +75,8 @@
 =======
 =======
 >>>>>>> 01e5fdc (rebase)
+=======
+>>>>>>> db07ea7 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -81,8 +94,16 @@
 =======
 =======
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 >>>>>>> 08eedf4 (rebase)
+<<<<<<< HEAD
 >>>>>>> 158b642 (rebase)
+=======
+=======
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea7 (rebase)
+>>>>>>> 3343d3d (rebase)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -108,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -115,7 +137,16 @@
 =======
 >>>>>>> 29587b0 (.)
 >>>>>>> 01e5fdc (rebase)
+<<<<<<< HEAD
 >>>>>>> 1ca94cc (rebase)
+=======
+=======
+=======
+>>>>>>> 29587b0 (.)
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea7 (rebase)
+>>>>>>> 3343d3d (rebase)
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
@@ -125,6 +156,7 @@
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
  * jQuery JavaScript Library v3.6.1
 <<<<<<< HEAD
@@ -136,6 +168,8 @@
 >>>>>>> 29587b0 (.)
 =======
 >>>>>>> 63c2c43 (up)
+=======
+>>>>>>> 8a5cc0b (.)
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
 =======
