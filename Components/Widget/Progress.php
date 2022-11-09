@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf3e396 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -28,24 +33,47 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> cf4e5c1 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Progress extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Progress extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Progress extends Component {
+=======
+class Progress extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Progress extends Component {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+class Progress extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+class Progress extends Component {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     /**
      * The available progress bar sizes.
      *
@@ -117,6 +145,17 @@ class Progress extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $value = 0,
         $theme = 'info',
         $size = null,
@@ -124,6 +163,23 @@ class Progress extends Component {
         $vertical = null,
         $animated = null,
         $withLabel = null
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+        $value = 0, $theme = 'info', $size = null, $striped = null,
+        $vertical = null, $animated = null, $withLabel = null
+>>>>>>> 31d6e3b (first)
+=======
+        $value = 0, $theme = 'info', $size = null, $striped = null,
+        $vertical = null, $animated = null, $withLabel = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     ) {
         // Control and setup the value property.
 
@@ -144,7 +200,35 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressClass() {
+=======
+    public function makeProgressClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressClass() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeProgressClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function makeProgressClass() {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $classes = ['progress'];
 
         if (isset($this->size) && \in_array($this->size, $this->pSizes, true)) {
@@ -163,7 +247,35 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarClass() {
+=======
+    public function makeProgressBarClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressBarClass() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeProgressBarClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function makeProgressBarClass() {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -186,7 +298,35 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeProgressBarStyle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarStyle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeProgressBarStyle() {
+=======
+    public function makeProgressBarStyle()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeProgressBarStyle() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeProgressBarStyle() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function makeProgressBarStyle() {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -203,6 +343,11 @@ class Progress extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf3e396 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -213,5 +358,17 @@ class Progress extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d79d738 (up)
+    public function render() {
+        return view('adminlte::components.widget.progress');
+>>>>>>> f617437 (rebase)
+>>>>>>> cf3e396 (rebase)
     }
 }

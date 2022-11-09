@@ -2,6 +2,7 @@
 
 @if ($sidebarItemHelper->isHeader($item))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11,7 +12,12 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 2b9484e (rebase)
+=======
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -26,6 +32,7 @@
 @elseif ($sidebarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -60,17 +67,11 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> cf4e5c1 (rebase)
 @endif
 =======
-@endif
->>>>>>> b738e1c (rebase)
+>>>>>>> cf3e396 (rebase)
 =======
+>>>>>>> d79d738 (up)
 @endif
->>>>>>> 63c2c43 (up)
-=======
-@endif
->>>>>>> 8a5cc0b (.)
-=======
-@endif
->>>>>>> 5b4054a (.)

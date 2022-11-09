@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf3e396 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -28,30 +33,69 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> cf4e5c1 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Alert extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Alert extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Alert extends Component {
+=======
+class Alert extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Alert extends Component {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+class Alert extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+class Alert extends Component {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     /**
      * The default icon for each alert theme.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -60,6 +104,43 @@ class Alert extends Component {
         'success' => 'fas fa-check-circle',
         'warning' => 'fas fa-exclamation-triangle',
         'danger' => 'fas fa-ban',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+        'dark'      => 'fas fa-bolt',
+        'light'     => 'far fa-lightbulb',
+        'primary'   => 'fas fa-bell',
+        'secondary' => 'fas fa-tag',
+        'info'      => 'fas fa-info-circle',
+        'success'   => 'fas fa-check-circle',
+        'warning'   => 'fas fa-exclamation-triangle',
+        'danger'    => 'fas fa-ban',
+>>>>>>> 31d6e3b (first)
+=======
+        'dark' => 'fas fa-bolt',
+        'light' => 'far fa-lightbulb',
+        'primary' => 'fas fa-bell',
+        'secondary' => 'fas fa-tag',
+        'info' => 'fas fa-info-circle',
+        'success' => 'fas fa-check-circle',
+        'warning' => 'fas fa-exclamation-triangle',
+        'danger' => 'fas fa-ban',
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     ];
 
     /**
@@ -102,10 +183,36 @@ class Alert extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $theme = null,
         $icon = null,
         $title = null,
         $dismissable = null
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+        $theme = null, $icon = null, $title = null, $dismissable = null
+>>>>>>> 31d6e3b (first)
+=======
+        $theme = null, $icon = null, $title = null, $dismissable = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -125,7 +232,35 @@ class Alert extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeAlertClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeAlertClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeAlertClass() {
+=======
+    public function makeAlertClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeAlertClass() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeAlertClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function makeAlertClass() {
+>>>>>>> d79d738 (up)
+>>>>>>> cf3e396 (rebase)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -146,6 +281,11 @@ class Alert extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> cf3e396 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -156,5 +296,17 @@ class Alert extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d79d738 (up)
+    public function render() {
+        return view('adminlte::components.widget.alert');
+>>>>>>> f617437 (rebase)
+>>>>>>> cf3e396 (rebase)
     }
 }
