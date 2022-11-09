@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Components\Form;
+namespace Themes\KlekooAdm\Components\Form;
 
 class SelectBs extends InputGroupComponent {
     /**
