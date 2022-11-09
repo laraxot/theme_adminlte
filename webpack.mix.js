@@ -57,7 +57,73 @@ mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
 */
 mix.extract();
+<<<<<<< HEAD
 
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+mix.extract();
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+
+=======
+mix.extract();
+/*
+>>>>>>> 29587b0 (.)
+=======
+
+>>>>>>> 63c2c43 (up)
+=======
+mix.extract();
+/*
+>>>>>>> 8a5cc0b (.)
+mix.extract([
+    'admin-lte',
+    'axios',
+    //'bootstrap-sass',
+    'bootstrap',
+    'fastclick',
+    'jquery',
+    'jquery-slimscroll',
+    'lodash',
+    //'vue',
+    'popper.js',
+    'sweetalert2',
+    'lodash',
+    //'bootstrap-select',
+    //'jasny-bootstrap',
+    'moment',
+    'nouislider',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
+<<<<<<< HEAD
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+
+=======
+] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
+);
+*/
+>>>>>>> 29587b0 (.)
+=======
+] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
+
+>>>>>>> 63c2c43 (up)
+=======
+] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
+);
+*/
+>>>>>>> 8a5cc0b (.)
+>>>>>>> b6bf7b3 (rebase)
 //mix.version();
 
 mix.sourceMaps();
