@@ -17,6 +17,7 @@ class ThemeComposer extends XotBaseComposer {
     public function __construct(AdminLTE $adminlte) {
         $this->adminlte = $adminlte;
     }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -30,7 +31,13 @@ class ThemeComposer extends XotBaseComposer {
 =======
 >>>>>>> b135dba (.)
 >>>>>>> 5fba10f (rebase)
+<<<<<<< HEAD
 >>>>>>> f264dab (rebase)
+=======
+=======
+    
+>>>>>>> ae93a9b (up)
+>>>>>>> 5ef5d60 (rebase)
     /**
      * Bind data to the view.
      *
