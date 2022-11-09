@@ -9,6 +9,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 declare(strict_types=1);
 
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -24,8 +25,11 @@ declare(strict_types=1);
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d7 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
+=======
+namespace Themes\KlekooAdm\Console\PackageResources;
+>>>>>>> b738e1c (rebase)
 
-use Themes\AdminLTE\Helpers\CommandHelper;
+use Themes\KlekooAdm\Helpers\CommandHelper;
 
 <<<<<<< HEAD
 class MainViewsResource extends PackageResource {

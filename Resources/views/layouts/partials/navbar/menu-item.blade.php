@@ -1,4 +1,4 @@
-@inject('navbarItemHelper', 'Themes\AdminLTE\Helpers\NavbarItemHelper')
+@inject('navbarItemHelper', 'Themes\KlekooAdm\Helpers\NavbarItemHelper')
 
 @if ($navbarItemHelper->isSearch($item))
 <<<<<<< HEAD
