@@ -6,13 +6,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 var path = require("path");
 
 import { createApp } from 'vue';
@@ -21,6 +30,9 @@ import { createApp } from 'vue';
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 =======
@@ -39,9 +51,15 @@ import { createApp } from 'vue'
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
 const app = createApp({
     data() {
@@ -56,13 +74,22 @@ const app = createApp({
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 //import Audiojs                              from '../../../../Modules/Theme/Resources/js/components/audioplayer/Audiojs.vue';
 import Videojs from '../../../../Modules/Theme/Resources/js/components/videoplayer/Videojs.vue';
 //import ExampleComponent                     from '../../../../Modules/Theme/Resources/js/components/ExampleComponent';
@@ -80,6 +107,9 @@ app.component('v-slider', Noui);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 //app.component('tinymce-component',TinymceComponent);
@@ -90,8 +120,14 @@ app.component('v-slider', Noui);
 //app.component('example-component', ExampleComponent);
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
 app.mount('#app');

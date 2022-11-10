@@ -15,6 +15,9 @@ try {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
     window.dragula = require('dragula');
 =======
 <<<<<<< HEAD
@@ -25,10 +28,16 @@ try {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     window.dragula = require('dragula');
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
     require('bootstrap/dist/js/bootstrap.bundle.js');
     /*
@@ -61,6 +70,9 @@ try {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
     window.Swal = global.Swal = require('sweetalert2');
 =======
 <<<<<<< HEAD
@@ -73,10 +85,16 @@ try {
     window.Swal = Swal = require('sweetalert2');
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     window.Swal = global.Swal = require('sweetalert2');
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
     window.noUiSlider = require('nouislider');
 
@@ -102,6 +120,9 @@ try {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
     const Chart = window.Chart = require('chart.js/auto').default;
 
 =======
@@ -114,11 +135,17 @@ try {
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     const Chart = window.Chart = require('chart.js/auto').default;
 
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 } catch (e) {
     console.log(e);
 }
@@ -176,6 +203,9 @@ if (token) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 // });
 =======
 <<<<<<< HEAD
@@ -188,7 +218,13 @@ if (token) {
 // });
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 // });
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)

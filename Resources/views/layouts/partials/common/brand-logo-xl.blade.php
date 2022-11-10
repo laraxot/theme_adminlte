@@ -10,6 +10,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -24,7 +25,16 @@
 =======
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand logo-switch {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
@@ -32,6 +42,9 @@
     {{-- <!-- Small brand logo  -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -50,6 +63,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -65,7 +79,13 @@
 =======
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
         alt="{{ config('adm_theme::adminlte.logo_img_alt', 'AdminLTE') }}"
         class="{{ config('adm_theme::adminlte.logo_img_class', 'brand-image-xl') }} logo-xs">
@@ -76,7 +96,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
 <<<<<<< HEAD
 =======
@@ -84,6 +109,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
 =======
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl">
@@ -93,6 +121,7 @@
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl">
     --}}
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 =======
@@ -106,5 +135,11 @@
 =======
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 </a>

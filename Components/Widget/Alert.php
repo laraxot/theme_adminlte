@@ -19,6 +19,9 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -37,6 +40,9 @@ declare(strict_types=1);
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -45,8 +51,11 @@ declare(strict_types=1);
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 312af933 (rebase)
 =======
+=======
+>>>>>>> a159d289 (rebase)
 =======
 declare(strict_types=1);
 
@@ -57,7 +66,12 @@ declare(strict_types=1);
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+<<<<<<< HEAD
 >>>>>>> 655502de (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
@@ -76,8 +90,11 @@ class Alert extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
 class Alert extends Component {
 =======
 class Alert extends Component
@@ -88,12 +105,16 @@ class Alert extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 class Alert extends Component {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 class Alert extends Component {
 >>>>>>> d79d738 (up)
@@ -103,7 +124,12 @@ class Alert extends Component {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+<<<<<<< HEAD
 >>>>>>> 655502de (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
     /**
      * The default icon for each alert theme.
      *
@@ -133,9 +159,20 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+<<<<<<< HEAD
 >>>>>>> 655502de (rebase)
+=======
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
         'dark' => 'fas fa-bolt',
         'light' => 'far fa-lightbulb',
         'primary' => 'fas fa-bell',
@@ -150,14 +187,20 @@ class Alert extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+<<<<<<< HEAD
 =======
 =======
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
         'dark'      => 'fas fa-bolt',
         'light'     => 'far fa-lightbulb',
         'primary'   => 'fas fa-bell',
@@ -179,11 +222,15 @@ class Alert extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 <<<<<<< HEAD
@@ -192,7 +239,12 @@ class Alert extends Component {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+<<<<<<< HEAD
 >>>>>>> 655502de (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
     ];
 
     /**
@@ -239,13 +291,22 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
         $theme = null,
         $icon = null,
         $title = null,
@@ -254,6 +315,9 @@ class Alert extends Component {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
         $theme = null, $icon = null, $title = null, $dismissable = null
@@ -262,9 +326,15 @@ class Alert extends Component {
         $theme = null, $icon = null, $title = null, $dismissable = null
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
     ) {
         $this->theme = $theme;
         $this->icon = $icon;
@@ -298,8 +368,11 @@ class Alert extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 64fad46 (rebase)
     public function makeAlertClass() {
 =======
     public function makeAlertClass()
@@ -310,12 +383,16 @@ class Alert extends Component {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
     public function makeAlertClass() {
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
     public function makeAlertClass() {
 >>>>>>> d79d738 (up)
@@ -325,7 +402,12 @@ class Alert extends Component {
 =======
 >>>>>>> f617437 (rebase)
 >>>>>>> 59a8928 (rebase)
+<<<<<<< HEAD
 >>>>>>> 655502de (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
         $classes = ['alert'];
 
         if (! empty($this->theme)) {
@@ -373,10 +455,13 @@ class Alert extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
 =======
+=======
+>>>>>>> 64fad46 (rebase)
     public function render() {
 =======
     public function render()
@@ -385,7 +470,13 @@ class Alert extends Component {
 =======
     public function render() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 >>>>>>> 59a8928 (rebase)
+=======
+=======
+    public function render() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 64fad46 (rebase)
         return view('adminlte::components.widget.alert');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)

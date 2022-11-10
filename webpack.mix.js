@@ -9,6 +9,9 @@ const path = require('path');
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 const path = require('path');
 =======
 <<<<<<< HEAD
@@ -21,10 +24,16 @@ const path = require('path');
 //const path = require('path');
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 const path = require('path');
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 //https://dev.to/saymon/laravel-mix-rewrite-path-when-place-project-in-subfolder-2325
 //https://dev.to/tefoh/laravel-scaffold-command-2lg
 //https://dev.to/100r0bh/bulk-action-using-livewire-31i7
@@ -53,13 +62,22 @@ const path = require('path');
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 require('laravel-mix-purgecss');
 
 mix.autoload({
@@ -69,6 +87,9 @@ mix.autoload({
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 mix.autoload({
@@ -81,9 +102,15 @@ mix.autoload({
     jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
     tether: ['Tether', 'windows.Tether'],
     //Popper: ['popper', 'Popper', 'popper.js'],
     //popper: ['Popper', 'popper.js'],
@@ -96,13 +123,22 @@ mix.setPublicPath('Resources/dist');
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 mix.js('Resources/js/app.js', 'Resources/dist/js'); //.vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
@@ -119,6 +155,9 @@ mix.purgeCss({
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 =======
@@ -132,9 +171,15 @@ mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 /*
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
@@ -151,6 +196,7 @@ mix.extract();
 >>>>>>> a05b3ba1 (rebase)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 <<<<<<< HEAD
@@ -160,7 +206,40 @@ mix.extract();
 <<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 64fad46 (rebase)
 mix.extract();
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+mix.extract();
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+
+mix.extract([
+    'admin-lte',
+    'axios',
+    //'bootstrap-sass',
+    'bootstrap',
+    'fastclick',
+    'jquery',
+    'jquery-slimscroll',
+    'lodash',
+    //'vue',
+    'popper.js',
+    'sweetalert2',
+    'lodash',
+    //'bootstrap-select',
+    //'jasny-bootstrap',
+    'moment',
+    'nouislider',
+] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
+<<<<<<< HEAD
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
 
 <<<<<<< HEAD
 =======
@@ -227,13 +306,22 @@ mix.sourceMaps();
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 mix.webpackConfig({
     resolve: {
         modules: [
@@ -261,6 +349,9 @@ mix.webpackConfig({
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 =======
 =======
 /*
@@ -269,9 +360,15 @@ mix.webpackConfig({
 /*
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
 require('laravel-mix-polyfill');
 
@@ -286,6 +383,9 @@ mix.polyfill({
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 //*/
 =======
 <<<<<<< HEAD
@@ -298,10 +398,16 @@ mix.polyfill({
 */
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 //*/
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
 
 var $from = './Resources/dist';
 var $to = '../../../public_html/themes/AdminLTE/dist';
@@ -318,6 +424,9 @@ mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 64fad46 (rebase)
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
 =======
 <<<<<<< HEAD
@@ -330,7 +439,13 @@ mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 =======
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 64fad46 (rebase)
+>>>>>>> a159d289 (rebase)
