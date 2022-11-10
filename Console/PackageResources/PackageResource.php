@@ -34,7 +34,7 @@
 >>>>>>> a159d289 (rebase)
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Console\PackageResources;
+namespace Themes\KlekooAdm\Console\PackageResources;
 
 abstract class PackageResource {
 <<<<<<< HEAD

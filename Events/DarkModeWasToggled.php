@@ -28,10 +28,13 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 >>>>>>> 59a8928 (rebase)
+=======
+>>>>>>> 4a726e2 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -73,8 +76,11 @@ declare(strict_types=1);
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
 namespace Themes\AdminLTE\Events;
+=======
+namespace Themes\KlekooAdm\Events;
+>>>>>>> b738e1c (rebase)
 
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 <<<<<<< HEAD
 class DarkModeWasToggled {

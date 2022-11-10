@@ -232,6 +232,7 @@ aaa
 >>>>>>> 6332637 (.)
 @extends('adm_theme::layouts.app')
 @section('content')
+<<<<<<< HEAD
     DASHBOARD
     <div class="row">
     @foreach($profile->areas() as $area)
@@ -445,11 +446,15 @@ aaa
 =======
 >>>>>>> 6332637 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 7ed5f009 (rebase)
 =======
 =======
 =======
 >>>>>>> 8a5cc0b (.)
+=======
+=======
+>>>>>>> 3a1ab172 (rebase)
 @php
 use Modules\Quaeris\Services\LimeModelService;
 
@@ -461,6 +466,7 @@ $question = $questions->last();
 $answers = $lime->getAnswersByQuestionId((string) 30342);
 @endphp
 @php dddx($answers); @endphp
+<<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
 >>>>>>> b738e1c (rebase)
@@ -548,3 +554,7 @@ aaa
 =======
 >>>>>>> 6332637 (.)
 >>>>>>> 5b814509 (rebase)
+=======
+@endsection
+>>>>>>> b738e1c (rebase)
+>>>>>>> 3a1ab172 (rebase)
