@@ -136,6 +136,7 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5b2c3126 (rebase)
 =======
@@ -384,3 +385,5 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 5374766d (rebase)
 >>>>>>> 524ab8cd (.)
 >>>>>>> 5b2c3126 (rebase)
+=======
+>>>>>>> 5d0fef3e (up)
