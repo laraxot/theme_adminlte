@@ -11,6 +11,17 @@
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> 00381f3 (.)
+>>>>>>> a17df68c (rebase)
         "@popperjs/core": "^2.11.6",
         "@tinymce/tinymce-vue": "^4.0.7",
         "admin-lte": "^3.2.0",
@@ -24,6 +35,7 @@
         "fastclick": "^1.0.6",
         "file-loader": "^6.2.0",
         "flatpickr": "^4.6.13",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -42,6 +54,8 @@
         "fastclick": "^1.0.6",
         "file-loader": "^6.2.0",
         "flatpickr": "^4.6.9",
+=======
+>>>>>>> 00381f3 (.)
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
