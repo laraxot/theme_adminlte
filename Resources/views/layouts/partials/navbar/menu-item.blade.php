@@ -1,4 +1,4 @@
-@inject('navbarItemHelper', 'Themes\AdminLTE\Helpers\NavbarItemHelper')
+@inject('navbarItemHelper', 'Themes\KlekooAdm\Helpers\NavbarItemHelper')
 
 @if ($navbarItemHelper->isSearch($item))
 <<<<<<< HEAD
@@ -58,8 +58,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -67,6 +70,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 5b4054a (.)
@@ -95,13 +99,19 @@
     @include('adm_theme::layouts.partials.navbar.menu-item-link')
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 543f78f7 (rebase)
     {{-- Search form --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-search-form')
 
 @elseif ($navbarItemHelper->isNotification($item))
 
     {{-- Notification link --}}
+<<<<<<< HEAD
     {{--
+=======
+    {{--  
+>>>>>>> 543f78f7 (rebase)
     <x-adminlte-navbar-notification :id="$item['id']" :href="$item['href']" :icon="$item['icon']"
         :icon-color="$item['icon_color'] ?? null" :badge-label="$item['label'] ?? null"
         :badge-color="$item['label_color'] ?? null" :update-cfg="$item['update_cfg'] ?? null"
@@ -117,7 +127,11 @@
 @elseif ($navbarItemHelper->isDarkmode($item))
 
     {{-- Darkmode toggle widget --}}
+<<<<<<< HEAD
     {{--
+=======
+    {{--  
+>>>>>>> 543f78f7 (rebase)
     <x-adminlte-navbar-darkmode-widget :icon-enabled="$item['icon_enabled'] ?? null"
         :color-enabled="$item['color_enabled'] ?? null" :icon-disabled="$item['icon_disabled'] ?? null"
         :color-disabled="$item['color_disabled'] ?? null" />
@@ -132,12 +146,16 @@
 
     {{-- Link --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-link')
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 
 <<<<<<< HEAD
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
@@ -162,4 +180,8 @@
 >>>>>>> a159d289 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> 905478d (rebase)
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)
 @endif

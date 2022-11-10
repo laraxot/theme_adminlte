@@ -217,7 +217,9 @@ mix.extract();
 =======
 >>>>>>> dfca2a99 (rebase)
 mix.extract();
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 mix.extract();
@@ -254,6 +256,20 @@ mix.extract([
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+mix.extract();
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+
+>>>>>>> 543f78f7 (rebase)
 =======
 mix.extract();
 /*
@@ -291,29 +307,41 @@ mix.extract([
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 4e5d3818 (rebase)
 
 =======
 >>>>>>> 8629e12 (rebase)
 =======
+=======
+
+=======
+>>>>>>> 543f78f7 (rebase)
 ] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
 );
 */
 >>>>>>> 29587b0 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> f63434d (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 
 >>>>>>> 63c2c43 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 ] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
 );
 */
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
 =======
@@ -322,6 +350,9 @@ mix.extract([
 >>>>>>> f63434d (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)
 //mix.version();
 
 mix.sourceMaps();

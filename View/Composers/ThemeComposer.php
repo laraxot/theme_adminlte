@@ -2,11 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\View\Composers;
+namespace Themes\KlekooAdm\View\Composers;
 
 use Illuminate\View\View;
+<<<<<<< HEAD
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
+=======
+use Modules\Theme\View\Composers\XotBaseComposer;
+use Themes\KlekooAdm\Services\AdminLTE;
+>>>>>>> b6bf7b3 (rebase)
 
 class ThemeComposer extends XotBaseComposer {
     /**
@@ -150,6 +155,7 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
 =======
@@ -162,6 +168,8 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> d20c4d6 (rebase)
 =======
 >>>>>>> f63434d (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 }
 =======
 }
@@ -172,8 +180,11 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -182,8 +193,11 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4861446 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -192,8 +206,11 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> baf54ed (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 2388cd9 (rebase)
 =======
 =======
@@ -202,13 +219,17 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d20c4d6 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 5fba10f (rebase)
 =======
 =======
 }
 >>>>>>> 7bb12fc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219,9 +240,13 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 802aff9c (rebase)
 =======
 =======
+>>>>>>> 7582ab0 (rebase)
+>>>>>>> 543f78f7 (rebase)
+=======
 =======
 }
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 08eedf4 (rebase)
@@ -229,9 +254,13 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 6f3ed7c3 (rebase)
 =======
 =======
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 543f78f7 (rebase)
+=======
 =======
 }
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
 <<<<<<< HEAD
@@ -288,3 +317,7 @@ class ThemeComposer extends XotBaseComposer {
 =======
 }
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> db07ea7 (rebase)
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)

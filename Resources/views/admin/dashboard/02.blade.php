@@ -14,7 +14,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+>>>>>>> 543f78f7 (rebase)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,12 +55,17 @@
 =======
 >>>>>>> 9a582057 (rebase)
 =======
+>>>>>>> 543f78f7 (rebase)
+=======
 =======
 >>>>>>> 49899e0 (.)
 =======
 >>>>>>> aa7fac8 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 >>>>>>> 326d5c3 (.)
 =======
@@ -71,6 +80,7 @@
 >>>>>>> aa7fac8 (.)
 =======
 >>>>>>> 326d5c3 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e0a8e01 (.)
 =======
@@ -94,10 +104,14 @@
 <<<<<<< HEAD
 >>>>>>> 21fe4df (.)
 >>>>>>> 0cd8d59e (rebase)
+=======
+>>>>>>> 21fe4df (.)
+>>>>>>> 543f78f7 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,15 +123,20 @@
 =======
 >>>>>>> fdbda7f7 (rebase)
 =======
+>>>>>>> 543f78f7 (rebase)
+=======
 >>>>>>> 3cc23ea (.)
 =======
 >>>>>>> 7cb5b32 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 3cc23ea (.)
 >>>>>>> a5d96216 (rebase)
 =======
+=======
+>>>>>>> 543f78f7 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -138,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c501045a (rebase)
 =======
 =======
@@ -147,14 +167,24 @@
 =======
 =======
 =======
+>>>>>>> 21fe4df (.)
+>>>>>>> 543f78f7 (rebase)
+=======
+=======
 >>>>>>> 3cc23ea (.)
 >>>>>>> e0a8e01 (.)
+<<<<<<< HEAD
 >>>>>>> fdbda7f7 (rebase)
+=======
+=======
+>>>>>>> 2a63e2b (.)
+>>>>>>> 543f78f7 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 =======
+<<<<<<< HEAD
 >>>>>>> f8b93fb6 (rebase)
 =======
 =======
@@ -180,12 +210,23 @@
 =======
 >>>>>>> fdbe3c1c (rebase)
 =======
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+>>>>>>> fac8ac6 (.)
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7cb5b32 (.)
+>>>>>>> 543f78f7 (rebase)
+=======
 >>>>>>> 21fe4df (.)
 =======
 =======
 >>>>>>> 3cc23ea (.)
 >>>>>>> e0a8e01 (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 2a63e2b (.)
 <<<<<<< HEAD
 =======
@@ -259,10 +300,15 @@
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 2a63e2b (.)
 >>>>>>> fdbe3c1c (rebase)
+=======
+>>>>>>> 7cb5b32 (.)
+>>>>>>> 2a63e2b (.)
+>>>>>>> 543f78f7 (rebase)
 @endsection --}}
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -280,16 +326,25 @@
 >>>>>>> 988d4089 (rebase)
 =======
 =======
+>>>>>>> 7306100 (.)
+=======
+>>>>>>> 1194766 (up)
+>>>>>>> 543f78f7 (rebase)
+=======
 >>>>>>> 49899e0 (.)
 <<<<<<< HEAD
 >>>>>>> 21fe4df (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f36e2bbd (rebase)
 =======
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 =======
 >>>>>>> 1194766 (up)
 >>>>>>> 6332637 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7ed5f009 (rebase)
@@ -360,26 +415,21 @@
 >>>>>>> 9a582057 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+=======
+>>>>>>> 72c6c47 (.)
+=======
+
+>>>>>>> b738e1c (rebase)
+=======
+>>>>>>> 63c2c43 (up)
+=======
+
+>>>>>>> 8a5cc0b (.)
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)
 <x-dashboard>
-    {{-- replace this by any tiles --}}
-    {{-- <livewire:time-weather-tile position="a1" />
-    <livewire:time-weather-tile position="b1" /> --}}
-
-    {{-- <livewire:dashboard.tile.dummy position="c1" /> --}}
-    <livewire:time-weather-tile position="a1:a2" />
-    <livewire:chart-tile chartClass="{{ Modules\LU\Charts\DailyUsersChart::class }}" position="b1:b2" />
-
-    <livewire:chart-tile chartClass="{{ Modules\Chart\Charts\ExampleBarChart::class }}" position="a3:a4" />
-    {{-- <livewire:dashboard.tile.question-chart position="a3:a4" qid="15" /> --}}
-
-
-    @livewire('chart-tile', [
-        'chartClass' => Modules\Quaeris\Charts\QuestionIdChart::class,
-        'chartFilters' => ['question_chart_id' => 5],
-        'position' => 'b3:b4',
-    ])
-
-
+    <livewire:chart-tile chartClass="{{ Modules\Chart\Charts\ExampleChart::class }}" position="a1:a4" />
 </x-dashboard>
 <<<<<<< HEAD
 <<<<<<< HEAD

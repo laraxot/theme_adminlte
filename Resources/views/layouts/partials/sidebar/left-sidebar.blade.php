@@ -1,13 +1,10 @@
 <aside class="main-sidebar {{ config('adm_theme::adminlte.classes_sidebar', 'sidebar-dark-primary elevation-4') }}">
-
     {{-- Sidebar brand logo --}}
     @if (config('adm_theme::adminlte.logo_img_xl'))
         @include('adm_theme::layouts.partials.common.brand-logo-xl')
     @else
         @include('adm_theme::layouts.partials.common.brand-logo-xs')
     @endif
-
-
     {{-- Sidebar menu --}}
     <div class="sidebar">
         <nav class="pt-2">
@@ -37,12 +34,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 4a726e2 (rebase)
 =======
 >>>>>>> f63434d (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
                 data-widget="treeview" role="menu"
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300) data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}" @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
@@ -62,14 +62,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
                 data-widget="treeview" role="menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 543f78f7 (rebase)
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300)
                     data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}"
                 @endif
@@ -77,17 +83,24 @@
                     data-accordion="false"
 =======
                 data-widget="treeview" role="menu"
+<<<<<<< HEAD
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300)
                     data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}"
                 @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion'))
                     data-accordion="false"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8a5cc0b (.)
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> 543f78f7 (rebase)
                 @endif
                 >
                 <?php
@@ -119,12 +132,18 @@
                 ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b738e1c (rebase)
 <<<<<<< HEAD
 >>>>>>> 018589a (rebase)
 <<<<<<< HEAD
 >>>>>>> 312af933 (rebase)
 =======
+=======
+>>>>>>> b738e1c (rebase)
+<<<<<<< HEAD
+>>>>>>> 018589a (rebase)
+>>>>>>> 543f78f7 (rebase)
 =======
 =======
                 data-widget="treeview" role="menu" @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300)
@@ -136,6 +155,7 @@
 >>>>>>> 63c2c43 (up)
 <<<<<<< HEAD
 >>>>>>> 08eedf4 (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 6f3ed7c3 (rebase)
 =======
@@ -197,11 +217,16 @@
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300) data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}" @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
 >>>>>>> dfca2a99 (rebase)
+=======
+=======
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> db07ea7 (rebase)
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)
                 {{-- Configured sidebar links --}}
                 {{-- dddx($adminlte->menu('sidebar')) --}}
-                @each('adm_theme::layouts.partials.sidebar.menu-item', $adminlte->menu('sidebar'), 'item')
             </ul>
         </nav>
     </div>
-
 </aside>

@@ -68,6 +68,11 @@
 >>>>>>> dfca2a99 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b6bf7b3 (rebase)
     @php
         //dddx($profile->areas());
     @endphp
@@ -78,6 +83,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,10 +104,18 @@ aaa
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+=======
+aaa
+>>>>>>> 28d9a7d (.)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 326d5c3 (.)
 =======
 >>>>>>> 2a63e2b (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 527eac33 (rebase)
@@ -111,6 +125,8 @@ aaa
 >>>>>>> c501045a (rebase)
 =======
 >>>>>>> fdbe3c1c (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -144,6 +160,7 @@ aaa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c501045a (rebase)
 =======
@@ -152,6 +169,10 @@ aaa
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> 870e170 (.)
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 >>>>>>> 49899e0 (.)
 =======
@@ -209,6 +230,7 @@ aaa
 =======
 >>>>>>> 2a63e2b (.)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -310,6 +332,8 @@ aaa
 >>>>>>> fdbe3c1c (rebase)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> 7306100 (.)
 =======
 =======
@@ -317,14 +341,18 @@ aaa
 >>>>>>> 7cb5b32 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c501045a (rebase)
 =======
 =======
 >>>>>>> fdbe3c1c (rebase)
 =======
+>>>>>>> 543f78f7 (rebase)
+=======
 =======
 <<<<<<< HEAD
 >>>>>>> 21fe4df (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0cd8d59e (rebase)
 =======
@@ -336,6 +364,12 @@ aaa
 =======
 >>>>>>> 2a63e2b (.)
 >>>>>>> fdbe3c1c (rebase)
+=======
+=======
+>>>>>>> e0a8e01 (.)
+=======
+>>>>>>> 2a63e2b (.)
+>>>>>>> 543f78f7 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -366,15 +400,19 @@ aaa
 </x-dashboard>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ce44b3c7 (rebase)
 =======
 >>>>>>> f8b93fb6 (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 >>>>>>> 7306100 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -395,6 +433,8 @@ aaa
 >>>>>>> fdbda7f7 (rebase)
 =======
 >>>>>>> fdbe3c1c (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 >>>>>>> fac8ac6 (.)
 <<<<<<< HEAD
 >>>>>>> 49899e0 (.)
@@ -405,6 +445,7 @@ aaa
 >>>>>>> aa7fac8 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> a5d96216 (rebase)
@@ -430,15 +471,29 @@ aaa
 =======
 =======
 >>>>>>> fac8ac6 (.)
+>>>>>>> 49899e0 (.)
+>>>>>>> 7cb5b32 (.)
+>>>>>>> 326d5c3 (.)
+=======
+>>>>>>> 1194766 (up)
+=======
+>>>>>>> fac8ac6 (.)
+>>>>>>> 21fe4df (.)
+>>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> fac8ac6 (.)
 =======
 >>>>>>> 3cc23ea (.)
 >>>>>>> e0a8e01 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> e23f256f (rebase)
 =======
 =======
 >>>>>>> fdbe3c1c (rebase)
+=======
+>>>>>>> 543f78f7 (rebase)
 =======
 >>>>>>> fac8ac6 (.)
 =======
@@ -448,6 +503,7 @@ aaa
 >>>>>>> 49899e0 (.)
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 2a63e2b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -465,6 +521,13 @@ aaa
 =======
 =======
 >>>>>>> 3a1ab172 (rebase)
+=======
+=======
+>>>>>>> 6332637 (.)
+=======
+=======
+>>>>>>> 8a5cc0b (.)
+>>>>>>> 543f78f7 (rebase)
 @php
 use Modules\Quaeris\Services\LimeModelService;
 
@@ -476,6 +539,7 @@ $question = $questions->last();
 $answers = $lime->getAnswersByQuestionId((string) 30342);
 @endphp
 @php dddx($answers); @endphp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 @endsection
@@ -575,3 +639,13 @@ aaa
 >>>>>>> 9a582057 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+@endsection
+>>>>>>> b738e1c (rebase)
+=======
+>>>>>>> 63c2c43 (up)
+=======
+@endsection
+>>>>>>> 8a5cc0b (.)
+>>>>>>> b6bf7b3 (rebase)
+>>>>>>> 543f78f7 (rebase)
