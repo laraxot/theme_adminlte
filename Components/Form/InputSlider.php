@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +33,14 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputSlider extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -94,6 +98,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     /**
      * The bootstrap-slider plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -130,6 +136,7 @@ class InputSlider extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +156,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -171,6 +180,7 @@ class InputSlider extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -203,6 +213,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -219,6 +231,7 @@ class InputSlider extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeInputGroupClass() {
 =======
@@ -273,6 +286,9 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeInputGroupClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['input-group'];
 
         if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
@@ -296,6 +312,7 @@ class InputSlider extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +322,8 @@ class InputSlider extends InputGroupComponent {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -315,6 +334,7 @@ class InputSlider extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -347,5 +367,7 @@ class InputSlider extends InputGroupComponent {
         return view('adminlte::components.form.input-slider');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

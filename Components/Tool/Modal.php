@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Tool;
 =======
-namespace Themes\KlekooAdm\Components\Tool;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Tool;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Modal extends Component {
 =======
@@ -142,6 +142,9 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class Modal extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The available modal sizes.
      *
@@ -232,6 +235,7 @@ class Modal extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251,6 +255,8 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $id,
         $title = null,
         $icon = null,
@@ -259,6 +265,7 @@ class Modal extends Component {
         $vCentered = null,
         $scrollable = null,
         $staticBackdrop = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -285,6 +292,8 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $disableAnimations = null
     ) {
         $this->id = $id;
@@ -303,6 +312,7 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeModalClass() {
 =======
@@ -357,6 +367,9 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeModalClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['modal'];
 
         if (! isset($this->disableAnimations)) {
@@ -371,6 +384,7 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeModalDialogClass() {
 =======
@@ -425,6 +439,9 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeModalDialogClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['modal-dialog'];
 
         if (isset($this->vCentered)) {
@@ -447,6 +464,7 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeModalHeaderClass() {
 =======
@@ -501,6 +519,9 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeModalHeaderClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['modal-header'];
 
         if (isset($this->theme)) {
@@ -515,6 +536,7 @@ class Modal extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeCloseButtonClass() {
 =======
@@ -569,6 +591,9 @@ class Modal extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeCloseButtonClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['bg-secondary'];
 
         if (isset($this->theme)) {
@@ -584,6 +609,7 @@ class Modal extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +619,8 @@ class Modal extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -603,6 +631,7 @@ class Modal extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -635,5 +664,7 @@ class Modal extends Component {
         return view('adminlte::components.tool.modal');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

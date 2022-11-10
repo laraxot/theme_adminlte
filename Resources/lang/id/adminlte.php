@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 return [
@@ -58,6 +61,7 @@ return [
     'verify_if_not_recieved' => 'Jika Anda tidak menerima email',
     'verify_request_another' => 'klik disini untuk meminta ulang',
     'confirm_password_message' => 'Konfirmasi kata sandi Anda untuk melanjutkan',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -150,4 +154,6 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 ];

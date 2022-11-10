@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Widget;
 =======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Progress extends Component {
 =======
@@ -142,6 +142,9 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class Progress extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The available progress bar sizes.
      *
@@ -214,6 +217,7 @@ class Progress extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233,6 +237,8 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $value = 0,
         $theme = 'info',
         $size = null,
@@ -240,6 +246,7 @@ class Progress extends Component {
         $vertical = null,
         $animated = null,
         $withLabel = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -266,6 +273,8 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         // Control and setup the value property.
 
@@ -286,6 +295,7 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeProgressClass() {
 =======
@@ -340,6 +350,9 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeProgressClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['progress'];
 
         if (isset($this->size) && \in_array($this->size, $this->pSizes, true)) {
@@ -358,6 +371,7 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeProgressBarClass() {
 =======
@@ -412,6 +426,9 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeProgressBarClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['progress-bar', 'text-bold'];
 
         if (! empty($this->theme)) {
@@ -434,6 +451,7 @@ class Progress extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeProgressBarStyle() {
 =======
@@ -488,6 +506,9 @@ class Progress extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeProgressBarStyle() {
+>>>>>>> dfca2a99 (rebase)
         $styles = [];
 
         if (isset($this->vertical)) {
@@ -505,6 +526,7 @@ class Progress extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -514,6 +536,8 @@ class Progress extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -524,6 +548,7 @@ class Progress extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -556,5 +581,7 @@ class Progress extends Component {
         return view('adminlte::components.widget.progress');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

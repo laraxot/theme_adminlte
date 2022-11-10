@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Tool;
 =======
-namespace Themes\KlekooAdm\Components\Tool;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Tool;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Datatable extends Component {
 =======
@@ -142,6 +142,9 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class Datatable extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -264,6 +267,7 @@ class Datatable extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +287,8 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $id,
         $heads,
         $theme = null,
@@ -296,6 +302,7 @@ class Datatable extends Component {
         $beautify = null,
         $withButtons = null,
         $config = []
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -325,6 +332,8 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->id = $id;
         $this->heads = $heads;
@@ -360,6 +369,7 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeTableClass() {
 =======
@@ -414,6 +424,9 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeTableClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -444,6 +457,7 @@ class Datatable extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function makeDomCfg() {
 =======
@@ -498,6 +512,9 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function makeDomCfg() {
+>>>>>>> dfca2a99 (rebase)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -519,6 +536,7 @@ class Datatable extends Component {
      *
      * @return array
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function makeButtonsCfg() {
 =======
@@ -573,6 +591,9 @@ class Datatable extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function makeButtonsCfg() {
+>>>>>>> dfca2a99 (rebase)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -639,6 +660,7 @@ class Datatable extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,6 +670,8 @@ class Datatable extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -658,6 +682,7 @@ class Datatable extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -690,5 +715,7 @@ class Datatable extends Component {
         return view('adminlte::components.tool.datatable');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

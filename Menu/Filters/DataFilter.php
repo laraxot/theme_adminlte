@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu\Filters;
@@ -45,6 +48,7 @@ class DataFilter implements FilterInterface {
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (isset($item['data']) && \is_array($item['data'])) {
 =======
@@ -104,6 +108,9 @@ class DataFilter implements FilterInterface {
         if (isset($item['data']) && is_array($item['data'])) {
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+        if (isset($item['data']) && \is_array($item['data'])) {
+>>>>>>> dfca2a99 (rebase)
             $item['data-compiled'] = $this->compileData($item['data']);
         }
 
@@ -113,6 +120,7 @@ class DataFilter implements FilterInterface {
     /**
      * Compile an array of data attributes into a data string.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -150,11 +158,14 @@ class DataFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $dataArray Array of html data attributes
      *
      * @return string The compiled version of data attributes
      */
     protected function compileData($dataArray) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -213,6 +224,8 @@ class DataFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $compiled = [];
 
         foreach ($dataArray as $key => $value) {

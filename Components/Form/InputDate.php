@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +33,14 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputDate extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -94,12 +98,15 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     /**
      * The default set of icons for the Tempus Dominus plugin configuration.
      *
      * @var array
      */
     protected $icons = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -143,19 +150,18 @@ class InputDate extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         'time' => 'fas fa-clock',
         'date' => 'fas fa-calendar-alt',
         'up' => 'fas fa-arrow-up',
         'down' => 'fas fa-arrow-down',
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
         'previous' => 'fas fa-chevron-left',
         'next' => 'fas fa-chevron-right',
         'today' => 'fas fa-calendar-check-o',
         'clear' => 'fas fa-trash',
         'close' => 'fas fa-times',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -218,6 +224,8 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ];
 
     /**
@@ -257,6 +265,7 @@ class InputDate extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +285,8 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -297,6 +308,7 @@ class InputDate extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -329,6 +341,8 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -347,6 +361,7 @@ class InputDate extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeItemClass() {
 =======
@@ -401,6 +416,9 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeItemClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['form-control', 'datetimepicker'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -416,6 +434,7 @@ class InputDate extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,6 +444,8 @@ class InputDate extends InputGroupComponent {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -435,6 +456,7 @@ class InputDate extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -467,5 +489,7 @@ class InputDate extends InputGroupComponent {
         return view('adminlte::components.form.input-date');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

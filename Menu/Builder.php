@@ -229,6 +229,7 @@ class Builder {
         $this->menu = $this->transformItems($this->menu);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 <<<<<<< HEAD
@@ -281,3 +282,6 @@ class Builder {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+}
+>>>>>>> dfca2a99 (rebase)

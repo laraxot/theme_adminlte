@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 return [
@@ -52,6 +55,7 @@ return [
     'password_reset_message' => 'Réinitialisation du mot de passe',
     'reset_password' => 'Réinitialisation du mot de passe',
     'send_password_reset_link' => 'Envoi de la réinitialisation du mot de passe',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -132,4 +136,6 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 ];

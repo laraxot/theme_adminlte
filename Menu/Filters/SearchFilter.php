@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Menu\Filters;
 =======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class SearchFilter implements FilterInterface {
 =======
@@ -143,6 +143,9 @@ class SearchFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class SearchFilter implements FilterInterface {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The default name attribute to be used on the search input.
      *
@@ -160,6 +163,7 @@ class SearchFilter implements FilterInterface {
     /**
      * Transforms a menu item. Makes the proper search bar configuration.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -197,11 +201,14 @@ class SearchFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -260,6 +267,8 @@ class SearchFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $isSearch = NavbarItemHelper::isSearch($item) ||
                     SidebarItemHelper::isSearch($item);
 

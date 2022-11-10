@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Http\ViewComposers;
 =======
-namespace Themes\KlekooAdm\Http\ViewComposers;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Http\ViewComposers;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\View;
 use Themes\AdminLTE\AdminLte;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteComposer {
 =======
@@ -143,11 +143,15 @@ class AdminLteComposer {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AdminLteComposer {
+>>>>>>> dfca2a99 (rebase)
     /**
      * @var AdminLte
      */
     private $adminlte;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -181,6 +185,8 @@ class AdminLteComposer {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function __construct(AdminLte $adminlte) {
         $this->adminlte = $adminlte;
     }
@@ -191,6 +197,7 @@ class AdminLteComposer {
      * @return void
      */
     public function compose(View $view) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -264,6 +271,8 @@ class AdminLteComposer {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $view->with('adminlte', $this->adminlte);
     }
 }

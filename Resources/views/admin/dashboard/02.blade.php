@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +358,8 @@
 =======
 >>>>>>> 63c2c43 (up)
 >>>>>>> 9a582057 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -378,6 +381,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -563,3 +567,5 @@
 =======
 >>>>>>> 6332637 (.)
 >>>>>>> 5b814509 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)

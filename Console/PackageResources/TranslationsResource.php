@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class TranslationsResource extends PackageResource {
 =======
@@ -142,11 +142,15 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class TranslationsResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -201,6 +205,9 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package translations files';
@@ -211,6 +218,7 @@ class TranslationsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the package translations files?',
             'overwrite' => 'The translation files already exists. Want to replace the files?',
@@ -278,6 +286,11 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the package translations files?',
+            'overwrite' => 'The translation files already exists. Want to replace the files?',
+            'success' => 'Translation files installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -286,6 +299,7 @@ class TranslationsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -340,6 +354,9 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // Install the translations files.
 
         CommandHelper::copyDirectory($this->source, $this->target, true, true);
@@ -350,6 +367,7 @@ class TranslationsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -404,6 +422,9 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         // Uninstall the translation files.
 
         if (is_dir($this->target)) {
@@ -416,6 +437,7 @@ class TranslationsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -470,6 +492,9 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         return is_dir($this->target);
     }
 
@@ -478,6 +503,7 @@ class TranslationsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -532,6 +558,9 @@ class TranslationsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         return (bool) CommandHelper::compareDirectories(
             $this->source,
             $this->target,

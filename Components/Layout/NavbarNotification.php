@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Layout;
 =======
-namespace Themes\KlekooAdm\Components\Layout;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Layout;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class NavbarNotification extends Component {
 =======
@@ -142,6 +142,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class NavbarNotification extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Constants to define the available url configuration types.
      */
@@ -223,6 +226,7 @@ class NavbarNotification extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +246,8 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $id,
         $icon,
         $iconColor = null,
@@ -250,6 +256,7 @@ class NavbarNotification extends Component {
         $updateCfg = [],
         $enableDropdownMode = false,
         $dropdownFooterLabel = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -276,6 +283,8 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->id = $id;
         $this->icon = $icon;
@@ -292,6 +301,7 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeListItemClass() {
 =======
@@ -346,6 +356,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeListItemClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['nav-item'];
 
         if ($this->enableDropdownMode) {
@@ -360,6 +373,7 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeAnchorDefaultAttrs() {
 =======
@@ -414,6 +428,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeAnchorDefaultAttrs() {
+>>>>>>> dfca2a99 (rebase)
         $attrs = ['class' => 'nav-link'];
 
         if ($this->enableDropdownMode) {
@@ -428,6 +445,7 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeIconClass() {
 =======
@@ -482,6 +500,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeIconClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = [$this->icon];
 
         if (! empty($this->iconColor)) {
@@ -496,6 +517,7 @@ class NavbarNotification extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeBadgeClass() {
 =======
@@ -550,6 +572,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeBadgeClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['badge navbar-badge text-bold text-xs badge-pill'];
 
         if (! empty($this->badgeColor)) {
@@ -564,6 +589,7 @@ class NavbarNotification extends Component {
      *
      * @return int
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeUpdatePeriod() {
 =======
@@ -618,6 +644,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeUpdatePeriod() {
+>>>>>>> dfca2a99 (rebase)
         if (! isset($this->updateCfg['period'])) {
             return 0;
         }
@@ -630,6 +659,7 @@ class NavbarNotification extends Component {
      *
      * @return string|null
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeUpdateUrl() {
 =======
@@ -684,6 +714,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeUpdateUrl() {
+>>>>>>> dfca2a99 (rebase)
         // Check if the url property is available.
 
         if (! empty($this->updateCfg['url'])) {
@@ -707,6 +740,7 @@ class NavbarNotification extends Component {
     /**
      * Create the url from specific configuration type.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -744,12 +778,15 @@ class NavbarNotification extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string|array $cfg  the configuration for the url
      * @param mixed        $type the configuration type (url or route)
      *
      * @return string|null
      */
     protected function makeUrlFromCfg($cfg, $type = self::CFG_URL) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -810,6 +847,8 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // When config is just a string representing the url or route name,
         // wrap it inside an array.
 
@@ -821,6 +860,7 @@ class NavbarNotification extends Component {
             $path = $cfg[0];
             $params = \is_array($cfg[1] ?? null) ? $cfg[1] : [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             return (self::CFG_ROUTE === $type) ?
 =======
@@ -874,6 +914,9 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            return (self::CFG_ROUTE === $type) ?
+>>>>>>> dfca2a99 (rebase)
                 route($path, $params) :
                 url($path, $params);
         }
@@ -889,6 +932,7 @@ class NavbarNotification extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +942,8 @@ class NavbarNotification extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -908,6 +954,7 @@ class NavbarNotification extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -940,5 +987,7 @@ class NavbarNotification extends Component {
         return view('adminlte::components.layout.navbar-notification');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

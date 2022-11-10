@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Http\Controllers;
 =======
-namespace Themes\KlekooAdm\Http\Controllers;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Http\Controllers;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Events\DarkModeWasToggled;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class DarkModeController extends Controller {
 =======
@@ -142,6 +142,9 @@ class DarkModeController extends Controller {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class DarkModeController extends Controller {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The key to use for save dark mode preference on the session.
      *
@@ -154,6 +157,7 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function toggle() {
 =======
@@ -208,6 +212,9 @@ class DarkModeController extends Controller {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function toggle() {
+>>>>>>> dfca2a99 (rebase)
         // Store the new dark mode preference on the session. This way, we can
         // keep the dark mode preference over multiple requests.
 
@@ -225,6 +232,7 @@ class DarkModeController extends Controller {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function isEnabled() {
 =======
@@ -279,6 +287,9 @@ class DarkModeController extends Controller {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function isEnabled() {
+>>>>>>> dfca2a99 (rebase)
         // First, check if dark mode preference is available on the session.
 
         if (null !== session($this->sessionKey, null)) {
@@ -295,6 +306,7 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function enable() {
 =======
@@ -349,6 +361,9 @@ class DarkModeController extends Controller {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function enable() {
+>>>>>>> dfca2a99 (rebase)
         session([$this->sessionKey => true]);
     }
 
@@ -357,6 +372,7 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function disable() {
 =======
@@ -411,6 +427,9 @@ class DarkModeController extends Controller {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function disable() {
+>>>>>>> dfca2a99 (rebase)
         session([$this->sessionKey => false]);
     }
 }

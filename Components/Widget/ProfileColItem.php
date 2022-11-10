@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Widget;
 =======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ProfileColItem extends Component {
 =======
@@ -142,6 +142,9 @@ class ProfileColItem extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ProfileColItem extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The title/header for the item.
      *
@@ -202,6 +205,7 @@ class ProfileColItem extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,12 +225,15 @@ class ProfileColItem extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $title = null,
         $text = null,
         $icon = null,
         $size = 4,
         $badge = null,
         $url = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -253,6 +260,8 @@ class ProfileColItem extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -267,6 +276,7 @@ class ProfileColItem extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeTextWrapperClass() {
 =======
@@ -321,6 +331,9 @@ class ProfileColItem extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeTextWrapperClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = [];
 
         if (isset($this->badge)) {
@@ -336,6 +349,7 @@ class ProfileColItem extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,6 +359,8 @@ class ProfileColItem extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -355,6 +371,7 @@ class ProfileColItem extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -387,5 +404,7 @@ class ProfileColItem extends Component {
         return view('adminlte::components.widget.profile-col-item');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

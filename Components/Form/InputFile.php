@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +33,14 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class InputFile extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -94,6 +98,8 @@ class InputFile extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     /**
      * The placeholder for the input file box.
      *
@@ -128,6 +134,7 @@ class InputFile extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +154,8 @@ class InputFile extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -169,6 +178,7 @@ class InputFile extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -201,6 +211,8 @@ class InputFile extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         );
 
         $this->legend = $legend;
@@ -212,6 +224,7 @@ class InputFile extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeItemClass() {
 =======
@@ -266,6 +279,9 @@ class InputFile extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeItemClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['custom-file-input'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -281,6 +297,7 @@ class InputFile extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +307,8 @@ class InputFile extends InputGroupComponent {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -300,6 +319,7 @@ class InputFile extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -332,5 +352,7 @@ class InputFile extends InputGroupComponent {
         return view('adminlte::components.form.input-file');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

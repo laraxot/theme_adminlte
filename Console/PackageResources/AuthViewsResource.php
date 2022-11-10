@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AuthViewsResource extends PackageResource {
 =======
@@ -142,12 +142,16 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AuthViewsResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Array with the replacement content of the authentication views.
      *
      * @var array
      */
     protected $authViewsContent = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -185,12 +189,15 @@ class AuthViewsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         'login.blade.php' => '@extends(\'adminlte::auth.login\')',
         'register.blade.php' => '@extends(\'adminlte::auth.register\')',
         'verify.blade.php' => '@extends(\'adminlte::auth.verify\')',
         'passwords/confirm.blade.php' => '@extends(\'adminlte::auth.passwords.confirm\')',
         'passwords/email.blade.php' => '@extends(\'adminlte::auth.passwords.email\')',
         'passwords/reset.blade.php' => '@extends(\'adminlte::auth.passwords.reset\')',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -251,6 +258,8 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ];
 
     /**
@@ -258,6 +267,7 @@ class AuthViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -312,6 +322,9 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package authentication views';
@@ -322,6 +335,7 @@ class AuthViewsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the AdminLTE authentication views?',
             'overwrite' => 'The authentication views already exists. Want to replace the views?',
@@ -389,6 +403,11 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the AdminLTE authentication views?',
+            'overwrite' => 'The authentication views already exists. Want to replace the views?',
+            'success' => 'Authentication views installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -397,6 +416,7 @@ class AuthViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -451,6 +471,9 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // Install the authentication views. We going to replace the content
         // of any existing authentication view.
 
@@ -466,6 +489,7 @@ class AuthViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -520,6 +544,9 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         // Remove the package authentication views.
 
         foreach ($this->source as $file => $content) {
@@ -536,6 +563,7 @@ class AuthViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -590,6 +618,9 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         // Check if any of the authentication views already exists.
 
         foreach ($this->source as $file => $content) {
@@ -608,6 +639,7 @@ class AuthViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -662,6 +694,9 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         foreach ($this->source as $file => $content) {
             $target = $this->target.\DIRECTORY_SEPARATOR.$file;
 
@@ -676,6 +711,7 @@ class AuthViewsResource extends PackageResource {
     /**
      * Check if an authentication view is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -713,12 +749,15 @@ class AuthViewsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $path    Absolute path of the authentication view
      * @param string $content The expected content of the view
      *
      * @return bool
      */
     protected function authViewInstalled($path, $content) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -779,6 +818,8 @@ class AuthViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }

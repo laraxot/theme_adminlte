@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
@@ -47,6 +50,7 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-custom-search' === $item['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -114,11 +118,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
      * Check if a menu item is a sidebar menu search bar.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -156,6 +163,8 @@ class SidebarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -163,6 +172,7 @@ class SidebarItemHelper extends MenuItemHelper {
     public static function isMenuSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-menu-search' === $item['type'];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -223,11 +233,14 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
      * Check if a menu item is a sidebar search item (legacy or new).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -265,11 +278,14 @@ class SidebarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSearch($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -328,6 +344,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item) ||
                self::isMenuSearch($item);
@@ -336,6 +354,7 @@ class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is accepted for the sidebar section.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -373,11 +392,14 @@ class SidebarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAcceptedItem($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -436,6 +458,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return self::isSubmenu($item) ||
                self::isSearch($item) ||
                self::isHeader($item) ||
@@ -445,6 +469,7 @@ class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is valid for the sidebar.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -482,11 +507,14 @@ class SidebarItemHelper extends MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isValidItem($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -545,6 +573,8 @@ class SidebarItemHelper extends MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return self::isAcceptedItem($item) &&
                empty($item['topnav_right']) &&
                empty($item['topnav_user']) &&

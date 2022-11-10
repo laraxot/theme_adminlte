@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console;
 =======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Console\Command;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteUpdateCommand extends Command {
 =======
@@ -142,6 +142,9 @@ class AdminLteUpdateCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AdminLteUpdateCommand extends Command {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -161,6 +164,7 @@ class AdminLteUpdateCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle() {
 =======
@@ -215,6 +219,9 @@ class AdminLteUpdateCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function handle() {
+>>>>>>> dfca2a99 (rebase)
         $options = ['--force' => true, '--only' => ['assets']];
 
         $this->call('adminlte:install', $options);

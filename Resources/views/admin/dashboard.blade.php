@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,14 +49,16 @@
 >>>>>>> d1cab52 (rebase)
 >>>>>>> b4122f6 (rebase)
 >>>>>>> 39226822 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection --}}
+
+
+
 <<<<<<< HEAD
-
-
-
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +84,8 @@
 =======
 >>>>>>> 63c2c43 (up)
 >>>>>>> 9a582057 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -94,7 +99,6 @@
     {{-- <livewire:dashboard.tile.question-chart position="a3:a4" qid="15" /> --}}
 
 
-
     @livewire('chart-tile', [
         'chartClass' => Modules\Quaeris\Charts\QuestionIdChart::class,
         'chartFilters' => ['question_chart_id' => 5],
@@ -103,6 +107,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -215,3 +220,5 @@
 =======
 >>>>>>> b4122f6 (rebase)
 >>>>>>> 39226822 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)

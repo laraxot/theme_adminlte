@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Menu\Filters;
 =======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class HrefFilter implements FilterInterface {
 =======
@@ -143,6 +143,9 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class HrefFilter implements FilterInterface {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The url generator instance.
      *
@@ -152,6 +155,7 @@ class HrefFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(UrlGenerator $urlGenerator) {
@@ -215,12 +219,17 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(UrlGenerator $urlGenerator) {
+>>>>>>> dfca2a99 (rebase)
         $this->urlGenerator = $urlGenerator;
     }
 
     /**
      * Transforms a menu item. Make the href attribute when situable.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -258,11 +267,14 @@ class HrefFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -321,6 +333,8 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (! MenuItemHelper::isHeader($item)) {
             $item['href'] = $this->makeHref($item);
         }
@@ -331,6 +345,7 @@ class HrefFilter implements FilterInterface {
     /**
      * Make the href attribute for a menu item.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -368,11 +383,14 @@ class HrefFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return string The href attribute
      */
     protected function makeHref($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -431,6 +449,8 @@ class HrefFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // If url attribute is available, use it to make the href.
 
         if (isset($item['url'])) {

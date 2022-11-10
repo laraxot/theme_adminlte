@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Menu\Filters;
 =======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Contracts\Auth\Access\Gate;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class GateFilter implements FilterInterface {
 =======
@@ -142,6 +142,9 @@ class GateFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class GateFilter implements FilterInterface {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The Laravel gate instance, used to check for permissions.
      *
@@ -151,6 +154,7 @@ class GateFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(Gate $gate) {
@@ -214,6 +218,10 @@ class GateFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(Gate $gate) {
+>>>>>>> dfca2a99 (rebase)
         $this->gate = $gate;
     }
 
@@ -221,6 +229,7 @@ class GateFilter implements FilterInterface {
      * Transforms a menu item. Add the restricted property to a menu item
      * when situable.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -258,11 +267,14 @@ class GateFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -321,6 +333,8 @@ class GateFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Set a special attribute when item is not allowed. Items with this
         // attribute will be filtered out of the menu.
 
@@ -334,6 +348,7 @@ class GateFilter implements FilterInterface {
     /**
      * Check if a menu item is allowed for the current user.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -371,11 +386,14 @@ class GateFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return bool
      */
     protected function isAllowed($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -434,6 +452,8 @@ class GateFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if there are any permission defined for the item.
 
         if (empty($item['can'])) {

@@ -10,6 +10,7 @@ namespace Themes\AdminLTE\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Theme\Models\Menu;
@@ -73,20 +74,22 @@ use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> dfca2a99 (rebase)
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
->>>>>>> 63c2c43 (up)
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
-use Modules\Xot\View\Composers\XotBaseComposer;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -230,6 +233,9 @@ class AdminLTE {
 >>>>>>> 08eedf4 (rebase)
 >>>>>>> f63434d (rebase)
 >>>>>>> 9a582057 (rebase)
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The array of menu items.
      *
@@ -271,6 +277,7 @@ class AdminLTE {
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
@@ -324,6 +331,9 @@ class AdminLTE {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
+>>>>>>> dfca2a99 (rebase)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -353,6 +363,7 @@ class AdminLTE {
 
         // Check for filter token.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         // backtrace(true);
         // dddx($this->menu);
@@ -413,6 +424,10 @@ class AdminLTE {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+        // backtrace(true);
+        // dddx($this->menu);
+>>>>>>> dfca2a99 (rebase)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -439,6 +454,7 @@ class AdminLTE {
         // Dispatch the BuildingMenu event. Listeners of this event will fill
         // the menu.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -476,6 +492,8 @@ class AdminLTE {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -488,6 +506,7 @@ class AdminLTE {
 
         $builder->add(...$model_menu);
         // dddx($builder->menu);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -554,6 +573,8 @@ class AdminLTE {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 
         // Return the set of menu items.
 
@@ -770,6 +791,7 @@ class AdminLTE {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
 =======
 <<<<<<< HEAD
@@ -890,3 +912,6 @@ class AdminLTE {
 >>>>>>> 08eedf4 (rebase)
 >>>>>>> f63434d (rebase)
 >>>>>>> 9a582057 (rebase)
+=======
+}
+>>>>>>> dfca2a99 (rebase)

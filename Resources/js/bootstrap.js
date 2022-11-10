@@ -11,6 +11,7 @@ try {
     //window.Popper = require('popper.js').default;
     window.Popper = require('@popperjs/core/dist/umd/popper').default;
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.dragula = require('dragula');
 =======
 <<<<<<< HEAD
@@ -38,6 +39,9 @@ try {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    window.dragula = require('dragula');
+>>>>>>> dfca2a99 (rebase)
 
     require('bootstrap/dist/js/bootstrap.bundle.js');
     /*
@@ -66,6 +70,7 @@ try {
     require('admin-lte');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     window.Swal = global.Swal = require('sweetalert2');
 =======
 <<<<<<< HEAD
@@ -95,6 +100,9 @@ try {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    window.Swal = global.Swal = require('sweetalert2');
+>>>>>>> dfca2a99 (rebase)
 
     window.noUiSlider = require('nouislider');
 
@@ -115,6 +123,7 @@ try {
     //require("flatpickr/dist/themes/dark.css");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     const Chart = window.Chart = require('chart.js/auto').default;
 
 =======
@@ -146,6 +155,10 @@ try {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    const Chart = window.Chart = require('chart.js/auto').default;
+
+>>>>>>> dfca2a99 (rebase)
 } catch (e) {
     console.log(e);
 }
@@ -199,6 +212,7 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 <<<<<<< HEAD
+<<<<<<< HEAD
 // });
 =======
 <<<<<<< HEAD
@@ -228,3 +242,6 @@ if (token) {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+// });
+>>>>>>> dfca2a99 (rebase)

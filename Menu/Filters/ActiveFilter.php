@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Menu\Filters;
 =======
-namespace Themes\KlekooAdm\Menu\Filters;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 use Themes\AdminLTE\Menu\ActiveChecker;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ActiveFilter implements FilterInterface {
 =======
@@ -143,6 +143,9 @@ class ActiveFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ActiveFilter implements FilterInterface {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The active checker instance.
      *
@@ -152,6 +155,7 @@ class ActiveFilter implements FilterInterface {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(ActiveChecker $activeChecker) {
@@ -215,12 +219,17 @@ class ActiveFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(ActiveChecker $activeChecker) {
+>>>>>>> dfca2a99 (rebase)
         $this->activeChecker = $activeChecker;
     }
 
     /**
      * Transforms a menu item. Adds the active attribute when suitable.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -258,11 +267,14 @@ class ActiveFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
      */
     public function transform($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -321,6 +333,8 @@ class ActiveFilter implements FilterInterface {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (! MenuItemHelper::isHeader($item)) {
             $item['active'] = $this->activeChecker->isActive($item);
         }

@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Widget;
 =======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Card extends Component {
 =======
@@ -142,6 +142,9 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class Card extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The title for the card header.
      *
@@ -229,6 +232,7 @@ class Card extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +252,8 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $title = null,
         $icon = null,
         $theme = null,
@@ -257,6 +263,7 @@ class Card extends Component {
         $collapsible = null,
         $removable = null,
         $maximizable = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -285,6 +292,8 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->title = $title;
         $this->icon = $icon;
@@ -302,6 +311,7 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -339,6 +349,8 @@ class Card extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function makeCardClass() {
         $classes = ['card'];
 
@@ -347,6 +359,7 @@ class Card extends Component {
             $classes[] = "{$base}-{$this->theme}";
 
             if ('outline' === $this->themeMode) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -409,10 +422,13 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
                 $classes[] = 'card-outline';
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ('collapsed' === $this->collapsible) {
 =======
@@ -466,6 +482,9 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+        if ('collapsed' === $this->collapsible) {
+>>>>>>> dfca2a99 (rebase)
             $classes[] = 'collapsed-card';
         }
 
@@ -477,6 +496,7 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeCardBodyClass() {
 =======
@@ -531,6 +551,9 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeCardBodyClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['card-body'];
 
         if (isset($this->bodyClass)) {
@@ -545,6 +568,7 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeCardHeaderClass() {
 =======
@@ -599,6 +623,9 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeCardHeaderClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['card-header'];
 
         if ($this->isCardHeaderEmpty()) {
@@ -613,6 +640,7 @@ class Card extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -650,10 +678,13 @@ class Card extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function makeCardTitleClass() {
         $classes = ['card-title'];
 
         if (isset($this->theme) && 'outline' === $this->themeMode) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -711,6 +742,8 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             $classes[] = "text-{$this->theme}";
         }
 
@@ -722,6 +755,7 @@ class Card extends Component {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function isCardHeaderEmpty() {
 =======
@@ -776,6 +810,9 @@ class Card extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function isCardHeaderEmpty() {
+>>>>>>> dfca2a99 (rebase)
         $hasTools = isset($this->collapsible) ||
                     isset($this->maximizable) ||
                     isset($this->removable);
@@ -789,6 +826,7 @@ class Card extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -798,6 +836,8 @@ class Card extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -808,6 +848,7 @@ class Card extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -840,5 +881,7 @@ class Card extends Component {
         return view('adminlte::components.widget.card');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

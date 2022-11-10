@@ -246,6 +246,7 @@ return [
             'text' => 'blog',
             'url' => 'admin/blog',
 <<<<<<< HEAD
+<<<<<<< HEAD
             // 'can' => 'manage-blog',
 =======
 <<<<<<< HEAD
@@ -298,6 +299,9 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            // 'can' => 'manage-blog',
+>>>>>>> dfca2a99 (rebase)
         ],
         [
             'text' => 'pages',
@@ -527,6 +531,7 @@ return [
 
     'livewire' => false,
 <<<<<<< HEAD
+<<<<<<< HEAD
 ];
 =======
 <<<<<<< HEAD
@@ -579,3 +584,6 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+];
+>>>>>>> dfca2a99 (rebase)

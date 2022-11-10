@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Events;
 =======
-namespace Themes\KlekooAdm\Events;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Events;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ReadingDarkModePreference {
 =======
@@ -142,6 +142,9 @@ class ReadingDarkModePreference {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ReadingDarkModePreference {
+>>>>>>> dfca2a99 (rebase)
     /**
      * An instance of the dark mode controller.
      *
@@ -151,6 +154,7 @@ class ReadingDarkModePreference {
 
     /**
      * Create a new event instance.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(DarkModeController $ctrl) {
@@ -214,6 +218,10 @@ class ReadingDarkModePreference {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(DarkModeController $ctrl) {
+>>>>>>> dfca2a99 (rebase)
         $this->darkMode = $ctrl;
     }
 }

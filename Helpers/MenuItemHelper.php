@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,19 +79,18 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Helpers;
 =======
-namespace Themes\KlekooAdm\Helpers;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Helpers;
->>>>>>> 63c2c43 (up)
 
 /**
  * TODO: On the future, all menu items should have a type property. We can use
  * the type property to easy distinguish the item type and avoid guessing it by
  * they properties.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -128,6 +128,8 @@ namespace Themes\AdminLTE\Helpers;
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 class MenuItemHelper {
     /**
      * Check if a menu item is a header.
@@ -137,6 +139,7 @@ class MenuItemHelper {
      * @return bool
      */
     public static function isHeader($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return \is_string($item) || isset($item['header']);
 =======
@@ -194,11 +197,15 @@ class MenuItemHelper {
         return is_string($item) || isset($item['header']);
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+        return \is_string($item) || isset($item['header']);
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
      * Check if a menu item is a link.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -236,11 +243,14 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLink($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -299,6 +309,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -306,6 +318,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a submenu.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -343,11 +356,14 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isSubmenu($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -406,6 +422,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return isset($item['text'], $item['submenu']) &&
                \is_array($item['submenu']);
     }
@@ -413,6 +431,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a legacy search bar.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -450,11 +469,14 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isLegacySearch($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -513,6 +535,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -520,6 +544,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is allowed to be shown (not restricted).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -557,11 +582,14 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item
      *
      * @return bool
      */
     public static function isAllowed($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -620,6 +648,8 @@ class MenuItemHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return $item && empty($item['restricted']);
     }
 }

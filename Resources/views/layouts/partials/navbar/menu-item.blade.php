@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     {{-- Search form --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-search-form')
 @elseif ($navbarItemHelper->isNotification($item))
@@ -51,6 +54,7 @@
 @elseif ($navbarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,4 +160,6 @@
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 @endif

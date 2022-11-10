@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
-use Modules\Theme\View\Composers\XotBaseComposer;
+use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
@@ -17,9 +17,8 @@ class ThemeComposer extends XotBaseComposer {
     public function __construct(AdminLTE $adminlte) {
         $this->adminlte = $adminlte;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -58,11 +57,14 @@ class ThemeComposer extends XotBaseComposer {
 =======
 >>>>>>> baf54ed (rebase)
 >>>>>>> 1a682fce (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     /**
      * Bind data to the view.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -112,10 +114,13 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 5fba10f (rebase)
 >>>>>>> baf54ed (rebase)
 >>>>>>> 1a682fce (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -280,3 +285,6 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 08eedf4 (rebase)
 >>>>>>> f63434d (rebase)
 >>>>>>> 9a582057 (rebase)
+=======
+}
+>>>>>>> dfca2a99 (rebase)

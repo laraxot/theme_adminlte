@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class PluginsResource extends PackageResource {
 =======
@@ -142,6 +142,9 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class PluginsResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The available plugins data. A plugin can contain next data keys:
      * - name: The name of the plugin.
@@ -338,6 +341,7 @@ class PluginsResource extends PackageResource {
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
 <<<<<<< HEAD
@@ -391,6 +395,9 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the basic resource data.
 
         $this->description = 'The set of AdminLTE additional plugins';
@@ -407,6 +414,7 @@ class PluginsResource extends PackageResource {
         // Fill the set of installation messages templates.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the AdminLTE :plugin plugin?',
             'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
@@ -474,12 +482,18 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the AdminLTE :plugin plugin?',
+            'overwrite' => 'The :plugin plugin already exists. Want to replace the plugin?',
+            'remove' => 'Do you really want to remove the :plugin plugin?',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
     /**
      * Gets the plugins source data.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -517,11 +531,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey A plugin string key
      *
      * @return array
      */
     public function getSourceData($pluginKey = null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -580,6 +597,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if we need to get data of a specific AdminLTE plugin.
 
         if (isset($pluginKey)) {
@@ -594,6 +613,7 @@ class PluginsResource extends PackageResource {
     /**
      * Install/Export a plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -631,11 +651,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey A plugin string key
      *
      * @return void
      */
     public function install($pluginKey = null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -694,6 +717,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->installPlugin($plugin);
@@ -703,6 +728,7 @@ class PluginsResource extends PackageResource {
     /**
      * Uninstall/Remove a plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -740,11 +766,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey A plugin string key
      *
      * @return void
      */
     public function uninstall($pluginKey = null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -803,6 +832,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
             $this->uninstallPlugin($plugin);
@@ -812,6 +843,7 @@ class PluginsResource extends PackageResource {
     /**
      * Check if a plugin already exists on the target destination.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -849,11 +881,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey A plugin string key
      *
      * @return bool
      */
     public function exists($pluginKey = null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -912,6 +947,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -924,6 +961,7 @@ class PluginsResource extends PackageResource {
     /**
      * Check if a plugin is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -961,11 +999,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey A plugin string key
      *
      * @return bool
      */
     public function installed($pluginKey = null) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1024,6 +1065,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (isset($pluginKey) && isset($this->plugins[$pluginKey])) {
             $plugin = $this->preparePlugin($this->plugins[$pluginKey]);
 
@@ -1036,6 +1079,7 @@ class PluginsResource extends PackageResource {
     /**
      * Prepare a plugin with some sort of normalizations.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1073,11 +1117,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $plugin An array with the plugin data
      *
      * @return array An array with normalized plugin data
      */
     protected function preparePlugin($plugin) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1136,6 +1183,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Add source and target when not defined.
 
         $plugin['source'] = $plugin['source'] ?? '';
@@ -1170,6 +1219,7 @@ class PluginsResource extends PackageResource {
     /**
      * Install the specified AdminLTE plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1207,11 +1257,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $plugin An array with the plugin data
      *
      * @return void
      */
     protected function installPlugin($plugin) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1270,6 +1323,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if we need to export the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -1288,6 +1343,7 @@ class PluginsResource extends PackageResource {
     /**
      * Exports the specified resource (usually a folder).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1325,11 +1381,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function exportResource($res) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1388,6 +1447,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check the resource source type.
 
         if (is_dir($res['source'])) {
@@ -1404,6 +1465,7 @@ class PluginsResource extends PackageResource {
     /**
      * Check if the specified plugin already exists on the target destination.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1441,11 +1503,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $plugin An array with the plugin data
      *
      * @return bool
      */
     protected function pluginExists($plugin) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1504,6 +1569,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // When the plugin is not a resources list, check if target exists.
 
         if (! isset($plugin['resources'])) {
@@ -1524,6 +1591,7 @@ class PluginsResource extends PackageResource {
     /**
      * Check if the specified plugin is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1561,11 +1629,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $plugin An array with the plugin data
      *
      * @return bool
      */
     protected function pluginInstalled($plugin) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1624,6 +1695,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // When the plugin is not a resources list, check if installed.
 
         if (! isset($plugin['resources'])) {
@@ -1644,6 +1717,7 @@ class PluginsResource extends PackageResource {
     /**
      * Check if the specified resource is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1681,11 +1755,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $res An array with the resource data
      *
      * @return bool
      */
     protected function resourceInstalled($res) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1744,6 +1821,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -1761,6 +1840,7 @@ class PluginsResource extends PackageResource {
     /**
      * Uninstall or remove the specified plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1798,11 +1878,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $plugin An array with the plugin data
      *
      * @return void
      */
     protected function uninstallPlugin($plugin) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1861,6 +1944,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if we need to remove the entire plugin.
 
         if (! isset($plugin['resources'])) {
@@ -1879,6 +1964,7 @@ class PluginsResource extends PackageResource {
     /**
      * Removes the specified resource (usually a folder).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1916,11 +2002,14 @@ class PluginsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function uninstallResource($res) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1979,6 +2068,8 @@ class PluginsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $target = $res['target'];
 
         if (is_dir($target)) {

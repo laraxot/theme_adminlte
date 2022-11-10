@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Form;
 =======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Form;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class InputGroupComponent extends Component {
 =======
@@ -142,6 +142,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class InputGroupComponent extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The id attribute for the underlying input group item. The input group
      * item may be an "input", a "select", a "textarea", etc.
@@ -230,6 +233,7 @@ class InputGroupComponent extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249,6 +253,8 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -257,6 +263,7 @@ class InputGroupComponent extends Component {
         $fgroupClass = null,
         $igroupClass = null,
         $disableFeedback = null,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -283,6 +290,8 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $errorKey = null
     ) {
         $this->id = $id ?? $name;
@@ -304,6 +313,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeFormGroupClass() {
 =======
@@ -358,6 +368,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeFormGroupClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['form-group'];
 
         if (isset($this->fgroupClass)) {
@@ -372,6 +385,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeInputGroupClass() {
 =======
@@ -426,6 +440,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeInputGroupClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['input-group'];
 
         if (isset($this->size) && \in_array($this->size, ['sm', 'lg'], true)) {
@@ -448,6 +465,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeItemClass() {
 =======
@@ -502,6 +520,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeItemClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -517,6 +538,7 @@ class InputGroupComponent extends Component {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function isInvalid() {
 =======
@@ -571,6 +593,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function isInvalid() {
+>>>>>>> dfca2a99 (rebase)
         // Get the errors bag from session. The errors bag will be an instance
         // of the Illuminate\Support\MessageBag class.
 
@@ -590,6 +615,7 @@ class InputGroupComponent extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function makeErrorKey() {
 =======
@@ -644,6 +670,9 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function makeErrorKey() {
+>>>>>>> dfca2a99 (rebase)
         $errKey = preg_replace('@\[\]$@', '', $this->name);
 
         return preg_replace('@\[([^]]+)\]@', '.$1', $errKey);
@@ -655,6 +684,7 @@ class InputGroupComponent extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -664,6 +694,8 @@ class InputGroupComponent extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -674,6 +706,7 @@ class InputGroupComponent extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -706,5 +739,7 @@ class InputGroupComponent extends Component {
         return view('adminlte::components.form.input-group-component');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

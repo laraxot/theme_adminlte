@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,13 +79,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console;
 =======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Console\Command;
 use Themes\AdminLTE\Console\PackageResources\AssetsResource;
@@ -95,6 +94,7 @@ use Themes\AdminLTE\Console\PackageResources\ConfigResource;
 use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
 use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteInstallCommand extends Command {
 =======
@@ -149,6 +149,9 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AdminLteInstallCommand extends Command {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -209,6 +212,7 @@ class AdminLteInstallCommand extends Command {
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
 <<<<<<< HEAD
@@ -262,11 +266,15 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         parent::__construct();
 
         // Fill the array with the package resources.
 
         $this->pkgResources = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -304,12 +312,15 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
             'main_views' => new MainViewsResource(),
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -370,6 +381,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'basic_routes' => new BasicRoutesResource(),
         ];
 
@@ -380,6 +393,7 @@ class AdminLteInstallCommand extends Command {
         $full = array_merge($enhanced, ['basic_views', 'basic_routes']);
 
         $this->optTypeResources = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'basic' => $basic,
             'enhanced' => $enhanced,
@@ -447,11 +461,17 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'basic' => $basic,
+            'enhanced' => $enhanced,
+            'full' => $full,
+>>>>>>> dfca2a99 (rebase)
         ];
 
         // Add the resources related to each available --only option.
 
         $this->optOnlyResources = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -489,12 +509,15 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'assets' => ['assets'],
             'config' => ['config'],
             'translations' => ['translations'],
             'main_views' => ['main_views'],
             'auth_views' => ['auth_views'],
             'basic_views' => ['basic_views'],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -555,12 +578,15 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'basic_routes' => ['basic_routes'],
         ];
 
         // Add the resources related to each available --with option.
 
         $this->optWithResources = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'main_views' => ['main_views'],
             'auth_views' => ['auth_views'],
@@ -628,6 +654,11 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'main_views' => ['main_views'],
+            'auth_views' => ['auth_views'],
+            'basic_views' => ['basic_views'],
+>>>>>>> dfca2a99 (rebase)
             'basic_routes' => ['basic_routes'],
         ];
     }
@@ -637,6 +668,7 @@ class AdminLteInstallCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle() {
 =======
@@ -691,6 +723,9 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function handle() {
+>>>>>>> dfca2a99 (rebase)
         // Reset the variable that keep track of the installed packages.
 
         $this->installedResources = [];
@@ -723,6 +758,7 @@ class AdminLteInstallCommand extends Command {
     /**
      * Handle multiple option values.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -766,15 +802,16 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array  $values    An array with the option values
      * @param array  $resources An array with the resources of each option
      * @param string $opt       Descriptive name of the handled option
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return void
      */
     protected function handleOptions($values, $resources, $opt) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -825,6 +862,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         foreach ($values as $value) {
             $this->handleOption($value, $resources, $opt);
         }
@@ -833,6 +872,7 @@ class AdminLteInstallCommand extends Command {
     /**
      * Handle an option value.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -876,15 +916,16 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $value     A string with the option value
      * @param array  $resources An array with the resources of each option
      * @param string $opt       Descriptive name of the handled option
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @return void
      */
     protected function handleOption($value, $resources, $opt) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -935,6 +976,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         if (! isset($resources[$value])) {
             $this->comment("The option --{$opt}={$value} is invalid!");
 
@@ -949,6 +992,7 @@ class AdminLteInstallCommand extends Command {
     /**
      * Install multiple packages resources.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -986,12 +1030,15 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $resources The resources to install
      *
      * @return void
      */
     protected function exportPackageResources(...$resources) {
         foreach ($resources as $resource) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1051,6 +1098,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             // Check if resource was already installed on the current command
             // execution. This can happen, for example, when using:
             // php artisan --type=full --with=auth_views
@@ -1067,6 +1116,7 @@ class AdminLteInstallCommand extends Command {
     /**
      * Install a package resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1104,11 +1154,14 @@ class AdminLteInstallCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $resource The keyword of the resource to install
      *
      * @return void
      */
     protected function exportPackageResource($resource) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1167,6 +1220,8 @@ class AdminLteInstallCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $resource = $this->pkgResources[$resource];
         $installMsg = $resource->getInstallMessage('install');
         $overwriteMsg = $resource->getInstallMessage('overwrite');

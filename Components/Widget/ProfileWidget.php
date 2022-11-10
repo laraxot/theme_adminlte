@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Widget;
 =======
-namespace Themes\KlekooAdm\Components\Widget;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ProfileWidget extends Component {
 =======
@@ -142,6 +142,9 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ProfileWidget extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The user name of the profile widget.
      *
@@ -217,6 +220,7 @@ class ProfileWidget extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +240,8 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name = null,
         $desc = null,
         $img = null,
@@ -244,6 +250,7 @@ class ProfileWidget extends Component {
         $headerClass = null,
         $footerClass = null,
         $layoutType = 'modern'
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -270,6 +277,8 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->name = $name;
         $this->desc = $desc;
@@ -293,6 +302,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -330,12 +340,15 @@ class ProfileWidget extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function makeCardClass() {
         $classes = ['card', 'card-widget'];
 
         if ('modern' === $this->layoutType) {
             $classes[] = 'widget-user';
         } elseif ('classic' === $this->layoutType) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -396,6 +409,8 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             $classes[] = 'widget-user-2';
         }
 
@@ -407,6 +422,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeHeaderClass() {
 =======
@@ -461,6 +477,9 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeHeaderClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['widget-user-header'];
 
         if (isset($this->theme) && empty($this->cover)) {
@@ -479,6 +498,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeHeaderStyle() {
 =======
@@ -533,6 +553,9 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeHeaderStyle() {
+>>>>>>> dfca2a99 (rebase)
         $style = [];
 
         if (! empty($this->cover)) {
@@ -547,6 +570,7 @@ class ProfileWidget extends Component {
      *
      * @return string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function makeFooterClass() {
 =======
@@ -601,6 +625,9 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function makeFooterClass() {
+>>>>>>> dfca2a99 (rebase)
         $classes = ['card-footer'];
 
         if (! empty($this->footerClass)) {
@@ -616,6 +643,7 @@ class ProfileWidget extends Component {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -625,6 +653,8 @@ class ProfileWidget extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -635,6 +665,7 @@ class ProfileWidget extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -667,5 +698,7 @@ class ProfileWidget extends Component {
         return view('adminlte::components.widget.profile-widget');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console;
 =======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Console\Command;
 use Themes\AdminLTE\Console\PackageResources\PluginsResource;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLtePluginCommand extends Command {
 =======
@@ -143,6 +143,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AdminLtePluginCommand extends Command {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -204,6 +207,7 @@ class AdminLtePluginCommand extends Command {
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
 <<<<<<< HEAD
@@ -257,11 +261,15 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         parent::__construct();
 
         // Fill the available operations handlers.
 
         $this->opHandlers = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'list' => [$this, 'showPlugins'],
             'install' => [$this, 'installPlugins'],
@@ -329,6 +337,11 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+>>>>>>> dfca2a99 (rebase)
         ];
 
         // Create the plugins resource instance.
@@ -341,6 +354,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle() {
 =======
@@ -395,6 +409,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function handle() {
+>>>>>>> dfca2a99 (rebase)
         // Get the type of operation to perform.
 
         $op = $this->argument('operation');
@@ -418,6 +435,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function showPlugins() {
 =======
@@ -472,6 +490,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function showPlugins() {
+>>>>>>> dfca2a99 (rebase)
         // Show the plugins status.
 
         $pluginsKeys = $this->getAffectedPlugins();
@@ -488,6 +509,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return array An array with plugins keys
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function getAffectedPlugins() {
 =======
@@ -542,6 +564,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function getAffectedPlugins() {
+>>>>>>> dfca2a99 (rebase)
         // First, check if the user has specified the plugins keys.
 
         if (! empty($this->option('plugin'))) {
@@ -556,6 +581,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Display the plugins status.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -593,11 +619,14 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $pluginsKeys Array with the plugins keys to evaluate
      *
      * @return void
      */
     protected function showPluginsStatus($pluginsKeys) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -656,6 +685,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Define the table headers.
 
         $tblHeader = [
@@ -675,6 +706,7 @@ class AdminLtePluginCommand extends Command {
         $bar->start();
 
         foreach ($pluginsKeys as $key) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -722,6 +754,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -757,6 +791,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Get the installation status of a plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -794,11 +829,14 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey The plugin key
      *
      * @return string The plugin status
      */
     protected function getPluginStatus($pluginKey) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -857,6 +895,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $status = $this->status['uninstalled'];
 
         if ($this->plugins->installed($pluginKey)) {
@@ -873,6 +913,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function showStatusLegends() {
 =======
@@ -927,6 +968,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function showStatusLegends() {
+>>>>>>> dfca2a99 (rebase)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -955,6 +999,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Give output style to some text.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -992,12 +1037,15 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
      * @return string The styled text
      */
     protected function styleOutput($text, $color) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1058,6 +1106,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return "<fg={$color}>{$text}</>";
     }
 
@@ -1066,6 +1116,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function installPlugins() {
 =======
@@ -1120,6 +1171,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function installPlugins() {
+>>>>>>> dfca2a99 (rebase)
         $summary = [];
 
         // Get the list of plugins to be installed.
@@ -1134,6 +1188,7 @@ class AdminLtePluginCommand extends Command {
         // Install the plugins.
 
         foreach ($pluginsKeys as $pluginKey) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1181,6 +1236,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -1211,6 +1268,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Install the specified plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1248,11 +1306,14 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully installed
      */
     protected function installPlugin($pluginKey) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1311,6 +1372,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('install');
@@ -1355,6 +1418,7 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function removePlugins() {
 =======
@@ -1409,6 +1473,9 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function removePlugins() {
+>>>>>>> dfca2a99 (rebase)
         $summary = [];
 
         // Get the list of plugins to remove.
@@ -1423,6 +1490,7 @@ class AdminLtePluginCommand extends Command {
         // Remove the plugins.
 
         foreach ($pluginsKeys as $pluginKey) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1470,6 +1538,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -1500,6 +1570,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Remove/Uninstall the specified plugin.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1537,11 +1608,14 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully removed
      */
     protected function removePlugin($pluginKey) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1600,6 +1674,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('remove');
@@ -1630,6 +1706,7 @@ class AdminLtePluginCommand extends Command {
     /**
      * Show the summary table for some operation.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1667,11 +1744,14 @@ class AdminLtePluginCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $rows the table rows
      *
      * @return void
      */
     protected function showSummaryTable($rows) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1730,6 +1810,8 @@ class AdminLtePluginCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $header = [
             $this->styleOutput('Plugin Key', 'cyan'),
             $this->styleOutput('Status', 'cyan'),

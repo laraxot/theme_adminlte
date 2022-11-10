@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,17 +79,16 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Components\Form;
 =======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Components\Form;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class Options extends Component {
 =======
@@ -143,6 +143,9 @@ class Options extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class Options extends Component {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The list of options as key value pairs.
      *
@@ -202,6 +205,7 @@ class Options extends Component {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -221,12 +225,15 @@ class Options extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $options,
         $selected = null,
         $disabled = null,
         $strict = null,
         $emptyOption = null,
         $placeholder = null
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -253,6 +260,8 @@ class Options extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     ) {
         $this->options = Arr::wrap($options);
         $this->selected = Arr::wrap($selected);
@@ -265,6 +274,7 @@ class Options extends Component {
     /**
      * Determines if an option's key is on selected state.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -302,11 +312,14 @@ class Options extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isSelected($key) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return \in_array($key, $this->selected, $this->strict);
 =======
@@ -358,11 +371,15 @@ class Options extends Component {
         return in_array($key, $this->selected, $this->strict);
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+        return \in_array($key, $this->selected, $this->strict);
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
      * Determines if an option's key is on disabled state.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -400,11 +417,14 @@ class Options extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $key the option's key
      *
      * @return bool
      */
     public function isDisabled($key) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return \in_array($key, $this->disabled, $this->strict);
 =======
@@ -456,6 +476,9 @@ class Options extends Component {
         return in_array($key, $this->disabled, $this->strict);
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+        return \in_array($key, $this->disabled, $this->strict);
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
@@ -463,6 +486,7 @@ class Options extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -473,6 +497,8 @@ class Options extends Component {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -483,6 +509,7 @@ class Options extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -515,5 +542,7 @@ class Options extends Component {
         return view('adminlte::components.form.options');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

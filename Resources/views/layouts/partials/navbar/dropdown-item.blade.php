@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28,11 +29,14 @@
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     {{-- Dropdown submenu --}}
     @include('adm_theme::layouts.partials.navbar.dropdown-item-submenu')
 @elseif ($navbarItemHelper->isLink($item))
     {{-- Dropdown link --}}
     @include('adm_theme::layouts.partials.navbar.dropdown-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,4 +91,6 @@
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 @endif

@@ -3,6 +3,7 @@
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22,10 +23,13 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 var path = require("path");
 
 import { createApp } from 'vue';
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -60,6 +64,8 @@ import { createApp } from 'vue'
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 
 const app = createApp({
     data() {
@@ -70,6 +76,7 @@ const app = createApp({
 });
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -90,6 +97,8 @@ const app = createApp({
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 //import Audiojs                              from '../../../../Modules/Theme/Resources/js/components/audioplayer/Audiojs.vue';
 import Videojs from '../../../../Modules/Theme/Resources/js/components/videoplayer/Videojs.vue';
 //import ExampleComponent                     from '../../../../Modules/Theme/Resources/js/components/ExampleComponent';
@@ -103,6 +112,7 @@ import Noui from '../../../../Modules/Theme/Resources/js/components/slider/Noui.
 app.component('v-videoplayer', Videojs);
 //app.component('v-slider', () => Noui);
 app.component('v-slider', Noui);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -129,5 +139,7 @@ app.component('v-slider', Noui);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 
 app.mount('#app');

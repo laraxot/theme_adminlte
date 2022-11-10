@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +33,14 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class Select2 extends InputGroupComponent {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -94,6 +98,8 @@ class Select2 extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     /**
      * The select2 plugin configuration parameters. Array with key => value
      * pairs, where the key should be an existing configuration property of
@@ -123,6 +129,7 @@ class Select2 extends InputGroupComponent {
      */
     public function __construct(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +149,8 @@ class Select2 extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -163,6 +172,7 @@ class Select2 extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -195,6 +205,8 @@ class Select2 extends InputGroupComponent {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -207,6 +219,7 @@ class Select2 extends InputGroupComponent {
      * @return \Illuminate\View\View|string
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216,6 +229,8 @@ class Select2 extends InputGroupComponent {
 =======
 >>>>>>> 59a8928 (rebase)
 >>>>>>> 655502de (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -226,6 +241,7 @@ class Select2 extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -258,5 +274,7 @@ class Select2 extends InputGroupComponent {
         return view('adminlte::components.form.select2');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     }
 }

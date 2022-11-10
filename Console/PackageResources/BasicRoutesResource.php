@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class BasicRoutesResource extends PackageResource {
 =======
@@ -142,11 +142,15 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class BasicRoutesResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -201,6 +205,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The package routes';
@@ -211,6 +218,7 @@ class BasicRoutesResource extends PackageResource {
         // Fill the installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the basic package routes?',
             'overwrite' => 'Basic routes are already installed. Want to install they again?',
@@ -278,6 +286,11 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the basic package routes?',
+            'overwrite' => 'Basic routes are already installed. Want to install they again?',
+            'success' => 'Basic routes installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -286,6 +299,7 @@ class BasicRoutesResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -340,6 +354,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // If routes already exists, there is no need to install again.
 
         if ($this->exists()) {
@@ -361,6 +378,7 @@ class BasicRoutesResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -415,6 +433,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         $routes = file_get_contents($this->source);
 
         // If the target routes file exists, remove the package routes.
@@ -431,6 +452,7 @@ class BasicRoutesResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -485,6 +507,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         $routes = file_get_contents($this->source);
 
         // First, check if the target routes file exists.
@@ -497,6 +522,7 @@ class BasicRoutesResource extends PackageResource {
 
         $targetContent = file_get_contents($this->target);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return false !== strpos($targetContent, $routes);
 =======
@@ -550,6 +576,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+        return false !== strpos($targetContent, $routes);
+>>>>>>> dfca2a99 (rebase)
     }
 
     /**
@@ -557,6 +586,7 @@ class BasicRoutesResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -611,6 +641,9 @@ class BasicRoutesResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         return $this->exists();
     }
 }

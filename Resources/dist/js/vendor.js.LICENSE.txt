@@ -1,5 +1,6 @@
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
   * Bootstrap v4.6.2 (https://getbootstrap.com/)
   * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
 =======
@@ -35,10 +36,15 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+  * Bootstrap v4.6.2 (https://getbootstrap.com/)
+  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+>>>>>>> dfca2a99 (rebase)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -59,6 +65,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * @kurkle/color v0.2.1
  * https://github.com/kurkle/color#readme
  * (c) 2022 Jukka Kurkela
@@ -67,6 +75,7 @@
 
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,12 +97,15 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * AdminLTE v3.2.0 (https://adminlte.io)
  * Copyright 2014-2022 Colorlib <https://colorlib.com>
  * Licensed under MIT (https://github.com/ColorlibHQ/AdminLTE/blob/master/LICENSE)
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +165,8 @@
 =======
 >>>>>>> f63434d (rebase)
 >>>>>>> 9a582057 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -160,14 +174,13 @@
  */
 
 /*!
-=======
->>>>>>> 29587b0 (.)
  * Datepicker for Bootstrap v1.9.0 (https://github.com/uxsolutions/bootstrap-datepicker)
  *
  * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -196,10 +209,13 @@
 =======
 >>>>>>> 8629e12 (rebase)
 >>>>>>> 973b7ab2 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * Programatically add the following
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276,6 +292,8 @@
 >>>>>>> 08eedf4 (rebase)
 >>>>>>> f63434d (rebase)
 >>>>>>> 9a582057 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -288,6 +306,7 @@
 
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +319,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <http://feross.org>
@@ -307,6 +328,7 @@
  */
 
 /*!
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,6 +388,8 @@
 >>>>>>> 01e5fdc (rebase)
 >>>>>>> 8629e12 (rebase)
 >>>>>>> 973b7ab2 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
@@ -375,8 +399,8 @@
  */
 
 /*!
-<<<<<<< HEAD
  * jQuery JavaScript Library v3.6.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,6 +445,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -430,6 +456,7 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
  * Date: 2022-08-26T17:52Z
 =======
@@ -460,6 +487,9 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+ * Date: 2022-08-26T17:52Z
+>>>>>>> dfca2a99 (rebase)
  */
 
 /*! @name @videojs/http-streaming @version 2.14.3 @license Apache-2.0 */

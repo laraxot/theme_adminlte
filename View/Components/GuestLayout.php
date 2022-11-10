@@ -10,6 +10,7 @@ class GuestLayout extends Component {
     /**
      * Get the view / contents that represents the component.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ class GuestLayout extends Component {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      */
     public function render(): \Illuminate\Contracts\Support\Renderable {
         /**
@@ -59,6 +62,7 @@ class GuestLayout extends Component {
         return view($view, $view_params);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -117,3 +121,5 @@ class GuestLayout extends Component {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)

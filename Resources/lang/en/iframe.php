@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -66,6 +67,11 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> dfca2a99 (rebase)
     /*
     |--------------------------------------------------------------------------
     | IFrame Mode Language Lines
@@ -85,6 +91,7 @@ return [
     'tab_home' => 'Home',
     'tab_loading' => 'Tab is loading',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131,4 +138,6 @@ return [
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 ];

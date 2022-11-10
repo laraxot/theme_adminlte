@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28,6 +29,8 @@
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -42,6 +45,7 @@
 @elseif ($sidebarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,10 +131,6 @@
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> 64fad46 (rebase)
-@endif
 =======
+>>>>>>> dfca2a99 (rebase)
 @endif
->>>>>>> b738e1c (rebase)
-=======
-@endif
->>>>>>> 63c2c43 (up)

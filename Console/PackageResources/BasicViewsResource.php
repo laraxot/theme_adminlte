@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class BasicViewsResource extends PackageResource {
 =======
@@ -142,6 +142,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class BasicViewsResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Array with the replacement content of the basic views.
      *
@@ -156,6 +159,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -210,6 +214,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package basic views';
@@ -220,6 +227,7 @@ class BasicViewsResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
@@ -287,6 +295,11 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the AdminLTE basic views?',
+            'overwrite' => 'The basic views already exists. Want to replace the views?',
+            'success' => 'Basic views installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -295,6 +308,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -349,6 +363,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // Install the basic views. We going to replace the content of any
         // existing basic view.
 
@@ -364,6 +381,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -418,6 +436,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
@@ -434,6 +455,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -488,6 +510,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
@@ -506,6 +531,7 @@ class BasicViewsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -560,6 +586,9 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         foreach ($this->source as $file => $stub) {
             $target = $this->target.\DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
@@ -575,6 +604,7 @@ class BasicViewsResource extends PackageResource {
     /**
      * Check if a basic view is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -612,12 +642,15 @@ class BasicViewsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $path    Absolute path of the view
      * @param string $content The expected content of the view
      *
      * @return bool
      */
     protected function basicViewInstalled($path, $content) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -678,6 +711,8 @@ class BasicViewsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }

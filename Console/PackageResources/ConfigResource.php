@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ConfigResource extends PackageResource {
 =======
@@ -142,11 +142,15 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ConfigResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -201,6 +205,9 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package configuration file';
@@ -211,6 +218,7 @@ class ConfigResource extends PackageResource {
         // Fill the set of installation messages.
 
         $this->messages = [
+<<<<<<< HEAD
 <<<<<<< HEAD
             'install' => 'Install the package config file?',
             'overwrite' => 'The config file already exists. Want to replace it?',
@@ -278,6 +286,11 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the package config file?',
+            'overwrite' => 'The config file already exists. Want to replace it?',
+            'success' => 'Configuration file installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -286,6 +299,7 @@ class ConfigResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -340,6 +354,9 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // Install the configuration file.
 
         CommandHelper::ensureDirectoryExists(\dirname($this->target));
@@ -351,6 +368,7 @@ class ConfigResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -405,6 +423,9 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         // Uninstall the configuration file.
 
         if (is_file($this->target)) {
@@ -417,6 +438,7 @@ class ConfigResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -471,6 +493,9 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         return is_file($this->target);
     }
 
@@ -479,6 +504,7 @@ class ConfigResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -533,6 +559,9 @@ class ConfigResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         return CommandHelper::compareFiles($this->source, $this->target);
     }
 }

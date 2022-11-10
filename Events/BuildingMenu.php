@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Events;
 =======
-namespace Themes\KlekooAdm\Events;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Events;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Menu\Builder;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class BuildingMenu {
 =======
@@ -142,6 +142,9 @@ class BuildingMenu {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class BuildingMenu {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The menu builder.
      *
@@ -151,6 +154,7 @@ class BuildingMenu {
 
     /**
      * Create a new event instance.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(Builder $menu) {
@@ -214,6 +218,10 @@ class BuildingMenu {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(Builder $menu) {
+>>>>>>> dfca2a99 (rebase)
         $this->menu = $menu;
     }
 }

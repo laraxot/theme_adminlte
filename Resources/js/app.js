@@ -31,6 +31,7 @@ $(function() {
         todayHighlight: true
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 =======
 <<<<<<< HEAD
@@ -60,3 +61,6 @@ $(function() {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+});
+>>>>>>> dfca2a99 (rebase)

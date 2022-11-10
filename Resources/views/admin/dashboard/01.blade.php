@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,9 +64,10 @@
 >>>>>>> fdbe3c1c (rebase)
 =======
 >>>>>>> 5b814509 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
-<<<<<<< HEAD
     @php
         //dddx($profile->areas());
     @endphp
@@ -76,6 +78,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -570,3 +573,5 @@ aaa
 =======
 >>>>>>> 63c2c43 (up)
 >>>>>>> 9a582057 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)

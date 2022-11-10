@@ -12,6 +12,7 @@
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,6 +32,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         "@popperjs/core": "^2.11.6",
         "@tinymce/tinymce-vue": "^4.0.7",
         "admin-lte": "^3.2.0",
@@ -44,6 +47,7 @@
         "fastclick": "^1.0.6",
         "file-loader": "^6.2.0",
         "flatpickr": "^4.6.13",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,10 +106,13 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         "font-awesome": "^4.7.0",
         "icheck": "^1.0.2",
         "ionicons": "^5.5.3",
         "jquery-slimscroll": "^1.3.8",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -126,6 +133,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         "jquery-ui": "^1.13.2",
         "laravel-mix": "^6.0.49",
         "laravel-mix-polyfill": "^3.0.1",
@@ -155,6 +164,7 @@
     },
     "dependencies": {
         "jquery": "^3.6.1"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -205,6 +215,8 @@
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
     },
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",

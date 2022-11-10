@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,18 +79,17 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Menu;
 =======
-namespace Themes\KlekooAdm\Menu;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Menu;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ActiveChecker {
 =======
@@ -144,6 +144,9 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class ActiveChecker {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The request instance.
      *
@@ -167,6 +170,7 @@ class ActiveChecker {
 
     /**
      * Constructor.
+<<<<<<< HEAD
 <<<<<<< HEAD
      */
     public function __construct(UrlGenerator $url) {
@@ -230,6 +234,10 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+     */
+    public function __construct(UrlGenerator $url) {
+>>>>>>> dfca2a99 (rebase)
         $this->request = $url->getRequest();
         $this->url = $url;
 
@@ -238,6 +246,7 @@ class ActiveChecker {
 
         $this->tests = [
             'submenu' => [$this, 'containsActive'],
+<<<<<<< HEAD
 <<<<<<< HEAD
             'active' => [$this, 'isExplicitActive'],
             'href' => [$this, 'checkPattern'],
@@ -305,6 +314,11 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'active' => [$this, 'isExplicitActive'],
+            'href' => [$this, 'checkPattern'],
+            'url' => [$this, 'checkPattern'],
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -312,6 +326,7 @@ class ActiveChecker {
      * Checks if a menu item is currently active. Active items will be
      * highlighted.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -349,11 +364,14 @@ class ActiveChecker {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param mixed $item The menu item to check
      *
      * @return bool
      */
     public function isActive($item) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -412,6 +430,8 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Return true if any of the verification tests is met.
 
         foreach ($this->tests as $prop => $testFunc) {
@@ -428,6 +448,7 @@ class ActiveChecker {
     /**
      * Checks if an array of items contains an active item.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -465,11 +486,14 @@ class ActiveChecker {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $items The items to check
      *
      * @return bool
      */
     protected function containsActive($items) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -528,6 +552,8 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         foreach ($items as $item) {
             if ($this->isActive($item)) {
                 return true;
@@ -540,6 +566,7 @@ class ActiveChecker {
     /**
      * Checks if an item is active by explicit definition of 'active' state.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -577,11 +604,14 @@ class ActiveChecker {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param bool|array $activeDef
      *
      * @return bool
      */
     protected function isExplicitActive($activeDef) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -640,6 +670,8 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // If the active definition is a bool, return it.
 
         if (\is_bool($activeDef)) {
@@ -661,6 +693,7 @@ class ActiveChecker {
     /**
      * Checks if an url pattern matches the requested url.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -698,11 +731,14 @@ class ActiveChecker {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $pattern
      *
      * @return bool
      */
     protected function checkPattern($pattern) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -761,6 +797,8 @@ class ActiveChecker {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // First, check if the pattern is a regular expression.
 
         if (Str::startsWith($pattern, 'regex:')) {

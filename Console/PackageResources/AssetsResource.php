@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,16 +79,15 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console\PackageResources;
 =======
-namespace Themes\KlekooAdm\Console\PackageResources;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
->>>>>>> 63c2c43 (up)
 
 use Themes\AdminLTE\Helpers\CommandHelper;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AssetsResource extends PackageResource {
 =======
@@ -142,11 +142,15 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AssetsResource extends PackageResource {
+>>>>>>> dfca2a99 (rebase)
     /**
      * Create a new resource instance.
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -201,6 +205,9 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         // Fill the resource data.
 
         $this->description = 'The AdminLTE required assets';
@@ -268,6 +275,7 @@ class AssetsResource extends PackageResource {
 
         $this->messages = [
 <<<<<<< HEAD
+<<<<<<< HEAD
             'install' => 'Install the basic package assets?',
             'overwrite' => 'The basic assets already exists. Want to replace the assets?',
             'success' => 'Basic assets installed successfully.',
@@ -334,6 +342,11 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            'install' => 'Install the basic package assets?',
+            'overwrite' => 'The basic assets already exists. Want to replace the assets?',
+            'success' => 'Basic assets installed successfully.',
+>>>>>>> dfca2a99 (rebase)
         ];
     }
 
@@ -342,6 +355,7 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function install() {
 =======
@@ -396,6 +410,9 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function install() {
+>>>>>>> dfca2a99 (rebase)
         // Install the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -408,6 +425,7 @@ class AssetsResource extends PackageResource {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function uninstall() {
 =======
@@ -462,6 +480,9 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function uninstall() {
+>>>>>>> dfca2a99 (rebase)
         // Uninstall the AdminLTE basic assets.
 
         foreach ($this->source as $asset) {
@@ -474,6 +495,7 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function exists() {
 =======
@@ -528,6 +550,9 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function exists() {
+>>>>>>> dfca2a99 (rebase)
         foreach ($this->source as $asset) {
             if ($this->assetExists($asset)) {
                 return true;
@@ -542,6 +567,7 @@ class AssetsResource extends PackageResource {
      *
      * @return bool
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function installed() {
 =======
@@ -596,6 +622,9 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function installed() {
+>>>>>>> dfca2a99 (rebase)
         foreach ($this->source as $asset) {
             if (! $this->assetInstalled($asset)) {
                 return false;
@@ -608,6 +637,7 @@ class AssetsResource extends PackageResource {
     /**
      * Install the specified AdminLTE asset.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -645,11 +675,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function installAsset($asset) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -708,6 +741,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if we just need to export the entire asset.
 
         if (! isset($asset['resources'])) {
@@ -729,6 +764,7 @@ class AssetsResource extends PackageResource {
     /**
      * Exports the specified resource (usually a file or folder).
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -766,11 +802,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $res An array with the resource data
      *
      * @return void
      */
     protected function exportResource($res) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -829,6 +868,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check the resource type in order to copy it.
 
         if (is_dir($res['source'])) {
@@ -848,6 +889,7 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified asset already exists on the target destination.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -885,11 +927,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetExists($asset) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -948,12 +993,15 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return is_dir($asset['target']);
     }
 
     /**
      * Check if the specified asset is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -991,11 +1039,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return bool
      */
     protected function assetInstalled($asset) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1054,6 +1105,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         // Check if the asset have resources.
 
         if (! isset($asset['resources'])) {
@@ -1076,6 +1129,7 @@ class AssetsResource extends PackageResource {
     /**
      * Check if the specified resource is correctly installed.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1113,11 +1167,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $res An array with the resource data
      *
      * @return bool
      */
     protected function resourceInstalled($res) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1176,6 +1233,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $installed = false;
 
         if (is_dir($res['source'])) {
@@ -1198,6 +1257,7 @@ class AssetsResource extends PackageResource {
     /**
      * Uninstall or remove the specified asset.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1235,11 +1295,14 @@ class AssetsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param array $asset An array with the asset data
      *
      * @return void
      */
     protected function uninstallAsset($asset) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1298,6 +1361,8 @@ class AssetsResource extends PackageResource {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $target = $asset['target'];
 
         // Uninstall the asset (actually, the target should be a folder).

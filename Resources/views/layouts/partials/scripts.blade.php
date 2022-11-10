@@ -7,6 +7,7 @@ Theme::add('adm_theme::dist/js/custom.js', 4);
 
 @livewireScripts
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -34,6 +35,9 @@ Theme::add('adm_theme::dist/js/custom.js', 4);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+
+>>>>>>> dfca2a99 (rebase)
 {!! Theme::showScripts(false) !!}
 
 @stack('scripts')

@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78,13 +79,11 @@ declare(strict_types=1);
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
-namespace Themes\AdminLTE\Console;
 =======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
+declare(strict_types=1);
+
+>>>>>>> dfca2a99 (rebase)
 namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
 
 use Illuminate\Console\Command;
 use Themes\AdminLTE\Console\PackageResources\AssetsResource;
@@ -95,6 +94,7 @@ use Themes\AdminLTE\Console\PackageResources\ConfigResource;
 use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
 use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 class AdminLteStatusCommand extends Command {
 =======
@@ -149,6 +149,9 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+class AdminLteStatusCommand extends Command {
+>>>>>>> dfca2a99 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -198,6 +201,7 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function __construct() {
 =======
@@ -252,11 +256,15 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function __construct() {
+>>>>>>> dfca2a99 (rebase)
         parent::__construct();
 
         // Fill the array with the package resources.
 
         $this->pkgResources = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -294,12 +302,15 @@ class AdminLteStatusCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'assets' => new AssetsResource(),
             'config' => new ConfigResource(),
             'translations' => new TranslationsResource(),
             'main_views' => new MainViewsResource(),
             'auth_views' => new AuthViewsResource(),
             'basic_views' => new BasicViewsResource(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -360,6 +371,8 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             'basic_routes' => new BasicRoutesResource(),
         ];
     }
@@ -369,6 +382,7 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     public function handle() {
 =======
@@ -423,6 +437,9 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    public function handle() {
+>>>>>>> dfca2a99 (rebase)
         // Display the resources installation status.
 
         $this->showResourcesStatus();
@@ -438,6 +455,7 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function showResourcesStatus() {
 =======
@@ -492,6 +510,9 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function showResourcesStatus() {
+>>>>>>> dfca2a99 (rebase)
         // Define the table headers.
 
         $tblHeader = [
@@ -516,6 +537,7 @@ class AdminLteStatusCommand extends Command {
      *
      * @return array
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function getResourcesStatusRows() {
 =======
@@ -570,6 +592,9 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function getResourcesStatusRows() {
+>>>>>>> dfca2a99 (rebase)
         // Define the array that will hold the table rows.
 
         $tblContent = [];
@@ -585,6 +610,7 @@ class AdminLteStatusCommand extends Command {
         $bar->start();
 
         foreach ($this->pkgResources as $name => $resource) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -632,6 +658,8 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
             // Fill the status row of the current resource.
 
             $tblContent[] = [
@@ -660,6 +688,7 @@ class AdminLteStatusCommand extends Command {
     /**
      * Get the installation status of a package resource.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -697,11 +726,14 @@ class AdminLteStatusCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param PackageResource $resource The package resource to check
      *
      * @return string The resource status
      */
     protected function getResourceStatus($resource) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -760,6 +792,8 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         $status = $this->status['uninstalled'];
 
         if ($resource->installed()) {
@@ -776,6 +810,7 @@ class AdminLteStatusCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
     protected function showStatusLegends() {
 =======
@@ -830,6 +865,9 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+    protected function showStatusLegends() {
+>>>>>>> dfca2a99 (rebase)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -858,6 +896,7 @@ class AdminLteStatusCommand extends Command {
     /**
      * Give output style to some text.
      *
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -895,12 +934,15 @@ class AdminLteStatusCommand extends Command {
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
      * @return string The styled text
      */
     protected function styleOutput($text, $color) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -961,6 +1003,8 @@ class AdminLteStatusCommand extends Command {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+>>>>>>> dfca2a99 (rebase)
         return "<fg={$color}>{$text}</>";
     }
 }

@@ -150,6 +150,7 @@ class LayoutHelper {
             if (\in_array($breakpoint, self::$screenBreakpoints, true)) {
                 $classes[] = self::makeFixedResponsiveClass(
 <<<<<<< HEAD
+<<<<<<< HEAD
                     $section,
                     $breakpoint,
                     $enabled
@@ -187,6 +188,11 @@ class LayoutHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+                    $section,
+                    $breakpoint,
+                    $enabled
+>>>>>>> dfca2a99 (rebase)
                 );
             }
         }
@@ -233,6 +239,7 @@ class LayoutHelper {
         if (\in_array($sidebarMiniCfg, self::$sidebarMiniValues, true)) {
             $suffix = 'lg' === $sidebarMiniCfg ? '' : "-{$sidebarMiniCfg}";
 <<<<<<< HEAD
+<<<<<<< HEAD
             $classes[] = "sidebar-mini{$suffix}";
 =======
 <<<<<<< HEAD
@@ -262,6 +269,9 @@ class LayoutHelper {
 =======
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
+=======
+            $classes[] = "sidebar-mini{$suffix}";
+>>>>>>> dfca2a99 (rebase)
         }
 
         // Add classes related to the "sidebar_collapse" configuration.
