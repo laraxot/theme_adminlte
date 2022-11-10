@@ -29,12 +29,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> f63434d (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -79,9 +82,12 @@ namespace Themes\AdminLTE\Http\ViewComposers;
 =======
 namespace Themes\KlekooAdm\Http\ViewComposers;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Http\ViewComposers;
+>>>>>>> 63c2c43 (up)
 
 use Illuminate\View\View;
-use Themes\KlekooAdm\AdminLte;
+use Themes\AdminLTE\AdminLte;
 
 <<<<<<< HEAD
 class AdminLteComposer {

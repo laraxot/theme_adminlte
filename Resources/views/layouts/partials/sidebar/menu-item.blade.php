@@ -1,4 +1,4 @@
-@inject('sidebarItemHelper', 'Themes\KlekooAdm\Helpers\SidebarItemHelper')
+@inject('sidebarItemHelper', 'Themes\AdminLTE\Helpers\SidebarItemHelper')
 
 @if ($sidebarItemHelper->isHeader($item))
 <<<<<<< HEAD
@@ -103,10 +103,14 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
 =======
 <<<<<<< HEAD
 >>>>>>> 4a726e2 (rebase)
+=======
+<<<<<<< HEAD
+>>>>>>> f63434d (rebase)
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
@@ -127,3 +131,6 @@
 =======
 @endif
 >>>>>>> b738e1c (rebase)
+=======
+@endif
+>>>>>>> 63c2c43 (up)

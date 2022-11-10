@@ -34,7 +34,7 @@
 >>>>>>> a159d289 (rebase)
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Helpers;
+namespace Themes\AdminLTE\Helpers;
 
 class SidebarItemHelper extends MenuItemHelper {
     /**

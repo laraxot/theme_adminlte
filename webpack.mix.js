@@ -213,6 +213,7 @@ mix.extract();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.extract();
 =======
 =======
@@ -222,6 +223,9 @@ mix.extract();
 mix.extract();
 /*
 >>>>>>> 29587b0 (.)
+=======
+
+>>>>>>> 63c2c43 (up)
 mix.extract([
     'admin-lte',
     'axios',
@@ -239,6 +243,7 @@ mix.extract([
     //'jasny-bootstrap',
     'moment',
     'nouislider',
+<<<<<<< HEAD
 <<<<<<< HEAD
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 <<<<<<< HEAD
@@ -296,10 +301,14 @@ mix.extract([
 */
 >>>>>>> 29587b0 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f63434d (rebase)
 =======
 ] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
 
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 =======
 ] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
 );
@@ -309,6 +318,8 @@ mix.extract([
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> 8629e12 (rebase)
+=======
+>>>>>>> f63434d (rebase)
 //mix.version();
 
 mix.sourceMaps();

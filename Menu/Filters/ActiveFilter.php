@@ -29,12 +29,15 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 declare(strict_types=1);
 
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 4a726e2 (rebase)
+=======
+>>>>>>> f63434d (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -79,9 +82,12 @@ namespace Themes\AdminLTE\Menu\Filters;
 =======
 namespace Themes\KlekooAdm\Menu\Filters;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Menu\Filters;
+>>>>>>> 63c2c43 (up)
 
-use Themes\KlekooAdm\Helpers\MenuItemHelper;
-use Themes\KlekooAdm\Menu\ActiveChecker;
+use Themes\AdminLTE\Helpers\MenuItemHelper;
+use Themes\AdminLTE\Menu\ActiveChecker;
 
 <<<<<<< HEAD
 class ActiveFilter implements FilterInterface {
