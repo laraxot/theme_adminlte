@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @php
         //dddx($profile->areas());
     @endphp
@@ -41,6 +42,8 @@
 =======
 <<<<<<< Updated upstream
 >>>>>>> ffc2572 (.)
+=======
+>>>>>>> 6864355 (up)
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
@@ -51,11 +54,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 103222ea (rebase)
 =======
 >>>>>>> 7c172462 (rebase)
+=======
+>>>>>>> 02c8c035 (rebase)
 =======
 aaa
 >>>>>>> 28d9a7d (.)
@@ -302,4 +308,9 @@ $answers = $lime->getAnswersByQuestionId((string) 30342);
 @endsection
 >>>>>>> Stashed changes
 >>>>>>> ffc2572 (.)
+<<<<<<< HEAD
 >>>>>>> 7c172462 (rebase)
+=======
+=======
+>>>>>>> 6864355 (up)
+>>>>>>> 02c8c035 (rebase)
