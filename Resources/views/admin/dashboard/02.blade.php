@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,6 +56,8 @@
     DASHBOARD
 @endsection
 =======
+>>>>>>> f8b93fb6 (rebase)
+=======
 =======
 >>>>>>> 49899e0 (.)
 {{-- @extends('adm_theme::layouts.app')
@@ -62,6 +65,7 @@
     DASHBOARD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
 =======
 >>>>>>> 3cc23ea (.)
@@ -77,17 +81,25 @@
 >>>>>>> e0a8e01 (.)
 =======
 >>>>>>> 2a63e2b (.)
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> f8b93fb6 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
+<<<<<<< HEAD
 =======
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> f8b93fb6 (rebase)
 =======
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104,6 +116,9 @@
 >>>>>>> 2a63e2b (.)
 =======
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> fac8ac6 (.)
+>>>>>>> f8b93fb6 (rebase)
 @endsection --}}
 
 
@@ -191,6 +206,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> ce44b3c7 (rebase)
 =======
 <<<<<<< HEAD
@@ -206,6 +222,9 @@
 =======
 =======
 >>>>>>> 527eac33 (rebase)
+=======
+<<<<<<< HEAD
+>>>>>>> f8b93fb6 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -218,6 +237,7 @@
 =======
 >>>>>>> 7306100 (.)
 >>>>>>> fac8ac6 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 49899e0 (.)
 =======
@@ -292,3 +312,6 @@
 =======
 >>>>>>> 7306100 (.)
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> 49899e0 (.)
+>>>>>>> f8b93fb6 (rebase)

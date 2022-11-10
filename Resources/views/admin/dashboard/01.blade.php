@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39,6 +40,8 @@
 >>>>>>> 527eac33 (rebase)
 =======
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> f8b93fb6 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -109,6 +112,7 @@ aaa
 >>>>>>> 870e170 (.)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 49899e0 (.)
 =======
@@ -167,9 +171,19 @@ aaa
 >>>>>>> 2a63e2b (.)
 =======
 <<<<<<< HEAD
+=======
+=======
+>>>>>>> 49899e0 (.)
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+<<<<<<< HEAD
+>>>>>>> f8b93fb6 (rebase)
 >>>>>>> 7306100 (.)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7cb5b32 (.)
 <<<<<<< HEAD
@@ -181,6 +195,8 @@ aaa
 >>>>>>> e0a8e01 (.)
 =======
 >>>>>>> 2a63e2b (.)
+=======
+>>>>>>> f8b93fb6 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -210,13 +226,17 @@ aaa
 
 </x-dashboard>
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> f8b93fb6 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 >>>>>>> 7306100 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,3 +356,7 @@ aaa
 >>>>>>> 527eac33 (rebase)
 =======
 >>>>>>> ce44b3c7 (rebase)
+=======
+>>>>>>> fac8ac6 (.)
+>>>>>>> 49899e0 (.)
+>>>>>>> f8b93fb6 (rebase)
