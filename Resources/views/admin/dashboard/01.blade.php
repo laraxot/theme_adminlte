@@ -74,11 +74,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
 =======
 >>>>>>> ffaaa23 (rebase)
+=======
+>>>>>>> 9dfd354 (rebase)
     @php
         //dddx($profile->areas());
     @endphp
@@ -87,6 +90,8 @@
 =======
 <<<<<<< Updated upstream
 >>>>>>> ffc2572 (.)
+=======
+>>>>>>> 6864355 (up)
     DASHBOARD
     <div class="row">
         @foreach ($profile->areas() as $area)
@@ -94,6 +99,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,10 +129,14 @@ aaa
 =======
 >>>>>>> 6fb100ca (rebase)
 =======
+>>>>>>> 89331d76 (rebase)
+=======
 =======
 >>>>>>> 4ab624f (rebase)
 =======
 >>>>>>> ffaaa23 (rebase)
+=======
+>>>>>>> 9dfd354 (rebase)
 =======
 aaa
 >>>>>>> 28d9a7d (.)
@@ -688,5 +698,13 @@ aaa
 @endsection
 >>>>>>> Stashed changes
 >>>>>>> ffc2572 (.)
+<<<<<<< HEAD
 >>>>>>> ffaaa23 (rebase)
+<<<<<<< HEAD
 >>>>>>> 6fb100ca (rebase)
+=======
+=======
+=======
+>>>>>>> 6864355 (up)
+>>>>>>> 9dfd354 (rebase)
+>>>>>>> 89331d76 (rebase)
