@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,9 +82,12 @@
     DASHBOARD
 @endsection
 =======
+>>>>>>> ce44b3c7 (rebase)
+=======
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
+<<<<<<< HEAD
 >>>>>>> fac8ac6 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,10 +102,13 @@
 =======
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 2a63e2b (.)
+=======
+>>>>>>> ce44b3c7 (rebase)
 @endsection --}}
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 7306100 (.)
 <<<<<<< HEAD
@@ -155,6 +162,9 @@
 >>>>>>> a05b3ba1 (rebase)
 =======
 >>>>>>> 527eac33 (rebase)
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> ce44b3c7 (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -179,6 +189,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ce44b3c7 (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +211,7 @@
     DASHBOARD
 @endsection
 >>>>>>> 870e170 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 7306100 (.)
@@ -274,3 +288,7 @@
 >>>>>>> a05b3ba1 (rebase)
 =======
 >>>>>>> 527eac33 (rebase)
+=======
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> ce44b3c7 (rebase)
