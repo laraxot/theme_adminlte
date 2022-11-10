@@ -1,4 +1,4 @@
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @php($dashboard_url = View::getSection('dashboard_url') ?? config('adm_theme::adminlte.dashboard_url', 'home'))
 
@@ -12,6 +12,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5dd3b30a (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -21,6 +24,7 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
 =======
@@ -38,6 +42,9 @@
 >>>>>>> a159d289 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
@@ -46,8 +53,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 5dd3b30a (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -65,6 +75,9 @@
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5dd3b30a (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -74,6 +87,7 @@
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
 =======
@@ -88,6 +102,9 @@
 >>>>>>> a159d289 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -116,8 +133,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 5dd3b30a (rebase)
     </span> --}}
 =======
     </span>
@@ -129,12 +149,16 @@
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5dd3b30a (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
     </span> --}}
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
 =======
@@ -151,4 +175,7 @@
 =======
     </span> --}}
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)
 </a>

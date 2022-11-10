@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Services;
+namespace Themes\AdminLTE\Services;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,6 +23,7 @@ use Modules\Xot\View\Composers\XotBaseComposer;
 <<<<<<< HEAD
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\View\Composers\XotBaseComposer;
@@ -56,6 +57,9 @@ use Illuminate\Support\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+<<<<<<< HEAD
+>>>>>>> 5dd3b30a (rebase)
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
@@ -101,13 +105,24 @@ use Illuminate\Support\Collection;
 >>>>>>> 8a5cc0b (.)
 >>>>>>> b6bf7b3 (rebase)
 use Nwidart\Modules\Facades\Module;
+=======
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
+>>>>>>> 5b4054a (.)
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
+<<<<<<< HEAD
+=======
+use Themes\AdminLTE\Menu\Builder;
+
+>>>>>>> 4ab624f (rebase)
 <<<<<<< HEAD
 use Themes\AdminLTE\Menu\Builder;
 =======
@@ -139,6 +154,7 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
@@ -147,6 +163,8 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> f63434d (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5dd3b30a (rebase)
 class AdminLTE extends XotBaseComposer {
 =======
 class AdminLTE {
@@ -221,6 +239,7 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 8a5cc0b (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
 <<<<<<< HEAD
 >>>>>>> bc832b90 (rebase)
@@ -282,9 +301,22 @@ class AdminLTE {
 class AdminLTE extends XotBaseComposer {
 >>>>>>> dfca2a99 (rebase)
 =======
+=======
+>>>>>>> 5dd3b30a (rebase)
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+<<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+=======
+=======
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)
     /**
      * The array of menu items.
      *
@@ -324,7 +356,7 @@ class AdminLTE extends XotBaseComposer {
 
     /**
      * Constructor.
-     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\KlekooAdm\Services\AdminLTE.
+     * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +895,7 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
 =======
@@ -873,6 +906,8 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> f63434d (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5dd3b30a (rebase)
 }
 =======
 }
@@ -939,6 +974,7 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 8a5cc0b (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
 <<<<<<< HEAD
 >>>>>>> bc832b90 (rebase)
@@ -983,6 +1019,19 @@ class AdminLTE extends XotBaseComposer {
 }
 >>>>>>> dfca2a99 (rebase)
 =======
+=======
+>>>>>>> 5dd3b30a (rebase)
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+<<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+=======
+=======
+=======
+}
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)

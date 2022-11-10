@@ -1,10 +1,13 @@
 <aside class="main-sidebar {{ config('adm_theme::adminlte.classes_sidebar', 'sidebar-dark-primary elevation-4') }}">
+
     {{-- Sidebar brand logo --}}
     @if (config('adm_theme::adminlte.logo_img_xl'))
         @include('adm_theme::layouts.partials.common.brand-logo-xl')
     @else
         @include('adm_theme::layouts.partials.common.brand-logo-xs')
     @endif
+
+
     {{-- Sidebar menu --}}
     <div class="sidebar">
         <nav class="pt-2">
@@ -74,8 +77,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5dd3b30a (rebase)
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300)
                     data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}"
                 @endif
@@ -221,12 +227,27 @@
 =======
 =======
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 >>>>>>> db07ea7 (rebase)
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
+<<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+=======
+=======
+=======
+                @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300) data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}" @endif
+                @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 4ab624f (rebase)
+>>>>>>> 5dd3b30a (rebase)
                 {{-- Configured sidebar links --}}
                 {{-- dddx($adminlte->menu('sidebar')) --}}
+                @each('adm_theme::layouts.partials.sidebar.menu-item', $adminlte->menu('sidebar'), 'item')
             </ul>
         </nav>
     </div>
+
 </aside>
