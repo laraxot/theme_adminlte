@@ -28,11 +28,15 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> baf54ed (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
 >>>>>>> b135dba (.)
 >>>>>>> 5fba10f (rebase)
+<<<<<<< HEAD
 =======
     
 >>>>>>> ae93a9b (up)
@@ -48,7 +52,12 @@ class ThemeComposer extends XotBaseComposer {
 =======
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+>>>>>>> baf54ed (rebase)
+>>>>>>> 1a682fce (rebase)
     /**
      * Bind data to the view.
      *
@@ -56,6 +65,7 @@ class ThemeComposer extends XotBaseComposer {
      */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80,13 +90,28 @@ class ThemeComposer extends XotBaseComposer {
 =======
 =======
 =======
+>>>>>>> baf54ed (rebase)
+=======
+=======
+>>>>>>> 5fba10f (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+=======
+=======
+>>>>>>> b135dba (.)
+>>>>>>> 5fba10f (rebase)
+>>>>>>> baf54ed (rebase)
+>>>>>>> 1a682fce (rebase)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
@@ -117,12 +142,15 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 4861446 (rebase)
+=======
+>>>>>>> baf54ed (rebase)
 }
 =======
 }
@@ -152,11 +180,15 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> e6202c2 (.)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> baf54ed (rebase)
 >>>>>>> 2388cd9 (rebase)
 =======
 =======
 }
 >>>>>>> b135dba (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5fba10f (rebase)
 =======
@@ -215,4 +247,10 @@ class ThemeComposer extends XotBaseComposer {
 =======
 >>>>>>> 2388cd9 (rebase)
 >>>>>>> 4861446 (rebase)
+<<<<<<< HEAD
 >>>>>>> f284891f (rebase)
+=======
+=======
+>>>>>>> 5fba10f (rebase)
+>>>>>>> baf54ed (rebase)
+>>>>>>> 1a682fce (rebase)

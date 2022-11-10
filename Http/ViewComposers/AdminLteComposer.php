@@ -212,6 +212,9 @@ class AdminLteComposer {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> baf54ed (rebase)
     /**
      * Bind data to the view.
      *
