@@ -130,9 +130,18 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+=======
+>>>>>>> 01e5fdc (rebase)
+>>>>>>> 8629e12 (rebase)
+>>>>>>> 973b7ab2 (rebase)
  * Chart.js v3.9.1
  * https://www.chartjs.org
  * (c) 2022 Chart.js Contributors
@@ -140,6 +149,8 @@
  */
 
 /*!
+=======
+>>>>>>> 29587b0 (.)
  * Datepicker for Bootstrap v1.9.0 (https://github.com/uxsolutions/bootstrap-datepicker)
  *
  * Licensed under the Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0)
@@ -148,6 +159,7 @@
 /*!
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162,10 +174,17 @@
 >>>>>>> a05b3ba1 (rebase)
 =======
 =======
+>>>>>>> 973b7ab2 (rebase)
+=======
 >>>>>>> d79d738 (up)
 =======
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+>>>>>>> 8629e12 (rebase)
+>>>>>>> 973b7ab2 (rebase)
  * Programatically add the following
  */
 
@@ -220,12 +239,25 @@
 =======
 =======
 =======
+>>>>>>> 01e5fdc (rebase)
+=======
 >>>>>>> 31d6e3b (first)
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+=======
+=======
+>>>>>>> 29587b0 (.)
+>>>>>>> 01e5fdc (rebase)
+>>>>>>> 8629e12 (rebase)
+>>>>>>> 973b7ab2 (rebase)
  * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
@@ -299,9 +331,20 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+=======
+=======
+>>>>>>> 29587b0 (.)
+>>>>>>> 01e5fdc (rebase)
+>>>>>>> 8629e12 (rebase)
+>>>>>>> 973b7ab2 (rebase)
  * iCheck v1.0.2, http://git.io/arlzeA
  * ===================================
  * Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization
@@ -311,6 +354,7 @@
  */
 
 /*!
+<<<<<<< HEAD
  * jQuery JavaScript Library v3.6.1
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +365,7 @@
 =======
 =======
 >>>>>>> 29587b0 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 63c2c43 (up)
 =======
@@ -329,6 +374,8 @@
 =======
 =======
 >>>>>>> 64fad46 (rebase)
+=======
+>>>>>>> 8629e12 (rebase)
  * jQuery JavaScript Library v3.6.0
 >>>>>>> 31d6e3b (first)
 =======
