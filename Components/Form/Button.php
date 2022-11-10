@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -28,24 +33,47 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 312af933 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 namespace Themes\AdminLTE\Components\Form;
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Components\Form;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Components\Form;
->>>>>>> 5b4054a (.)
 
 use Illuminate\View\Component;
 
+<<<<<<< HEAD
 class Button extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Button extends Component {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class Button extends Component {
+=======
+class Button extends Component
+{
+>>>>>>> 31d6e3b (first)
+=======
+class Button extends Component {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+class Button extends Component {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+class Button extends Component {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     /**
      * The visible label (text) for the button.
      *
@@ -87,10 +115,36 @@ class Button extends Component {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $label = null,
         $type = 'button',
         $theme = 'default',
         $icon = null
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+        $label = null, $type = 'button', $theme = 'default', $icon = null
+>>>>>>> 31d6e3b (first)
+=======
+        $label = null, $type = 'button', $theme = 'default', $icon = null
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     ) {
         $this->label = $label;
         $this->type = $type;
@@ -103,6 +157,11 @@ class Button extends Component {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -113,5 +172,17 @@ class Button extends Component {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d79d738 (up)
+    public function render() {
+        return view('adminlte::components.form.button');
+>>>>>>> f617437 (rebase)
+>>>>>>> a05b3ba1 (rebase)
     }
 }

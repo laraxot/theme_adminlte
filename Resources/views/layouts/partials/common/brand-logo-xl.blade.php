@@ -9,6 +9,7 @@
 @endif
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -18,12 +19,18 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand logo-switch {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link logo-switch {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
     {{-- <!-- Small brand logo  -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -53,13 +60,23 @@
     {{-- <!-- Small brand logo  -->
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
         alt="{{ config('adm_theme::adminlte.logo_img_alt', 'AdminLTE') }}"
         class="{{ config('adm_theme::adminlte.logo_img_class', 'brand-image-xl') }} logo-xs">
 
     <!-- Large brand logo -->
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img_xl')) }}" alt="{{ config('adm_theme::adminlte.logo_img_alt', 'AdminLTE') }}"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
 <<<<<<< HEAD
 =======
@@ -83,5 +100,11 @@
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+        class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 </a>

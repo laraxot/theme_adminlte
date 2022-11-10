@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
-use Modules\Theme\View\Composers\XotBaseComposer;
+use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
@@ -17,6 +17,7 @@ class ThemeComposer extends XotBaseComposer {
     public function __construct(AdminLTE $adminlte) {
         $this->adminlte = $adminlte;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -34,16 +35,48 @@ class ThemeComposer extends XotBaseComposer {
 =======
     
 >>>>>>> ae93a9b (up)
+<<<<<<< HEAD
 >>>>>>> b8343442 (rebase)
+=======
+=======
+
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     /**
      * Bind data to the view.
      *
      * @return void
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5fba10f (rebase)
+=======
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+=======
+>>>>>>> b135dba (.)
+>>>>>>> 5fba10f (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     public function compose(View $view) {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
 }
 <<<<<<< HEAD
 =======
@@ -116,4 +149,10 @@ class ThemeComposer extends XotBaseComposer {
 }
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+}
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)

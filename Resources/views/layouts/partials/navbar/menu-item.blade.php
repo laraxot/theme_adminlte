@@ -2,6 +2,7 @@
 
 @if ($navbarItemHelper->isSearch($item))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -11,7 +12,12 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     {{-- Search form --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-search-form')
 @elseif ($navbarItemHelper->isNotification($item))
@@ -35,6 +41,7 @@
 @elseif ($navbarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -83,5 +90,10 @@
 =======
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
+=======
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 @endif

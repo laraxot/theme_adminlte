@@ -1,10 +1,56 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
 
 class SelectBs extends InputGroupComponent {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+namespace Themes\AdminLTE\Components\Form;
+
+class SelectBs extends InputGroupComponent
+{
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+namespace Themes\AdminLTE\Components\Form;
+
+class SelectBs extends InputGroupComponent {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     /**
      * The bootstrap-select plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -32,6 +78,17 @@ class SelectBs extends InputGroupComponent {
      * @return void
      */
     public function __construct(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $name,
         $id = null,
         $label = null,
@@ -53,6 +110,29 @@ class SelectBs extends InputGroupComponent {
             $igroupClass,
             $disableFeedback,
             $errorKey
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+        $name, $id = null, $label = null, $igroupSize = null, $labelClass = null,
+        $fgroupClass = null, $igroupClass = null, $disableFeedback = null,
+        $errorKey = null, $config = []
+    ) {
+        parent::__construct(
+            $name, $id, $label, $igroupSize, $labelClass, $fgroupClass,
+            $igroupClass, $disableFeedback, $errorKey
+<<<<<<< HEAD
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         );
 
         $this->config = \is_array($config) ? $config : [];
@@ -63,7 +143,35 @@ class SelectBs extends InputGroupComponent {
      *
      * @return string
      */
+<<<<<<< HEAD
     public function makeItemClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeItemClass() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function makeItemClass() {
+=======
+    public function makeItemClass()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function makeItemClass() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function makeItemClass() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function makeItemClass() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $classes = ['form-control'];
 
         if ($this->isInvalid() && ! isset($this->disableFeedback)) {
@@ -86,6 +194,11 @@ class SelectBs extends InputGroupComponent {
      *
      * @return \Illuminate\View\View|string
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -96,5 +209,17 @@ class SelectBs extends InputGroupComponent {
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d79d738 (up)
+    public function render() {
+        return view('adminlte::components.form.select-bs');
+>>>>>>> f617437 (rebase)
+>>>>>>> a05b3ba1 (rebase)
     }
 }

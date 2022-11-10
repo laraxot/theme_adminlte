@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -28,25 +33,48 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 312af933 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 namespace Themes\AdminLTE\Console;
-=======
-namespace Themes\KlekooAdm\Console;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Console;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Console;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Console;
->>>>>>> 5b4054a (.)
 
 use Illuminate\Console\Command;
 use Themes\AdminLTE\Console\PackageResources\PluginsResource;
 
+<<<<<<< HEAD
 class AdminLtePluginCommand extends Command {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class AdminLtePluginCommand extends Command {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class AdminLtePluginCommand extends Command {
+=======
+class AdminLtePluginCommand extends Command
+{
+>>>>>>> 31d6e3b (first)
+=======
+class AdminLtePluginCommand extends Command {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+class AdminLtePluginCommand extends Command {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+class AdminLtePluginCommand extends Command {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     /**
      * The name and signature of the console command.
      *
@@ -107,15 +135,82 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function __construct() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function __construct() {
+=======
+    public function __construct()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function __construct() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function __construct() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function __construct() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         parent::__construct();
 
         // Fill the available operations handlers.
 
         $this->opHandlers = [
+<<<<<<< HEAD
             'list' => [$this, 'showPlugins'],
             'install' => [$this, 'installPlugins'],
             'remove' => [$this, 'removePlugins'],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+=======
+            'list'    => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove'  => [$this, 'removePlugins'],
+>>>>>>> 31d6e3b (first)
+=======
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+            'list' => [$this, 'showPlugins'],
+            'install' => [$this, 'installPlugins'],
+            'remove' => [$this, 'removePlugins'],
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         ];
 
         // Create the plugins resource instance.
@@ -128,7 +223,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function handle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function handle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function handle() {
+=======
+    public function handle()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function handle() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function handle() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function handle() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Get the type of operation to perform.
 
         $op = $this->argument('operation');
@@ -152,7 +275,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function showPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function showPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function showPlugins() {
+=======
+    protected function showPlugins()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function showPlugins() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    protected function showPlugins() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    protected function showPlugins() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Show the plugins status.
 
         $pluginsKeys = $this->getAffectedPlugins();
@@ -169,7 +320,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return array An array with plugins keys
      */
+<<<<<<< HEAD
     protected function getAffectedPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function getAffectedPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function getAffectedPlugins() {
+=======
+    protected function getAffectedPlugins()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function getAffectedPlugins() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    protected function getAffectedPlugins() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    protected function getAffectedPlugins() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // First, check if the user has specified the plugins keys.
 
         if (! empty($this->option('plugin'))) {
@@ -184,11 +363,58 @@ class AdminLtePluginCommand extends Command {
     /**
      * Display the plugins status.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param array $pluginsKeys Array with the plugins keys to evaluate
      *
      * @return void
      */
     protected function showPluginsStatus($pluginsKeys) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  array  $pluginsKeys  Array with the plugins keys to evaluate
+     * @return void
+     */
+    protected function showPluginsStatus($pluginsKeys)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param array $pluginsKeys Array with the plugins keys to evaluate
+     *
+     * @return void
+     */
+    protected function showPluginsStatus($pluginsKeys) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Define the table headers.
 
         $tblHeader = [
@@ -208,6 +434,28 @@ class AdminLtePluginCommand extends Command {
         $bar->start();
 
         foreach ($pluginsKeys as $key) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -243,11 +491,58 @@ class AdminLtePluginCommand extends Command {
     /**
      * Get the installation status of a plugin.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param string $pluginKey The plugin key
      *
      * @return string The plugin status
      */
     protected function getPluginStatus($pluginKey) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  string  $pluginKey  The plugin key
+     * @return string The plugin status
+     */
+    protected function getPluginStatus($pluginKey)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin key
+     *
+     * @return string The plugin status
+     */
+    protected function getPluginStatus($pluginKey) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $status = $this->status['uninstalled'];
 
         if ($this->plugins->installed($pluginKey)) {
@@ -264,7 +559,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function showStatusLegends() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function showStatusLegends() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function showStatusLegends() {
+=======
+    protected function showStatusLegends()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function showStatusLegends() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    protected function showStatusLegends() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    protected function showStatusLegends() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $this->line('Status legends:');
 
         // Create the table headers for the legends.
@@ -293,12 +616,61 @@ class AdminLtePluginCommand extends Command {
     /**
      * Give output style to some text.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param string $text  The text to be styled
      * @param string $color The output color for the text
      *
      * @return string The styled text
      */
     protected function styleOutput($text, $color) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  string  $text  The text to be styled
+     * @param  string  $color  The output color for the text
+     * @return string The styled text
+     */
+    protected function styleOutput($text, $color)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $text  The text to be styled
+     * @param string $color The output color for the text
+     *
+     * @return string The styled text
+     */
+    protected function styleOutput($text, $color) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         return "<fg={$color}>{$text}</>";
     }
 
@@ -307,7 +679,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function installPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function installPlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function installPlugins() {
+=======
+    protected function installPlugins()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function installPlugins() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    protected function installPlugins() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    protected function installPlugins() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $summary = [];
 
         // Get the list of plugins to be installed.
@@ -322,6 +722,28 @@ class AdminLtePluginCommand extends Command {
         // Install the plugins.
 
         foreach ($pluginsKeys as $pluginKey) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -352,11 +774,58 @@ class AdminLtePluginCommand extends Command {
     /**
      * Install the specified plugin.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully installed
      */
     protected function installPlugin($pluginKey) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  string  $pluginKey  The plugin string key
+     * @return bool Whether the plugin was succesfully installed
+     */
+    protected function installPlugin($pluginKey)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin string key
+     *
+     * @return bool Whether the plugin was succesfully installed
+     */
+    protected function installPlugin($pluginKey) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('install');
@@ -401,7 +870,35 @@ class AdminLtePluginCommand extends Command {
      *
      * @return void
      */
+<<<<<<< HEAD
     protected function removePlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function removePlugins() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    protected function removePlugins() {
+=======
+    protected function removePlugins()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    protected function removePlugins() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    protected function removePlugins() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    protected function removePlugins() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $summary = [];
 
         // Get the list of plugins to remove.
@@ -416,6 +913,28 @@ class AdminLtePluginCommand extends Command {
         // Remove the plugins.
 
         foreach ($pluginsKeys as $pluginKey) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31d6e3b (first)
+=======
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
             // Advance the progress bar one step.
 
             $bar->advance();
@@ -446,11 +965,58 @@ class AdminLtePluginCommand extends Command {
     /**
      * Remove/Uninstall the specified plugin.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param string $pluginKey The plugin string key
      *
      * @return bool Whether the plugin was succesfully removed
      */
     protected function removePlugin($pluginKey) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  string  $pluginKey  The plugin string key
+     * @return bool Whether the plugin was succesfully removed
+     */
+    protected function removePlugin($pluginKey)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param string $pluginKey The plugin string key
+     *
+     * @return bool Whether the plugin was succesfully removed
+     */
+    protected function removePlugin($pluginKey) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Customize the output messages.
 
         $confirmMsg = $this->plugins->getInstallMessage('remove');
@@ -481,11 +1047,58 @@ class AdminLtePluginCommand extends Command {
     /**
      * Show the summary table for some operation.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
      * @param array $rows the table rows
      *
      * @return void
      */
     protected function showSummaryTable($rows) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 905478d (rebase)
+=======
+     * @param  array  $rows  The table rows.
+     * @return void
+     */
+    protected function showSummaryTable($rows)
+    {
+>>>>>>> 31d6e3b (first)
+=======
+     * @param array $rows the table rows
+     *
+     * @return void
+     */
+    protected function showSummaryTable($rows) {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         $header = [
             $this->styleOutput('Plugin Key', 'cyan'),
             $this->styleOutput('Status', 'cyan'),

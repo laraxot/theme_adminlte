@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a05b3ba1 (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -28,24 +33,47 @@ declare(strict_types=1);
 
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 312af933 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
 namespace Themes\AdminLTE\Http\Controllers;
-=======
-namespace Themes\KlekooAdm\Http\Controllers;
->>>>>>> b738e1c (rebase)
-=======
-namespace Themes\AdminLTE\Http\Controllers;
->>>>>>> 63c2c43 (up)
-=======
-namespace Themes\KlekooAdm\Http\Controllers;
->>>>>>> 8a5cc0b (.)
-=======
-namespace Themes\AdminLTE\Http\Controllers;
->>>>>>> 5b4054a (.)
 
 use Themes\AdminLTE\Events\DarkModeWasToggled;
 
+<<<<<<< HEAD
 class DarkModeController extends Controller {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+class DarkModeController extends Controller {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+class DarkModeController extends Controller {
+=======
+class DarkModeController extends Controller
+{
+>>>>>>> 31d6e3b (first)
+=======
+class DarkModeController extends Controller {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+class DarkModeController extends Controller {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+class DarkModeController extends Controller {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
     /**
      * The key to use for save dark mode preference on the session.
      *
@@ -58,7 +86,35 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function toggle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function toggle() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function toggle() {
+=======
+    public function toggle()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function toggle() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function toggle() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function toggle() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // Store the new dark mode preference on the session. This way, we can
         // keep the dark mode preference over multiple requests.
 
@@ -76,7 +132,35 @@ class DarkModeController extends Controller {
      *
      * @return bool
      */
+<<<<<<< HEAD
     public function isEnabled() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function isEnabled() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function isEnabled() {
+=======
+    public function isEnabled()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function isEnabled() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function isEnabled() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function isEnabled() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         // First, check if dark mode preference is available on the session.
 
         if (null !== session($this->sessionKey, null)) {
@@ -93,7 +177,35 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function enable() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function enable() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function enable() {
+=======
+    public function enable()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function enable() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function enable() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function enable() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         session([$this->sessionKey => true]);
     }
 
@@ -102,7 +214,35 @@ class DarkModeController extends Controller {
      *
      * @return void
      */
+<<<<<<< HEAD
     public function disable() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function disable() {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function disable() {
+=======
+    public function disable()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function disable() {
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+    public function disable() {
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+=======
+    public function disable() {
+>>>>>>> d79d738 (up)
+>>>>>>> a05b3ba1 (rebase)
         session([$this->sessionKey => false]);
     }
 }
