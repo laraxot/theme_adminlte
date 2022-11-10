@@ -7,9 +7,13 @@
 /nbproject/private/
 /node_modules/
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules/
 =======
 >>>>>>> a159d289 (rebase)
+=======
+node_modules/
+>>>>>>> d0c120fb (rebase)
 ad.js
 TODO
 test.html
