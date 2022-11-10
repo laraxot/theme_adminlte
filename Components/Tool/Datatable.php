@@ -1,159 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 59a8928 (rebase)
->>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 312af933 (rebase)
-=======
-=======
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> dfca2a99 (rebase)
-=======
->>>>>>> 543f78f7 (rebase)
-=======
->>>>>>> db3db5ed (rebase)
-=======
->>>>>>> 070463ff (rebase)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Datatable extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-class Datatable extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-class Datatable extends Component {
-=======
-class Datatable extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Datatable extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-class Datatable extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-class Datatable extends Component {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-class Datatable extends Component {
->>>>>>> dfca2a99 (rebase)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -275,29 +128,6 @@ class Datatable extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         $id,
         $heads,
         $theme = null,
@@ -311,38 +141,6 @@ class Datatable extends Component {
         $beautify = null,
         $withButtons = null,
         $config = []
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-        $id, $heads, $theme = null, $headTheme = null, $bordered = null,
-        $hoverable = null, $striped = null, $compressed = null,
-        $withFooter = null, $footerTheme = null, $beautify = null,
-        $withButtons = null, $config = []
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     ) {
         $this->id = $id;
         $this->heads = $heads;
@@ -378,64 +176,7 @@ class Datatable extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeTableClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    public function makeTableClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeTableClass() {
-=======
-    public function makeTableClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeTableClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeTableClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeTableClass() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    public function makeTableClass() {
->>>>>>> dfca2a99 (rebase)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -466,64 +207,7 @@ class Datatable extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function makeDomCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    protected function makeDomCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    protected function makeDomCfg() {
-=======
-    protected function makeDomCfg()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function makeDomCfg() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    protected function makeDomCfg() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    protected function makeDomCfg() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    protected function makeDomCfg() {
->>>>>>> dfca2a99 (rebase)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -545,64 +229,7 @@ class Datatable extends Component {
      *
      * @return array
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function makeButtonsCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    protected function makeButtonsCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    protected function makeButtonsCfg() {
-=======
-    protected function makeButtonsCfg()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function makeButtonsCfg() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    protected function makeButtonsCfg() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    protected function makeButtonsCfg() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    protected function makeButtonsCfg() {
->>>>>>> dfca2a99 (rebase)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -668,19 +295,6 @@ class Datatable extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 59a8928 (rebase)
->>>>>>> 655502de (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -691,40 +305,5 @@ class Datatable extends Component {
         ];
 
         return view($view, $view_params);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-=======
-=======
->>>>>>> 64fad46 (rebase)
-    public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 64fad46 (rebase)
-        return view('adminlte::components.tool.datatable');
->>>>>>> f617437 (rebase)
->>>>>>> a05b3ba1 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     }
 }

@@ -4,40 +4,7 @@
 //https://adminlte.io/blog/integrate-adminlte-with-laravel
 
 let mix = require('laravel-mix');
-<<<<<<< HEAD
-<<<<<<< HEAD
 const path = require('path');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-const path = require('path');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-const path = require('path');
-=======
-//const path = require('path');
->>>>>>> 31d6e3b (first)
-=======
-//const path = require('path');
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-const path = require('path');
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-const path = require('path');
->>>>>>> dfca2a99 (rebase)
 //https://dev.to/saymon/laravel-mix-rewrite-path-when-place-project-in-subfolder-2325
 //https://dev.to/tefoh/laravel-scaffold-command-2lg
 //https://dev.to/100r0bh/bulk-action-using-livewire-31i7
@@ -62,65 +29,11 @@ const path = require('path');
  |
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 require('laravel-mix-purgecss');
 
 mix.autoload({
     //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
     jquery: ['$', 'window.jQuery', "jQuery", "window.$", "jquery", "window.jquery"],
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-mix.autoload({
-    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
-    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
->>>>>>> 31d6e3b (first)
-=======
-mix.autoload({
-    //jquery: ['$', 'jQuery', 'jquery', 'window.jQuery'],
-    jquery: ['$', 'window.jQuery',"jQuery","window.$","jquery","window.jquery"],
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     tether: ['Tether', 'windows.Tether'],
     //Popper: ['popper', 'Popper', 'popper.js'],
     //popper: ['Popper', 'popper.js'],
@@ -129,266 +42,27 @@ mix.autoload({
 
 mix.setPublicPath('Resources/dist');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 mix.js('Resources/js/app.js', 'Resources/dist/js'); //.vue();
 
 mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
 
-mix.vue({
-    version: 3
-});
+mix.vue({ version: 3 });
 
 mix.purgeCss({
     enabled: false,
 });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-mix.js('Resources/js/app.js', 'Resources/dist/js').vue();
-
-mix.sass('Resources/sass/app.scss', 'Resources/dist/css');
-
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 /*
 mix.js('Resources/js/auth.js', 'Resources/dist/js')
     .sass('Resources/sass/auth.scss', 'Resources/dist/css');
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-mix.extract();
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a05b3ba1 (rebase)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfca2a99 (rebase)
 mix.extract();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-mix.extract();
-/*
->>>>>>> 29587b0 (.)
-=======
-
->>>>>>> 63c2c43 (up)
-mix.extract([
-    'admin-lte',
-    'axios',
-    //'bootstrap-sass',
-    'bootstrap',
-    'fastclick',
-    'jquery',
-    'jquery-slimscroll',
-    'lodash',
-    //'vue',
-    'popper.js',
-    'sweetalert2',
-    'lodash',
-    //'bootstrap-select',
-    //'jasny-bootstrap',
-    'moment',
-    'nouislider',
-<<<<<<< HEAD
-<<<<<<< HEAD
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-mix.extract();
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-
->>>>>>> 543f78f7 (rebase)
-=======
-mix.extract();
-/*
->>>>>>> 29587b0 (.)
-=======
-
->>>>>>> 63c2c43 (up)
-=======
-mix.extract();
-/*
->>>>>>> 8a5cc0b (.)
-mix.extract([
-    'admin-lte',
-    'axios',
-    //'bootstrap-sass',
-    'bootstrap',
-    'fastclick',
-    'jquery',
-    'jquery-slimscroll',
-    'lodash',
-    //'vue',
-    'popper.js',
-    'sweetalert2',
-    'lodash',
-    //'bootstrap-select',
-    //'jasny-bootstrap',
-    'moment',
-    'nouislider',
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> 4e5d3818 (rebase)
-
-=======
->>>>>>> 8629e12 (rebase)
-=======
-=======
-
-=======
->>>>>>> 543f78f7 (rebase)
-] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
-);
-*/
->>>>>>> 29587b0 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 543f78f7 (rebase)
-=======
-] /*, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' */ );
-
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 543f78f7 (rebase)
-=======
-] //, 'public/js/vendor.js' */ /*, __dirname + '/Resources/dist' 
-);
-*/
->>>>>>> 8a5cc0b (.)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-=======
->>>>>>> 8629e12 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
-=======
->>>>>>> b6bf7b3 (rebase)
-<<<<<<< HEAD
->>>>>>> 543f78f7 (rebase)
-=======
-=======
-
->>>>>>> 3703261 (up)
->>>>>>> db3db5ed (rebase)
-=======
->>>>>>> 070463ff (rebase)
 //mix.version();
 
 mix.sourceMaps();
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 mix.webpackConfig({
     resolve: {
         modules: [
@@ -412,33 +86,6 @@ mix.webpackConfig({
 
 
 //*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-/*
->>>>>>> 31d6e3b (first)
-=======
-/*
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 
 require('laravel-mix-polyfill');
 
@@ -448,40 +95,7 @@ mix.polyfill({
     //targets: { "firefox": "50", "ie": 11 }
     targets: "firefox 50, IE 11"
 });
-<<<<<<< HEAD
-<<<<<<< HEAD
 //*/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-//*/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-//*/
-=======
-*/
->>>>>>> 31d6e3b (first)
-=======
-*/
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-//*/
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-//*/
->>>>>>> dfca2a99 (rebase)
 
 var $from = './Resources/dist';
 var $to = '../../../public_html/themes/AdminLTE/dist';
@@ -493,48 +107,4 @@ console.log('to :' + $to);
 
 mix.copyDirectory($from, $to);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 31d6e3b (first)
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> dfca2a99 (rebase)
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 51dd1cf0 (up)
->>>>>>> 25c89cc3 (rebase)
-=======
-mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
->>>>>>> 4198e9fb (.)

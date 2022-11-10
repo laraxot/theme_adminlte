@@ -15,137 +15,9 @@
 
 
     <div class="wrapper">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f63434d (rebase)
 
         <!-- Preloader -->
         {{-- <div class="preloader">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 543f78f7 (rebase)
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-=======
-
-        <!-- Preloader -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 543f78f7 (rebase)
-=======
->>>>>>> 5dd3b30a (rebase)
-        {{--
->>>>>>> 8a5cc0b (.)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> 2c813d8e (rebase)
-=======
-=======
-=======
-        {{-- <div class="preloader">
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-<<<<<<< HEAD
->>>>>>> 103222ea (rebase)
-=======
-=======
-
-<<<<<<< HEAD
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-<<<<<<< HEAD
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 763ce2c (rebase)
-        <!-- Preloader -->
-        {{-- <div class="preloader">
-=======
-          <!-- Preloader -->
-=======
-        <!-- Preloader -->
-        {{--
->>>>>>> ac76b2e (.)
-=======
->>>>>>> 63c2c43 (up)
-        <div class="preloader">
->>>>>>> 31d6e3b (first)
-=======
-          <!-- Preloader -->
-        <div class="preloader">
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-
-        <!-- Preloader -->
-        {{-- <div class="preloader">
->>>>>>> dfca2a99 (rebase)
-=======
-=======
->>>>>>> 5dd3b30a (rebase)
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
-<<<<<<< HEAD
->>>>>>> 543f78f7 (rebase)
-=======
-=======
-=======
-=======
-        {{-- <div class="preloader">
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
->>>>>>> 4ab624f (rebase)
-<<<<<<< HEAD
->>>>>>> 5dd3b30a (rebase)
-=======
-=======
-
-        <!-- Preloader -->
-        {{-- <div class="preloader">
->>>>>>> 3703261 (up)
->>>>>>> db3db5ed (rebase)
-=======
->>>>>>> e5945a61 (rebase)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
@@ -154,30 +26,6 @@
             </div>
             </div>
         </div> --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-        </div> --}}
-=======
-        </div>
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
-        </div>
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-        --}}
->>>>>>> ac76b2e (.)
->>>>>>> 5e67a8b (rebase)
->>>>>>> 2c813d8e (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
 
 
         {{-- Top Navbar --}}

@@ -1,159 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 59a8928 (rebase)
->>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 312af933 (rebase)
-=======
-=======
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> dfca2a99 (rebase)
-=======
->>>>>>> 543f78f7 (rebase)
-=======
->>>>>>> db3db5ed (rebase)
-=======
->>>>>>> 070463ff (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class Card extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-class Card extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-class Card extends Component {
-=======
-class Card extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Card extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-class Card extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-class Card extends Component {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-class Card extends Component {
->>>>>>> dfca2a99 (rebase)
     /**
      * The title for the card header.
      *
@@ -240,29 +93,6 @@ class Card extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         $title = null,
         $icon = null,
         $theme = null,
@@ -272,37 +102,6 @@ class Card extends Component {
         $collapsible = null,
         $removable = null,
         $maximizable = null
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
-        $title = null, $icon = null, $theme = null, $themeMode = null,
-        $bodyClass = null, $disabled = null, $collapsible = null,
-        $removable = null, $maximizable = null
->>>>>>> 31d6e3b (first)
-=======
-        $title = null, $icon = null, $theme = null, $themeMode = null,
-        $bodyClass = null, $disabled = null, $collapsible = null,
-        $removable = null, $maximizable = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     ) {
         $this->title = $title;
         $this->icon = $icon;
@@ -320,46 +119,6 @@ class Card extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     public function makeCardClass() {
         $classes = ['card'];
 
@@ -368,132 +127,11 @@ class Card extends Component {
             $classes[] = "{$base}-{$this->theme}";
 
             if ('outline' === $this->themeMode) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeCardClass()
-    {
-=======
-    public function makeCardClass() {
->>>>>>> f405739 (up)
-        $classes = ['card'];
-
-        if (isset($this->theme)) {
-            $base = 'full' === $this->themeMode ? 'bg-gradient' : 'card';
-            $classes[] = "{$base}-{$this->theme}";
-
-<<<<<<< HEAD
-            if ($this->themeMode === 'outline') {
->>>>>>> 31d6e3b (first)
-=======
-            if ('outline' === $this->themeMode) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
                 $classes[] = 'card-outline';
             }
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ('collapsed' === $this->collapsible) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-        if ('collapsed' === $this->collapsible) {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-        if ('collapsed' === $this->collapsible) {
-=======
-        if ($this->collapsible === 'collapsed') {
->>>>>>> 31d6e3b (first)
-=======
-        if ('collapsed' === $this->collapsible) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-        if ('collapsed' === $this->collapsible) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-        if ('collapsed' === $this->collapsible) {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-        if ('collapsed' === $this->collapsible) {
->>>>>>> dfca2a99 (rebase)
             $classes[] = 'collapsed-card';
         }
 
@@ -505,64 +143,7 @@ class Card extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeCardBodyClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    public function makeCardBodyClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeCardBodyClass() {
-=======
-    public function makeCardBodyClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeCardBodyClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeCardBodyClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeCardBodyClass() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    public function makeCardBodyClass() {
->>>>>>> dfca2a99 (rebase)
         $classes = ['card-body'];
 
         if (isset($this->bodyClass)) {
@@ -577,64 +158,7 @@ class Card extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function makeCardHeaderClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    public function makeCardHeaderClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeCardHeaderClass() {
-=======
-    public function makeCardHeaderClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeCardHeaderClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeCardHeaderClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    public function makeCardHeaderClass() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    public function makeCardHeaderClass() {
->>>>>>> dfca2a99 (rebase)
         $classes = ['card-header'];
 
         if ($this->isCardHeaderEmpty()) {
@@ -649,110 +173,10 @@ class Card extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     public function makeCardTitleClass() {
         $classes = ['card-title'];
 
         if (isset($this->theme) && 'outline' === $this->themeMode) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    public function makeCardTitleClass()
-    {
-        $classes = ['card-title'];
-
-        if (isset($this->theme) && $this->themeMode === 'outline') {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeCardTitleClass() {
-        $classes = ['card-title'];
-
-        if (isset($this->theme) && 'outline' === $this->themeMode) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
             $classes[] = "text-{$this->theme}";
         }
 
@@ -764,64 +188,7 @@ class Card extends Component {
      *
      * @return bool
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
     protected function isCardHeaderEmpty() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-    protected function isCardHeaderEmpty() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-    protected function isCardHeaderEmpty() {
-=======
-    protected function isCardHeaderEmpty()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function isCardHeaderEmpty() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-    protected function isCardHeaderEmpty() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-    protected function isCardHeaderEmpty() {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-    protected function isCardHeaderEmpty() {
->>>>>>> dfca2a99 (rebase)
         $hasTools = isset($this->collapsible) ||
                     isset($this->maximizable) ||
                     isset($this->removable);
@@ -834,19 +201,6 @@ class Card extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 59a8928 (rebase)
->>>>>>> 655502de (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -857,40 +211,5 @@ class Card extends Component {
         ];
 
         return view($view, $view_params);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-=======
-=======
->>>>>>> 64fad46 (rebase)
-    public function render() {
-=======
-    public function render()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function render() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
-=======
-    public function render() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 64fad46 (rebase)
-        return view('adminlte::components.widget.card');
->>>>>>> f617437 (rebase)
->>>>>>> a05b3ba1 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
     }
 }

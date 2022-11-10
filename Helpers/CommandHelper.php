@@ -1,160 +1,13 @@
 <?php
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> 59a8928 (rebase)
->>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 4a726e2 (rebase)
-=======
->>>>>>> f63434d (rebase)
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 312af933 (rebase)
-=======
-=======
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-declare(strict_types=1);
-
->>>>>>> dfca2a99 (rebase)
-=======
->>>>>>> 543f78f7 (rebase)
-=======
->>>>>>> db3db5ed (rebase)
-=======
->>>>>>> 070463ff (rebase)
 namespace Themes\AdminLTE\Helpers;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 class CommandHelper {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-class CommandHelper {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-class CommandHelper {
-=======
-class CommandHelper
-{
->>>>>>> 31d6e3b (first)
-=======
-class CommandHelper {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-class CommandHelper {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
-class CommandHelper {
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
-class CommandHelper {
->>>>>>> dfca2a99 (rebase)
     /**
      * Path to the package root folder.
      *
@@ -172,52 +25,6 @@ class CommandHelper {
     /**
      * Ensure a directory exists by creating it when needed.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $dir       The path of the directory
      * @param int    $mode      The directory access mode
      * @param bool   $recursive Allow creating nested directories present in path
@@ -225,59 +32,6 @@ class CommandHelper {
      * @return void
      */
     public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
-=======
-     * @param  string  $dir  The path of the directory
-     * @param  int  $mode  The directory access mode
-     * @param  bool  $recursive  Allow creating nested directories present in path
-     * @return void
-     */
-    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @return void
-     */
-    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-     * @return void
-     */
-    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         if (! is_dir($dir)) {
             mkdir($dir, $mode, $recursive);
         }
@@ -286,52 +40,6 @@ class CommandHelper {
     /**
      * Copy an entire directory to a destination.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $dir       The path of the source folder
      * @param string $dest      The path of the destination folder
      * @param bool   $force     Whether to force the overwrite of existing files
@@ -341,61 +49,6 @@ class CommandHelper {
      * @return void
      */
     public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
-=======
-     * @param  string  $dir  The path of the source folder
-     * @param  string  $dest  The path of the destination folder
-     * @param  bool  $force  Whether to force the overwrite of existing files
-     * @param  bool  $recursive  Whether to copy subfolders recursively
-     * @param  array  $ignores  Array of files to be ignored
-     * @return void
-     */
-    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = [])
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @return void
-     */
-    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-     * @return void
-     */
-    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         // Open the source folder. Return if fails to open.
 
         if (! \is_resource($dirHandler = @opendir($dir))) {
@@ -409,56 +62,6 @@ class CommandHelper {
         // Copy the source files to destination.
 
         while (($file = readdir($dirHandler)) !== false) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-=======
-
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
             // Check if this file should be ignored.
 
             $filesToIgnore = array_merge($ignores, ['.', '..']);
@@ -488,52 +91,6 @@ class CommandHelper {
     /**
      * Compare two directories file by file.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $dir1      The path of the first folder
      * @param string $dir2      The path of the second folder
      * @param bool   $recursive Whether to compare subfolders recursively
@@ -542,60 +99,6 @@ class CommandHelper {
      * @return bool|null Result of comparison or null if a folder not exists
      */
     public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 59a8928 (rebase)
-=======
-=======
-     * @param  string  $dir1  The path of the first folder
-     * @param  string  $dir2  The path of the second folder
-     * @param  bool  $recursive  Whether to compare subfolders recursively
-     * @param  array  $ignores  Array of files to be ignored
-     * @return bool|null Result of comparison or null if a folder not exists
-     */
-    public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = [])
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @return bool|null Result of comparison or null if a folder not exists
-     */
-    public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
-     * @return bool|null Result of comparison or null if a folder not exists
-     */
-    public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         // Open the first folder. Return if fails to open.
 
         if (! \is_resource($dirHandler = @opendir($dir1))) {
@@ -611,56 +114,6 @@ class CommandHelper {
         // Now, compare the folders.
 
         while (($file = readdir($dirHandler)) !== false) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-=======
-
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
             // Check if this file should be ignored.
 
             $filesToIgnore = array_merge($ignores, ['.', '..']);
@@ -703,115 +156,12 @@ class CommandHelper {
     /**
      * Check if two files are equals by comparing sha1 hash values.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $file1 The first file
      * @param string $file2 The second file
      *
      * @return bool
      */
     public static function compareFiles($file1, $file2) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $file1  The first file
-     * @param  string  $file2  The second file
-     * @return bool
-     */
-    public static function compareFiles($file1, $file2)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $file1 The first file
-     * @param string $file2 The second file
-     *
-     * @return bool
-     */
-    public static function compareFiles($file1, $file2) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         if (! is_file($file1) || ! is_file($file2)) {
             return false;
         }
@@ -822,224 +172,22 @@ class CommandHelper {
     /**
      * Recursively delete a directory.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $dir The directory to remove
      *
      * @return bool
      */
     public static function removeDirectory($dir) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $dir  The directory to remove
-     * @return bool
-     */
-    public static function removeDirectory($dir)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $dir The directory to remove
-     *
-     * @return bool
-     */
-    public static function removeDirectory($dir) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         return File::deleteDirectory($dir);
     }
 
     /**
      * Get the fully qualified path to some package resource.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $path Relative path to the resource
      *
      * @return string Fully qualified path to the resource
      */
     public static function getPackagePath($path = null) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $path  Relative path to the resource
-     * @return string Fully qualified path to the resource
-     */
-    public static function getPackagePath($path = null)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $path Relative path to the resource
-     *
-     * @return string Fully qualified path to the resource
-     */
-    public static function getPackagePath($path = null) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         if (! $path) {
             return self::$packagePath;
         }
@@ -1050,112 +198,11 @@ class CommandHelper {
     /**
      * Get the fully qualified path to some package stub resource.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $path Relative path to the stub resource
      *
      * @return string Fully qualified path to the stub resource
      */
     public static function getStubPath($path = null) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $path  Relative path to the stub resource
-     * @return string Fully qualified path to the stub resource
-     */
-    public static function getStubPath($path = null)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $path Relative path to the stub resource
-     *
-     * @return string Fully qualified path to the stub resource
-     */
-    public static function getStubPath($path = null) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         if (! $path) {
             return self::$stubsPath;
         }
@@ -1166,112 +213,11 @@ class CommandHelper {
     /**
      * Get the fully qualified path relative to the configured view path.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $path Relative path to some view
      *
      * @return string Fully qualified path to the view
      */
     public static function getViewPath($path = null) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $path  Relative path to some view
-     * @return string Fully qualified path to the view
-     */
-    public static function getViewPath($path = null)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $path Relative path to some view
-     *
-     * @return string Fully qualified path to the view
-     */
-    public static function getViewPath($path = null) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         $basePath = config('view.paths')[0] ?? resource_path('views');
 
         if (! $path) {
@@ -1284,115 +230,12 @@ class CommandHelper {
     /**
      * Check if a file is included in a set of ignored file patterns.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-<<<<<<< HEAD
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
      * @param string $file    The file to check
      * @param array  $ignores Array of file patterns to be ignored
      *
      * @return bool
      */
     protected static function isIgnoredFile($file, $ignores) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
-=======
-=======
->>>>>>> 905478d (rebase)
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 59a8928 (rebase)
-=======
->>>>>>> 64fad46 (rebase)
-     * @param  string  $file  The file to check
-     * @param  array  $ignores  Array of file patterns to be ignored
-     * @return bool
-     */
-    protected static function isIgnoredFile($file, $ignores)
-    {
->>>>>>> 31d6e3b (first)
-=======
-     * @param string $file    The file to check
-     * @param array  $ignores Array of file patterns to be ignored
-     *
-     * @return bool
-     */
-    protected static function isIgnoredFile($file, $ignores) {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> f617437 (rebase)
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-<<<<<<< HEAD
->>>>>>> a05b3ba1 (rebase)
-=======
-=======
->>>>>>> f617437 (rebase)
->>>>>>> 59a8928 (rebase)
-<<<<<<< HEAD
->>>>>>> 655502de (rebase)
-=======
-=======
->>>>>>> 64fad46 (rebase)
->>>>>>> a159d289 (rebase)
-=======
->>>>>>> dfca2a99 (rebase)
         foreach ($ignores as $pattern) {
             $match = Str::startsWith($pattern, 'regex:') ?
                      preg_match(Str::substr($pattern, 6), $file) :
