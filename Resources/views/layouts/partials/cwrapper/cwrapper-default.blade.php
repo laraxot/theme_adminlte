@@ -1,4 +1,4 @@
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @if ($layoutHelper->isLayoutTopnavEnabled())
     @php($def_container_class = 'container')

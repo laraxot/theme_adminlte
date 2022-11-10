@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Themes\KlekooAdm\Helpers;
+namespace Themes\AdminLTE\Helpers;
 
 use Illuminate\Support\Facades\View;
-use Themes\KlekooAdm\Events\ReadingDarkModePreference;
-use Themes\KlekooAdm\Http\Controllers\DarkModeController;
+use Themes\AdminLTE\Events\ReadingDarkModePreference;
+use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
 class LayoutHelper {
     /**

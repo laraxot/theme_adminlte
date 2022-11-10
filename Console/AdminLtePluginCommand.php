@@ -13,6 +13,7 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -38,9 +39,12 @@ namespace Themes\AdminLTE\Console;
 =======
 namespace Themes\KlekooAdm\Console;
 >>>>>>> 8a5cc0b (.)
+=======
+namespace Themes\AdminLTE\Console;
+>>>>>>> 5b4054a (.)
 
 use Illuminate\Console\Command;
-use Themes\KlekooAdm\Console\PackageResources\PluginsResource;
+use Themes\AdminLTE\Console\PackageResources\PluginsResource;
 
 class AdminLtePluginCommand extends Command {
     /**

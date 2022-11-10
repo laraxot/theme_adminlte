@@ -3,8 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4ff622c (.)
+=======
+>>>>>>> 5b4054a (.)
 
     @php
     //dddx($profile->getProfile()->customers);
@@ -14,12 +17,16 @@
                                             */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4ff622c (.)
+=======
+>>>>>>> 5b4054a (.)
     //dddx($customer_rnd);
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,12 +53,15 @@
 >>>>>>> 8e96989 (.)
 =======
 >>>>>>> 4ff622c (.)
+=======
+>>>>>>> 5b4054a (.)
     $survey_pdf_first = null;
     $question_charts = null;
     if (!is_null($customer)) {
         $survey_pdf_first = $customer->surveyPdfs->last();
         $question_charts = $survey_pdf_first->questionCharts;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65,11 +75,15 @@
 =======
 
 >>>>>>> 4ff622c (.)
+=======
+
+>>>>>>> 5b4054a (.)
     @endphp
 
     @if (!is_null($question_charts))
         @foreach ($survey_pdf_first->questionCharts as $question_chart)
             <p>{{ $question_chart->question_txt }}</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90,6 +104,10 @@
             <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
             </x-lime.chart-img.v2>
 >>>>>>> 4ff622c (.)
+=======
+            <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
+            </x-lime.chart-img.v2>
+>>>>>>> 5b4054a (.)
         @endforeach
     @endif
 @endsection

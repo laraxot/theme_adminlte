@@ -1,6 +1,6 @@
 @extends('adm_theme::layouts.plane')
 
-@inject('layoutHelper', 'Themes\KlekooAdm\Helpers\LayoutHelper')
+@inject('layoutHelper', 'Themes\AdminLTE\Helpers\LayoutHelper')
 
 @section('adminlte_css')
     @stack('css')
@@ -39,6 +39,7 @@
 =======
 
         <!-- Preloader -->
+<<<<<<< HEAD
         {{--
 >>>>>>> 8a5cc0b (.)
         <div class="preloader">
@@ -47,8 +48,17 @@
           <!-- Preloader -->
         <div class="preloader">
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+<<<<<<< HEAD
 >>>>>>> 905478d (rebase)
+<<<<<<< HEAD
 >>>>>>> 2c813d8e (rebase)
+=======
+=======
+=======
+        {{-- <div class="preloader">
+>>>>>>> 5b4054a (.)
+>>>>>>> 5a3868d (rebase)
+>>>>>>> 103222ea (rebase)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
@@ -86,8 +96,7 @@
 >>>>>>> 63c2c43 (up)
 =======
             </div>
-        </div>
-        --}}
+        </div> --}}
 
 >>>>>>> 8a5cc0b (.)
 
