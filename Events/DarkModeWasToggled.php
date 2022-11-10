@@ -2,9 +2,36 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Events;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
 
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+<<<<<<< HEAD
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 312af933 (rebase)
+namespace Themes\AdminLTE\Events;
+=======
+namespace Themes\KlekooAdm\Events;
+>>>>>>> b738e1c (rebase)
+
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 class DarkModeWasToggled {
     /**

@@ -2,16 +2,43 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+declare(strict_types=1);
+
+<<<<<<< HEAD
+=======
+>>>>>>> 31d6e3b (first)
+=======
+declare(strict_types=1);
+
+>>>>>>> f405739 (up)
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+=======
+=======
+declare(strict_types=1);
+
+>>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
+>>>>>>> 905478d (rebase)
+>>>>>>> 312af933 (rebase)
 namespace Themes\AdminLTE\Console;
+=======
+namespace Themes\KlekooAdm\Console;
+>>>>>>> b738e1c (rebase)
 
 use Illuminate\Console\Command;
-use Themes\AdminLTE\Console\PackageResources\AssetsResource;
-use Themes\AdminLTE\Console\PackageResources\AuthViewsResource;
-use Themes\AdminLTE\Console\PackageResources\BasicRoutesResource;
-use Themes\AdminLTE\Console\PackageResources\BasicViewsResource;
-use Themes\AdminLTE\Console\PackageResources\ConfigResource;
-use Themes\AdminLTE\Console\PackageResources\MainViewsResource;
-use Themes\AdminLTE\Console\PackageResources\TranslationsResource;
+use Themes\KlekooAdm\Console\PackageResources\AssetsResource;
+use Themes\KlekooAdm\Console\PackageResources\AuthViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\BasicRoutesResource;
+use Themes\KlekooAdm\Console\PackageResources\BasicViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\ConfigResource;
+use Themes\KlekooAdm\Console\PackageResources\MainViewsResource;
+use Themes\KlekooAdm\Console\PackageResources\TranslationsResource;
 
 class AdminLteStatusCommand extends Command {
     /**
