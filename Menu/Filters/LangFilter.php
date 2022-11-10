@@ -4,7 +4,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -13,18 +18,24 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -40,7 +51,13 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
@@ -50,11 +67,17 @@ class LangFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class LangFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class LangFilter implements FilterInterface {
 =======
 class LangFilter implements FilterInterface
@@ -63,6 +86,7 @@ class LangFilter implements FilterInterface
 =======
 class LangFilter implements FilterInterface {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -73,7 +97,13 @@ class LangFilter implements FilterInterface {
 =======
 class LangFilter implements FilterInterface {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
     /**
      * The translator instance.
      *
@@ -96,12 +126,18 @@ class LangFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(Translator $translator) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
      */
     public function __construct(Translator $translator) {
 =======
@@ -116,6 +152,7 @@ class LangFilter implements FilterInterface {
     public function __construct(Translator $translator) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -127,7 +164,13 @@ class LangFilter implements FilterInterface {
      */
     public function __construct(Translator $translator) {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         $this->translator = $translator;
         $this->itemProperties = ['header', 'text', 'label'];
     }
@@ -139,6 +182,7 @@ class LangFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,7 +194,16 @@ class LangFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param array $item A menu item
      *
      * @return array The transformed menu item
@@ -164,10 +217,15 @@ class LangFilter implements FilterInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  array  $item  A menu item
 =======
      * @param array $item A menu item
@@ -185,6 +243,7 @@ class LangFilter implements FilterInterface {
 =======
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -192,7 +251,13 @@ class LangFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
             // Check if the property exists for the item.
 
             if (! isset($item[$prop])) {
@@ -220,6 +285,7 @@ class LangFilter implements FilterInterface {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231,7 +297,16 @@ class LangFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param string $key    The key to translate
      * @param array  $params The additional translation params
      *
@@ -243,10 +318,15 @@ class LangFilter implements FilterInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string  $key  The key to translate
      * @param  array  $params  The additional translation params
      * @return string The translation
@@ -263,6 +343,7 @@ class LangFilter implements FilterInterface {
     protected function getTranslation($key, $params = []) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -270,7 +351,13 @@ class LangFilter implements FilterInterface {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // Check for a translation.
 
         if ($this->translator->has('menu.'.$key)) {

@@ -4,6 +4,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,7 +16,16 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 return [
@@ -41,10 +51,15 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 =======
 declare(strict_types=1);
 
@@ -80,6 +95,7 @@ return [
     'send_password_reset_link' => 'Jelszó visszaállítás link küldése',
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -87,5 +103,11 @@ return [
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 ];

@@ -4,7 +4,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -13,18 +18,24 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -40,7 +51,13 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 namespace Themes\AdminLTE\Helpers;
 
 /**
@@ -50,6 +67,7 @@ namespace Themes\AdminLTE\Helpers;
  */
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -63,7 +81,16 @@ namespace Themes\AdminLTE\Helpers;
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 class MenuItemHelper {
     /**
      * Check if a menu item is a header.
@@ -79,11 +106,17 @@ class MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return \is_string($item) || isset($item['header']);
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+        return \is_string($item) || isset($item['header']);
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 class MenuItemHelper
 {
 =======
@@ -103,10 +136,13 @@ class MenuItemHelper {
 =======
     public static function isHeader($item) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 =======
 >>>>>>> d79d738 (up)
+=======
+>>>>>>> 59a8928 (rebase)
         return is_string($item) || isset($item['header']);
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)
@@ -119,6 +155,7 @@ class MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,7 +167,16 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -141,10 +187,15 @@ class MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -159,6 +210,7 @@ class MenuItemHelper {
     public static function isLink($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -166,7 +218,13 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -178,6 +236,7 @@ class MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,7 +248,16 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -200,10 +268,15 @@ class MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -218,6 +291,7 @@ class MenuItemHelper {
     public static function isSubmenu($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -225,7 +299,13 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         return isset($item['text'], $item['submenu']) &&
                \is_array($item['submenu']);
     }
@@ -237,6 +317,7 @@ class MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,7 +329,16 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -259,10 +349,15 @@ class MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -277,6 +372,7 @@ class MenuItemHelper {
     public static function isLegacySearch($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -284,7 +380,13 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -296,6 +398,7 @@ class MenuItemHelper {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,7 +410,16 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param mixed $item
      *
      * @return bool
@@ -318,10 +430,15 @@ class MenuItemHelper {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  mixed  $item
      * @return bool
      */
@@ -336,6 +453,7 @@ class MenuItemHelper {
     public static function isAllowed($item) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -343,7 +461,13 @@ class MenuItemHelper {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         return $item && empty($item['restricted']);
     }
 }

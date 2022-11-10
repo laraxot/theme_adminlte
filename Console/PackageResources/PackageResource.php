@@ -4,6 +4,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,7 +16,16 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Console\PackageResources;
@@ -26,10 +36,15 @@ abstract class PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 abstract class PackageResource
@@ -43,6 +58,7 @@ namespace Themes\AdminLTE\Console\PackageResources;
 abstract class PackageResource {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -50,7 +66,13 @@ abstract class PackageResource {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
     /**
      * The package resource description. A litle summary of what this
      * resource contains.
@@ -125,6 +147,7 @@ abstract class PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,7 +159,16 @@ abstract class PackageResource {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param string $key The message keyword
      *
      * @return string
@@ -147,10 +179,15 @@ abstract class PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string  $key  The message keyword
      * @return string
      */
@@ -165,6 +202,7 @@ abstract class PackageResource {
     public function getInstallMessage($key) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -172,7 +210,13 @@ abstract class PackageResource {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         if (! isset($this->messages[$key])) {
             return '';
         }

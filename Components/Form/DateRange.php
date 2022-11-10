@@ -4,6 +4,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,7 +16,16 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 namespace Themes\AdminLTE\Components\Form;
@@ -26,10 +36,15 @@ class DateRange extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
 namespace Themes\AdminLTE\Components\Form;
 
 class DateRange extends InputGroupComponent
@@ -43,6 +58,7 @@ namespace Themes\AdminLTE\Components\Form;
 class DateRange extends InputGroupComponent {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -50,7 +66,13 @@ class DateRange extends InputGroupComponent {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
     /**
      * The DateRangePicker plugin configuration parameters. Array with
      * key => value pairs, where the key should be an existing configuration
@@ -159,7 +181,12 @@ class DateRange extends InputGroupComponent {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -176,9 +203,20 @@ class DateRange extends InputGroupComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d79d738 (up)
     public function render() {
+=======
+    public function render() {
+=======
+    public function render()
+    {
+>>>>>>> 31d6e3b (first)
+=======
+    public function render() {
+>>>>>>> f405739 (up)
+>>>>>>> 59a8928 (rebase)
         return view('adminlte::components.form.date-range');
 >>>>>>> f617437 (rebase)
 >>>>>>> a05b3ba1 (rebase)

@@ -180,11 +180,17 @@ class AdminLTE extends XotBaseComposer {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 =======
     public function __construct(/*array $filters, */ Dispatcher $events, Container $container) {
@@ -192,6 +198,7 @@ class AdminLTE extends XotBaseComposer {
 =======
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -202,7 +209,13 @@ class AdminLTE extends XotBaseComposer {
 =======
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         $filters = config('adm_theme::adminlte.filters');
         $this->filters = $filters;
         $this->events = $events;
@@ -238,12 +251,18 @@ class AdminLTE extends XotBaseComposer {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
         // backtrace(true);
         // dddx($this->menu);
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
         // backtrace(true);
         // dddx($this->menu);
 =======
@@ -254,6 +273,7 @@ class AdminLTE extends XotBaseComposer {
         // backtrace(true);
         // dddx($this->menu);
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -266,7 +286,13 @@ class AdminLTE extends XotBaseComposer {
         // backtrace(true);
         // dddx($this->menu);
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 
         if (isset($this->menuFilterMap[$filterToken])) {
             return array_filter(
@@ -297,6 +323,7 @@ class AdminLTE extends XotBaseComposer {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,7 +335,16 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // $this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); // questo può servire per le voci sopra i aree/modelli??
 
@@ -326,10 +362,15 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
         //$this->events->dispatch(new BuildingMenu($builder));
         $menu = config('adm_theme::adminlte.menu'); //questo può servire per le voci sopra i aree/modelli??
 =======
@@ -352,6 +393,7 @@ class AdminLTE extends XotBaseComposer {
         // dddx($builder->menu);
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -359,7 +401,13 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 
         // Return the set of menu items.
 
@@ -575,7 +623,13 @@ class AdminLTE extends XotBaseComposer {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 }
 <<<<<<< HEAD
 =======
@@ -587,6 +641,9 @@ class AdminLTE extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 }
 =======
 }
@@ -594,6 +651,7 @@ class AdminLTE extends XotBaseComposer {
 =======
 }
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -640,4 +698,10 @@ class AdminLTE extends XotBaseComposer {
 =======
 }
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)

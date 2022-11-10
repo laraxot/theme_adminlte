@@ -4,7 +4,12 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 declare(strict_types=1);
 
 <<<<<<< HEAD
@@ -13,18 +18,24 @@ declare(strict_types=1);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 59a8928 (rebase)
 =======
 >>>>>>> 31d6e3b (first)
 =======
 declare(strict_types=1);
 
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -40,7 +51,13 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
 namespace Themes\AdminLTE\Console\PackageResources;
 
 use Themes\AdminLTE\Helpers\CommandHelper;
@@ -50,11 +67,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
 class BasicViewsResource extends PackageResource {
 =======
 class BasicViewsResource extends PackageResource
@@ -63,6 +86,7 @@ class BasicViewsResource extends PackageResource
 =======
 class BasicViewsResource extends PackageResource {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -73,7 +97,13 @@ class BasicViewsResource extends PackageResource {
 =======
 class BasicViewsResource extends PackageResource {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
     /**
      * Array with the replacement content of the basic views.
      *
@@ -93,11 +123,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function __construct() {
 =======
     public function __construct()
@@ -106,6 +142,7 @@ class BasicViewsResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -116,7 +153,13 @@ class BasicViewsResource extends PackageResource {
 =======
     public function __construct() {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // Fill the resource data.
 
         $this->description = 'The default package basic views';
@@ -134,6 +177,9 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
             'success' => 'Basic views installed successfully.',
@@ -141,6 +187,9 @@ class BasicViewsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
             'install' => 'Install the AdminLTE basic views?',
             'overwrite' => 'The basic views already exists. Want to replace the views?',
             'success' => 'Basic views installed successfully.',
@@ -155,6 +204,7 @@ class BasicViewsResource extends PackageResource {
             'success' => 'Basic views installed successfully.',
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -168,7 +218,13 @@ class BasicViewsResource extends PackageResource {
             'overwrite' => 'The basic views already exists. Want to replace the views?',
             'success' => 'Basic views installed successfully.',
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         ];
     }
 
@@ -182,11 +238,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function install() {
 =======
     public function install()
@@ -195,6 +257,7 @@ class BasicViewsResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -205,7 +268,13 @@ class BasicViewsResource extends PackageResource {
 =======
     public function install() {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // Install the basic views. We going to replace the content of any
         // existing basic view.
 
@@ -226,11 +295,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function uninstall() {
 =======
     public function uninstall()
@@ -239,6 +314,7 @@ class BasicViewsResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -249,7 +325,13 @@ class BasicViewsResource extends PackageResource {
 =======
     public function uninstall() {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // Remove the package basic views.
 
         foreach ($this->source as $file => $tub) {
@@ -271,11 +353,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function exists() {
 =======
     public function exists()
@@ -284,6 +372,7 @@ class BasicViewsResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -294,7 +383,13 @@ class BasicViewsResource extends PackageResource {
 =======
     public function exists() {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         // Check if any of the basic views already exists.
 
         foreach ($this->source as $file => $stub) {
@@ -318,11 +413,17 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 59a8928 (rebase)
     public function installed() {
 =======
     public function installed()
@@ -331,6 +432,7 @@ class BasicViewsResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> f405739 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
@@ -341,7 +443,13 @@ class BasicViewsResource extends PackageResource {
 =======
     public function installed() {
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         foreach ($this->source as $file => $stub) {
             $target = $this->target.\DIRECTORY_SEPARATOR.$file;
             $content = file_get_contents(CommandHelper::getStubPath($stub));
@@ -361,6 +469,7 @@ class BasicViewsResource extends PackageResource {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -372,7 +481,16 @@ class BasicViewsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
      * @param string $path    Absolute path of the view
      * @param string $content The expected content of the view
      *
@@ -384,10 +502,15 @@ class BasicViewsResource extends PackageResource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 905478d (rebase)
 =======
+=======
+=======
+=======
+>>>>>>> 59a8928 (rebase)
      * @param  string  $path  Absolute path of the view
      * @param  string  $content  The expected content of the view
      * @return bool
@@ -404,6 +527,7 @@ class BasicViewsResource extends PackageResource {
     protected function basicViewInstalled($path, $content) {
 >>>>>>> f405739 (up)
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -411,7 +535,13 @@ class BasicViewsResource extends PackageResource {
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> d79d738 (up)
+<<<<<<< HEAD
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+>>>>>>> f617437 (rebase)
+>>>>>>> 59a8928 (rebase)
+>>>>>>> 655502de (rebase)
         return is_file($path) && (file_get_contents($path) === $content);
     }
 }
