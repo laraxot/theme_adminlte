@@ -8,6 +8,7 @@ use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use Modules\Theme\Models\Menu;
 use Modules\Xot\Services\PanelService;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
@@ -135,6 +136,22 @@ class AdminLTE extends XotBaseComposer {
         return $builder->menu;
     }
 
+    public function getMenuItemsByName(string $name): array {
+        $menu = Menu::firstWhere('name', $name);
+        if (null === $menu) {
+            return []; // collect([]);
+        }
+        $rows = collect($menu->items)->map(function ($item) {
+            return [
+                'text' => $item->label,
+                'icon' => '',
+                'url' => $item->link,
+            ];
+        });
+
+        return $rows->all();
+    }
+
     protected function setMenu(): array {
         $parameters = optional(\Route::current())->parameters();
 
@@ -148,11 +165,18 @@ class AdminLTE extends XotBaseComposer {
             ->values()
             ->all();
 
+            $module_menu = $this->getMenuItemsByName('module_'.$parameters['module']);
+
             $model_menu = [
                 [
                     'url' => '/admin/'.$parameters['module'],
                     'text' => Str::upper($parameters['module']),
                     'icon' => 'fab fa-buromobelexperte',
+                ],
+                [
+                    'text' => 'Menu',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $module_menu,
                 ],
                 [
                     'text' => 'MODELS',
@@ -161,47 +185,49 @@ class AdminLTE extends XotBaseComposer {
                 ],
                 /*
             [
-                'text' => 'Dashboard',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Dashboard',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Catalog',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Catalog',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Brands',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Brands',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Categories',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Categories',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Collections',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Collections',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Custumers',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Custumers',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Reviews',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Reviews',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             [
-                'text' => 'Discounts',
-                'icon' => 'fas fa-fw fa-share',
-                'submenu' => $model_menu,
+                    'text' => 'Discounts',
+                    'icon' => 'fas fa-fw fa-share',
+                    'submenu' => $model_menu,
             ],
             */
             ];
+        //  ->all();
+        // dddx($model_menu);
         } else {
             $modules = array_keys(Module::all());
             $panel = PanelService::make()->get(\Auth::user());
@@ -309,7 +335,7 @@ class AdminLTE extends XotBaseComposer {
         return 'wip['.__LINE__.']['.__FILE__.']';
     }
 
-    public function getMenuItemsByName(string $name): Collection {
-        return collect([]);
-    }
+    // public function getMenuItemsByName(string $name): Collection {
+    //     return collect([]);
+    // }
 }
