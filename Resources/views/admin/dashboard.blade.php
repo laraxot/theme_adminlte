@@ -8,10 +8,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbfdfef (rebase)
 >>>>>>> 905478d (rebase)
 =======
 <<<<<<< HEAD
 >>>>>>> ee11c8a (rebase)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> d1cab52 (rebase)
@@ -26,7 +30,12 @@
 <<<<<<< HEAD
 >>>>>>> 905478d (rebase)
 >>>>>>> 64fad46 (rebase)
+<<<<<<< HEAD
 >>>>>>> a159d289 (rebase)
+=======
+=======
+>>>>>>> fbfdfef (rebase)
+>>>>>>> e4dfa7b4 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -84,6 +93,7 @@
 =======
 >>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 {{--
 >>>>>>> 0e49c35 (up)
@@ -117,10 +127,34 @@
 
 <<<<<<< HEAD
 =======
+=======
+=======
+{{--
+>>>>>>> 0e49c35 (up)
+>>>>>>> fbfdfef (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
+--}}
+<x-dashboard>
+    {{-- replace this by any tiles --}}
+    {{--
+    <livewire:time-weather-tile position="a1" />
+    <livewire:time-weather-tile position="b1" />
+    --}}
+    <livewire:dashboard.tile.dummy position="c1" />
+    <livewire:time-weather-tile position="d1" />
+
+    <livewire:chart-tile chartClass="{{Modules\LU\Charts\DailyUsersChart::class}}" position="a1:b2" />
+    
+    {{--
+    @livewire('chart-tile', [
+    'chartClass' => Modules\LU\Charts\DailyUsersChart::class, 
+    'chartFilters' => ['type' => 'customer'],
+    ])
+    --}}
+</x-dashboard>
 
 >>>>>>> 64fad46 (rebase)
 <<<<<<< HEAD
