@@ -6,8 +6,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -37,7 +40,12 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
     {{-- Dropdown submenu --}}
     @include('adm_theme::layouts.partials.navbar.dropdown-item-submenu')
 @elseif ($navbarItemHelper->isLink($item))
@@ -48,10 +56,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -115,5 +126,10 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 @endif

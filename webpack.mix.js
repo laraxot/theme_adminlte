@@ -218,6 +218,7 @@ mix.extract();
 >>>>>>> dfca2a99 (rebase)
 mix.extract();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -352,7 +353,13 @@ mix.extract([
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> b6bf7b3 (rebase)
+<<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+=======
+
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 //mix.version();
 
 mix.sourceMaps();

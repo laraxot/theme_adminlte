@@ -1,6 +1,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,6 +12,8 @@
 =======
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
 
     @php
     //dddx($profile->getProfile()->customers);
@@ -19,6 +22,7 @@
                                             $profile->getProfile()->customers()->sync($customer_rnd);
                                             */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,10 +32,13 @@
 =======
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
     //dddx($customer_rnd);
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -64,12 +71,15 @@
 =======
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
     $survey_pdf_first = null;
     $question_charts = null;
     if (!is_null($customer)) {
         $survey_pdf_first = $customer->surveyPdfs->last();
         $question_charts = $survey_pdf_first->questionCharts;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -91,11 +101,15 @@
 
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+
+>>>>>>> 3703261 (up)
     @endphp
 
     @if (!is_null($question_charts))
         @foreach ($survey_pdf_first->questionCharts as $question_chart)
             <p>{{ $question_chart->question_txt }}</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
             <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
             </x-lime.chart-img.v2>
@@ -126,6 +140,10 @@
             </x-lime.chart-img.v2>
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+            <x-lime.chart-img.v2 questionChartId="{{ $question_chart->id }}">
+            </x-lime.chart-img.v2>
+>>>>>>> 3703261 (up)
         @endforeach
     @endif
 @endsection

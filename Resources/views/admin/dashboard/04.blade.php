@@ -20,6 +20,7 @@
             <x-lime.chart type="chartjs" id="{{ $question_chart->id }}"></x-lime.chart>
         @endforeach
     @endif
+<<<<<<< HEAD
 =======
     //dddx($profile->getProfile()->customers);
     $customer = $profile->getProfile()->customers->first();
@@ -46,4 +47,6 @@
             <x-lime.chart type="chartjs" id="{{ $question_chart->id }}"></x-lime.chart>
         @endforeach
     @endif
+=======
+>>>>>>> 3703261 (up)
 @endsection

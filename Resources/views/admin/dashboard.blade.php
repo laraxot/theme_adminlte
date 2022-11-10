@@ -56,6 +56,7 @@
     DASHBOARD
 @endsection --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -76,6 +77,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -84,9 +86,13 @@
 >>>>>>> 63c2c43 (up)
 >>>>>>> 543f78f7 (rebase)
 =======
+>>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> 3703261 (up)
 
 
 
+<<<<<<< HEAD
 >>>>>>> 8a5cc0b (.)
 <<<<<<< HEAD
 >>>>>>> bc832b90 (rebase)
@@ -101,6 +107,8 @@
 =======
 >>>>>>> dfca2a99 (rebase)
 =======
+=======
+>>>>>>> db3db5ed (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -122,6 +130,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -162,6 +171,7 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -277,3 +287,7 @@
 >>>>>>> 39226822 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)

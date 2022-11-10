@@ -19,6 +19,7 @@
     <div class="wrapper">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> b6bf7b3 (rebase)
 
 
@@ -143,13 +144,22 @@
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+
+        <!-- Preloader -->
+        {{-- <div class="preloader">
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
                   <span class="sr-only">Loading...</span>
                 </div>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -193,6 +203,11 @@
 
 >>>>>>> 8a5cc0b (.)
 >>>>>>> b6bf7b3 (rebase)
+=======
+            </div>
+        </div> --}}
+
+>>>>>>> 3703261 (up)
 
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())

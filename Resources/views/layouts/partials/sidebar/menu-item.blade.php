@@ -6,8 +6,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -37,7 +40,12 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -52,6 +60,7 @@
 @elseif ($sidebarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +152,8 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 @endif
 =======
 <<<<<<< HEAD
@@ -194,3 +205,6 @@
 @endif
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+@endif
+>>>>>>> 3703261 (up)

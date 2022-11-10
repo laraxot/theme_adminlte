@@ -12,6 +12,7 @@ namespace Themes\AdminLTE\Services;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Str;
 <<<<<<< HEAD
 use Modules\Theme\Models\Menu;
@@ -22,6 +23,8 @@ use Modules\Xot\Services\PanelService;
 use Modules\Xot\View\Composers\XotBaseComposer;
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,11 +92,17 @@ use Nwidart\Modules\Facades\Module;
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> b6bf7b3 (rebase)
+<<<<<<< HEAD
 >>>>>>> 543f78f7 (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Modules\Xot\Services\PanelService;
 <<<<<<< HEAD
 use Modules\Xot\View\Composers\XotBaseComposer;
@@ -111,6 +120,8 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 >>>>>>> 5b4054a (.)
+=======
+>>>>>>> 3703261 (up)
 use Modules\Xot\Services\PanelService;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
@@ -122,6 +133,7 @@ use Themes\AdminLTE\Helpers\SidebarItemHelper;
 =======
 use Themes\AdminLTE\Menu\Builder;
 
+<<<<<<< HEAD
 >>>>>>> 4ab624f (rebase)
 <<<<<<< HEAD
 use Themes\AdminLTE\Menu\Builder;
@@ -316,7 +328,13 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+class AdminLTE extends XotBaseComposer {
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
     /**
      * The array of menu items.
      *
@@ -881,6 +899,7 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 655502de (rebase)
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1034,4 +1053,9 @@ class AdminLTE extends XotBaseComposer {
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)

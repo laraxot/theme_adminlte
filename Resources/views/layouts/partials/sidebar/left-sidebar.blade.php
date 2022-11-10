@@ -27,6 +27,7 @@
                 @if (config('adm_theme::adminlte.sidebar_nav_animation_speed') != 300) data-animation-speed="{{ config('adm_theme::adminlte.sidebar_nav_animation_speed') }}" @endif
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -242,7 +243,12 @@
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
                 {{-- Configured sidebar links --}}
                 {{-- dddx($adminlte->menu('sidebar')) --}}
                 @each('adm_theme::layouts.partials.sidebar.menu-item', $adminlte->menu('sidebar'), 'item')

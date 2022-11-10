@@ -13,8 +13,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -44,7 +47,12 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand logo-switch {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
@@ -55,10 +63,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -108,7 +119,12 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
         alt="{{ config('adm_theme::adminlte.logo_img_alt', 'AdminLTE') }}"
         class="{{ config('adm_theme::adminlte.logo_img_class', 'brand-image-xl') }} logo-xs">
@@ -127,6 +143,7 @@
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
         class="{{ config('adm_theme::adminlte.logo_img_xl_class', 'brand-image-xs') }} logo-xl"> --}}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -178,5 +195,10 @@
 >>>>>>> dfca2a99 (rebase)
 =======
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 </a>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -150,3 +151,6 @@ $all_answers_grouped = $limeKK->get_all_answers_grouped();
 
 >>>>>>> 5b4054a (.)
 >>>>>>> 4ab624f (rebase)
+=======
+
+>>>>>>> 3703261 (up)

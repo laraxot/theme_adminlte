@@ -6,8 +6,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -17,6 +20,7 @@
 >>>>>>> 905478d (rebase)
 =======
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
@@ -35,6 +39,11 @@
 >>>>>>> a159d289 (rebase)
 =======
 >>>>>>> dfca2a99 (rebase)
+=======
+>>>>>>> 4ab624f (rebase)
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
     {{-- Search form --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-search-form')
 @elseif ($navbarItemHelper->isNotification($item))
@@ -63,10 +72,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> db3db5ed (rebase)
 =======
 <<<<<<< HEAD
 =======
@@ -211,5 +223,10 @@
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
 >>>>>>> 4ab624f (rebase)
+<<<<<<< HEAD
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 3703261 (up)
+>>>>>>> db3db5ed (rebase)
 @endif
