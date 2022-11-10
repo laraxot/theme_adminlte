@@ -1,3 +1,60 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 49899e0 (.)
+=======
+>>>>>>> aa7fac8 (.)
+=======
+>>>>>>> 326d5c3 (.)
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 3cc23ea (.)
+=======
+>>>>>>> 7cb5b32 (.)
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+=======
+=======
+>>>>>>> 49899e0 (.)
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fac8ac6 (.)
+=======
+>>>>>>> 3cc23ea (.)
+=======
+=======
+<<<<<<< HEAD
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+=======
+{{-- @extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+>>>>>>> fac8ac6 (.)
+>>>>>>> 7cb5b32 (.)
+@endsection --}}
+
+
+
+>>>>>>> 7306100 (.)
+>>>>>>> 9ef1dcb8 (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -19,3 +76,40 @@
 
 
 </x-dashboard>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@extends('adm_theme::layouts.app')
+@section('content')
+    DASHBOARD
+@endsection
+>>>>>>> 870e170 (.)
+=======
+>>>>>>> 7306100 (.)
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> fac8ac6 (.)
+<<<<<<< HEAD
+>>>>>>> 49899e0 (.)
+=======
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> 3cc23ea (.)
+<<<<<<< HEAD
+>>>>>>> aa7fac8 (.)
+=======
+=======
+>>>>>>> 7306100 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 7306100 (.)
+>>>>>>> fac8ac6 (.)
+>>>>>>> 49899e0 (.)
+>>>>>>> 7cb5b32 (.)
+>>>>>>> 326d5c3 (.)
+>>>>>>> 9ef1dcb8 (rebase)
