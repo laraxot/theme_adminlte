@@ -11,16 +11,6 @@
 @section('body_data', $layoutHelper->makeBodyData())
 
 @section('body')
-<<<<<<< HEAD
-=======
-
-
-
-    <div class="wrapper">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
 
 
 
@@ -35,6 +25,7 @@
 
         <!-- Preloader -->
         {{-- <div class="preloader">
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -153,18 +144,14 @@
         {{-- <div class="preloader">
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
             <div class="row">
                 <div class="col-md-12 justify-content-center">
                 <div class="spinner-border text-success" style="width: 3rem; height: 3rem;"  role="status">
                   <span class="sr-only">Loading...</span>
                 </div>
             </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b6bf7b3 (rebase)
             </div>
         </div> --}}
 <<<<<<< HEAD
@@ -192,22 +179,6 @@
 =======
 >>>>>>> dfca2a99 (rebase)
 
-<<<<<<< HEAD
-=======
-=======
-        </div>
->>>>>>> 63c2c43 (up)
-=======
-            </div>
-        </div> --}}
-
->>>>>>> 8a5cc0b (.)
->>>>>>> b6bf7b3 (rebase)
-=======
-            </div>
-        </div> --}}
-
->>>>>>> 3703261 (up)
 
         {{-- Top Navbar --}}
         @if ($layoutHelper->isLayoutTopnavEnabled())

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
 =======
@@ -44,6 +45,8 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
     {{-- Search form --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-search-form')
 @elseif ($navbarItemHelper->isNotification($item))
@@ -67,6 +70,7 @@
 @elseif ($navbarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.navbar.menu-item-link')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229,4 +233,6 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
 @endif

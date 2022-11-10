@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5dd3b30a (rebase)
 =======
@@ -53,10 +54,13 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121,6 +125,8 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -142,6 +148,7 @@
 >>>>>>> 64fad46 (rebase)
 >>>>>>> a159d289 (rebase)
     </span> --}}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -200,4 +207,6 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
 </a>

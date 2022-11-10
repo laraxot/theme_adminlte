@@ -28,6 +28,7 @@
                 @if (!config('adm_theme::adminlte.sidebar_nav_accordion')) data-accordion="false" @endif>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -249,6 +250,8 @@
 =======
 >>>>>>> 3703261 (up)
 >>>>>>> db3db5ed (rebase)
+=======
+>>>>>>> e5945a61 (rebase)
                 {{-- Configured sidebar links --}}
                 {{-- dddx($adminlte->menu('sidebar')) --}}
                 @each('adm_theme::layouts.partials.sidebar.menu-item', $adminlte->menu('sidebar'), 'item')
