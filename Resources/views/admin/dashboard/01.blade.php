@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30,6 +31,8 @@
 >>>>>>> 7ed5f009 (rebase)
 =======
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> 24497830 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -42,6 +45,7 @@
         @endforeach
     </div>
 @endsection
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,3 +312,8 @@ $answers = $lime->getAnswersByQuestionId((string) 30342);
 >>>>>>> 02c8c035 (rebase)
 =======
 >>>>>>> a05b3ba1 (rebase)
+=======
+=======
+aaa
+>>>>>>> 28d9a7d (.)
+>>>>>>> 24497830 (rebase)
