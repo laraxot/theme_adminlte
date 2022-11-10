@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Themes\AdminLTE\Helpers;
+namespace Themes\KlekooAdm\Helpers;
 
 class NavbarItemHelper extends MenuItemHelper {
     /**

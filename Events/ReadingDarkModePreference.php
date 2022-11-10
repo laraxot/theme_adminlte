@@ -12,6 +12,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -34,8 +35,11 @@ namespace Themes\KlekooAdm\Events;
 =======
 namespace Themes\AdminLTE\Events;
 >>>>>>> 63c2c43 (up)
+=======
+namespace Themes\KlekooAdm\Events;
+>>>>>>> 8a5cc0b (.)
 
-use Themes\AdminLTE\Http\Controllers\DarkModeController;
+use Themes\KlekooAdm\Http\Controllers\DarkModeController;
 
 class ReadingDarkModePreference {
     /**

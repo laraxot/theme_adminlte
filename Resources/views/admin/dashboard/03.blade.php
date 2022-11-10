@@ -1,9 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 8a5cc0b (.)
 <?php
 
 if (isset($_GET["db"])) {
@@ -60,28 +63,76 @@ $all_answers_grouped = $limeKK->get_all_answers_grouped();
         width: 100% !important;
     }
 </style>
+<<<<<<< HEAD
 =======
 >>>>>>> 63c2c43 (up)
+=======
+>>>>>>> 8a5cc0b (.)
 @extends('adm_theme::layouts.app')
 @section('content')
+<div class="row">
     @php
+    $i = 0;
+    foreach ($all_answers_grouped as $qid => $values) {
+        if ($values["chart"]["type"]) {
+            $i++;
+        }
+    }
+    die(var_dump($i));
+    foreach ($all_answers_grouped as $qid => $values) {
+        @endphp
+        <div class="col-6">
+        @php
+            $chart_id = "chart_" . $qid;
+            $question_text = addslashes($values["text"]);
+            @endphp
+            <h5>({{$qid}}) {{$question_text}}</h5>
+            <canvas class="charts" id="{{$chart_id}}"></canvas>
+            <component :is="'script'">
+                document.addEventListener("DOMContentLoaded", function() {
+                    const ctx = document.getElementById('{{$chart_id}}').getContext('2d');
+                    const {{$chart_id}} = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: [
+                                @php
+                                $grouped = $values["grouped"];
+                                ksort($grouped);
 
-    //dddx($profile->getProfile()->customers);
-    $customer = $profile->getProfile()->customers->first();
-    $survey_pdf_first = null;
-    $question_charts = null;
-    if (!is_null($customer)) {
-        $survey_pdf_first = $customer->surveyPdfs->last();
-        $question_charts = $survey_pdf_first->questionCharts;
+                                echo "'" . implode("', '", array_keys($grouped)) . "'";
+                                @endphp
+                            ],
+                            datasets: [{
+                                label: 'Risposte{{$values["chart"]["type"]}}',
+                                data: [
+                                    @php   
+                                    echo "'" . implode("', '", $grouped) . "'";
+                                    @endphp
+                                ],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.2)'
+                                ],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)'
+                                ],
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                });
+            </component>
+        </div>
+        @php
     }
     @endphp
-
-    @if (!is_null($question_charts))
-        @foreach ($survey_pdf_first->questionCharts as $question_chart)
-            <p>{{ $question_chart->question_txt }}</p>
-            <x-lime.chart type="chartjs" questionChartId="{{ $question_chart->id }}"></x-lime.chart>
-        @endforeach
-    @endif
+</div>
 @endsection
 <<<<<<< HEAD
 >>>>>>> e4c311e... .

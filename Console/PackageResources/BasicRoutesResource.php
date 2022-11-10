@@ -12,6 +12,7 @@ declare(strict_types=1);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -34,8 +35,11 @@ namespace Themes\KlekooAdm\Console\PackageResources;
 =======
 namespace Themes\AdminLTE\Console\PackageResources;
 >>>>>>> 63c2c43 (up)
+=======
+namespace Themes\KlekooAdm\Console\PackageResources;
+>>>>>>> 8a5cc0b (.)
 
-use Themes\AdminLTE\Helpers\CommandHelper;
+use Themes\KlekooAdm\Helpers\CommandHelper;
 
 class BasicRoutesResource extends PackageResource {
     /**
