@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\View\Composers;
 
 use Illuminate\View\View;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Modules\Theme\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
 class ThemeComposer extends XotBaseComposer {
@@ -135,8 +135,12 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b2c3126 (rebase)
 =======
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +174,10 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 543f78f7 (rebase)
 =======
 >>>>>>> 5dd3b30a (rebase)
+=======
+=======
+>>>>>>> 5374766d (rebase)
+>>>>>>> 5b2c3126 (rebase)
 }
 =======
 }
@@ -181,10 +189,13 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 64fad46 (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5b2c3126 (rebase)
 >>>>>>> f617437 (rebase)
 =======
 =======
@@ -194,10 +205,13 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 4861446 (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5b2c3126 (rebase)
 >>>>>>> 905478d (rebase)
 =======
 =======
@@ -207,10 +221,13 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> baf54ed (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5b2c3126 (rebase)
 >>>>>>> 2388cd9 (rebase)
 =======
 =======
@@ -220,15 +237,19 @@ class ThemeComposer extends XotBaseComposer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d20c4d6 (rebase)
 =======
 >>>>>>> 543f78f7 (rebase)
+=======
+>>>>>>> 5b2c3126 (rebase)
 >>>>>>> 5fba10f (rebase)
 =======
 =======
 }
 >>>>>>> 7bb12fc (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,9 +264,13 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 7582ab0 (rebase)
 >>>>>>> 543f78f7 (rebase)
 =======
+>>>>>>> 7582ab0 (rebase)
+>>>>>>> 5b2c3126 (rebase)
+=======
 =======
 }
 >>>>>>> 63c2c43 (up)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,9 +282,13 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> 08eedf4 (rebase)
 >>>>>>> 543f78f7 (rebase)
 =======
+>>>>>>> 08eedf4 (rebase)
+>>>>>>> 5b2c3126 (rebase)
+=======
 =======
 }
 >>>>>>> 8a5cc0b (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,10 +297,14 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> bc832b90 (rebase)
 =======
 =======
+>>>>>>> db07ea7 (rebase)
+>>>>>>> 5b2c3126 (rebase)
+=======
 =======
 }
 >>>>>>> 5b4054a (.)
 >>>>>>> 5a3868d (rebase)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 103222ea (rebase)
 =======
@@ -342,3 +375,12 @@ class ThemeComposer extends XotBaseComposer {
 >>>>>>> db3db5ed (rebase)
 =======
 >>>>>>> e5945a61 (rebase)
+=======
+=======
+}
+>>>>>>> d79d738 (up)
+=======
+>>>>>>> 2388cd9 (rebase)
+>>>>>>> 5374766d (rebase)
+>>>>>>> 524ab8cd (.)
+>>>>>>> 5b2c3126 (rebase)
