@@ -11,6 +11,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -30,8 +31,11 @@ namespace Themes\AdminLTE\Console\PackageResources;
 =======
 namespace Themes\KlekooAdm\Console\PackageResources;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Console\PackageResources;
+>>>>>>> 63c2c43 (up)
 
-use Themes\KlekooAdm\Helpers\CommandHelper;
+use Themes\AdminLTE\Helpers\CommandHelper;
 
 class ConfigResource extends PackageResource {
     /**

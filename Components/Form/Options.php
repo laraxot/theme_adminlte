@@ -11,6 +11,7 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 31d6e3b (first)
 =======
@@ -30,6 +31,9 @@ namespace Themes\AdminLTE\Components\Form;
 =======
 namespace Themes\KlekooAdm\Components\Form;
 >>>>>>> b738e1c (rebase)
+=======
+namespace Themes\AdminLTE\Components\Form;
+>>>>>>> 63c2c43 (up)
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
