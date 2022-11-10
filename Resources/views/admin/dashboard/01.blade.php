@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33,6 +34,8 @@
 >>>>>>> a05b3ba1 (rebase)
 =======
 >>>>>>> 24497830 (rebase)
+=======
+>>>>>>> 527eac33 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -62,10 +65,13 @@
 aaa
 >>>>>>> 28d9a7d (.)
 =======
+<<<<<<< HEAD
 >>>>>>> 326d5c3 (.)
 =======
 >>>>>>> 2a63e2b (.)
 =======
+=======
+>>>>>>> 527eac33 (rebase)
 {{-- @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
@@ -94,6 +100,7 @@ aaa
 
 
 </x-dashboard>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 870e170 (.)
@@ -317,3 +324,6 @@ $answers = $lime->getAnswersByQuestionId((string) 30342);
 aaa
 >>>>>>> 28d9a7d (.)
 >>>>>>> 24497830 (rebase)
+=======
+>>>>>>> 870e170 (.)
+>>>>>>> 527eac33 (rebase)

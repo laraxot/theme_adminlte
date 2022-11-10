@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152,6 +153,8 @@
 >>>>>>> 103222ea (rebase)
 =======
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> 527eac33 (rebase)
 <x-dashboard>
     {{-- replace this by any tiles --}}
     {{-- <livewire:time-weather-tile position="a1" />
@@ -175,22 +178,27 @@
 </x-dashboard>
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 527eac33 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 >>>>>>> 870e170 (.)
+<<<<<<< HEAD
 =======
 >>>>>>> 7306100 (.)
 =======
@@ -264,3 +272,5 @@
 >>>>>>> 7ed5f009 (rebase)
 =======
 >>>>>>> a05b3ba1 (rebase)
+=======
+>>>>>>> 527eac33 (rebase)
