@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +49,8 @@
 >>>>>>> a5d96216 (rebase)
 =======
 >>>>>>> c501045a (rebase)
+=======
+>>>>>>> 39dffdf2 (rebase)
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
@@ -196,16 +199,22 @@ aaa
 >>>>>>> 49899e0 (.)
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 326d5c3 (.)
+=======
+>>>>>>> 1194766 (up)
 @extends('adm_theme::layouts.app')
 @section('content')
     DASHBOARD
 @endsection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f8b93fb6 (rebase)
 =======
 <<<<<<< HEAD
 >>>>>>> c501045a (rebase)
+=======
+<<<<<<< HEAD
+>>>>>>> 39dffdf2 (rebase)
 >>>>>>> 7306100 (.)
 =======
 =======
@@ -423,4 +432,9 @@ aaa
 >>>>>>> 49899e0 (.)
 >>>>>>> 7cb5b32 (.)
 >>>>>>> 326d5c3 (.)
+<<<<<<< HEAD
 >>>>>>> c501045a (rebase)
+=======
+=======
+>>>>>>> 1194766 (up)
+>>>>>>> 39dffdf2 (rebase)
