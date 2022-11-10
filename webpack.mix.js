@@ -496,6 +496,7 @@ mix.copyDirectory($from, $to);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
 =======
 <<<<<<< HEAD
@@ -534,3 +535,6 @@ mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../
 mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
 >>>>>>> 51dd1cf0 (up)
 >>>>>>> 25c89cc3 (rebase)
+=======
+mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', '../../../public_html/webfonts');
+>>>>>>> 4198e9fb (.)
