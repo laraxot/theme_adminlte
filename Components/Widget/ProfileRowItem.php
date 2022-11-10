@@ -1,79 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cf3e396 (rebase)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> cf4e5c1 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
 namespace Themes\AdminLTE\Components\Widget;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
 class ProfileRowItem extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-class ProfileRowItem extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class ProfileRowItem extends Component {
-=======
-class ProfileRowItem extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class ProfileRowItem extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class ProfileRowItem extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-class ProfileRowItem extends Component {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     /**
      * The title/header for the item.
      *
@@ -133,40 +66,12 @@ class ProfileRowItem extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         $title = null,
         $text = null,
         $icon = null,
         $size = 12,
         $badge = null,
         $url = null
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        $title = null, $text = null, $icon = null, $size = 12,
-        $badge = null, $url = null
->>>>>>> 31d6e3b (first)
-=======
-        $title = null, $text = null, $icon = null, $size = 12,
-        $badge = null, $url = null
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     ) {
         $this->title = $title;
         $this->text = $text;
@@ -181,35 +86,7 @@ class ProfileRowItem extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
     public function makeTextWrapperClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeTextWrapperClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeTextWrapperClass() {
-=======
-    public function makeTextWrapperClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeTextWrapperClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeTextWrapperClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-    public function makeTextWrapperClass() {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         $classes = ['float-right'];
 
         if (isset($this->badge)) {
@@ -224,11 +101,6 @@ class ProfileRowItem extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cf3e396 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -239,17 +111,5 @@ class ProfileRowItem extends Component {
         ];
 
         return view($view, $view_params);
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-        return view('adminlte::components.widget.profile-row-item');
->>>>>>> f617437 (rebase)
->>>>>>> cf3e396 (rebase)
     }
 }

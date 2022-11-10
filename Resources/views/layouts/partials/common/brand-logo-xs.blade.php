@@ -8,60 +8,10 @@
     @php($dashboard_url = $dashboard_url ? url($dashboard_url) : '')
 @endif
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
->>>>>>> 5a3868d (rebase)
-<<<<<<< HEAD
->>>>>>> 2b9484e (rebase)
-=======
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
 <a href="{{ $dashboard_url }}"
     @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
 @else
     class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<a href="{{ $dashboard_url }}" @if ($layoutHelper->isLayoutTopnavEnabled())
-    class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
-@else
-    class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}"
-    @endif>
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-<a href="{{ $dashboard_url }}"
-    @if ($layoutHelper->isLayoutTopnavEnabled()) class="navbar-brand {{ config('adm_theme::adminlte.classes_brand') }}"
-@else
-    class="brand-link {{ config('adm_theme::adminlte.classes_brand') }}" @endif>
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-<<<<<<< HEAD
->>>>>>> 2b9484e (rebase)
-=======
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
 
     {{-- Small brand logo
     <img src="{{ Theme::asset(config('adm_theme::adminlte.logo_img', 'vendor/adminlte/dist/img/AdminLTELogo.png')) }}"
@@ -71,39 +21,5 @@
     Brand text
     <span class="brand-text font-weight-light {{ config('adm_theme::adminlte.classes_brand_text') }}">
         {!! config('adm_theme::adminlte.logo', '<b>Admin</b>LTE') !!}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cf3e396 (rebase)
     </span> --}}
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    </span> --}}
-=======
-    </span>
-    --}}
->>>>>>> 31d6e3b (first)
-=======
-    </span>
-    --}}
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
-=======
-    </span> --}}
->>>>>>> 5b4054a (.)
->>>>>>> 5a3868d (rebase)
-<<<<<<< HEAD
->>>>>>> 2b9484e (rebase)
-=======
-=======
-    </span> --}}
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
 </a>

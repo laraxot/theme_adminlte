@@ -1,23 +1,6 @@
 @inject('sidebarItemHelper', 'Themes\AdminLTE\Helpers\SidebarItemHelper')
 
 @if ($sidebarItemHelper->isHeader($item))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
->>>>>>> 5a3868d (rebase)
-<<<<<<< HEAD
->>>>>>> 2b9484e (rebase)
-=======
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     {{-- Header --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-header')
 @elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
@@ -32,46 +15,4 @@
 @elseif ($sidebarItemHelper->isLink($item))
     {{-- Link --}}
     @include('adm_theme::layouts.partials.sidebar.menu-item-link')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-
-=======
->>>>>>> 5b4054a (.)
-    {{-- Header --}}
-    @include('adm_theme::layouts.partials.sidebar.menu-item-header')
-@elseif ($sidebarItemHelper->isLegacySearch($item) || $sidebarItemHelper->isCustomSearch($item))
-    {{-- Search form --}}
-    @include('adm_theme::layouts.partials.sidebar.menu-item-search-form')
-@elseif ($sidebarItemHelper->isMenuSearch($item))
-    {{-- Search menu --}}
-    @include('adm_theme::layouts.partials.sidebar.menu-item-search-menu')
-@elseif ($sidebarItemHelper->isSubmenu($item))
-    {{-- Treeview menu --}}
-    @include('adm_theme::layouts.partials.sidebar.menu-item-treeview-menu')
-@elseif ($sidebarItemHelper->isLink($item))
-    {{-- Link --}}
-    @include('adm_theme::layouts.partials.sidebar.menu-item-link')
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> cf4e5c1 (rebase)
-@endif
-=======
->>>>>>> cf3e396 (rebase)
-=======
->>>>>>> d79d738 (up)
 @endif

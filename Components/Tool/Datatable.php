@@ -1,79 +1,12 @@
 <?php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cf3e396 (rebase)
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-declare(strict_types=1);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 31d6e3b (first)
-=======
-declare(strict_types=1);
-
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> cf4e5c1 (rebase)
-=======
-=======
-declare(strict_types=1);
-
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
 namespace Themes\AdminLTE\Components\Tool;
 
 use Illuminate\View\Component;
 
-<<<<<<< HEAD
 class Datatable extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-class Datatable extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-class Datatable extends Component {
-=======
-class Datatable extends Component
-{
->>>>>>> 31d6e3b (first)
-=======
-class Datatable extends Component {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-class Datatable extends Component {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-class Datatable extends Component {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     /**
      * The table identification (id) attribute. Required in order to manage
      * the internal or external (JS) initialization.
@@ -195,17 +128,6 @@ class Datatable extends Component {
      * @return void
      */
     public function __construct(
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         $id,
         $heads,
         $theme = null,
@@ -219,26 +141,6 @@ class Datatable extends Component {
         $beautify = null,
         $withButtons = null,
         $config = []
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-        $id, $heads, $theme = null, $headTheme = null, $bordered = null,
-        $hoverable = null, $striped = null, $compressed = null,
-        $withFooter = null, $footerTheme = null, $beautify = null,
-        $withButtons = null, $config = []
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     ) {
         $this->id = $id;
         $this->heads = $heads;
@@ -274,35 +176,7 @@ class Datatable extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
     public function makeTableClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeTableClass() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function makeTableClass() {
-=======
-    public function makeTableClass()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    public function makeTableClass() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    public function makeTableClass() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-    public function makeTableClass() {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         $classes = ['table'];
 
         if (isset($this->bordered)) {
@@ -333,35 +207,7 @@ class Datatable extends Component {
      *
      * @return string
      */
-<<<<<<< HEAD
     protected function makeDomCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function makeDomCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function makeDomCfg() {
-=======
-    protected function makeDomCfg()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function makeDomCfg() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    protected function makeDomCfg() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-    protected function makeDomCfg() {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         // Give bootstrap style to table elements.
         // The built-in table control elements in DataTables are:
         // l - Length changing input control.
@@ -383,35 +229,7 @@ class Datatable extends Component {
      *
      * @return array
      */
-<<<<<<< HEAD
     protected function makeButtonsCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function makeButtonsCfg() {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    protected function makeButtonsCfg() {
-=======
-    protected function makeButtonsCfg()
-    {
->>>>>>> 31d6e3b (first)
-=======
-    protected function makeButtonsCfg() {
->>>>>>> f405739 (up)
-<<<<<<< HEAD
->>>>>>> f617437 (rebase)
-=======
-=======
-    protected function makeButtonsCfg() {
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-    protected function makeButtonsCfg() {
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
         // Configure the export columns selector. We are not going to export
         // columns that explicitly have the 'dt-no-export' attribute.
 
@@ -477,11 +295,6 @@ class Datatable extends Component {
      *
      * @return \Illuminate\View\View|string
      */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cf3e396 (rebase)
     public function render() {
         /**
          * @phpstan-var view-string
@@ -492,17 +305,5 @@ class Datatable extends Component {
         ];
 
         return view($view, $view_params);
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d79d738 (up)
-    public function render() {
-        return view('adminlte::components.tool.datatable');
->>>>>>> f617437 (rebase)
->>>>>>> cf3e396 (rebase)
     }
 }

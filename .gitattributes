@@ -2,34 +2,4 @@
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
-<<<<<<< HEAD
-<<<<<<< HEAD
 CHANGELOG.md export-ignore
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
-<<<<<<< HEAD
->>>>>>> 31d6e3b (first)
-=======
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-CHANGELOG.md export-ignores
->>>>>>> 46a3d18 (rebase)
-<<<<<<< HEAD
->>>>>>> 77153ff (rebase)
-=======
-=======
-CHANGELOG.md export-ignore
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)

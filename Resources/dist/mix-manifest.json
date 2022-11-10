@@ -3,60 +3,11 @@
     "/js/manifest.js": "/js/manifest.js",
     "/css/app.css": "/css/app.css",
     "/js/vendor.js": "/js/vendor.js",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "/public_html/themes/AdminLTE/dist/admin-lte.css": "/public_html/themes/AdminLTE/dist/admin-lte.css",
-    "/public_html/themes/AdminLTE/dist/admin-lte.js": "/public_html/themes/AdminLTE/dist/admin-lte.js",
-<<<<<<< HEAD
->>>>>>> 905478d (rebase)
-<<<<<<< HEAD
->>>>>>> 1ca94cc (rebase)
-=======
-=======
-=======
->>>>>>> 8a5cc0b (.)
->>>>>>> db07ea7 (rebase)
-<<<<<<< HEAD
->>>>>>> 3343d3d (rebase)
-=======
-=======
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     "/public_html/themes/AdminLTE/dist/css/admin-lte.css": "/public_html/themes/AdminLTE/dist/css/admin-lte.css",
     "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map": "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map",
     "/public_html/themes/AdminLTE/dist/css/adminlte.css.map": "/public_html/themes/AdminLTE/dist/css/adminlte.css.map",
     "/public_html/themes/AdminLTE/dist/css/app.css": "/public_html/themes/AdminLTE/dist/css/app.css",
     "/public_html/themes/AdminLTE/dist/css/app.css.map": "/public_html/themes/AdminLTE/dist/css/app.css.map",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> db07ea7 (rebase)
-    "/public_html/themes/AdminLTE/dist/css/auth.css": "/public_html/themes/AdminLTE/dist/css/auth.css",
-=======
-    "/public_html/themes/AdminLTE/dist/css/admin-lte.css": "/public_html/themes/AdminLTE/dist/css/admin-lte.css",
-    "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map": "/public_html/themes/AdminLTE/dist/css/admin-lte.css.map",
-    "/public_html/themes/AdminLTE/dist/css/adminlte.css.map": "/public_html/themes/AdminLTE/dist/css/adminlte.css.map",
-    "/public_html/themes/AdminLTE/dist/css/app.css": "/public_html/themes/AdminLTE/dist/css/app.css",
-    "/public_html/themes/AdminLTE/dist/css/app.css.map": "/public_html/themes/AdminLTE/dist/css/app.css.map",
->>>>>>> 29587b0 (.)
-<<<<<<< HEAD
->>>>>>> 01e5fdc (rebase)
-=======
-=======
->>>>>>> 8a5cc0b (.)
->>>>>>> db07ea7 (rebase)
-=======
->>>>>>> d79d738 (up)
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf",
@@ -72,33 +23,6 @@
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff",
     "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2": "/public_html/themes/AdminLTE/dist/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> db07ea7 (rebase)
-<<<<<<< HEAD
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot": "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.eot",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg": "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.svg",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.ttf",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff": "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2": "/public_html/themes/AdminLTE/dist/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular.woff2",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.eot": "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.eot",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.svg": "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.svg",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.ttf": "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.ttf",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.woff": "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.woff",
-    "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.woff2": "/public_html/themes/AdminLTE/dist/fonts/vendor/font-awesome/fontawesome-webfont.woff2",
-=======
->>>>>>> 29587b0 (.)
-<<<<<<< HEAD
->>>>>>> 01e5fdc (rebase)
-=======
-=======
->>>>>>> 8a5cc0b (.)
->>>>>>> db07ea7 (rebase)
-=======
->>>>>>> d79d738 (up)
     "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue.png": "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue.png",
     "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue@2x.png": "/public_html/themes/AdminLTE/dist/images/vendor/icheck/skins/square/blue@2x.png",
     "/public_html/themes/AdminLTE/dist/js/admin-lte.js": "/public_html/themes/AdminLTE/dist/js/admin-lte.js",
@@ -107,69 +31,13 @@
     "/public_html/themes/AdminLTE/dist/js/app.js": "/public_html/themes/AdminLTE/dist/js/app.js",
     "/public_html/themes/AdminLTE/dist/js/app.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/app.js.LICENSE.txt",
     "/public_html/themes/AdminLTE/dist/js/app.js.map": "/public_html/themes/AdminLTE/dist/js/app.js.map",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> db07ea7 (rebase)
-<<<<<<< HEAD
-    "/public_html/themes/AdminLTE/dist/js/auth.js": "/public_html/themes/AdminLTE/dist/js/auth.js",
-    "/public_html/themes/AdminLTE/dist/js/auth.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/auth.js.LICENSE.txt",
->>>>>>> 01e5fdc (rebase)
     "/public_html/themes/AdminLTE/dist/js/custom.js": "/public_html/themes/AdminLTE/dist/js/custom.js",
     "/public_html/themes/AdminLTE/dist/js/manifest.js": "/public_html/themes/AdminLTE/dist/js/manifest.js",
     "/public_html/themes/AdminLTE/dist/js/manifest.js.map": "/public_html/themes/AdminLTE/dist/js/manifest.js.map",
     "/public_html/themes/AdminLTE/dist/js/vendor.js": "/public_html/themes/AdminLTE/dist/js/vendor.js",
     "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt",
     "/public_html/themes/AdminLTE/dist/js/vendor.js.map": "/public_html/themes/AdminLTE/dist/js/vendor.js.map",
-<<<<<<< HEAD
-=======
-    "/public_html/themes/AdminLTE/dist/manifest.js": "/public_html/themes/AdminLTE/dist/manifest.js",
-=======
-=======
->>>>>>> 8a5cc0b (.)
-=======
->>>>>>> d79d738 (up)
-    "/public_html/themes/AdminLTE/dist/js/custom.js": "/public_html/themes/AdminLTE/dist/js/custom.js",
-    "/public_html/themes/AdminLTE/dist/js/manifest.js": "/public_html/themes/AdminLTE/dist/js/manifest.js",
-    "/public_html/themes/AdminLTE/dist/js/manifest.js.map": "/public_html/themes/AdminLTE/dist/js/manifest.js.map",
-    "/public_html/themes/AdminLTE/dist/js/vendor.js": "/public_html/themes/AdminLTE/dist/js/vendor.js",
-    "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt": "/public_html/themes/AdminLTE/dist/js/vendor.js.LICENSE.txt",
-    "/public_html/themes/AdminLTE/dist/js/vendor.js.map": "/public_html/themes/AdminLTE/dist/js/vendor.js.map",
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 29587b0 (.)
-<<<<<<< HEAD
->>>>>>> 01e5fdc (rebase)
-=======
-=======
->>>>>>> 63c2c43 (up)
-<<<<<<< HEAD
->>>>>>> 08eedf4 (rebase)
-=======
-=======
->>>>>>> 8a5cc0b (.)
->>>>>>> db07ea7 (rebase)
     "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    "/public_html/themes/AdminLTE/dist/public/css/admin-lte.css": "/public_html/themes/AdminLTE/dist/public/css/admin-lte.css",
-    "/public_html/themes/AdminLTE/dist/public/css/auth.css": "/public_html/themes/AdminLTE/dist/public/css/auth.css",
-    "/public_html/themes/AdminLTE/dist/vendor.js": "/public_html/themes/AdminLTE/dist/vendor.js",
-=======
-    "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
->>>>>>> 31d6e3b (first)
-=======
-    "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
->>>>>>> 326067f (Revert "Auxiliary commit to revert individual files from c2e7087aeb40af8c995eee2396b2ddb4f7ee121a")
->>>>>>> 905478d (rebase)
-=======
-    "/public_html/themes/AdminLTE/dist/mix-manifest.json": "/public_html/themes/AdminLTE/dist/mix-manifest.json",
->>>>>>> d79d738 (up)
->>>>>>> cf3e396 (rebase)
     "/public_html/webfonts/fa-brands-400.eot": "/public_html/webfonts/fa-brands-400.eot",
     "/public_html/webfonts/fa-brands-400.svg": "/public_html/webfonts/fa-brands-400.svg",
     "/public_html/webfonts/fa-brands-400.ttf": "/public_html/webfonts/fa-brands-400.ttf",
