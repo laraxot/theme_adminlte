@@ -65,3 +65,5 @@
     @stack('js')
     @yield('js')
 @stop
+
+@stack('modals')
