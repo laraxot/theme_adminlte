@@ -4,19 +4,21 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Modules\Theme\Models\Menu;
-use Modules\Xot\Services\PanelService;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Themes\AdminLTE\Menu\Builder;
+use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module;
+use Illuminate\Support\Facades\Gate;
+use Modules\Xot\Services\PanelService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Themes\AdminLTE\Menu\Builder;
+use Modules\Xot\View\Composers\XotBaseComposer;
+
 
 class AdminLTE extends XotBaseComposer {
     /**
@@ -156,7 +158,7 @@ class AdminLTE extends XotBaseComposer {
         $parameters = optional(\Route::current())->parameters();
 
         if (isset($parameters['module'])) {
-            $model_menu = getModuleModelsMenu($parameters['module'])->map(function ($item) {
+            $model_menu1 = getModuleModelsMenu($parameters['module'])->map(function ($item) {
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 
@@ -166,66 +168,30 @@ class AdminLTE extends XotBaseComposer {
             ->all();
 
             $module_menu = $this->getMenuItemsByName('module_'.$parameters['module']);
-
-            $model_menu = [
+            $model_menu = [];
+            $model_menu[]=
                 [
                     'url' => '/admin/'.$parameters['module'],
                     'text' => Str::upper($parameters['module']),
                     'icon' => 'fab fa-buromobelexperte',
-                ],
-                [
+                ];
+            if(empty($module_menu)){
+                $model_menu[]=[
                     'text' => 'Menu',
                     'icon' => 'fas fa-fw fa-share',
                     'submenu' => $module_menu,
-                ],
-                [
+                ];
+            }
+            
+            if(Gate::allows('showModelsModuleMenu',app(\Modules\Cms\Models\Panels\_ModulePanel::class))){
+                $model_menu[]=[
                     'text' => 'MODELS',
                     'icon' => 'fas fa-database',
-                    'submenu' => $model_menu,
-                ],
-                /*
-            [
-                    'text' => 'Dashboard',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Catalog',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Brands',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Categories',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Collections',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Custumers',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Reviews',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            [
-                    'text' => 'Discounts',
-                    'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $model_menu,
-            ],
-            */
-            ];
+                    'submenu' => $model_menu1,
+                ];
+            }
+            
+            
         //  ->all();
         // dddx($model_menu);
         } else {
