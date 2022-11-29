@@ -4,21 +4,20 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
 use Modules\Theme\Models\Menu;
-use Themes\AdminLTE\Menu\Builder;
-use Illuminate\Support\Collection;
-use Nwidart\Modules\Facades\Module;
-use Illuminate\Support\Facades\Gate;
 use Modules\Xot\Services\PanelService;
+use Modules\Xot\View\Composers\XotBaseComposer;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Modules\Xot\View\Composers\XotBaseComposer;
-
+use Themes\AdminLTE\Menu\Builder;
 
 class AdminLTE extends XotBaseComposer {
     /**
@@ -158,7 +157,7 @@ class AdminLTE extends XotBaseComposer {
         $parameters = optional(\Route::current())->parameters();
 
         if (isset($parameters['module'])) {
-            $model_menu1 = getModuleModelsMenu($parameters['module'])->map(function ($item) {
+            $model_module = getModuleModelsMenu($parameters['module'])->map(function ($item) {
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 
@@ -166,34 +165,29 @@ class AdminLTE extends XotBaseComposer {
             })
             ->values()
             ->all();
+            $menu_module = $this->getMenuItemsByName('module_'.$parameters['module']);
 
-            $module_menu = $this->getMenuItemsByName('module_'.$parameters['module']);
-            $model_menu = [];
-            $model_menu[]=
+            $model_menu[] =
                 [
                     'url' => '/admin/'.$parameters['module'],
                     'text' => Str::upper($parameters['module']),
                     'icon' => 'fab fa-buromobelexperte',
                 ];
-            if(empty($module_menu)){
-                $model_menu[]=[
+            if (! empty($menu_module)) {
+                $model_menu[] = [
                     'text' => 'Menu',
                     'icon' => 'fas fa-fw fa-share',
-                    'submenu' => $module_menu,
+                    'submenu' => $menu_module,
                 ];
             }
-            
-            if(Gate::allows('showModelsModuleMenu',app(\Modules\Cms\Models\Panels\_ModulePanel::class))){
-                $model_menu[]=[
+
+            if (Gate::allows('showModelsModuleMenu', app(\Modules\Cms\Models\Panels\_ModulePanel::class))) {
+                $model_menu[] = [
                     'text' => 'MODELS',
                     'icon' => 'fas fa-database',
-                    'submenu' => $model_menu1,
+                    'submenu' => $model_module,
                 ];
             }
-            
-            
-        //  ->all();
-        // dddx($model_menu);
         } else {
             $modules = array_keys(Module::all());
             $panel = PanelService::make()->get(\Auth::user());
@@ -236,6 +230,7 @@ class AdminLTE extends XotBaseComposer {
             ->values()
             ->all();
         */
+        // dddx($model_menu);
 
         return $model_menu;
     }
