@@ -9,8 +9,9 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use Modules\Theme\Models\Menu;
+use Modules\Cms\Services\ModuleService;
 use Modules\Cms\Services\PanelService;
+use Modules\Theme\Models\Menu;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
@@ -157,7 +158,7 @@ class AdminLTE extends XotBaseComposer {
         $parameters = optional(\Route::current())->parameters();
 
         if (isset($parameters['module'])) {
-            $model_module = getModuleModelsMenu($parameters['module'])->map(function ($item) {
+            $model_module = ModuleService::make()->getModuleModelsMenu($parameters['module'])->map(function ($item) {
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 
