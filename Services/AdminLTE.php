@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
 use Modules\Cms\Services\ModuleService;
 use Modules\Cms\Services\PanelService;
-use Modules\Theme\Models\Menu;
+use Modules\UI\Models\Menu;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
