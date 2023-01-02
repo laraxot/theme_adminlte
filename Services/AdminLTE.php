@@ -165,6 +165,9 @@ class AdminLTE extends XotBaseComposer {
             $model_module = ModuleService::make()
                 ->getModuleModelsMenu($parameters['module'])
                 ->map(function ($item) {
+                if(!is_object($item)){
+                    throw new Exception('['.__LINE__.']['.__FILE__.']');
+                }
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 

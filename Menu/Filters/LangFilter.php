@@ -70,13 +70,13 @@ class LangFilter implements FilterInterface {
      */
     protected function getTranslation($key, $params = []) {
         // Check for a translation.
-
+        /*
         if ($this->translator->has('menu.'.$key)) {
             return $this->translator->get('menu.'.$key, $params);
         } elseif ($this->translator->has('adminlte::menu.'.$key)) {
             return $this->translator->get('adminlte::menu.'.$key, $params);
         }
-
+        */
         // When no translation available, return the original key.
 
         return $key;

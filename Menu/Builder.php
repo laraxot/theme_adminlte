@@ -100,6 +100,9 @@ class Builder {
 
         $holedArrPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
         $holedArr = Arr::get($this->menu, $holedArrPath, $this->menu);
+        if(!is_array($holedArr)){
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
+        }
         Arr::set($this->menu, $holedArrPath, array_values($holedArr));
     }
 
