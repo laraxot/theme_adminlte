@@ -4,21 +4,22 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
-use Illuminate\Contracts\Container\Container;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Gate;
+use Exception;
 use Illuminate\Support\Str;
-use Modules\Cms\Services\ModuleService;
-use Modules\Cms\Services\PanelService;
 use Modules\UI\Models\Menu;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Themes\AdminLTE\Menu\Builder;
+use Illuminate\Support\Collection;
 use Nwidart\Modules\Facades\Module;
+use Illuminate\Support\Facades\Gate;
+use Modules\Cms\Services\PanelService;
+use Modules\Cms\Services\ModuleService;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
+use Illuminate\Contracts\Events\Dispatcher;
+use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Themes\AdminLTE\Menu\Builder;
+use Modules\Xot\View\Composers\XotBaseComposer;
 
 class AdminLTE extends XotBaseComposer {
     /**
@@ -64,6 +65,9 @@ class AdminLTE extends XotBaseComposer {
      */
     public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
+        if(!is_array($filters)){
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
+        }
         $this->filters = $filters;
         $this->events = $events;
         $this->container = $container;

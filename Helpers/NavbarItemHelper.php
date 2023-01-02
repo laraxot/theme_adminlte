@@ -8,7 +8,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar custom search bar.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -20,7 +20,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar fullscreen toggle widget.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -32,7 +32,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar dark mode toggle widget.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -44,7 +44,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar notification.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -57,7 +57,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a navbar search item (legacy or new).
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -69,7 +69,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is accepted for the navbar section.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -85,7 +85,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is valid for the left section of the navbar.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -98,7 +98,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item belongs to the right section of the navbar.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -111,7 +111,7 @@ class NavbarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item belongs to the user menu section of the navbar.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */

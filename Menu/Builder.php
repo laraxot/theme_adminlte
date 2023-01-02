@@ -38,7 +38,7 @@ class Builder {
      *
      * @param mixed $newItems Items to be added
      */
-    public function add(...$newItems) {
+    public function add(...$newItems):void {
         $items = $this->transformItems($newItems);
 
         if (! empty($items)) {
