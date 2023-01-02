@@ -9,7 +9,8 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Contracts\Routing\UrlGenerator;
 
-class ActiveChecker {
+class ActiveChecker
+{
     /**
      * The request instance.
      *
@@ -34,7 +35,8 @@ class ActiveChecker {
     /**
      * Constructor.
      */
-    public function __construct(UrlGenerator $url) {
+    public function __construct(UrlGenerator $url)
+    {
         $this->request = $url->getRequest();
         $this->url = $url;
 
@@ -57,7 +59,8 @@ class ActiveChecker {
      *
      * @return bool
      */
-    public function isActive(array $item):bool {
+    public function isActive($item)
+    {
         // Return true if any of the verification tests is met.
 
         foreach ($this->tests as $prop => $testFunc) {
@@ -78,7 +81,8 @@ class ActiveChecker {
      *
      * @return bool
      */
-    protected function containsActive($items) {
+    protected function containsActive($items)
+    {
         foreach ($items as $item) {
             if ($this->isActive($item)) {
                 return true;
@@ -95,7 +99,8 @@ class ActiveChecker {
      *
      * @return bool
      */
-    protected function isExplicitActive($activeDef) {
+    protected function isExplicitActive($activeDef)
+    {
         // If the active definition is a bool, return it.
 
         if (\is_bool($activeDef)) {
@@ -121,7 +126,8 @@ class ActiveChecker {
      *
      * @return bool
      */
-    protected function checkPattern($pattern) {
+    protected function checkPattern($pattern)
+    {
         // First, check if the pattern is a regular expression.
 
         if (Str::startsWith($pattern, 'regex:')) {
@@ -135,15 +141,16 @@ class ActiveChecker {
         // parameters, compare with the full url request.
 
         $pattern = preg_replace('@^https?://@', '*', $this->url->to($pattern));
-        if($pattern==null){
-            throw new Exception('['.__LINE__.']['.__FILE__.']');
-        }
+
+
+
         $request = $this->request->url();
 
-        if (isset(parse_url($pattern)['query'])) {
-            $request = $this->request->fullUrl();
+        if (!\is_null($pattern)) {
+            if (isset(parse_url($pattern)['query'])) {
+                $request = $this->request->fullUrl();
+            }
+            return Str::is(trim($pattern), trim($request));
         }
-
-        return Str::is(trim($pattern), trim($request));
     }
 }
