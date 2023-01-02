@@ -201,8 +201,10 @@ class AdminLTE extends XotBaseComposer {
             }
         } else {
             $modules = array_keys(Module::all());
-            $panel = PanelService::make()->get(\Auth::user());
-            $model_menu = $panel->areas()
+            //$panel = PanelService::make()->get(\Auth::user());
+            $areas = PanelService::make()->get(\Auth::user())->areas();
+            //$model_menu = $panel->areas()
+            $model_menu = $areas
                 ->filter(
                     function ($item) use ($modules) {
                         return \in_array($item->area_define_name, $modules, true);
@@ -258,7 +260,7 @@ class AdminLTE extends XotBaseComposer {
     /**
      * Filter method used to get the sidebar menu items.
      *
-     * @param mixed $item A menu item
+     * @param array $item A menu item
      *
      * @return bool
      */
@@ -269,7 +271,7 @@ class AdminLTE extends XotBaseComposer {
     /**
      * Filter method used to get the top navbar left menu items.
      *
-     * @param mixed $item A menu item
+     * @param array $item A menu item
      *
      * @return bool
      */
@@ -284,7 +286,7 @@ class AdminLTE extends XotBaseComposer {
     /**
      * Filter method used to get the top navbar right menu items.
      *
-     * @param mixed $item A menu item
+     * @param array $item A menu item
      *
      * @return bool
      */
@@ -295,7 +297,7 @@ class AdminLTE extends XotBaseComposer {
     /**
      * Filter method used to get the navbar user menu items.
      *
-     * @param mixed $item A menu item
+     * @param array $item A menu item
      *
      * @return bool
      */
