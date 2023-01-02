@@ -212,8 +212,12 @@ class AdminLTE extends XotBaseComposer
         } else {
             $modules = array_keys(Module::all());
             //$panel = PanelService::make()->get(\Auth::user());
-            /** @var Collection<Area> */
             //$areas = PanelService::make()->getByUser(Auth::user())->areas();
+
+            /**
+             *  
+             * @var Collection<Area> $areas 
+             * */
             $areas = PanelService::make()->areas();
             //$model_menu = $panel->areas()
             $model_menu = $areas
