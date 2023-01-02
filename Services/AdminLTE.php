@@ -159,7 +159,7 @@ class AdminLTE extends XotBaseComposer {
     }
 
     protected function setMenu(): array {
-        $parameters = optional(\Route::current())->parameters();
+        $parameters = getRouteParameters();
 
         if (isset($parameters['module'])) {
             $model_module = ModuleService::make()->getModuleModelsMenu($parameters['module'])->map(function ($item) {

@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu;
 
-use Illuminate\Contracts\Routing\UrlGenerator;
-use Illuminate\Http\Request;
+use Exception;
 use Illuminate\Support\Str;
+use Illuminate\Http\Request;
+use Illuminate\Contracts\Routing\UrlGenerator;
 
 class ActiveChecker {
     /**
@@ -134,6 +135,9 @@ class ActiveChecker {
         // parameters, compare with the full url request.
 
         $pattern = preg_replace('@^https?://@', '*', $this->url->to($pattern));
+        if($pattern==null){
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
+        }
         $request = $this->request->url();
 
         if (isset(parse_url($pattern)['query'])) {
