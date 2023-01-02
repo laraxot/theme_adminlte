@@ -6,6 +6,7 @@ namespace Themes\AdminLTE\Services;
 
 use Exception;
 use Illuminate\Support\Str;
+use Modules\LU\Models\Area;
 use Modules\UI\Models\Menu;
 use Themes\AdminLTE\Menu\Builder;
 use Illuminate\Support\Collection;
@@ -203,6 +204,7 @@ class AdminLTE extends XotBaseComposer {
         } else {
             $modules = array_keys(Module::all());
             //$panel = PanelService::make()->get(\Auth::user());
+            /** @var Collection<Area> */
             $areas = PanelService::make()->get(\Auth::user())->areas();
             //$model_menu = $panel->areas()
             $model_menu = $areas

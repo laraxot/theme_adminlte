@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
 
+use Exception;
 use Illuminate\Support\Facades\View;
 use Themes\AdminLTE\Events\ReadingDarkModePreference;
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
@@ -69,6 +70,9 @@ class LayoutHelper {
         // Add data related to the "sidebar_scrollbar_theme" configuration.
 
         $sbTheme = config('adminlte.sidebar_scrollbar_theme', 'os-theme-light');
+        if(!is_string($sbTheme)){
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
+        }
 
         if ('os-theme-light' !== $sbTheme) {
             $data[] = "data-scrollbar-theme={$sbTheme}";

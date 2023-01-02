@@ -88,7 +88,7 @@ class CommandHelper {
         closedir($dirHandler);
     }
 
-    /**
+    /*
      * Compare two directories file by file.
      *
      * @param string $dir1      The path of the first folder
@@ -97,7 +97,7 @@ class CommandHelper {
      * @param array  $ignores   Array of files to be ignored
      *
      * @return bool|null Result of comparison or null if a folder not exists
-     */
+     
     public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
         // Open the first folder. Return if fails to open.
 
@@ -152,6 +152,7 @@ class CommandHelper {
 
         return true;
     }
+    */
 
     /**
      * Check if two files are equals by comparing sha1 hash values.
@@ -210,13 +211,13 @@ class CommandHelper {
         return self::$stubsPath.\DIRECTORY_SEPARATOR.$path;
     }
 
-    /**
+    /*
      * Get the fully qualified path relative to the configured view path.
      *
      * @param string $path Relative path to some view
      *
      * @return string Fully qualified path to the view
-     */
+     
     public static function getViewPath($path = null) {
         /** @var array $viewPaths */
         $viewPaths = config('view.paths');
@@ -228,6 +229,7 @@ class CommandHelper {
 
         return $basePath.\DIRECTORY_SEPARATOR.$path;
     }
+    */
 
     /**
      * Check if a file is included in a set of ignored file patterns.
