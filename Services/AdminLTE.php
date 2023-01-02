@@ -13,6 +13,7 @@ use Nwidart\Modules\Facades\Module;
 use Illuminate\Support\Facades\Gate;
 use Modules\Cms\Services\PanelService;
 use Modules\Cms\Services\ModuleService;
+use Modules\Xot\Contracts\ModelContract;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
 use Illuminate\Contracts\Events\Dispatcher;

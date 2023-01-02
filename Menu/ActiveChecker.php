@@ -152,5 +152,7 @@ class ActiveChecker
             }
             return Str::is(trim($pattern), trim($request));
         }
+
+        return false;
     }
 }

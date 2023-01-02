@@ -18,7 +18,7 @@ class Builder {
      *
      * @var array
      */
-    public $menu = [];
+    public array $menu = [];
 
     /**
      * The set of filters applied to menu items.
@@ -89,16 +89,16 @@ class Builder {
             return;
         }
 
-        if(!is_array($itemPath)){
-            throw new Exception('['.__LINE__.']['.__FILE__.']');
-        }
-        // Remove the item.
-
+        /**
+         * @var array $itemPath
+         */
         Arr::forget($this->menu, implode('.', $itemPath));
 
         // Normalize the menu (remove holes in the numeric indexes).
 
+        /** @var string $holedArrPath */
         $holedArrPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
+        /** @var array $holedArr */
         $holedArr = Arr::get($this->menu, $holedArrPath, $this->menu);
         if(!is_array($holedArr)){
             throw new Exception('['.__LINE__.']['.__FILE__.']');
@@ -149,7 +149,9 @@ class Builder {
                 // Do the recursive call to search on submenu. If we found the
                 // item, merge the path with the current one.
 
+              
                 if ($subPath = $this->findItem($itemKey, $item['submenu'])) {
+                      /** @var array $subPath */
                     return array_merge([$key, 'submenu'], $subPath);
                 }
             }
@@ -206,7 +208,7 @@ class Builder {
      * @param int   $where   Where to add the new items
      * @param mixed $items   Items to be added
      */
-    protected function addItem($itemKey, $where, ...$items) {
+    protected function addItem($itemKey, $where, ...$items):void {
         // Find the specific menu item. Return if not found.
 
         if (! ($itemPath = $this->findItem($itemKey, $this->menu))) {
@@ -215,15 +217,18 @@ class Builder {
 
         // Get the target array and add the new items there.
 
+        /** @var array $itemPath */
         $itemKeyIdx = end($itemPath);
         reset($itemPath);
 
         if (self::ADD_INSIDE === $where) {
             $targetPath = implode('.', array_merge($itemPath, ['submenu']));
+            /** @var array $targetArr */
             $targetArr = Arr::get($this->menu, $targetPath, []);
             array_push($targetArr, ...$items);
         } else {
             $targetPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
+            /** @var array $targetArr */
             $targetArr = Arr::get($this->menu, $targetPath, $this->menu);
             $offset = (self::ADD_AFTER === $where) ? 1 : 0;
             array_splice($targetArr, $itemKeyIdx + $offset, 0, $items);

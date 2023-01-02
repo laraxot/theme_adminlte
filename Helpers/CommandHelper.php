@@ -102,13 +102,13 @@ class CommandHelper {
         // Open the first folder. Return if fails to open.
 
         if (! \is_resource($dirHandler = @opendir($dir1))) {
-            return;
+            return null;
         }
 
         // Check if the second folder exists.
 
         if (! is_dir($dir2)) {
-            return;
+            return null;
         }
 
         // Now, compare the folders.
@@ -218,7 +218,9 @@ class CommandHelper {
      * @return string Fully qualified path to the view
      */
     public static function getViewPath($path = null) {
-        $basePath = config('view.paths')[0] ?? resource_path('views');
+        /** @var array $viewPaths */
+        $viewPaths = config('view.paths');
+        $basePath = $viewPaths[0] ?? resource_path('views');
 
         if (! $path) {
             return $basePath;
