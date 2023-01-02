@@ -162,12 +162,15 @@ class AdminLTE extends XotBaseComposer {
         $parameters = getRouteParameters();
 
         if (isset($parameters['module'])) {
-            $model_module = ModuleService::make()->getModuleModelsMenu($parameters['module'])->map(function ($item) {
+            $model_module = ModuleService::make()
+                ->getModuleModelsMenu($parameters['module'])
+                ->map(function ($item) {
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 
                 return $out;
-            })
+                }
+            )
             ->values()
             ->all();
             $menu_module = $this->getMenuItemsByName('module_'.$parameters['module']);

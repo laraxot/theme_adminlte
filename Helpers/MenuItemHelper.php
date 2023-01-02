@@ -13,7 +13,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a header.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -24,7 +24,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a link.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -36,7 +36,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a submenu.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -48,7 +48,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a legacy search bar.
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */
@@ -60,7 +60,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is allowed to be shown (not restricted).
      *
-     * @param mixed $item
+     * @param array $item
      *
      * @return bool
      */

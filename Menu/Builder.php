@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu;
 
+use Exception;
 use Illuminate\Support\Arr;
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 
@@ -88,6 +89,9 @@ class Builder {
             return;
         }
 
+        if(!is_array($itemPath)){
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
+        }
         // Remove the item.
 
         Arr::forget($this->menu, implode('.', $itemPath));

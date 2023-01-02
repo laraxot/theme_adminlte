@@ -53,11 +53,11 @@ class ActiveChecker {
      * Checks if a menu item is currently active. Active items will be
      * highlighted.
      *
-     * @param mixed $item The menu item to check
+     * @param array $item The menu item to check
      *
      * @return bool
      */
-    public function isActive($item) {
+    public function isActive(array $item):bool {
         // Return true if any of the verification tests is met.
 
         foreach ($this->tests as $prop => $testFunc) {
