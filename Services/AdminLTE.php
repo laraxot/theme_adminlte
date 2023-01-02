@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Services;
 
+use Auth;
 use Exception;
 use Illuminate\Support\Str;
 use Modules\LU\Models\Area;
@@ -205,7 +206,8 @@ class AdminLTE extends XotBaseComposer {
             $modules = array_keys(Module::all());
             //$panel = PanelService::make()->get(\Auth::user());
             /** @var Collection<Area> */
-            $areas = PanelService::make()->get(\Auth::user())->areas();
+            //$areas = PanelService::make()->getByUser(Auth::user())->areas();
+            $areas = PanelService::make()->areas();
             //$model_menu = $panel->areas()
             $model_menu = $areas
                 ->filter(
@@ -215,6 +217,9 @@ class AdminLTE extends XotBaseComposer {
                 )
                 ->map(
                     function ($item) {
+                        //if(!is_object($item)){
+                        //    throw new Exception('['.__LINE__.']['.__FILE__.']');
+                        //}
                         $out = get_object_vars($item);
                         $out['text'] = $item->area_define_name;
                         $out['url'] = $item->url;
@@ -308,7 +313,11 @@ class AdminLTE extends XotBaseComposer {
         return NavbarItemHelper::isValidUserMenuItem($item);
     }
 
-    public function url(...$args) {
+
+/**
+ * @param mixed $args
+ */   
+ public function url(...$args) :string{
         return 'wip['.__LINE__.']['.__FILE__.']';
     }
 

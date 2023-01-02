@@ -219,7 +219,7 @@ class CommandHelper {
      * @return string Fully qualified path to the view
      
     public static function getViewPath($path = null) {
-        /** @var array $viewPaths */
+        
         $viewPaths = config('view.paths');
         $basePath = $viewPaths[0] ?? resource_path('views');
 

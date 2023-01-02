@@ -125,6 +125,7 @@ class Builder {
      * @return array Array with the new transformed items
      */
     protected function transformItems($items) {
+        // 130    Parameter #2 $callback of function array_filter expects callable(mixed): mixed, array{'Themes\\AdminLTE\\Helpers\\MenuItemHelper', 'isAllowed'} given.
         return array_filter(
             array_map([$this, 'applyFilters'], $items),
             [MenuItemHelper::class, 'isAllowed']

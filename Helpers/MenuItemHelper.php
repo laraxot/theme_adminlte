@@ -13,7 +13,7 @@ class MenuItemHelper {
     /**
      * Check if a menu item is a header.
      *
-     * @param array $item
+     * @param array|string $item
      *
      * @return bool
      */
