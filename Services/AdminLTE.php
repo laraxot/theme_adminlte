@@ -5,27 +5,25 @@ declare(strict_types=1);
 namespace Themes\AdminLTE\Services;
 
 use Auth;
-use Exception;
-use Illuminate\Support\Str;
-use Modules\LU\Models\Area;
-use Modules\UI\Models\Menu;
-use Themes\AdminLTE\Menu\Builder;
+use Illuminate\Contracts\Container\Container;
+use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Collection;
-use Nwidart\Modules\Facades\Module;
 use Illuminate\Support\Facades\Gate;
-use Modules\Cms\Services\PanelService;
+use Illuminate\Support\Str;
 use Modules\Cms\Services\ModuleService;
-use Modules\Xot\Contracts\ModelContract;
+use Modules\Cms\Services\PanelService;
+use Modules\LU\Models\Area;
+use Modules\LU\Services\ProfileService;
+use Modules\UI\Models\Menu;
+use Modules\Xot\View\Composers\XotBaseComposer;
+use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
 use Themes\AdminLTE\Helpers\LayoutHelper;
-use Illuminate\Contracts\Events\Dispatcher;
-use Illuminate\Contracts\Container\Container;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
-use Modules\Xot\View\Composers\XotBaseComposer;
+use Themes\AdminLTE\Menu\Builder;
 
-class AdminLTE extends XotBaseComposer
-{
+class AdminLTE extends XotBaseComposer {
     /**
      * The array of menu items.
      *
@@ -67,11 +65,10 @@ class AdminLTE extends XotBaseComposer
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
-    public function __construct(/* array $filters, */Dispatcher $events, Container $container)
-    {
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
-        if (!is_array($filters)) {
-            throw new Exception('[' . __LINE__ . '][' . __FILE__ . ']');
+        if (! is_array($filters)) {
+            throw new \Exception('['.__LINE__.']['.__FILE__.']');
         }
         $this->filters = $filters;
         $this->events = $events;
@@ -94,8 +91,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return array A set of menu items
      */
-    public function menu($filterToken = null)
-    {
+    public function menu($filterToken = null) {
         if (empty($this->menu)) {
             $this->menu = $this->buildMenu();
         }
@@ -122,8 +118,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return array The set of menu items
      */
-    protected function buildMenu()
-    {
+    protected function buildMenu() {
         // Create the menu builder instance.
 
         $builder = new Builder($this->buildFilters());
@@ -149,8 +144,7 @@ class AdminLTE extends XotBaseComposer
         return $builder->menu;
     }
 
-    public function getMenuItemsByName(string $name): array
-    {
+    public function getMenuItemsByName(string $name): array {
         $menu = Menu::firstWhere('name', $name);
         if (null === $menu) {
             return []; // collect([]);
@@ -166,8 +160,7 @@ class AdminLTE extends XotBaseComposer
         return $rows->all();
     }
 
-    protected function setMenu(): array
-    {
+    protected function setMenu(): array {
         $parameters = getRouteParameters();
 
         if (isset($parameters['module'])) {
@@ -175,8 +168,8 @@ class AdminLTE extends XotBaseComposer
                 ->getModuleModelsMenu($parameters['module'])
                 ->map(
                     function ($item) {
-                        if (!is_object($item)) {
-                            throw new Exception('[' . __LINE__ . '][' . __FILE__ . ']');
+                        if (! is_object($item)) {
+                            throw new \Exception('['.__LINE__.']['.__FILE__.']');
                         }
                         $out = get_object_vars($item);
                         $out['text'] = $item->title;
@@ -186,15 +179,15 @@ class AdminLTE extends XotBaseComposer
                 )
                 ->values()
                 ->all();
-            $menu_module = $this->getMenuItemsByName('module_' . $parameters['module']);
+            $menu_module = $this->getMenuItemsByName('module_'.$parameters['module']);
 
             $model_menu[] =
                 [
-                    'url' => '/admin/' . $parameters['module'],
+                    'url' => '/admin/'.$parameters['module'],
                     'text' => Str::upper($parameters['module']),
                     'icon' => 'fab fa-buromobelexperte',
                 ];
-            if (!empty($menu_module)) {
+            if (! empty($menu_module)) {
                 $model_menu[] = [
                     'text' => 'Menu',
                     'icon' => 'fas fa-fw fa-share',
@@ -211,15 +204,14 @@ class AdminLTE extends XotBaseComposer
             }
         } else {
             $modules = array_keys(Module::all());
-            //$panel = PanelService::make()->get(\Auth::user());
-            //$areas = PanelService::make()->getByUser(Auth::user())->areas();
+            // $panel = PanelService::make()->get(\Auth::user());
+            // $areas = PanelService::make()->getByUser(Auth::user())->areas();
 
             /**
-             *  
-             * @var Collection<Area> $areas 
+             * @var Collection<Area> $areas
              * */
-            $areas = PanelService::make()->areas();
-            //$model_menu = $panel->areas()
+            $areas = ProfileService::make()->areas();
+            // $model_menu = $panel->areas()
             $model_menu = $areas
                 ->filter(
                     function ($item) use ($modules) {
@@ -270,8 +262,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return array The set of filters that will apply on each menu item
      */
-    protected function buildFilters()
-    {
+    protected function buildFilters() {
         return array_map([$this->container, 'make'], $this->filters);
     }
 
@@ -282,8 +273,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return bool
      */
-    private function sidebarFilter($item)
-    {
+    private function sidebarFilter($item) {
         return SidebarItemHelper::isValidItem($item);
     }
 
@@ -294,8 +284,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return bool
      */
-    private function navbarLeftFilter($item)
-    {
+    private function navbarLeftFilter($item) {
         if (LayoutHelper::isLayoutTopnavEnabled() && SidebarItemHelper::isValidItem($item)) {
             return NavbarItemHelper::isAcceptedItem($item);
         }
@@ -310,8 +299,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return bool
      */
-    private function navbarRightFilter($item)
-    {
+    private function navbarRightFilter($item) {
         return NavbarItemHelper::isValidRightItem($item);
     }
 
@@ -322,18 +310,15 @@ class AdminLTE extends XotBaseComposer
      *
      * @return bool
      */
-    private function navbarUserMenuFilter($item)
-    {
+    private function navbarUserMenuFilter($item) {
         return NavbarItemHelper::isValidUserMenuItem($item);
     }
-
 
     /**
      * @param mixed $args
      */
-    public function url(...$args): string
-    {
-        return 'wip[' . __LINE__ . '][' . __FILE__ . ']';
+    public function url(...$args): string {
+        return 'wip['.__LINE__.']['.__FILE__.']';
     }
 
     // public function getMenuItemsByName(string $name): Collection {
