@@ -70,7 +70,7 @@ class LayoutHelper {
         // Add data related to the "sidebar_scrollbar_theme" configuration.
 
         $sbTheme = config('adminlte.sidebar_scrollbar_theme', 'os-theme-light');
-        if(!is_string($sbTheme)){
+        if (! is_string($sbTheme)) {
             throw new Exception('['.__LINE__.']['.__FILE__.']');
         }
 
@@ -81,7 +81,7 @@ class LayoutHelper {
         // Add data related to the "sidebar_scrollbar_auto_hide" configuration.
 
         $sbAutoHide = config('adminlte.sidebar_scrollbar_auto_hide', 'l');
-        if(!is_string($sbAutoHide)){
+        if (! is_string($sbAutoHide)) {
             throw new Exception('['.__LINE__.']['.__FILE__.']');
         }
         if ('l' !== $sbAutoHide) {
@@ -200,8 +200,8 @@ class LayoutHelper {
         // Add classes related to the "sidebar_mini" configuration.
 
         $sidebarMiniCfg = config('adminlte.sidebar_mini', 'lg');
-        if (!is_string($sidebarMiniCfg)) {
-            throw new Exception('[' . __LINE__ . '][' . __FILE__ . ']');
+        if (! is_string($sidebarMiniCfg)) {
+            throw new Exception('['.__LINE__.']['.__FILE__.']');
         }
 
         if (\in_array($sidebarMiniCfg, self::$sidebarMiniValues, true)) {

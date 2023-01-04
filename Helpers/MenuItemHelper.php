@@ -18,7 +18,7 @@ class MenuItemHelper {
      * @return bool
      */
     public static function isHeader($item) {
-        return /*\is_string($item) ||*/ isset($item['header']);
+        return /* \is_string($item) || */ isset($item['header']);
     }
 
     /**

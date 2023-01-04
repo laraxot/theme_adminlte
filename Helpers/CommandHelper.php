@@ -97,7 +97,7 @@ class CommandHelper {
      * @param array  $ignores   Array of files to be ignored
      *
      * @return bool|null Result of comparison or null if a folder not exists
-     
+
     public static function compareDirectories($dir1, $dir2, $recursive = false, $ignores = []) {
         // Open the first folder. Return if fails to open.
 
@@ -217,9 +217,9 @@ class CommandHelper {
      * @param string $path Relative path to some view
      *
      * @return string Fully qualified path to the view
-     
+
     public static function getViewPath($path = null) {
-        
+
         $viewPaths = config('view.paths');
         $basePath = $viewPaths[0] ?? resource_path('views');
 

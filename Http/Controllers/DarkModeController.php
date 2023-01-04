@@ -41,7 +41,7 @@ class DarkModeController extends Controller {
         // First, check if dark mode preference is available on the session.
 
         if (null !== session($this->sessionKey, null)) {
-            return (bool)session($this->sessionKey);
+            return (bool) session($this->sessionKey);
         }
 
         // Otherwise, fallback to the default package configuration preference.

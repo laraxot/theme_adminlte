@@ -15,8 +15,6 @@ class Builder {
 
     /**
      * The set of menu items.
-     *
-     * @var array
      */
     public array $menu = [];
 
@@ -39,7 +37,7 @@ class Builder {
      *
      * @param mixed $newItems Items to be added
      */
-    public function add(...$newItems):void {
+    public function add(...$newItems): void {
         $items = $this->transformItems($newItems);
 
         if (! empty($items)) {
@@ -53,7 +51,7 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addAfter($itemKey, ...$newItems):void {
+    public function addAfter($itemKey, ...$newItems): void {
         $this->addItem($itemKey, self::ADD_AFTER, ...$newItems);
     }
 
@@ -63,7 +61,7 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addBefore($itemKey, ...$newItems):void {
+    public function addBefore($itemKey, ...$newItems): void {
         $this->addItem($itemKey, self::ADD_BEFORE, ...$newItems);
     }
 
@@ -73,7 +71,7 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addIn($itemKey, ...$newItems):void {
+    public function addIn($itemKey, ...$newItems): void {
         $this->addItem($itemKey, self::ADD_INSIDE, ...$newItems);
     }
 
@@ -82,14 +80,14 @@ class Builder {
      *
      * @param mixed $itemKey The key of the menu item to remove
      */
-    public function remove($itemKey):void {
+    public function remove($itemKey): void {
         // Find the specific menu item. Return if not found.
 
         if (! ($itemPath = $this->findItem($itemKey, $this->menu))) {
             return;
         }
 
-        /**
+        /*
          * @var array $itemPath
          */
         Arr::forget($this->menu, implode('.', $itemPath));
@@ -100,7 +98,7 @@ class Builder {
         $holedArrPath = implode('.', \array_slice($itemPath, 0, -1)) ?: null;
         /** @var array $holedArr */
         $holedArr = Arr::get($this->menu, $holedArrPath, $this->menu);
-        if(!is_array($holedArr)){
+        if (! is_array($holedArr)) {
             throw new Exception('['.__LINE__.']['.__FILE__.']');
         }
         Arr::set($this->menu, $holedArrPath, array_values($holedArr));
@@ -150,9 +148,8 @@ class Builder {
                 // Do the recursive call to search on submenu. If we found the
                 // item, merge the path with the current one.
 
-              
                 if ($subPath = $this->findItem($itemKey, $item['submenu'])) {
-                      /** @var array $subPath */
+                    /* @var array $subPath */
                     return array_merge([$key, 'submenu'], $subPath);
                 }
             }
@@ -209,7 +206,7 @@ class Builder {
      * @param int   $where   Where to add the new items
      * @param mixed $items   Items to be added
      */
-    protected function addItem($itemKey, $where, ...$items):void {
+    protected function addItem($itemKey, $where, ...$items): void {
         // Find the specific menu item. Return if not found.
 
         if (! ($itemPath = $this->findItem($itemKey, $this->menu))) {
