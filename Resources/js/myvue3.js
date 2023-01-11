@@ -16,10 +16,10 @@ const app = createApp({
 });
 
 
-//import Audiojs                              from '../../../../Modules/Theme/Resources/js/components/audioplayer/Audiojs.vue';
-import Videojs from '../../../../Modules/Theme/Resources/js/components/videoplayer/Videojs.vue';
-//import ExampleComponent                     from '../../../../Modules/Theme/Resources/js/components/ExampleComponent';
-import Noui from '../../../../Modules/Theme/Resources/js/components/slider/Noui.vue';
+//import Audiojs                              from '../../../../Modules/UI/Resources/js/components/audioplayer/Audiojs.vue';
+import Videojs from '../../../../Modules/UI/Resources/js/components/videoplayer/Videojs.vue';
+//import ExampleComponent                     from '../../../../Modules/UI/Resources/js/components/ExampleComponent';
+import Noui from '../../../../Modules/UI/Resources/js/components/slider/Noui.vue';
 
 
 

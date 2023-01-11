@@ -10,7 +10,7 @@ app.config.isCustomElement = tag => tag.startsWith('input-')
 import { createApp } from 'vue'
 //import TinymceComponent from './components/TinymceComponent.vue';
 //import TinymceComponent from './components/wysiwyg/Tinymce2Component.vue';
-//import ExampleComponent from '../../../../Modules/Theme/Resources/js/components/ExampleComponent.vue';
+//import ExampleComponent from '../../../../Modules/UI/Resources/js/components/ExampleComponent.vue';
 
 const app = createApp({
     data() {
