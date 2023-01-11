@@ -4,7 +4,7 @@
     @php
     //dddx($profile->getProfile()->customers);
     /*
-                                            $customer_rnd=\Modules\Quaeris\Models\Customer::inRandomOrder()->first();
+                                            $customer_rnd=\Modules\PFed\Models\Customer::inRandomOrder()->first();
                                             $profile->getProfile()->customers()->sync($customer_rnd);
                                             */
     //dddx($customer_rnd);

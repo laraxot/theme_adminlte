@@ -1,5 +1,5 @@
 @php
-//$customer=\Modules\Quaeris\Models\Customer::first();
+//$customer=\Modules\PFed\Models\Customer::first();
 //$profile->getProfile()->customers()->sync($customer);
 //dddx($profile->getProfile()->customers()->get());
 $first_customer = $profile->getProfile()->customers->first();

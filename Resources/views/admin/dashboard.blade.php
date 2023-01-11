@@ -19,7 +19,7 @@
 
 
     @livewire('chart-tile', [
-        'chartClass' => Modules\Quaeris\Charts\QuestionIdChart::class,
+        'chartClass' => Modules\PFed\Charts\QuestionIdChart::class,
         'chartFilters' => ['question_chart_id' => 5],
         'position' => 'b3:b4',
     ])
