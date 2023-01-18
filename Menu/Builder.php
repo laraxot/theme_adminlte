@@ -8,7 +8,8 @@ use Exception;
 use Illuminate\Support\Arr;
 use Themes\AdminLTE\Helpers\MenuItemHelper;
 
-class Builder {
+class Builder
+{
     protected const ADD_AFTER = 0;
     protected const ADD_BEFORE = 1;
     protected const ADD_INSIDE = 2;
@@ -28,7 +29,8 @@ class Builder {
     /**
      * Constructor.
      */
-    public function __construct(array $filters = []) {
+    public function __construct(array $filters = [])
+    {
         $this->filters = $filters;
     }
 
@@ -37,7 +39,8 @@ class Builder {
      *
      * @param mixed $newItems Items to be added
      */
-    public function add(...$newItems): void {
+    public function add(...$newItems): void
+    {
         $items = $this->transformItems($newItems);
 
         if (! empty($items)) {
@@ -51,7 +54,8 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addAfter($itemKey, ...$newItems): void {
+    public function addAfter($itemKey, ...$newItems): void
+    {
         $this->addItem($itemKey, self::ADD_AFTER, ...$newItems);
     }
 
@@ -61,7 +65,8 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addBefore($itemKey, ...$newItems): void {
+    public function addBefore($itemKey, ...$newItems): void
+    {
         $this->addItem($itemKey, self::ADD_BEFORE, ...$newItems);
     }
 
@@ -71,7 +76,8 @@ class Builder {
      * @param mixed $itemKey  The key that represents the specific menu item
      * @param mixed $newItems Items to be added
      */
-    public function addIn($itemKey, ...$newItems): void {
+    public function addIn($itemKey, ...$newItems): void
+    {
         $this->addItem($itemKey, self::ADD_INSIDE, ...$newItems);
     }
 
@@ -80,7 +86,8 @@ class Builder {
      *
      * @param mixed $itemKey The key of the menu item to remove
      */
-    public function remove($itemKey): void {
+    public function remove($itemKey): void
+    {
         // Find the specific menu item. Return if not found.
 
         if (! ($itemPath = $this->findItem($itemKey, $this->menu))) {
@@ -111,7 +118,8 @@ class Builder {
      *
      * @return bool
      */
-    public function itemKeyExists($itemKey) {
+    public function itemKeyExists($itemKey)
+    {
         return (bool) $this->findItem($itemKey, $this->menu);
     }
 
@@ -122,7 +130,8 @@ class Builder {
      *
      * @return array Array with the new transformed items
      */
-    protected function transformItems($items) {
+    protected function transformItems($items)
+    {
         // 130    Parameter #2 $callback of function array_filter expects callable(mixed): mixed, array{'Themes\\AdminLTE\\Helpers\\MenuItemHelper', 'isAllowed'} given.
         return array_filter(
             array_map([$this, 'applyFilters'], $items),
@@ -138,7 +147,8 @@ class Builder {
      *
      * @return mixed Array with the path sequence, or empty array if not found
      */
-    protected function findItem($itemKey, $items) {
+    protected function findItem($itemKey, $items)
+    {
         // Look up on all the items.
 
         foreach ($items as $key => $item) {
@@ -167,7 +177,8 @@ class Builder {
      *
      * @return mixed A new item with all the filters applied
      */
-    protected function applyFilters($item) {
+    protected function applyFilters($item)
+    {
         // Filters are only applied to array type menu items.
 
         if (! \is_array($item)) {
@@ -206,7 +217,8 @@ class Builder {
      * @param int   $where   Where to add the new items
      * @param mixed $items   Items to be added
      */
-    protected function addItem($itemKey, $where, ...$items): void {
+    protected function addItem($itemKey, $where, ...$items): void
+    {
         // Find the specific menu item. Return if not found.
 
         if (! ($itemPath = $this->findItem($itemKey, $this->menu))) {

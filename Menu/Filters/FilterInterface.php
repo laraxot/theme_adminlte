@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Menu\Filters;
 
-interface FilterInterface {
+interface FilterInterface
+{
     /**
      * Transforms a menu item in some way.
      *

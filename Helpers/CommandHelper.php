@@ -7,7 +7,8 @@ namespace Themes\AdminLTE\Helpers;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 
-class CommandHelper {
+class CommandHelper
+{
     /**
      * Path to the package root folder.
      *
@@ -31,7 +32,8 @@ class CommandHelper {
      *
      * @return void
      */
-    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true) {
+    public static function ensureDirectoryExists($dir, $mode = 0755, $recursive = true)
+    {
         if (! is_dir($dir)) {
             mkdir($dir, $mode, $recursive);
         }
@@ -48,7 +50,8 @@ class CommandHelper {
      *
      * @return void
      */
-    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = []) {
+    public static function copyDirectory($dir, $dest, $force = false, $recursive = false, $ignores = [])
+    {
         // Open the source folder. Return if fails to open.
 
         if (! \is_resource($dirHandler = @opendir($dir))) {
@@ -162,7 +165,8 @@ class CommandHelper {
      *
      * @return bool
      */
-    public static function compareFiles($file1, $file2) {
+    public static function compareFiles($file1, $file2)
+    {
         if (! is_file($file1) || ! is_file($file2)) {
             return false;
         }
@@ -177,7 +181,8 @@ class CommandHelper {
      *
      * @return bool
      */
-    public static function removeDirectory($dir) {
+    public static function removeDirectory($dir)
+    {
         return File::deleteDirectory($dir);
     }
 
@@ -188,7 +193,8 @@ class CommandHelper {
      *
      * @return string Fully qualified path to the resource
      */
-    public static function getPackagePath($path = null) {
+    public static function getPackagePath($path = null)
+    {
         if (! $path) {
             return self::$packagePath;
         }
@@ -203,7 +209,8 @@ class CommandHelper {
      *
      * @return string Fully qualified path to the stub resource
      */
-    public static function getStubPath($path = null) {
+    public static function getStubPath($path = null)
+    {
         if (! $path) {
             return self::$stubsPath;
         }
@@ -239,7 +246,8 @@ class CommandHelper {
      *
      * @return bool
      */
-    protected static function isIgnoredFile($file, $ignores) {
+    protected static function isIgnoredFile($file, $ignores)
+    {
         foreach ($ignores as $pattern) {
             $match = Str::startsWith($pattern, 'regex:') ?
                      preg_match(Str::substr($pattern, 6), $file) :

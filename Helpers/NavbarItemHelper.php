@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
 
-class NavbarItemHelper extends MenuItemHelper {
+class NavbarItemHelper extends MenuItemHelper
+{
     /**
      * Check if a menu item is a navbar custom search bar.
      *
@@ -12,7 +13,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isCustomSearch($item) {
+    public static function isCustomSearch($item)
+    {
         return isset($item['text'], $item['type']) &&
                'navbar-search' === $item['type'];
     }
@@ -24,7 +26,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isFullscreen($item) {
+    public static function isFullscreen($item)
+    {
         return isset($item['type']) &&
                'fullscreen-widget' === $item['type'];
     }
@@ -36,7 +39,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isDarkmode($item) {
+    public static function isDarkmode($item)
+    {
         return isset($item['type']) &&
                'darkmode-widget' === $item['type'];
     }
@@ -48,7 +52,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isNotification($item) {
+    public static function isNotification($item)
+    {
         return isset($item['id'], $item['icon'], $item['type']) &&
                (isset($item['url']) || isset($item['route'])) &&
                'navbar-notification' === $item['type'];
@@ -61,7 +66,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isSearch($item) {
+    public static function isSearch($item)
+    {
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item);
     }
@@ -73,7 +79,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isAcceptedItem($item) {
+    public static function isAcceptedItem($item)
+    {
         return self::isNotification($item) ||
                self::isFullscreen($item) ||
                self::isDarkmode($item) ||
@@ -89,7 +96,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isValidLeftItem($item) {
+    public static function isValidLeftItem($item)
+    {
         return self::isAcceptedItem($item) &&
                isset($item['topnav']) &&
                $item['topnav'];
@@ -102,7 +110,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isValidRightItem($item) {
+    public static function isValidRightItem($item)
+    {
         return self::isAcceptedItem($item) &&
                isset($item['topnav_right']) &&
                $item['topnav_right'];
@@ -115,7 +124,8 @@ class NavbarItemHelper extends MenuItemHelper {
      *
      * @return bool
      */
-    public static function isValidUserMenuItem($item) {
+    public static function isValidUserMenuItem($item)
+    {
         return self::isAcceptedItem($item) &&
                isset($item['topnav_user']) &&
                $item['topnav_user'];

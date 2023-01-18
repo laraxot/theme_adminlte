@@ -8,13 +8,15 @@ use Illuminate\View\View;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Themes\AdminLTE\Services\AdminLTE;
 
-class ThemeComposer extends XotBaseComposer {
+class ThemeComposer extends XotBaseComposer
+{
     /**
      * @var AdminLte
      */
     private $adminlte;
 
-    public function __construct(AdminLTE $adminlte) {
+    public function __construct(AdminLTE $adminlte)
+    {
         $this->adminlte = $adminlte;
     }
 
@@ -23,7 +25,8 @@ class ThemeComposer extends XotBaseComposer {
      *
      * @return void
      */
-    public function compose(View $view) {
+    public function compose(View $view)
+    {
         $view->with('adminlte', $this->adminlte);
         $view->with('_theme', $this->adminlte);
     }
