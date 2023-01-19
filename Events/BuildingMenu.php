@@ -6,8 +6,7 @@ namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Menu\Builder;
 
-class BuildingMenu
-{
+class BuildingMenu {
     /**
      * The menu builder.
      *
@@ -18,8 +17,7 @@ class BuildingMenu
     /**
      * Create a new event instance.
      */
-    public function __construct(Builder $menu)
-    {
+    public function __construct(Builder $menu) {
         $this->menu = $menu;
     }
 }

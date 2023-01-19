@@ -9,8 +9,7 @@ namespace Themes\AdminLTE\Helpers;
  * the type property to easy distinguish the item type and avoid guessing it by
  * they properties.
  */
-class MenuItemHelper
-{
+class MenuItemHelper {
     /**
      * Check if a menu item is a header.
      *
@@ -18,8 +17,7 @@ class MenuItemHelper
      *
      * @return bool
      */
-    public static function isHeader($item)
-    {
+    public static function isHeader($item) {
         return /* \is_string($item) || */ isset($item['header']);
     }
 
@@ -30,8 +28,7 @@ class MenuItemHelper
      *
      * @return bool
      */
-    public static function isLink($item)
-    {
+    public static function isLink($item) {
         return isset($item['text']) &&
                (isset($item['url']) || isset($item['route']));
     }
@@ -43,8 +40,7 @@ class MenuItemHelper
      *
      * @return bool
      */
-    public static function isSubmenu($item)
-    {
+    public static function isSubmenu($item) {
         return isset($item['text'], $item['submenu']) &&
                \is_array($item['submenu']);
     }
@@ -56,8 +52,7 @@ class MenuItemHelper
      *
      * @return bool
      */
-    public static function isLegacySearch($item)
-    {
+    public static function isLegacySearch($item) {
         return isset($item['text'], $item['search']) &&
                $item['search'];
     }
@@ -69,8 +64,7 @@ class MenuItemHelper
      *
      * @return bool
      */
-    public static function isAllowed($item)
-    {
+    public static function isAllowed($item) {
         return $item && empty($item['restricted']);
     }
 }

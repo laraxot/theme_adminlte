@@ -6,8 +6,7 @@ namespace Themes\AdminLTE\Events;
 
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
-class ReadingDarkModePreference
-{
+class ReadingDarkModePreference {
     /**
      * An instance of the dark mode controller.
      *
@@ -18,8 +17,7 @@ class ReadingDarkModePreference
     /**
      * Create a new event instance.
      */
-    public function __construct(DarkModeController $ctrl)
-    {
+    public function __construct(DarkModeController $ctrl) {
         $this->darkMode = $ctrl;
     }
 }

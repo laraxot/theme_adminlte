@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace Themes\AdminLTE\Helpers;
 
-class SidebarItemHelper extends MenuItemHelper
-{
+class SidebarItemHelper extends MenuItemHelper {
     /**
      * Check if a menu item is a sidebar custom search bar.
      *
@@ -13,8 +12,7 @@ class SidebarItemHelper extends MenuItemHelper
      *
      * @return bool
      */
-    public static function isCustomSearch($item)
-    {
+    public static function isCustomSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-custom-search' === $item['type'];
     }
@@ -26,8 +24,7 @@ class SidebarItemHelper extends MenuItemHelper
      *
      * @return bool
      */
-    public static function isMenuSearch($item)
-    {
+    public static function isMenuSearch($item) {
         return isset($item['text'], $item['type']) &&
                'sidebar-menu-search' === $item['type'];
     }
@@ -39,8 +36,7 @@ class SidebarItemHelper extends MenuItemHelper
      *
      * @return bool
      */
-    public static function isSearch($item)
-    {
+    public static function isSearch($item) {
         return self::isLegacySearch($item) ||
                self::isCustomSearch($item) ||
                self::isMenuSearch($item);
@@ -53,8 +49,7 @@ class SidebarItemHelper extends MenuItemHelper
      *
      * @return bool
      */
-    public static function isAcceptedItem($item)
-    {
+    public static function isAcceptedItem($item) {
         return self::isSubmenu($item) ||
                self::isSearch($item) ||
                self::isHeader($item) ||
@@ -68,8 +63,7 @@ class SidebarItemHelper extends MenuItemHelper
      *
      * @return bool
      */
-    public static function isValidItem($item)
-    {
+    public static function isValidItem($item) {
         return self::isAcceptedItem($item) &&
                empty($item['topnav_right']) &&
                empty($item['topnav_user']) &&

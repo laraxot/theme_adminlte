@@ -9,8 +9,7 @@ use Illuminate\Support\Facades\View;
 use Themes\AdminLTE\Events\ReadingDarkModePreference;
 use Themes\AdminLTE\Http\Controllers\DarkModeController;
 
-class LayoutHelper
-{
+class LayoutHelper {
     /**
      * Set of tokens related to screen sizes/breakpoints.
      *
@@ -30,8 +29,7 @@ class LayoutHelper
      *
      * @return bool
      */
-    public static function isLayoutTopnavEnabled()
-    {
+    public static function isLayoutTopnavEnabled() {
         return config('adminlte.layout_topnav') || View::getSection('layout_topnav');
     }
 
@@ -40,8 +38,7 @@ class LayoutHelper
      *
      * @return bool
      */
-    public static function isLayoutBoxedEnabled()
-    {
+    public static function isLayoutBoxedEnabled() {
         return config('adminlte.layout_boxed') || View::getSection('layout_boxed');
     }
 
@@ -50,8 +47,7 @@ class LayoutHelper
      *
      * @return string
      */
-    public static function makeBodyClasses()
-    {
+    public static function makeBodyClasses() {
         $classes = [];
 
         $classes = array_merge($classes, self::makeLayoutClasses());
@@ -68,8 +64,7 @@ class LayoutHelper
      *
      * @return string
      */
-    public static function makeBodyData()
-    {
+    public static function makeBodyData() {
         $data = [];
 
         // Add data related to the "sidebar_scrollbar_theme" configuration.
@@ -101,8 +96,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeLayoutClasses()
-    {
+    private static function makeLayoutClasses() {
         $classes = [];
 
         // Add classes related to the "layout_topnav" configuration.
@@ -142,8 +136,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeFixedResponsiveClasses($section)
-    {
+    private static function makeFixedResponsiveClasses($section) {
         $classes = [];
         $cfg = config("adminlte.layout_fixed_{$section}");
 
@@ -182,8 +175,7 @@ class LayoutHelper
      *
      * @return string
      */
-    private static function makeFixedResponsiveClass($section, $bp, $enabled)
-    {
+    private static function makeFixedResponsiveClass($section, $bp, $enabled) {
         // Create the class prefix.
 
         $prefix = ('xs' === $bp) ? 'layout' : "layout-{$bp}";
@@ -202,8 +194,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeSidebarClasses()
-    {
+    private static function makeSidebarClasses() {
         $classes = [];
 
         // Add classes related to the "sidebar_mini" configuration.
@@ -232,8 +223,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeRightSidebarClasses()
-    {
+    private static function makeRightSidebarClasses() {
         $classes = [];
 
         // Add classes related to the "right_sidebar" configuration.
@@ -250,8 +240,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeCustomBodyClasses()
-    {
+    private static function makeCustomBodyClasses() {
         $classes = [];
         $cfg = config('adminlte.classes_body', '');
 
@@ -267,8 +256,7 @@ class LayoutHelper
      *
      * @return array
      */
-    private static function makeDarkModeClasses()
-    {
+    private static function makeDarkModeClasses() {
         $classes = [];
 
         // Use the dark mode controller to check if dark mode is enabled.

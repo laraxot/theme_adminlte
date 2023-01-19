@@ -6,8 +6,7 @@ namespace Themes\AdminLTE\Http\Controllers;
 
 use Themes\AdminLTE\Events\DarkModeWasToggled;
 
-class DarkModeController extends Controller
-{
+class DarkModeController extends Controller {
     /**
      * The key to use for save dark mode preference on the session.
      *
@@ -20,8 +19,7 @@ class DarkModeController extends Controller
      *
      * @return void
      */
-    public function toggle()
-    {
+    public function toggle() {
         // Store the new dark mode preference on the session. This way, we can
         // keep the dark mode preference over multiple requests.
 
@@ -39,8 +37,7 @@ class DarkModeController extends Controller
      *
      * @return bool
      */
-    public function isEnabled()
-    {
+    public function isEnabled() {
         // First, check if dark mode preference is available on the session.
 
         if (null !== session($this->sessionKey, null)) {
@@ -57,8 +54,7 @@ class DarkModeController extends Controller
      *
      * @return void
      */
-    public function enable()
-    {
+    public function enable() {
         session([$this->sessionKey => true]);
     }
 
@@ -67,8 +63,7 @@ class DarkModeController extends Controller
      *
      * @return void
      */
-    public function disable()
-    {
+    public function disable() {
         session([$this->sessionKey => false]);
     }
 }
