@@ -7,7 +7,8 @@ namespace Themes\AdminLTE\Menu\Filters;
 use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 
-class SearchFilter implements FilterInterface {
+class SearchFilter implements FilterInterface
+{
     /**
      * The default name attribute to be used on the search input.
      *
@@ -29,7 +30,8 @@ class SearchFilter implements FilterInterface {
      *
      * @return array The transformed menu item
      */
-    public function transform($item) {
+    public function transform($item)
+    {
         $isSearch = NavbarItemHelper::isSearch($item) ||
                     SidebarItemHelper::isSearch($item);
 

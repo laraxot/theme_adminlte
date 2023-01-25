@@ -6,7 +6,8 @@ namespace Themes\AdminLTE\Menu\Filters;
 
 use Illuminate\Translation\Translator;
 
-class LangFilter implements FilterInterface {
+class LangFilter implements FilterInterface
+{
     /**
      * The translator instance.
      *
@@ -24,7 +25,8 @@ class LangFilter implements FilterInterface {
     /**
      * Constructor.
      */
-    public function __construct(Translator $translator) {
+    public function __construct(Translator $translator)
+    {
         $this->translator = $translator;
         $this->itemProperties = ['header', 'text', 'label'];
     }
@@ -36,7 +38,8 @@ class LangFilter implements FilterInterface {
      *
      * @return array The transformed menu item
      */
-    public function transform($item) {
+    public function transform($item)
+    {
         // Translate the menu item properties.
 
         foreach ($this->itemProperties as $prop) {
@@ -68,7 +71,8 @@ class LangFilter implements FilterInterface {
      *
      * @return string The translation
      */
-    protected function getTranslation($key, $params = []) {
+    protected function getTranslation($key, $params = [])
+    {
         // Check for a translation.
         /*
         if ($this->translator->has('menu.'.$key)) {
