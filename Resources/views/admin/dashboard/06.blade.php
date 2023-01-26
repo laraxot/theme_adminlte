@@ -2,13 +2,7 @@
 @section('content')
 
     @php
-    //dddx($profile->getProfile()->customers);
-    /*
-                                            $customer_rnd=\Modules\PFed\Models\Customer::inRandomOrder()->first();
-                                            $profile->getProfile()->customers()->sync($customer_rnd);
-                                            */
-    //dddx($customer_rnd);
-    //dddx($profile->getProfile()->customers);
+   
     $customer = $profile->getProfile()->customers;
 
     $survey_pdf_first = null;

@@ -18,11 +18,6 @@
     {{-- <livewire:dashboard.tile.question-chart position="a3:a4" qid="15" /> --}}
 
 
-    @livewire('chart-tile', [
-        'chartClass' => Modules\PFed\Charts\QuestionIdChart::class,
-        'chartFilters' => ['question_chart_id' => 5],
-        'position' => 'b3:b4',
-    ])
-
+  
 
 </x-dashboard>

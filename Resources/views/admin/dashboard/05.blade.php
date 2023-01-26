@@ -1,7 +1,4 @@
 @php
-//$customer=\Modules\PFed\Models\Customer::first();
-//$profile->getProfile()->customers()->sync($customer);
-//dddx($profile->getProfile()->customers()->get());
 $first_customer = $profile->getProfile()->customers->first();
 //dddx($first_customer);
 $first_survey_pdf = $first_customer->surveyPdfs->first();
