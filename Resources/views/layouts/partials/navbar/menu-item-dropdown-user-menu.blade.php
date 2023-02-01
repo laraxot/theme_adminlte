@@ -68,7 +68,7 @@
         @endif
 
         {{-- Configured user menu links --}}
-        @each('adm_theme::layouts.partials.navbar.dropdown-item', $adminlte->menu("navbar-user"), 'item')
+        @each('adm_theme::layouts.partials.navbar.dropdown-item', $adminlte->menu('navbar-user'), 'item')
 
         {{-- User menu body --}}
         @hasSection('usermenu_body')
