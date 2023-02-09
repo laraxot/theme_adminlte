@@ -1,7 +1,7 @@
 @extends('adm_theme::layouts.app')
 @section('content')
     @php
-        //dddx($profile->areas());
+        // dddx($profile->areas());
     @endphp
     DASHBOARD
     <div class="row">
