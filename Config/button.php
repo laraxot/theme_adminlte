@@ -42,6 +42,11 @@
         'icon' => '<i class="fas fa-unlink"></i>',
         'class' => 'btn btn-primary',
       ),
+      'delete' => 
+      array (
+        'icon' => '<i class="far fa-trash-alt"></i>',
+        'class' => 'btn btn-danger',
+      ),
     ),
   ),
 );
