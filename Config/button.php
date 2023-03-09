@@ -47,6 +47,19 @@
         'icon' => '<i class="far fa-trash-alt"></i>',
         'class' => 'btn btn-danger',
       ),
+<<<<<<< HEAD
+=======
+      'edit' => 
+      array (
+        'icon' => '<i class="fas fa-pencil-alt"></i>',
+        'class' => 'btn btn-primary',
+      ),
+      'create' => 
+      array (
+        'icon' => '<i class="fas fa-plus"></i>',
+        'class' => 'btn btn-primary',
+      ),
+>>>>>>> 316e7e21 (..)
     ),
   ),
 );
