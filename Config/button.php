@@ -50,6 +50,7 @@ return array(
         'class' => 'btn btn-danger',
       ),
 <<<<<<< HEAD
+<<<<<<< HEAD
       'edit' =>
       array(
         'icon' => '<i class="fas fa-pencil-alt"></i>',
@@ -63,6 +64,8 @@ return array(
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> e69d303b (..)
+=======
       'edit' => 
       array (
         'icon' => '<i class="fas fa-pencil-alt"></i>',
@@ -74,6 +77,9 @@ return array(
         'class' => 'btn btn-primary',
       ),
 >>>>>>> 316e7e21 (..)
+<<<<<<< HEAD
+>>>>>>> e69d303b (..)
+=======
 >>>>>>> e69d303b (..)
     ),
   ),
