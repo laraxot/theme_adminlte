@@ -158,16 +158,30 @@ return array (
         'icon' => '<i class="far fa-trash-alt"></i>',
         'class' => 'btn btn-danger',
       ),
+<<<<<<< HEAD
       'edit' =>
+=======
+<<<<<<< HEAD
+=======
+      'edit' => 
+>>>>>>> e69d303b (..)
       array (
         'icon' => '<i class="fas fa-pencil-alt"></i>',
         'class' => 'btn btn-primary',
       ),
+<<<<<<< HEAD
       'create' =>
+=======
+      'create' => 
+>>>>>>> e69d303b (..)
       array (
         'icon' => '<i class="fas fa-plus"></i>',
         'class' => 'btn btn-primary',
       ),
+<<<<<<< HEAD
+=======
+>>>>>>> 316e7e21 (..)
+>>>>>>> e69d303b (..)
     ),
   ),
 <<<<<<< HEAD
