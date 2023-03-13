@@ -62,8 +62,8 @@ return [
         'icon' => '<i class="far fa-trash-alt"></i>',
         'class' => 'btn btn-danger',
       ),
-<<<<<<< HEAD
       'edit' =>
+<<<<<<< HEAD
 <<<<<<< HEAD
       array(
 =======
@@ -74,11 +74,14 @@ return [
 >>>>>>> e69d303b (..)
       array (
 >>>>>>> 330069ae (rebase)
+=======
+      array(
+>>>>>>> 13dc7fc3 (up)
         'icon' => '<i class="fas fa-pencil-alt"></i>',
         'class' => 'btn btn-primary',
       ),
-<<<<<<< HEAD
       'create' =>
+<<<<<<< HEAD
 <<<<<<< HEAD
       array(
 =======
@@ -87,13 +90,12 @@ return [
 >>>>>>> e69d303b (..)
       array (
 >>>>>>> 330069ae (rebase)
+=======
+      array(
+>>>>>>> 13dc7fc3 (up)
         'icon' => '<i class="fas fa-plus"></i>',
         'class' => 'btn btn-primary',
       ),
-<<<<<<< HEAD
-=======
->>>>>>> 316e7e21 (..)
->>>>>>> e69d303b (..)
     ),
   ),
 );
