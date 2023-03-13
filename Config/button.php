@@ -108,85 +108,79 @@ return [
 =======
 <?php
 
-return array (
+return array(
   'action' =>
+<<<<<<< HEAD
 >>>>>>> ab20a541 (up)
   array (
+=======
+  array(
+>>>>>>> 13dc7fc3 (up)
     'v1' =>
-    array (
+    array(
       'class' => 'btn btn-primary',
     ),
   ),
   'link' =>
-  array (
+  array(
     'v1' =>
-    array (
+    array(
       'class' => 'btn btn-primary',
     ),
     'tab' =>
-    array (
+    array(
       'class' => 'nav-link',
     ),
   ),
   'v1' =>
-  array (
+  array(
     'class' => 'btn btn-primary',
   ),
   'panel' =>
-  array (
+  array(
     'create' =>
-    array (
+    array(
       'v1' =>
-      array (
+      array(
         'class' => 'btn btn-sm btn-primary',
       ),
     ),
     'v1' =>
-    array (
+    array(
       'show' =>
-      array (
+      array(
         'icon' => '<i class="far fa-eye"></i>',
         'class' => 'btn btn-primary',
       ),
       'detach' =>
-      array (
+      array(
         'icon' => '<i class="fas fa-unlink"></i>',
         'class' => 'btn btn-primary',
       ),
       'delete' =>
-      array (
+      array(
         'icon' => '<i class="far fa-trash-alt"></i>',
         'class' => 'btn btn-danger',
       ),
-<<<<<<< HEAD
       'edit' =>
-=======
-<<<<<<< HEAD
-=======
-      'edit' => 
->>>>>>> e69d303b (..)
-      array (
+      array(
         'icon' => '<i class="fas fa-pencil-alt"></i>',
         'class' => 'btn btn-primary',
       ),
-<<<<<<< HEAD
       'create' =>
-=======
-      'create' => 
->>>>>>> e69d303b (..)
-      array (
+      array(
         'icon' => '<i class="fas fa-plus"></i>',
         'class' => 'btn btn-primary',
       ),
-<<<<<<< HEAD
-=======
->>>>>>> 316e7e21 (..)
->>>>>>> e69d303b (..)
     ),
   ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 );
 >>>>>>> f1a5ad20 (rebase)
 =======
 );
 >>>>>>> ab20a541 (up)
+=======
+);
+>>>>>>> 13dc7fc3 (up)
