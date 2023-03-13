@@ -18,6 +18,7 @@ return [
     ],
     'v1' => [
         'class' => 'btn btn-primary',
+<<<<<<< HEAD
     ],
     'panel' => [
         'create' => [
@@ -49,3 +50,51 @@ return [
         ],
     ],
 ];
+=======
+      ),
+      'detach' =>
+      array(
+        'icon' => '<i class="fas fa-unlink"></i>',
+        'class' => 'btn btn-primary',
+      ),
+      'delete' =>
+      array(
+        'icon' => '<i class="far fa-trash-alt"></i>',
+        'class' => 'btn btn-danger',
+      ),
+<<<<<<< HEAD
+      'edit' =>
+<<<<<<< HEAD
+      array(
+=======
+=======
+<<<<<<< HEAD
+=======
+      'edit' => 
+>>>>>>> e69d303b (..)
+      array (
+>>>>>>> 330069ae (rebase)
+        'icon' => '<i class="fas fa-pencil-alt"></i>',
+        'class' => 'btn btn-primary',
+      ),
+<<<<<<< HEAD
+      'create' =>
+<<<<<<< HEAD
+      array(
+=======
+=======
+      'create' => 
+>>>>>>> e69d303b (..)
+      array (
+>>>>>>> 330069ae (rebase)
+        'icon' => '<i class="fas fa-plus"></i>',
+        'class' => 'btn btn-primary',
+      ),
+<<<<<<< HEAD
+=======
+>>>>>>> 316e7e21 (..)
+>>>>>>> e69d303b (..)
+    ),
+  ),
+);
+>>>>>>> c9624cfd (.)
