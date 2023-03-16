@@ -8,6 +8,8 @@ require('./bootstrap');
 
 require('./myvue3');
 
+require('./alpine');
+
 //import videojs from 'video.js'
 /*
 npm
