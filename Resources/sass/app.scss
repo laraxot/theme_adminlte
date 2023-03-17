@@ -25,7 +25,11 @@
 //@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // Bootstrap
 @import '~bootstrap/scss/functions';
+//@import '~admin-lte/build/scss/bootstrap-variables';
 @import '~admin-lte/build/scss/bootstrap-variables';
+//@import '~admin-lte/src/scss/bootstrap-variables';
+
+//@import '~admin-lte';
 
 @import '~bootstrap/scss/bootstrap';
 

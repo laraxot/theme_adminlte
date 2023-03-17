@@ -14,7 +14,7 @@
         "@fortawesome/fontawesome-free": "^5.15.4",
         "@popperjs/core": "^2.11.6",
         "@tinymce/tinymce-vue": "^4.0.7",
-        "admin-lte": "dev-master",
+        "admin-lte": "^3.2.0",
         "alpinejs": "^3.12.0",
         "axios": "^0.22.0",
         "babel-loader": "^8.2.5",

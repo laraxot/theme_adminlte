@@ -31,10 +31,6 @@
  */
 
 /*!
- * Programatically add the following
- */
-
-/*!
  * Sizzle CSS Selector Engine v2.3.10
  * https://sizzlejs.com/
  *
@@ -43,13 +39,6 @@
  * https://js.foundation/
  *
  * Date: 2023-02-14
- */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <http://feross.org>
- * @license  MIT
  */
 
 /*!
@@ -75,14 +64,6 @@
  * Date: 2023-03-08T15:28Z
  */
 
-/*! @name @videojs/http-streaming @version 2.16.2 @license Apache-2.0 */
-
-/*! @name aes-decrypter @version 3.1.3 @license Apache-2.0 */
-
-/*! @name m3u8-parser @version 4.8.0 @license Apache-2.0 */
-
-/*! @name pkcs7 @version 1.0.4 @license Apache-2.0 */
-
 /*! Bundled license information:
 
 tabbable/dist/index.esm.js:
@@ -106,11 +87,6 @@ focus-trap/dist/focus-trap.esm.js:
  *
  */
 
-/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
-/*! videojs-markers-plugin - v1.0.2 - 2019-08-23
-  * Copyright (c) 2019 ; Licensed  */
-
 /**
 	 * @preserve FastClick: polyfill to remove click delays on browsers with touch UIs.
 	 *
@@ -126,26 +102,6 @@ focus-trap/dist/focus-trap.esm.js:
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- */
-
-/**
- * @license
- * Video.js 7.21.4 <http://videojs.com/>
- * Copyright Brightcove, Inc. <https://www.brightcove.com/>
- * Available under Apache License Version 2.0
- * <https://github.com/videojs/video.js/blob/main/LICENSE>
- *
- * Includes vtt.js <https://github.com/mozilla/vtt.js>
- * Available under Apache License Version 2.0
- * <https://github.com/mozilla/vtt.js/blob/main/LICENSE>
- */
-
-/**
- * @license
- * slighly modified parse-headers 2.0.2 <https://github.com/kesla/parse-headers/>
- * Copyright (c) 2014 David Björklund
- * Available under the MIT license
- * <https://github.com/kesla/parse-headers/blob/master/LICENCE>
  */
 
 /**!
