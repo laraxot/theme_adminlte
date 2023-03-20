@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -20,7 +18,6 @@ return [
     ],
     'v1' => [
         'class' => 'btn btn-primary',
-<<<<<<< HEAD
     ],
     'panel' => [
         'create' => [
@@ -52,6 +49,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 =======
       ),
       'detach' =>
@@ -184,3 +182,5 @@ return array(
 =======
 );
 >>>>>>> 13dc7fc3 (up)
+=======
+>>>>>>> 7933facc (up)
