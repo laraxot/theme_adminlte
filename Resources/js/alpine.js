@@ -8,10 +8,5 @@ window.Alpine = Alpine;
 Alpine.start();
 
 
-<<<<<<< HEAD
-import "../../vendor/wire-elements-pro/js/spotlight-component.js"
-import "../../vendor/wire-elements-pro/js/overlay-component.js"
-=======
 import "../../../../vendor/wire-elements/pro/resources/js/spotlight-component.js"
 import "../../../../vendor/wire-elements/pro/resources/js/overlay-component.js"
->>>>>>> 9f0c4549ebd47aab80b55fd5f54dd0c63a9af810
