@@ -5,6 +5,7 @@ gia' spezzato in pezzi, ma non i nostri
 https://github.com/jeroennoten/Laravel-AdminLTE
 Relativa Documentazione
 https://github.com/jeroennoten/Laravel-AdminLTE
+https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Other-Configuration
 
 altro a pezzi
 https://github.com/acacha/adminlte-laravel
