@@ -2,7 +2,8 @@
     Theme::add('adm_theme::dist/js/manifest.js', 1);
     Theme::add('adm_theme::dist/js/vendor.js', 2);
     Theme::add('adm_theme::dist/js/app.js', 3);
-    Theme::add('adm_theme::dist/js/custom.js', 4);
+    //--- la cartella dist viene cancellata
+    //Theme::add('adm_theme::js/custom.js', 4);
 @endphp
 
 <!-- Include the overlay-component.js script -->
