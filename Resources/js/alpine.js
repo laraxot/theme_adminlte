@@ -3,10 +3,12 @@
 
 import Alpine from 'alpinejs';
 import focus from '@alpinejs/focus'
+import "../../../../vendor/wire-elements/pro/resources/js/overlay-component.js";
+
 Alpine.plugin(focus)
 window.Alpine = Alpine;
 Alpine.start();
 
 
-import "../../../../vendor/wire-elements/pro/resources/js/spotlight-component.js"
-import "../../../../vendor/wire-elements/pro/resources/js/overlay-component.js"
+//import "../../../../vendor/wire-elements/pro/resources/js/spotlight-component.js"
+//import "../../../../vendor/wire-elements/pro/resources/js/overlay-component.js"

@@ -64,7 +64,8 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="{{ Theme::asset('favicon/ms-icon-144x144.png') }}">
     @endif
-
+    {{--  
     <!-- Include the overlay-component.css stylesheet -->
     <link rel="stylesheet" href="{{ asset('vendor/wire-elements-pro/css/bootstrap-overlay-component.css') }}">
+    --}}
 </head>

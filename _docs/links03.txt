@@ -1,0 +1,11 @@
+//https://github.com/Atnic/laravel-admin-lte/blob/develop/webpack.mix.js
+//https://www.technig.com/adminlte-plus-laravel-5-integration/
+//https://medium.com/@crydetaan/laravel-6-vuejs-adminlte-3-1e264db76809
+//https://adminlte.io/blog/integrate-adminlte-with-laravel
+//https://dev.to/saymon/laravel-mix-rewrite-path-when-place-project-in-subfolder-2325
+//https://dev.to/tefoh/laravel-scaffold-command-2lg
+//https://dev.to/100r0bh/bulk-action-using-livewire-31i7
+//https://dev.to/bdelespierre/domain-driven-design-aggregates-in-laravel-5ei8
+//https://dev.to/hbgl/laravel-shorts-blade-component-gotcha-4pdo
+//https://dev.to/snehalk/how-to-create-custom-command-in-laravel-8-f64
+//https://www.freshconsulting.com/insights/blog/compiling-css-and-javascript-made-easy-with-laravel-mix/
