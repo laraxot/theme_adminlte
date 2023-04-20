@@ -154,13 +154,14 @@ class AdminLTE extends XotBaseComposer
         if (null === $menu) {
             return []; // collect([]);
         }
-        $rows = collect($menu->items)->map(function ($item) {
-            return [
-                'text' => $item->label,
-                'icon' => '',
-                'url' => $item->link,
-            ];
-        });
+        $rows = collect($menu->items)->map(
+            function ($item) {
+                return [
+                    'text' => $item->label,
+                    'icon' => '',
+                    'url' => $item->link,
+                ];
+            });
 
         return $rows->all();
     }
@@ -249,7 +250,8 @@ class AdminLTE extends XotBaseComposer
         }
 
         /*
-        $model_menu = getModuleModelsMenu('lu')->map(function ($item) {
+        $model_menu = getModuleModelsMenu('lu')->map(
+function ($item) {
                 $out = get_object_vars($item);
                 $out['text'] = $item->title;
 
