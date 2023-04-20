@@ -1,0 +1,58 @@
+@import 'fonts';
+
+// Variables
+@import 'variables';
+
+
+@import '~video.js';
+
+// https://symfonycasts.com/screencast/javascript-webpack/bootstrap-sass
+// Bootstrap
+//Can't resolve '../../node_modules/bootstrap-sass/assets/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot'
+//$bootstrap-sass-asset-helper: true;
+//$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// Bootstrap
+@import '~bootstrap/scss/functions';
+//@import '~admin-lte/build/scss/bootstrap-variables';
+@import '~admin-lte/build/scss/bootstrap-variables';
+//@import '~admin-lte/src/scss/bootstrap-variables';
+
+//@import '~admin-lte';
+
+@import '~bootstrap/scss/bootstrap';
+
+// Ionicons
+//Can't resolve '~ionicons/dist/css/ionicons.css' in 'F:\var\www\base_ptvx\laravel\Themes\KlekooAdm\resources\sass'
+//@import "~ionicons/dist/css/ionicons.css";
+// iCheck
+@import "~icheck/skins/square/blue.css";
+// Bootstrap Datepicker
+@import "~bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+// AdminLTE
+//SassError: TypeError: Instance of 'SassColor0': type 'SassColor0' is not a subtype of type 'SassString0'
+//@import "~admin-lte/dist/css/AdminLTE";
+@import "~admin-lte/dist/css/adminlte.css";
+//@import "~admin-lte/dist/css/skins/_all-skins";
+
+@import "~nouislider";
+
+@import "~select2";
+
+@import "~select2-theme-bootstrap4";
+
+
+@import "~flatpickr/dist/flatpickr.min.css";
+
+@import "~dragula/dist/dragula.min.css";
+
+@import 'modal';
+
+//https://github.com/wire-elements/pro-demo/blob/main/resources/css/app.css
+//@import "../../../../vendor/wire-elements/pro/resources/css/bootstrap/spotlight-component.css";
+//@import "../../../../vendor/wire-elements/pro/resources/css/bootstrap/overlay-component.css";
+
+
+
+
