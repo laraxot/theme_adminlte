@@ -57,11 +57,8 @@
         "videojs-markers-plugin": "^1.0.2",
         "vue": "^3.2.41",
         "vue-loader": "^16.2.0",
+        "jquery": "^3.6.1",
         "webpack": "^5.74.0"
-    },
-    "dependencies": {
-        "@protonemedia/laravel-splade": "^1.4.11",
-        "jquery": "^3.6.1"
     },
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",
