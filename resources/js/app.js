@@ -33,6 +33,3 @@ $(function() {
         todayHighlight: true
     })
 });
-
-//require('./splade.js');
-
