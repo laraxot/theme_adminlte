@@ -60,6 +60,13 @@
         "jquery": "^3.6.1",
         "webpack": "^5.74.0"
     },
+<<<<<<< HEAD
+=======
+    "dependencies": {
+        "@protonemedia/laravel-splade": "^1.4.11",
+        "jquery": "^3.6.1"
+    },
+>>>>>>> 5f750bd6 (up)
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",
     "version": "1.0.0",
