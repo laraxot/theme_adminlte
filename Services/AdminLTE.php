@@ -12,9 +12,9 @@ use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
 use Modules\Cms\Services\ModuleService;
 use Modules\Cms\Services\PanelService;
+use Modules\UI\Models\Menu;
 use Modules\User\Models\Area;
 use Modules\User\Services\ProfileService;
-use Modules\UI\Models\Menu;
 use Modules\Xot\View\Composers\XotBaseComposer;
 use Nwidart\Modules\Facades\Module;
 use Themes\AdminLTE\Events\BuildingMenu;
@@ -23,8 +23,7 @@ use Themes\AdminLTE\Helpers\NavbarItemHelper;
 use Themes\AdminLTE\Helpers\SidebarItemHelper;
 use Themes\AdminLTE\Menu\Builder;
 
-class AdminLTE extends XotBaseComposer
-{
+class AdminLTE extends XotBaseComposer {
     /**
      * The array of menu items.
      *
@@ -66,8 +65,7 @@ class AdminLTE extends XotBaseComposer
      * Constructor.
      * Unresolvable dependency resolving [Parameter #0 [ <required> array $filters ]] in class Themes\AdminLTE\Services\AdminLTE.
      */
-    public function __construct(/* array $filters, */ Dispatcher $events, Container $container)
-    {
+    public function __construct(/* array $filters, */ Dispatcher $events, Container $container) {
         $filters = config('adm_theme::adminlte.filters');
         if (! is_array($filters)) {
             throw new \Exception('['.__LINE__.']['.__FILE__.']');
@@ -93,8 +91,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return array A set of menu items
      */
-    public function menu($filterToken = null)
-    {
+    public function menu($filterToken = null) {
         if (empty($this->menu)) {
             $this->menu = $this->buildMenu();
         }
@@ -121,8 +118,7 @@ class AdminLTE extends XotBaseComposer
      *
      * @return array The set of menu items
      */
-    protected function buildMenu()
-    {
+    protected function buildMenu() {
         // Create the menu builder instance.
 
         $builder = new Builder($this->buildFilters());
@@ -148,8 +144,7 @@ class AdminLTE extends XotBaseComposer
         return $builder->menu;
     }
 
-    public function getMenuItemsByName(string $name): array
-    {
+    public function getMenuItemsByName(string $name): array {
         $menu = Menu::firstWhere('name', $name);
         if (null === $menu) {
             return []; // collect([]);
@@ -166,8 +161,7 @@ class AdminLTE extends XotBaseComposer
         return $rows->all();
     }
 
-    protected function setMenu(): array
-    {
+    protected function setMenu(): array {
         $parameters = getRouteParameters();
 
         if (isset($parameters['module'])) {
@@ -217,7 +211,8 @@ class AdminLTE extends XotBaseComposer
             /**
              * @var Collection<Area> $areas
              * */
-            $areas = ProfileService::make()->areas();
+            // $areas = ProfileService::make()->areas();
+            $areas = $this->areas();
             // $model_menu = $panel->areas()
             $model_menu = $areas
                 ->filter(
@@ -266,12 +261,30 @@ function ($item) {
     }
 
     /**
+     * Undocumented function.
+     *
+     * @return Collection<Area>
+     */
+    public function areas(): Collection {
+        $areas = \Auth::user()->areas
+            ->sortBy('order_column');
+
+        $modules = Module::getByStatus(1);
+        $areas = $areas->filter(
+            function ($item) use ($modules) {
+                return \in_array($item->area_define_name, array_keys($modules), true);
+            }
+        );
+
+        return $areas;
+    }
+
+    /**
      * Build the menu filters.
      *
      * @return array The set of filters that will apply on each menu item
      */
-    protected function buildFilters()
-    {
+    protected function buildFilters() {
         return array_map([$this->container, 'make'], $this->filters);
     }
 
@@ -282,8 +295,7 @@ function ($item) {
      *
      * @return bool
      */
-    private function sidebarFilter($item)
-    {
+    private function sidebarFilter($item) {
         return SidebarItemHelper::isValidItem($item);
     }
 
@@ -294,8 +306,7 @@ function ($item) {
      *
      * @return bool
      */
-    private function navbarLeftFilter($item)
-    {
+    private function navbarLeftFilter($item) {
         if (LayoutHelper::isLayoutTopnavEnabled() && SidebarItemHelper::isValidItem($item)) {
             return NavbarItemHelper::isAcceptedItem($item);
         }
@@ -310,8 +321,7 @@ function ($item) {
      *
      * @return bool
      */
-    private function navbarRightFilter($item)
-    {
+    private function navbarRightFilter($item) {
         return NavbarItemHelper::isValidRightItem($item);
     }
 
@@ -322,16 +332,14 @@ function ($item) {
      *
      * @return bool
      */
-    private function navbarUserMenuFilter($item)
-    {
+    private function navbarUserMenuFilter($item) {
         return NavbarItemHelper::isValidUserMenuItem($item);
     }
 
     /**
      * @param mixed $args
      */
-    public function url(...$args): string
-    {
+    public function url(...$args): string {
         return 'wip['.__LINE__.']['.__FILE__.']';
     }
 
