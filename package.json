@@ -60,27 +60,6 @@
         "jquery": "^3.6.1",
         "webpack": "^5.74.0"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 64406377 (up)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "dependencies": {
-        "@protonemedia/laravel-splade": "^1.4.11",
-        "jquery": "^3.6.1"
-    },
->>>>>>> 5f750bd6 (up)
-=======
->>>>>>> 29a35a2c (up)
-<<<<<<< HEAD
-=======
->>>>>>> f784566db8880064d800ba09199462315798f532
-=======
->>>>>>> 9e05338e (up)
->>>>>>> 64406377 (up)
     "packageManager": "yarn@3.1.1",
     "name": "AdminLTE",
     "version": "1.0.0",
