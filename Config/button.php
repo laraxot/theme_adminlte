@@ -28,6 +28,10 @@
     array (
       'class' => 'btn btn-primary',
     ),
+    'link' => 
+    array (
+      'class' => 'btn btn-primary',
+    ),
   ),
   'panel' => 
   array (
